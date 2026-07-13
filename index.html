@@ -322,6 +322,28 @@
 </div>
 </x-dc>
 <script type="text/x-dc" data-dc-script>
+// Each week id is an ISO week (e.g. "2026-W30") spanning Monday–Saturday.
+function mondayOfIsoWeek(id) {
+  const m = /^(\d{4})-W(\d{2})$/.exec(id);
+  if (!m) return null;
+  const year = parseInt(m[1], 10);
+  const week = parseInt(m[2], 10);
+  const jan4 = new Date(year, 0, 4);
+  const jan4Day = jan4.getDay() || 7;
+  const monday = new Date(year, 0, 4 - jan4Day + 1 + (week - 1) * 7);
+  monday.setHours(0, 0, 0, 0);
+  return monday;
+}
+
+function weekContainsDate(id, date) {
+  const monday = mondayOfIsoWeek(id);
+  if (!monday) return false;
+  const saturday = new Date(monday);
+  saturday.setDate(monday.getDate() + 5);
+  saturday.setHours(23, 59, 59, 999);
+  return date >= monday && date <= saturday;
+}
+
 class Component extends DCLogic {
   state = { data: null, week: 0, menuOpen: false, standingOpen: false, timingOpen: false, checked: {} };
 
@@ -332,8 +354,22 @@ class Component extends DCLogic {
     } catch (e) {}
     fetch('./data.json')
       .then((r) => r.json())
-      .then((data) => this.setState({ data }))
+      .then((data) => {
+        const savedWeekId = localStorage.getItem('twb-week');
+        let weekIndex = savedWeekId ? data.weeks.findIndex((w) => w.id === savedWeekId) : -1;
+        if (weekIndex === -1) {
+          const today = new Date();
+          weekIndex = data.weeks.findIndex((w) => weekContainsDate(w.id, today));
+        }
+        this.setState({ data, week: weekIndex !== -1 ? weekIndex : 0 });
+      })
       .catch((err) => console.error('Failed to load data.json', err));
+  }
+
+  selectWeek(i) {
+    const w = this.state.data.weeks[i];
+    try { localStorage.setItem('twb-week', w.id); } catch (e) {}
+    this.setState({ week: i, menuOpen: false });
   }
 
   toggleItem(key) {
@@ -352,7 +388,7 @@ class Component extends DCLogic {
       label: w.label,
       index: w.index,
       isCurrent: i === this.state.week,
-      select: () => this.setState({ week: i, menuOpen: false }),
+      select: () => this.selectWeek(i),
     }));
 
     const w = d.weeks[this.state.week] || d.weeks[0];
