@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: #eaf7f9;
+    color: #123842;
+    font-family: 'Roboto', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  a { color: #1f8fb8; text-decoration: none; }
+  a:hover { color: #145e78; text-decoration: underline; }
+  .gallery::-webkit-scrollbar { height: 10px; }
+  .gallery::-webkit-scrollbar-track { background: rgba(18,54,66,0.10); border-radius: 10px; }
+  .gallery::-webkit-scrollbar-thumb { background: rgba(18,54,66,0.32); border-radius: 10px; }
+</style>
+</helmet>
+<div style="padding: 22px; min-height: 100vh;">
+<main style="position: relative; max-width: 1120px; margin: 0 auto; border-radius: 34px; overflow: hidden; background: linear-gradient(160deg, #c4ecf3 0%, #57c4e6 100%);">
+
+  <!-- ================= BARCELONETA BEACH GROUNDING SCENE (bottom band) ================= -->
+  <div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 220px; overflow: hidden; z-index: 0; pointer-events: none;">
+    <!-- clouds kept low over the sea, clear of the footer text -->
+    <div style="position: absolute; bottom: 134px; left: 9%; width: 150px; height: 24px; background: rgba(255,255,255,0.8); border-radius: 50%; filter: blur(1px);"></div>
+    <div style="position: absolute; bottom: 146px; left: 15%; width: 84px; height: 18px; background: rgba(255,255,255,0.72); border-radius: 50%; filter: blur(1px);"></div>
+    <div style="position: absolute; bottom: 138px; right: 34%; width: 116px; height: 22px; background: rgba(255,255,255,0.7); border-radius: 50%; filter: blur(1px);"></div>
+    <!-- Mediterranean -->
+    <div style="position: absolute; left: 0; right: 0; bottom: 66px; height: 62px; background: linear-gradient(180deg, #7fd2ec 0%, #3fb6e2 100%);"></div>
+    <!-- horizon shimmer -->
+    <div style="position: absolute; left: 0; right: 0; bottom: 104px; height: 2px; background: rgba(255,255,255,0.42);"></div>
+    <div style="position: absolute; left: 0; right: 0; bottom: 86px; height: 2px; background: rgba(255,255,255,0.24);"></div>
+    <!-- Hotel Vela (W Barcelona) sail silhouette on the right -->
+    <div style="position: absolute; bottom: 66px; right: 6%; width: 82px; height: 118px; background: linear-gradient(180deg, rgba(122,201,229,0.96) 0%, rgba(84,178,219,0.96) 100%); clip-path: polygon(100% 0, 100% 100%, 0 100%);"></div>
+    <div style="position: absolute; bottom: 66px; right: 6%; width: 82px; height: 118px; clip-path: polygon(100% 0, 100% 100%, 0 100%); background: repeating-linear-gradient(180deg, transparent 0 11px, rgba(255,255,255,0.16) 11px 12px);"></div>
+    <!-- sailboat on the water -->
+    <div style="position: absolute; bottom: 92px; left: 11%;">
+      <div style="width: 0; height: 0; border-left: 9px solid transparent; border-right: 9px solid transparent; border-bottom: 26px solid #ffffff;"></div>
+      <div style="width: 34px; height: 7px; background: #9c3f47; border-radius: 0 0 8px 8px; margin: 1px 0 0 -8px;"></div>
+    </div>
+    <!-- sandy beach -->
+    <div style="position: absolute; left: 0; right: 0; bottom: 40px; height: 28px; background: linear-gradient(180deg, #eaddab 0%, #ddc987 100%);"></div>
+    <!-- wet-sand shoreline -->
+    <div style="position: absolute; left: 0; right: 0; bottom: 66px; height: 2px; background: rgba(255,255,255,0.5);"></div>
+    <!-- promenade sidewalk (Passeig Marítim de la Barceloneta) -->
+    <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 40px; background: linear-gradient(180deg, #e8eef0 0%, #c9d4d7 100%);"></div>
+    <!-- paving joints -->
+    <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 40px; background: repeating-linear-gradient(90deg, transparent 0 46px, rgba(18,54,66,0.06) 46px 47px);"></div>
+    <!-- railing along the promenade edge -->
+    <div style="position: absolute; left: 0; right: 0; bottom: 47px; height: 3px; background: rgba(255,255,255,0.92);"></div>
+    <div style="position: absolute; left: 0; right: 0; bottom: 40px; height: 12px; background: repeating-linear-gradient(90deg, transparent 0 28px, rgba(255,255,255,0.85) 28px 31px);"></div>
+    <!-- palm trees along the passeig -->
+    <div style="position: absolute; bottom: 40px; left: 18%; transform: scale(1); transform-origin: bottom left;">
+      <div style="position: absolute; bottom: 0; left: 0; width: 5px; height: 56px; background: linear-gradient(90deg,#7f5330,#a67542); border-radius: 3px; transform: rotate(-5deg); transform-origin: bottom;"></div>
+      <div style="position: absolute; bottom: 52px; left: 2px;">
+        <div style="position:absolute; left:0; top:0; width:32px; height:8px; background:#2f9f78; border-radius:8px; transform-origin:0 50%; transform: rotate(-20deg);"></div>
+        <div style="position:absolute; left:0; top:0; width:30px; height:8px; background:#37b98c; border-radius:8px; transform-origin:0 50%; transform: rotate(-55deg);"></div>
+        <div style="position:absolute; left:0; top:0; width:28px; height:8px; background:#2f9f78; border-radius:8px; transform-origin:0 50%; transform: rotate(-90deg);"></div>
+        <div style="position:absolute; left:0; top:0; width:30px; height:8px; background:#37b98c; border-radius:8px; transform-origin:0 50%; transform: rotate(-125deg);"></div>
+        <div style="position:absolute; left:0; top:0; width:32px; height:8px; background:#2f9f78; border-radius:8px; transform-origin:0 50%; transform: rotate(-160deg);"></div>
+      </div>
+    </div>
+    <div style="position: absolute; bottom: 40px; left: 33%; transform: scale(0.82); transform-origin: bottom left;">
+      <div style="position: absolute; bottom: 0; left: 0; width: 5px; height: 56px; background: linear-gradient(90deg,#7f5330,#a67542); border-radius: 3px; transform: rotate(-5deg); transform-origin: bottom;"></div>
+      <div style="position: absolute; bottom: 52px; left: 2px;">
+        <div style="position:absolute; left:0; top:0; width:32px; height:8px; background:#2f9f78; border-radius:8px; transform-origin:0 50%; transform: rotate(-20deg);"></div>
+        <div style="position:absolute; left:0; top:0; width:30px; height:8px; background:#37b98c; border-radius:8px; transform-origin:0 50%; transform: rotate(-55deg);"></div>
+        <div style="position:absolute; left:0; top:0; width:28px; height:8px; background:#2f9f78; border-radius:8px; transform-origin:0 50%; transform: rotate(-90deg);"></div>
+        <div style="position:absolute; left:0; top:0; width:30px; height:8px; background:#37b98c; border-radius:8px; transform-origin:0 50%; transform: rotate(-125deg);"></div>
+        <div style="position:absolute; left:0; top:0; width:32px; height:8px; background:#2f9f78; border-radius:8px; transform-origin:0 50%; transform: rotate(-160deg);"></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position: relative; z-index: 1; padding: 60px 56px 184px;">
+
+  <!-- ================= HEADER ================= -->
+  <header style="margin-bottom: 26px;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap;">
+      <div>
+        <h1 style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 52px; line-height: 1.02; margin: 0; color: #123842; letter-spacing: -0.005em;">The Weekly Board</h1>
+      </div>
+
+      <!-- WEEK PICKER -->
+      <div style="position: relative; padding-top: 6px;">
+        <button onClick="{{ toggleMenu }}" style="display: flex; align-items: center; gap: 16px; background: rgba(255,255,255,0.74); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; padding: 11px 16px; cursor: pointer; text-align: left; box-shadow: 0 8px 22px -12px rgba(18,54,66,0.4); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);">
+          <span>
+            <span style="display: block; font-family: 'Roboto Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #5a8a97;">{{ weekIndex }}</span>
+            <span style="display: block; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 15px; color: #123842; margin-top: 3px;">{{ weekLabel }}</span>
+          </span>
+          <span style="display: inline-flex; color: #1f8fb8; transform: rotate({{ menuChevron }}); transition: transform 0.3s ease;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+        </button>
+        <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+          <div style="position: fixed; inset: 0; z-index: 10;" onClick="{{ toggleMenu }}"></div>
+          <div style="position: absolute; top: calc(100% + 8px); right: 0; z-index: 11; min-width: 248px; background: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; box-shadow: 0 18px 44px -14px rgba(18,54,66,0.4); overflow: hidden; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);">
+            <div style="font-family: 'Roboto Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #5a8a97; padding: 13px 16px 8px;">Past weeks</div>
+            <sc-for list="{{ weeks }}" as="w" hint-placeholder-count="3">
+              <button onClick="{{ w.select }}" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; background: none; border: none; border-top: 1px solid rgba(18,54,66,0.08); padding: 12px 16px; cursor: pointer; text-align: left;">
+                <span>
+                  <span style="display: block; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 14px; color: #123842;">{{ w.label }}</span>
+                  <span style="display: block; font-family: 'Roboto Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #5a8a97; margin-top: 3px;">{{ w.index }}</span>
+                </span>
+                <sc-if value="{{ w.isCurrent }}" hint-placeholder-val="{{ false }}">
+                  <span style="font-size: 11px; color: #1f9fd0;">●</span>
+                </sc-if>
+              </button>
+            </sc-for>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+
+    <div style="margin-top: 22px; max-width: 560px;">
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <div style="flex: 1 1 0; min-width: 118px; background: rgba(255,255,255,0.42); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; padding: 14px 18px; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);">
+          <div style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 30px; line-height: 1; color: #123842;">{{ workoutsDone }}<span style="font-size: 16px; color: #5a8a97;">/{{ workoutsTotal }}</span></div>
+          <div style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #2f9f78; margin-top: 9px;">Workouts done</div>
+        </div>
+        <div style="flex: 1 1 0; min-width: 118px; background: rgba(255,255,255,0.42); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; padding: 14px 18px; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);">
+          <div style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 30px; line-height: 1; color: #123842;">{{ mealsDone }}<span style="font-size: 16px; color: #5a8a97;">/{{ mealsTotal }}</span></div>
+          <div style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #1f8fb8; margin-top: 9px;">Meals eaten</div>
+        </div>
+        <div style="flex: 1 1 0; min-width: 118px; background: rgba(255,255,255,0.42); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; padding: 14px 18px; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);">
+          <div style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 30px; line-height: 1; color: #123842;">{{ pct }}<span style="font-size: 16px; color: #5a8a97;">%</span></div>
+          <div style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #9c3f47; margin-top: 9px;">Week logged</div>
+        </div>
+      </div>
+      <div style="margin-top: 14px; height: 8px; border-radius: 99px; background: rgba(255,255,255,0.45); border: 1px solid rgba(255,255,255,0.5); overflow: hidden;">
+        <div style="height: 100%; width: {{ barWidth }}; background: linear-gradient(90deg, #37b98c, #1f9fd0); border-radius: 99px; transition: width 0.35s ease;"></div>
+      </div>
+      <div style="font-family: 'Roboto Mono', monospace; font-size: 11px; letter-spacing: 0.02em; color: #3d6b76; margin-top: 9px;">{{ progressCaption }}</div>
+    </div>
+  </header>
+
+  <!-- ================= THE WEEK'S MEALS (horizontal gallery) ================= -->
+  <section style="margin-top: 56px;">
+    <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 22px; flex-wrap: wrap;">
+      <div>
+        <h2 style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 30px; line-height: 1; letter-spacing: -0.01em; margin: 0; color: #123842;">This week's menu</h2>
+      </div>
+      <span style="font-family: 'Roboto Mono', monospace; font-size: 11px; color: #5a8a97; letter-spacing: 0.1em; text-transform: uppercase;">scroll →</span>
+    </div>
+
+    <div class="gallery" style="display: flex; gap: 16px; overflow-x: auto; padding-bottom: 16px; scroll-snap-type: x mandatory;">
+      <sc-for list="{{ days }}" as="day" hint-placeholder-count="6">
+        <article style="flex: 0 0 322px; scroll-snap-align: start; background: rgba(255,255,255,0.74); border: 1px solid rgba(255,255,255,0.6); border-radius: 22px; padding: 13px; box-shadow: 0 12px 34px -20px rgba(18,54,66,0.35); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); opacity: {{ day.cardDim }}; transition: opacity 0.2s ease;">
+          <!-- day header -->
+          <div style="display: flex; align-items: baseline; justify-content: space-between; padding: 6px 8px 13px;">
+            <span style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 23px; color: #123842;">{{ day.day }}</span>
+            <span style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.16em; text-transform: uppercase; color: #7fa6b0;">3 meals</span>
+          </div>
+
+          <!-- training strip (mornings, before breakfast) — click to mark the workout done -->
+          <sc-if value="{{ day.isStrength }}" hint-placeholder-val="{{ true }}">
+            <div onClick="{{ day.workoutToggle }}" style="margin: 0 0 10px; padding: 11px 15px; background: #37b98c; border-radius: 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px; cursor: pointer; opacity: {{ day.workoutDim }};">
+              <div>
+                <div style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.82);">Training · AM</div>
+                <div style="font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 15px; color: #ffffff; margin-top: 2px;">{{ day.trainClass }}</div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 9px;">
+                <span style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.1em; text-transform: uppercase; color: #ffffff; background: rgba(0,0,0,0.18); border-radius: 8px; padding: 4px 9px; white-space: nowrap;">{{ day.trainType }}</span>
+                <sc-if value="{{ day.workoutChecked }}" hint-placeholder-val="{{ false }}">
+                  <span style="flex: 0 0 auto; width: 20px; height: 20px; border-radius: 6px; background: #ffffff; color: #1f7a5a; display: flex; align-items: center; justify-content: center; font-size: 12px;">✓</span>
+                </sc-if>
+                <sc-if value="{{ day.workoutNotChecked }}" hint-placeholder-val="{{ true }}">
+                  <span style="flex: 0 0 auto; width: 20px; height: 20px; border-radius: 6px; border: 1.5px solid rgba(255,255,255,0.6);"></span>
+                </sc-if>
+              </div>
+            </div>
+          </sc-if>
+          <sc-if value="{{ day.notStrength }}" hint-placeholder-val="{{ false }}">
+            <div onClick="{{ day.workoutToggle }}" style="margin: 0 0 10px; padding: 11px 15px; background: rgba(55,185,140,0.16); border: 1px solid rgba(55,185,140,0.4); border-radius: 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px; cursor: pointer; opacity: {{ day.workoutDim }};">
+              <div>
+                <div style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #2f9f78;">Training · AM</div>
+                <div style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 15px; color: #1c5c47; margin-top: 2px;">{{ day.trainClass }}</div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 9px;">
+                <span style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.1em; text-transform: uppercase; color: #2f9f78; border: 1px solid rgba(55,185,140,0.45); border-radius: 8px; padding: 3px 8px; white-space: nowrap;">{{ day.trainType }}</span>
+                <sc-if value="{{ day.workoutChecked }}" hint-placeholder-val="{{ false }}">
+                  <span style="flex: 0 0 auto; width: 20px; height: 20px; border-radius: 6px; background: #37b98c; color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 12px;">✓</span>
+                </sc-if>
+                <sc-if value="{{ day.workoutNotChecked }}" hint-placeholder-val="{{ true }}">
+                  <span style="flex: 0 0 auto; width: 20px; height: 20px; border-radius: 6px; border: 1.5px solid rgba(55,185,140,0.5);"></span>
+                </sc-if>
+              </div>
+            </div>
+          </sc-if>
+
+          <!-- meals — each a grouped sub-card -->
+          <sc-for list="{{ day.meals }}" as="m" hint-placeholder-count="3">
+            <div onClick="{{ m.toggle }}" style="background: rgba(255,255,255,0.58); border: 1px solid rgba(255,255,255,0.55); border-radius: 14px; margin-bottom: 10px; overflow: hidden; cursor: pointer; opacity: {{ m.dim }};">
+              <div style="display: flex; justify-content: space-between; align-items: center; padding: 11px 15px;">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  <span style="width: 7px; height: 7px; border-radius: 50%; background: {{ m.accent }};"></span>
+                  <span style="font-family: 'Roboto Mono', monospace; font-weight: 500; font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: {{ m.accent }};">{{ m.slot }}</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  <sc-if value="{{ m.light }}" hint-placeholder-val="{{ true }}">
+                    <span style="font-family: 'Roboto Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: #145e78; background: #bfe9f2; border-radius: 7px; padding: 2px 8px;">light</span>
+                  </sc-if>
+                  <sc-if value="{{ m.checked }}" hint-placeholder-val="{{ false }}">
+                    <span style="flex: 0 0 auto; width: 19px; height: 19px; border-radius: 6px; background: {{ m.accent }}; color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 12px;">✓</span>
+                  </sc-if>
+                  <sc-if value="{{ m.notChecked }}" hint-placeholder-val="{{ true }}">
+                    <span style="flex: 0 0 auto; width: 19px; height: 19px; border-radius: 6px; border: 1.5px solid rgba(18,54,66,0.35);"></span>
+                  </sc-if>
+                </div>
+              </div>
+              <div style="border-top: 1px solid rgba(18,54,66,0.08); padding: 12px 15px 14px;">
+                <div style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 600; font-size: 17.5px; margin-bottom: 4px; line-height: 1.2; color: #123842;">{{ m.dish }}</div>
+                <div style="font-size: 12px; color: #4a7079; line-height: 1.4; margin-bottom: 12px;">{{ m.note }}</div>
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                  <sc-for list="{{ m.ingredients }}" as="ing" hint-placeholder-count="4">
+                    <div style="display: flex; align-items: baseline; font-family: 'Roboto Mono', monospace; font-size: 12px;">
+                      <span style="color: #16414c;">{{ ing.name }}</span>
+                      <span style="flex: 1; border-bottom: 1px dotted rgba(18,54,66,0.25); margin: 0 6px; transform: translateY(-3px);"></span>
+                      <span style="color: #5a8a97; white-space: nowrap;">{{ ing.qty }}</span>
+                    </div>
+                  </sc-for>
+                </div>
+              </div>
+            </div>
+          </sc-for>
+        </article>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ================= SHOPPING ================= -->
+  <section style="margin-top: 56px;">
+    <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 22px; flex-wrap: wrap;">
+      <h2 style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 30px; line-height: 1; letter-spacing: -0.01em; margin: 0; color: #123842;">Shopping list</h2>
+      <span style="font-family: 'Roboto Mono', monospace; font-size: 11px; color: #5a8a97; letter-spacing: 0.1em; text-transform: uppercase;">tap to check off</span>
+    </div>
+    <div style="column-count: 2; column-gap: 20px;">
+      <sc-for list="{{ shopping }}" as="cat" hint-placeholder-count="4">
+        <div style="break-inside: avoid; margin-bottom: 18px; background: rgba(255,255,255,0.74); border: 1px solid rgba(255,255,255,0.6); border-radius: 18px; padding: 17px 20px 15px; box-shadow: 0 10px 30px -18px rgba(18,54,66,0.35); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+          <div style="display: flex; align-items: center; gap: 11px; padding-bottom: 11px; margin-bottom: 11px; border-bottom: 1px solid rgba(18,54,66,0.12);">
+            <span style="flex: 0 0 auto; width: 14px; height: 14px; border-radius: 5px; background: {{ cat.color }};"></span>
+            <span style="font-family: 'Roboto Mono', monospace; font-weight: 500; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: {{ cat.color }};">{{ cat.category }}</span>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <sc-for list="{{ cat.items }}" as="it" hint-placeholder-count="6">
+              <button onClick="{{ it.toggle }}" style="display: flex; align-items: center; width: 100%; background: none; border: none; padding: 3px 0; cursor: pointer; text-align: left; font-family: 'Roboto Mono', monospace; font-size: 12.5px; opacity: {{ it.dim }};">
+                <sc-if value="{{ it.checked }}" hint-placeholder-val="{{ false }}">
+                  <span style="flex: 0 0 auto; width: 15px; height: 15px; border-radius: 5px; background: {{ cat.color }}; color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 11px; margin-right: 10px;">✓</span>
+                </sc-if>
+                <sc-if value="{{ it.notChecked }}" hint-placeholder-val="{{ true }}">
+                  <span style="flex: 0 0 auto; width: 15px; height: 15px; border-radius: 5px; border: 1.5px solid rgba(18,54,66,0.35); margin-right: 10px;"></span>
+                </sc-if>
+                <span style="color: #16414c; text-decoration: {{ it.strike }};">{{ it.name }}</span>
+                <span style="flex: 1; border-bottom: 1px dotted rgba(18,54,66,0.25); margin: 0 7px; transform: translateY(-3px);"></span>
+                <span style="color: #5a8a97; white-space: nowrap;">{{ it.qty }}</span>
+              </button>
+            </sc-for>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <!-- ================= WHEN TO EAT (tucked away, collapsible) ================= -->
+  <div style="overflow: hidden; transition: max-height 0.55s cubic-bezier(0.33,1,0.68,1), opacity 0.4s ease; max-height: {{ timingMax }}; opacity: {{ timingOpacity }};">
+    <section style="margin-top: 44px;">
+      <h2 style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 30px; line-height: 1; letter-spacing: -0.01em; margin: 0 0 22px; color: #123842;">When to eat</h2>
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;">
+        <sc-for list="{{ timing }}" as="t" hint-placeholder-count="4">
+          <div style="background: {{ t.tint }}; border: 1px solid rgba(18,54,66,0.08); border-radius: 20px; padding: 20px 20px 22px;">
+            <div style="font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 17px; margin-bottom: 10px; color: #123842;">{{ t.meal }}</div>
+            <div style="font-family: 'Roboto Mono', monospace; font-size: 15px; color: #1f8fb8; margin-bottom: 12px; letter-spacing: -0.01em;">{{ t.window }}</div>
+            <div style="font-size: 13px; line-height: 1.5; color: #3d6b76;">{{ t.reason }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+  </div>
+
+  <!-- ================= STANDING INFO (tucked away, collapsible) ================= -->
+  <div style="overflow: hidden; transition: max-height 0.55s cubic-bezier(0.33,1,0.68,1), opacity 0.4s ease; max-height: {{ standingMax }}; opacity: {{ standingOpacity }};">
+    <section style="margin-top: 44px;">
+      <h2 style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 30px; line-height: 1; letter-spacing: -0.01em; margin: 0 0 22px; color: #123842;">Food I don't like</h2>
+      <div style="max-width: 540px;">
+        <div style="background: #ec9a7e; border: 1px solid rgba(200,104,78,0.55); border-radius: 18px; padding: 20px 22px; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+          <div style="display: flex; flex-wrap: wrap; gap: 7px;">
+            <sc-for list="{{ standing.avoid }}" as="a" hint-placeholder-count="5">
+              <span style="font-family: 'Roboto Mono', monospace; font-size: 12px; color: #245863; background: #eaf7f9; border: 1px solid rgba(18,54,66,0.15); border-radius: 8px; padding: 3px 9px;">{{ a }}</span>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer style="border-top: 1px solid rgba(18,54,66,0.15); margin-top: 46px; padding-top: 18px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+    <span style="font-family: 'Roboto Mono', monospace; font-size: 11px; color: #ffffff; letter-spacing: 0.08em;">The Weekly Board · {{ weekLabel }}</span>
+    <div style="display: flex; align-items: center; gap: 22px; flex-wrap: wrap;">
+      <button onClick="{{ toggleTiming }}" style="display: inline-flex; align-items: center; gap: 7px; background: none; border: none; padding: 4px 2px; cursor: pointer; font-family: 'Roboto Mono', monospace; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #ffffff;">
+        <span>When to eat</span>
+        <span style="display: inline-flex; transform: rotate({{ timingChevron }}); transition: transform 0.3s ease;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+      <button onClick="{{ toggleStanding }}" style="display: inline-flex; align-items: center; gap: 7px; background: none; border: none; padding: 4px 2px; cursor: pointer; font-family: 'Roboto Mono', monospace; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #ffffff;">
+        <span>Food I don't like</span>
+        <span style="display: inline-flex; transform: rotate({{ standingChevron }}); transition: transform 0.3s ease;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+    </div>
+  </footer>
+
+  </div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { data: null, week: 0, menuOpen: false, standingOpen: false, timingOpen: false, checked: {} };
+
+  componentDidMount() {
+    try {
+      const saved = JSON.parse(localStorage.getItem('twb-checked') || '{}');
+      if (saved && typeof saved === 'object') this.setState({ checked: saved });
+    } catch (e) {}
+    fetch('./data.json')
+      .then((r) => r.json())
+      .then((data) => this.setState({ data }))
+      .catch((err) => console.error('Failed to load data.json', err));
+  }
+
+  toggleItem(key) {
+    this.setState((s) => {
+      const checked = { ...s.checked, [key]: !s.checked[key] };
+      try { localStorage.setItem('twb-checked', JSON.stringify(checked)); } catch (e) {}
+      return { checked };
+    });
+  }
+
+  renderVals() {
+    const d = this.state.data;
+    if (!d) return {};
+
+    const weeks = d.weeks.map((w, i) => ({
+      label: w.label,
+      index: w.index,
+      isCurrent: i === this.state.week,
+      select: () => this.setState({ week: i, menuOpen: false }),
+    }));
+
+    const w = d.weeks[this.state.week] || d.weeks[0];
+
+    const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
+    const mealAccent = { Breakfast: '#2f9fc9', Lunch: '#37b98c', Dinner: '#9c3f47' };
+    const days = w.days.map((day) => {
+      const t = day.training;
+      const workoutKey = w.id + '|' + day.day + '|workout';
+      const workoutChecked = !!this.state.checked[workoutKey];
+
+      const meals = day.meals.map((m) => {
+        const mealKey = w.id + '|' + day.day + '|meal|' + m.slot;
+        const checked = !!this.state.checked[mealKey];
+        return {
+          ...m,
+          accent: mealAccent[m.slot] || '#9c3f47',
+          ingredients: m.ingredients.map(([name, qty]) => ({ name, qty })),
+          checked,
+          notChecked: !checked,
+          toggle: () => this.toggleItem(mealKey),
+        };
+      });
+
+      const allChecked = workoutChecked && meals.every((x) => x.checked);
+      // when the whole day is done it's dimmed as one; otherwise dim each done item
+      meals.forEach((m) => { m.dim = allChecked ? '1' : (m.checked ? '0.4' : '1'); });
+
+      return {
+        day: day.day,
+        isStrength: t.type === 'strength',
+        notStrength: t.type !== 'strength',
+        trainClass: t.class,
+        trainType: cap(t.type),
+        workoutChecked,
+        workoutNotChecked: !workoutChecked,
+        workoutToggle: () => this.toggleItem(workoutKey),
+        workoutDim: allChecked ? '1' : (workoutChecked ? '0.4' : '1'),
+        cardDim: allChecked ? '0.45' : '1',
+        meals,
+      };
+    });
+
+    let workoutsDone = 0, mealsDone = 0, mealsTotal = 0;
+    days.forEach((dd) => {
+      if (dd.workoutChecked) workoutsDone++;
+      dd.meals.forEach((mm) => { mealsTotal++; if (mm.checked) mealsDone++; });
+    });
+    const workoutsTotal = days.length;
+    const doneItems = workoutsDone + mealsDone;
+    const totalItems = workoutsTotal + mealsTotal;
+    const pct = totalItems ? Math.round((doneItems / totalItems) * 100) : 0;
+
+    const catColor = { Produce: '#37b98c', Protein: '#9c3f47', Dairy: '#2f9fc9', Pantry: '#6a8f9a' };
+    const shopping = w.shopping.map((c) => ({
+      category: c.category,
+      color: catColor[c.category] || '#1f8fb8',
+      items: c.items.map(([name, qty]) => {
+        const key = w.id + '|' + c.category + '|' + name;
+        const checked = !!this.state.checked[key];
+        return {
+          name,
+          qty,
+          checked,
+          notChecked: !checked,
+          dim: checked ? '0.4' : '1',
+          strike: checked ? 'line-through' : 'none',
+          toggle: () => this.toggleItem(key),
+        };
+      }),
+    }));
+
+    return {
+      standing: d.standing,
+      timing: d.timing.map((t, i) => ({ ...t, tint: ['#efdca0', '#f3e4b6', '#f7ecca', '#fbf3e0'][i % 4] })),
+      workoutsDone,
+      workoutsTotal,
+      mealsDone,
+      mealsTotal,
+      pct,
+      barWidth: pct + '%',
+      progressCaption: doneItems + ' of ' + totalItems + ' logged · ' + pct + '% of the week complete',
+      weeks,
+      weekLabel: w.label,
+      weekIndex: w.index,
+      tagline: w.tagline,
+      days,
+      shopping,
+      menuOpen: this.state.menuOpen,
+      standingOpen: this.state.standingOpen,
+      standingChevron: this.state.standingOpen ? '180deg' : '0deg',
+      menuChevron: this.state.menuOpen ? '180deg' : '0deg',
+      timingOpen: this.state.timingOpen,
+      timingChevron: this.state.timingOpen ? '180deg' : '0deg',
+      toggleTiming: () => this.setState((s) => ({ timingOpen: !s.timingOpen })),
+      timingMax: this.state.timingOpen ? '1200px' : '0px',
+      timingOpacity: this.state.timingOpen ? '1' : '0',
+      standingMax: this.state.standingOpen ? '360px' : '0px',
+      standingOpacity: this.state.standingOpen ? '1' : '0',
+      toggleMenu: () => this.setState((s) => ({ menuOpen: !s.menuOpen })),
+      toggleStanding: () => this.setState((s) => ({ standingOpen: !s.standingOpen })),
+    };
+  }
+}
+</script>
+</body>
+</html>
