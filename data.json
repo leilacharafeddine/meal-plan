@@ -4,10 +4,12 @@
     "avoid": [
       "Soupy dishes (fine if sick)",
       "Canned tuna",
-      "Lots of raw tomato",
-      "Cilantro"
+      "Lots of raw tomato (small amounts of cherry tomato are fine)",
+      "Cilantro",
+      "Spicy or hot food",
+      "Heavy Indian-style spice blends (cumin, coriander, chili-forward)"
     ],
-    "note": "Every dish is 25 minutes or less. A small side salad most days, alongside the main."
+    "note": "Not dairy or gluten intolerant — normal dairy and gluten are fine. Every dish is 25 minutes or less. A small side salad most days, alongside the main."
   },
   "timing": [
     {
@@ -744,7 +746,7 @@
       "id": "2026-W29",
       "label": "13 – 18 July 2026",
       "index": "Week 29",
-      "tagline": "No soups, easy on the raw tomato, a small salad most days. Nothing over 25 minutes.",
+      "tagline": "No soups, no spice, easy on the raw tomato — quick dinners with chicken and beef reused across the week.",
       "days": [
         {
           "day": "Monday",
@@ -780,12 +782,12 @@
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Pan-seared chicken thighs, couscous & side salad",
-              "note": "Cook extra chicken — used again Tuesday.",
+              "dish": "Chicken thighs, couscous & side salad",
+              "note": "Cook extra — used again Tuesday and Friday.",
               "ingredients": [
                 [
                   "Chicken thighs",
-                  "350 g"
+                  "450 g"
                 ],
                 [
                   "Couscous",
@@ -808,24 +810,24 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Grilled salmon, courgette & side salad",
-              "note": "18 minutes, one pan.",
+              "dish": "Hummus, carrot & cucumber sticks, boiled eggs",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Salmon fillet",
-                  "140 g"
+                  "Hummus",
+                  "80 g"
                 ],
                 [
-                  "Courgette",
+                  "Carrot",
                   "1"
                 ],
                 [
-                  "Lemon",
+                  "Cucumber",
                   "1/4"
                 ],
                 [
-                  "Mixed greens",
-                  "30 g"
+                  "Eggs",
+                  "2"
                 ]
               ]
             }
@@ -861,8 +863,8 @@
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Leftover chicken & couscous, cucumber-cherry tomato salad",
-              "note": "Uses Monday's extra chicken. Cherry tomato kept light.",
+              "dish": "Leftover chicken & couscous, cucumber salad",
+              "note": "Uses Monday's leftover chicken.",
               "ingredients": [
                 [
                   "Chicken (leftover)",
@@ -877,32 +879,32 @@
                   "1/2"
                 ],
                 [
-                  "Cherry tomatoes",
-                  "40 g"
+                  "Lemon",
+                  "1/4"
                 ]
               ]
             },
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Turkey & broccoli stir-fry, side salad",
-              "note": "15 minutes.",
+              "dish": "Cottage cheese, cucumber & rye crackers",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Turkey mince",
+                  "Cottage cheese",
                   "150 g"
                 ],
                 [
-                  "Broccoli",
-                  "150 g"
+                  "Cucumber",
+                  "few slices"
                 ],
                 [
-                  "Ginger",
-                  "1 tsp"
+                  "Olive oil",
+                  "drizzle"
                 ],
                 [
-                  "Mixed greens",
-                  "30 g"
+                  "Rye crackers",
+                  "4"
                 ]
               ]
             }
@@ -942,9 +944,13 @@
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Quinoa, roasted pepper, feta & chickpea bowl, side salad",
-              "note": "15 minutes.",
+              "dish": "Lean beef & quinoa bowl, roasted pepper & feta, side salad",
+              "note": "Cook extra beef — used again Thursday.",
               "ingredients": [
+                [
+                  "Lean beef mince",
+                  "300 g"
+                ],
                 [
                   "Quinoa",
                   "70 g"
@@ -958,10 +964,6 @@
                   "30 g"
                 ],
                 [
-                  "Chickpeas",
-                  "100 g"
-                ],
-                [
                   "Mixed greens",
                   "30 g"
                 ]
@@ -970,24 +972,24 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Baked cod & green beans, side salad",
-              "note": "Cook a second fillet for Thursday's lunch.",
+              "dish": "Guacamole, wholegrain crackers & boiled egg",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Cod fillet",
-                  "280 g"
-                ],
-                [
-                  "Green beans",
-                  "150 g"
+                  "Avocado",
+                  "1"
                 ],
                 [
                   "Lemon",
                   "1/4"
                 ],
                 [
-                  "Mixed greens",
-                  "30 g"
+                  "Wholegrain crackers",
+                  "6"
+                ],
+                [
+                  "Egg",
+                  "1"
                 ]
               ]
             }
@@ -1023,27 +1025,19 @@
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Big green salad with flaked cod, boiled egg & feta",
-              "note": "Uses Wednesday's extra cod. Cherry tomato kept light.",
+              "dish": "Leftover beef & quinoa, side salad",
+              "note": "Uses Wednesday's leftover beef.",
               "ingredients": [
                 [
-                  "Cod (leftover)",
-                  "140 g"
+                  "Lean beef mince (leftover)",
+                  "150 g"
+                ],
+                [
+                  "Quinoa (leftover)",
+                  "as needed"
                 ],
                 [
                   "Mixed greens",
-                  "60 g"
-                ],
-                [
-                  "Egg",
-                  "1"
-                ],
-                [
-                  "Feta",
-                  "20 g"
-                ],
-                [
-                  "Cherry tomatoes",
                   "30 g"
                 ]
               ]
@@ -1051,24 +1045,24 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Prawn & courgette noodles",
-              "note": "12 minutes, one pan.",
+              "dish": "Greek yogurt, cucumber & rye crackers",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Prawns",
+                  "Greek yogurt",
                   "150 g"
                 ],
                 [
-                  "Courgette (spiralised)",
-                  "1"
+                  "Cucumber",
+                  "few slices"
                 ],
                 [
-                  "Garlic",
-                  "1 clove"
+                  "Olive oil",
+                  "drizzle"
                 ],
                 [
-                  "Chilli flakes",
-                  "pinch"
+                  "Rye crackers",
+                  "4"
                 ]
               ]
             }
@@ -1108,8 +1102,8 @@
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Chickpea, feta & cucumber salad bowl",
-              "note": "No cooking. Cherry tomato kept light.",
+              "dish": "Chickpea, feta & cucumber salad",
+              "note": "No cooking.",
               "ingredients": [
                 [
                   "Chickpeas",
@@ -1124,14 +1118,6 @@
                   "1/2"
                 ],
                 [
-                  "Roasted red pepper",
-                  "1/2"
-                ],
-                [
-                  "Cherry tomatoes",
-                  "30 g"
-                ],
-                [
                   "Mixed greens",
                   "40 g"
                 ]
@@ -1140,24 +1126,24 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Grilled chicken breast, asparagus & side salad",
-              "note": "Cook extra chicken for Saturday's lunch.",
+              "dish": "Hummus, veg sticks & a little leftover chicken",
+              "note": "Uses Monday's leftover chicken.",
               "ingredients": [
                 [
-                  "Chicken breast",
-                  "300 g"
+                  "Hummus",
+                  "80 g"
                 ],
                 [
-                  "Asparagus",
-                  "150 g"
+                  "Carrot",
+                  "1"
                 ],
                 [
-                  "Lemon",
+                  "Cucumber",
                   "1/4"
                 ],
                 [
-                  "Mixed greens",
-                  "30 g"
+                  "Chicken (leftover)",
+                  "100 g"
                 ]
               ]
             }
@@ -1193,16 +1179,12 @@
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Leftover chicken over a big salad with feta & avocado",
-              "note": "Uses Friday's extra chicken.",
+              "dish": "Big salad — boiled egg, feta, cucumber & avocado",
+              "note": "Weekend, slightly slower.",
               "ingredients": [
                 [
-                  "Chicken (leftover)",
-                  "150 g"
-                ],
-                [
-                  "Mixed greens",
-                  "60 g"
+                  "Egg",
+                  "2"
                 ],
                 [
                   "Feta",
@@ -1215,38 +1197,34 @@
                 [
                   "Avocado",
                   "1/2"
+                ],
+                [
+                  "Mixed greens",
+                  "60 g"
                 ]
               ]
             },
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Baked tofu & vegetable traybake, side salad",
-              "note": "20 minutes in the oven.",
+              "dish": "Cheese, crackers, cucumber & pepper strips",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Firm tofu",
-                  "200 g"
+                  "Cheese",
+                  "60 g"
                 ],
                 [
-                  "Courgette",
-                  "1"
+                  "Crackers",
+                  "6"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
                 ],
                 [
                   "Red pepper",
-                  "1"
-                ],
-                [
-                  "Broccoli",
-                  "100 g"
-                ],
-                [
-                  "Tahini",
-                  "1 tbsp"
-                ],
-                [
-                  "Mixed greens",
-                  "30 g"
+                  "1/2"
                 ]
               ]
             }
@@ -1263,59 +1241,35 @@
             ],
             [
               "Avocado",
+              "3"
+            ],
+            [
+              "Carrot",
               "2"
             ],
             [
               "Cucumber",
-              "2"
-            ],
-            [
-              "Courgette",
               "3"
             ],
             [
-              "Broccoli",
-              "250 g"
+              "Mixed salad greens",
+              "200 g"
             ],
             [
               "Banana",
               "2"
             ],
             [
-              "Red pepper / roasted pepper",
-              "3"
-            ],
-            [
-              "Green beans",
-              "150 g"
-            ],
-            [
-              "Asparagus",
-              "150 g"
-            ],
-            [
-              "Lemon",
-              "3"
-            ],
-            [
               "Spinach",
               "30 g"
             ],
             [
-              "Mixed salad greens",
-              "300 g"
+              "Red pepper / roasted pepper",
+              "2"
             ],
             [
-              "Cherry tomatoes",
-              "100 g"
-            ],
-            [
-              "Ginger",
-              "1 knob"
-            ],
-            [
-              "Garlic",
-              "1 head"
+              "Lemon",
+              "1"
             ]
           ]
         },
@@ -1324,35 +1278,23 @@
           "items": [
             [
               "Chicken thighs",
-              "350 g"
+              "450 g"
             ],
             [
-              "Chicken breast",
+              "Lean beef mince",
               "300 g"
             ],
             [
-              "Turkey mince",
-              "150 g"
-            ],
-            [
-              "Cod fillet",
-              "280 g"
-            ],
-            [
-              "Prawns",
-              "150 g"
-            ],
-            [
-              "Firm tofu",
-              "200 g"
-            ],
-            [
               "Eggs",
-              "6"
+              "9"
             ],
             [
               "Chickpeas",
-              "250 g (~1.5 cans)"
+              "150 g (~1 can)"
+            ],
+            [
+              "Cottage cheese",
+              "300 g"
             ]
           ]
         },
@@ -1361,19 +1303,19 @@
           "items": [
             [
               "Greek yogurt",
-              "200 g"
-            ],
-            [
-              "Cottage cheese",
-              "150 g"
+              "350 g"
             ],
             [
               "Feta",
-              "100 g"
+              "80 g"
             ],
             [
               "Milk",
               "350 ml"
+            ],
+            [
+              "Cheese",
+              "60 g"
             ]
           ]
         },
@@ -1389,6 +1331,10 @@
               "1 tsp"
             ],
             [
+              "Hummus",
+              "160 g"
+            ],
+            [
               "Rolled oats",
               "50 g"
             ],
@@ -1401,20 +1347,8 @@
               "70 g"
             ],
             [
-              "Couscous",
-              "80 g"
-            ],
-            [
               "Peanut butter",
               "1 tbsp"
-            ],
-            [
-              "Tahini",
-              "1 tbsp"
-            ],
-            [
-              "Chilli flakes",
-              "pinch"
             ],
             [
               "Sourdough",
@@ -1423,6 +1357,18 @@
             [
               "Rye bread",
               "1 slice"
+            ],
+            [
+              "Rye crackers",
+              "8"
+            ],
+            [
+              "Wholegrain crackers",
+              "6"
+            ],
+            [
+              "Crackers",
+              "6"
             ],
             [
               "Olive oil",
