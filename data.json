@@ -432,7 +432,7 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Running or Cycling",
+            "class": "Cycling or Running",
             "type": "cardio"
           },
           "meals": [
@@ -1068,7 +1068,7 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Running or Cycling",
+            "class": "Cycling or Running",
             "type": "cardio"
           },
           "meals": [
@@ -1684,7 +1684,7 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Running or Cycling",
+            "class": "Cycling or Running",
             "type": "cardio"
           },
           "meals": [
