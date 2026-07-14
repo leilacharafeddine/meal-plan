@@ -124,8 +124,8 @@
         {
           "day": "Tuesday",
           "training": {
-            "class": "Spin 45",
-            "type": "cardio"
+            "class": "Upper Body",
+            "type": "strength"
           },
           "meals": [
             {
@@ -448,7 +448,7 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Yoga Flow",
+            "class": "Cycling or Running",
             "type": "cardio"
           },
           "meals": [
@@ -836,8 +836,8 @@
         {
           "day": "Tuesday",
           "training": {
-            "class": "Cycling or V-Fight",
-            "type": "cardio"
+            "class": "Upper Body",
+            "type": "strength"
           },
           "meals": [
             {
@@ -1148,7 +1148,7 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Cycling",
+            "class": "Cycling or Running",
             "type": "cardio"
           },
           "meals": [
@@ -1448,8 +1448,8 @@
         {
           "day": "Tuesday",
           "training": {
-            "class": "Spin 45",
-            "type": "cardio"
+            "class": "Upper Body",
+            "type": "strength"
           },
           "meals": [
             {
@@ -1772,7 +1772,7 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Yoga Flow",
+            "class": "Cycling or Running",
             "type": "cardio"
           },
           "meals": [
