@@ -33,6 +33,7 @@
     .day-card { flex: 0 0 84% !important; }
     .shopping-grid { column-count: 1 !important; }
     .timing-grid { grid-template-columns: 1fr !important; }
+    .week-menu { left: 0 !important; right: auto !important; }
   }
 </style>
 </helmet>
@@ -112,7 +113,7 @@
         </button>
         <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
           <div style="position: fixed; inset: 0; z-index: 10;" onClick="{{ toggleMenu }}"></div>
-          <div style="position: absolute; top: calc(100% + 8px); right: 0; z-index: 11; min-width: 248px; background: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; box-shadow: 0 18px 44px -14px rgba(18,54,66,0.4); overflow: hidden; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);">
+          <div class="week-menu" style="position: absolute; top: calc(100% + 8px); right: 0; z-index: 11; min-width: 248px; background: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; box-shadow: 0 18px 44px -14px rgba(18,54,66,0.4); overflow: hidden; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);">
             <div style="font-family: 'Roboto Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #5a8a97; padding: 13px 16px 8px;">Past weeks</div>
             <sc-for list="{{ weeks }}" as="w" hint-placeholder-count="3">
               <button onClick="{{ w.select }}" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; background: none; border: none; border-top: 1px solid rgba(18,54,66,0.08); padding: 12px 16px; cursor: pointer; text-align: left;">

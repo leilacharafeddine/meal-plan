@@ -38,84 +38,84 @@
       "id": "2026-W30",
       "label": "20 – 25 July 2026",
       "index": "Week 30",
-      "tagline": "Six days, three meals. Cooked for one — dinners kept light.",
+      "tagline": "Salmon, turkey and a veg-forward finish — no soups, no spice, quick dinners.",
       "days": [
         {
           "day": "Monday",
           "training": {
-            "class": "Barbell Strength",
+            "class": "GAP",
             "type": "strength"
           },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Overnight oats",
-              "note": "Made Sunday night — grab and go.",
+              "dish": "Greek yogurt, granola & berries",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Rolled oats",
+                  "Greek yogurt",
+                  "200 g"
+                ],
+                [
+                  "Granola",
+                  "40 g"
+                ],
+                [
+                  "Mixed berries",
                   "60 g"
                 ],
                 [
-                  "Milk",
-                  "200 ml"
-                ],
-                [
-                  "Chia",
-                  "1 tbsp"
-                ],
-                [
-                  "Banana",
-                  "½"
+                  "Honey",
+                  "1 tsp"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Roast chicken grain bowl",
-              "note": "Uses half of Sunday's roast.",
+              "dish": "Baked salmon, roasted baby potatoes & side salad",
+              "note": "Cook extra salmon & potatoes — used again Tuesday.",
               "ingredients": [
                 [
-                  "Chicken",
-                  "150 g"
+                  "Salmon fillet",
+                  "350 g"
                 ],
                 [
-                  "Farro",
-                  "80 g"
+                  "Baby potatoes",
+                  "250 g"
                 ],
                 [
-                  "Spinach",
-                  "1 cup"
+                  "Mixed greens",
+                  "30 g"
                 ],
                 [
                   "Lemon",
-                  "½"
+                  "1/2"
                 ]
               ]
             },
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Miso greens soup",
-              "note": "Broth-based, quick and easy.",
+              "dish": "Boiled eggs, hummus & carrot sticks",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "White miso",
-                  "1 tbsp"
+                  "Eggs",
+                  "2"
                 ],
                 [
-                  "Tofu",
-                  "100 g"
+                  "Hummus",
+                  "60 g"
                 ],
                 [
-                  "Bok choy",
-                  "1 head"
-                ],
-                [
-                  "Scallion",
+                  "Carrot",
                   "1"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
                 ]
               ]
             }
@@ -131,72 +131,64 @@
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Yogurt & seeds",
-              "note": "Five minutes, no cooking.",
+              "dish": "Scrambled eggs, avocado & wholegrain rye toast",
+              "note": "Ten minutes.",
               "ingredients": [
                 [
-                  "Greek yogurt",
-                  "200 g"
+                  "Eggs",
+                  "2"
                 ],
                 [
-                  "Granola",
-                  "40 g"
+                  "Wholegrain rye bread",
+                  "1 slice"
                 ],
                 [
-                  "Blueberries",
-                  "60 g"
-                ],
-                [
-                  "Honey",
-                  "1 tsp"
+                  "Avocado",
+                  "1/2"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Chicken hummus wrap",
-              "note": "Second half of Monday's chicken.",
+              "dish": "Leftover salmon & potatoes, side salad",
+              "note": "Uses Monday's leftover salmon and potatoes.",
               "ingredients": [
                 [
-                  "Tortilla",
-                  "1"
+                  "Salmon (leftover)",
+                  "150 g"
                 ],
                 [
-                  "Chicken",
-                  "120 g"
+                  "Baby potatoes (leftover)",
+                  "as needed"
                 ],
                 [
-                  "Hummus",
-                  "2 tbsp"
+                  "Mixed greens",
+                  "30 g"
                 ],
                 [
-                  "Cucumber",
-                  "½"
+                  "Lemon",
+                  "1/4"
                 ]
               ]
             },
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Zucchini & white bean skillet",
-              "note": "One pan, twelve minutes.",
+              "dish": "Cottage cheese, cucumber & rye crackers",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Zucchini",
-                  "1"
-                ],
-                [
-                  "White beans",
+                  "Cottage cheese",
                   "150 g"
                 ],
                 [
-                  "Garlic",
-                  "2 cloves"
+                  "Cucumber",
+                  "few slices"
                 ],
                 [
-                  "Olive oil",
-                  "1 tbsp"
+                  "Rye crackers",
+                  "4"
                 ]
               ]
             }
@@ -205,54 +197,54 @@
         {
           "day": "Wednesday",
           "training": {
-            "class": "Barbell Strength",
+            "class": "V-Burn",
             "type": "strength"
           },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Scrambled eggs on rye",
-              "note": "Soft scramble, low heat.",
+              "dish": "Overnight oats, banana & walnuts",
+              "note": "Made the night before — zero cook time.",
               "ingredients": [
                 [
-                  "Eggs",
-                  "2"
+                  "Rolled oats",
+                  "50 g"
                 ],
                 [
-                  "Rye bread",
-                  "2 slices"
+                  "Milk",
+                  "150 ml"
                 ],
                 [
-                  "Butter",
-                  "1 tsp"
+                  "Banana",
+                  "1/2"
                 ],
                 [
-                  "Chives",
-                  "pinch"
+                  "Walnuts",
+                  "15 g"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Farro & roasted veg",
-              "note": "Veg batch-roasted Tuesday night.",
+              "dish": "Turkey breast, quinoa & roasted pepper, side salad",
+              "note": "Cook extra turkey & quinoa — used again Thursday.",
               "ingredients": [
                 [
-                  "Farro",
-                  "80 g"
+                  "Turkey breast",
+                  "350 g"
                 ],
                 [
-                  "Carrot",
+                  "Quinoa",
+                  "140 g"
+                ],
+                [
+                  "Roasted red pepper",
                   "1"
                 ],
                 [
-                  "Beet",
-                  "1"
-                ],
-                [
-                  "Feta",
+                  "Mixed greens",
                   "30 g"
                 ]
               ]
@@ -260,24 +252,24 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Poached salmon & asparagus",
-              "note": "Gentle poach, cook the second fillet too.",
+              "dish": "Guacamole, rye crackers & boiled egg",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Salmon",
-                  "120 g"
-                ],
-                [
-                  "Asparagus",
-                  "6 spears"
+                  "Avocado",
+                  "1"
                 ],
                 [
                   "Lemon",
-                  "½"
+                  "1/4"
                 ],
                 [
-                  "Dill",
-                  "sprig"
+                  "Rye crackers",
+                  "6"
+                ],
+                [
+                  "Egg",
+                  "1"
                 ]
               ]
             }
@@ -286,108 +278,27 @@
         {
           "day": "Thursday",
           "training": {
-            "class": "Deadlift Club",
+            "class": "GAP",
             "type": "strength"
           },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Overnight oats",
-              "note": "Same base, apple instead of banana.",
+              "dish": "Kefir, muesli & berries",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Rolled oats",
-                  "60 g"
-                ],
-                [
-                  "Milk",
+                  "Kefir",
                   "200 ml"
                 ],
                 [
-                  "Peanut butter",
-                  "1 tbsp"
+                  "Muesli",
+                  "40 g"
                 ],
                 [
-                  "Apple",
-                  "½"
-                ]
-              ]
-            },
-            {
-              "slot": "Lunch",
-              "light": false,
-              "dish": "Salmon salad",
-              "note": "Wednesday's second fillet, flaked.",
-              "ingredients": [
-                [
-                  "Salmon",
-                  "100 g"
-                ],
-                [
-                  "Mixed greens",
-                  "2 cups"
-                ],
-                [
-                  "Avocado",
-                  "½"
-                ],
-                [
-                  "Seeds",
-                  "1 tbsp"
-                ]
-              ]
-            },
-            {
-              "slot": "Dinner",
-              "light": true,
-              "dish": "Egg drop & spinach soup",
-              "note": "Ready before the kettle cools.",
-              "ingredients": [
-                [
-                  "Stock",
-                  "400 ml"
-                ],
-                [
-                  "Egg",
-                  "1"
-                ],
-                [
-                  "Spinach",
-                  "1 cup"
-                ],
-                [
-                  "Ginger",
-                  "thumb"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "day": "Friday",
-          "training": {
-            "class": "Zone 2 Run",
-            "type": "cardio"
-          },
-          "meals": [
-            {
-              "slot": "Breakfast",
-              "light": false,
-              "dish": "Yogurt & pear",
-              "note": "Walnuts for the crunch.",
-              "ingredients": [
-                [
-                  "Greek yogurt",
-                  "200 g"
-                ],
-                [
-                  "Pear",
-                  "1"
-                ],
-                [
-                  "Walnuts",
-                  "20 g"
+                  "Mixed berries",
+                  "60 g"
                 ],
                 [
                   "Honey",
@@ -398,48 +309,121 @@
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Bean & quinoa bowl",
-              "note": "Pantry-only, no shopping needed.",
+              "dish": "Leftover turkey & quinoa, side salad",
+              "note": "Uses Wednesday's leftover turkey and quinoa.",
               "ingredients": [
                 [
-                  "White beans",
+                  "Turkey breast (leftover)",
                   "150 g"
                 ],
                 [
-                  "Quinoa",
-                  "80 g"
+                  "Quinoa (leftover)",
+                  "as needed"
                 ],
                 [
-                  "Roasted pepper",
-                  "1"
-                ],
-                [
-                  "Tahini",
-                  "1 tbsp"
+                  "Mixed greens",
+                  "30 g"
                 ]
               ]
             },
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Steamed cod & bok choy",
-              "note": "Small bowl of rice on the side.",
+              "dish": "Feta, olives, cucumber & rye crackers",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Cod",
-                  "130 g"
+                  "Feta",
+                  "40 g"
                 ],
                 [
-                  "Bok choy",
+                  "Olives",
+                  "30 g"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "training": {
+            "class": "Cycling",
+            "type": "cardio"
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Banana, spinach & kefir smoothie",
+              "note": "Five minutes.",
+              "ingredients": [
+                [
+                  "Banana",
                   "1"
                 ],
                 [
-                  "Soy sauce",
-                  "1 tbsp"
+                  "Spinach",
+                  "30 g"
                 ],
                 [
-                  "Rice",
-                  "60 g"
+                  "Kefir",
+                  "200 ml"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Chickpea, feta & cucumber salad",
+              "note": "No cooking — vegetarian.",
+              "ingredients": [
+                [
+                  "Chickpeas",
+                  "150 g"
+                ],
+                [
+                  "Feta",
+                  "30 g"
+                ],
+                [
+                  "Cucumber",
+                  "1/2"
+                ],
+                [
+                  "Mixed greens",
+                  "40 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Hummus, veg sticks & boiled egg",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Hummus",
+                  "80 g"
+                ],
+                [
+                  "Carrot",
+                  "1"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Egg",
+                  "1"
                 ]
               ]
             }
@@ -448,79 +432,79 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Cycling or Running",
+            "class": "Running or Cycling",
             "type": "cardio"
           },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Weekend eggs & toast",
-              "note": "The slow one — no rush today.",
+              "dish": "Two eggs, avocado & wholegrain rye toast",
+              "note": "Weekend, slightly slower.",
               "ingredients": [
                 [
                   "Eggs",
                   "2"
                 ],
                 [
-                  "Sourdough",
-                  "2 slices"
-                ],
-                [
                   "Avocado",
-                  "½"
+                  "1/2"
                 ],
                 [
-                  "Butter",
-                  "1 tsp"
+                  "Wholegrain rye bread",
+                  "1 slice"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Roast prep bowl",
-              "note": "Roast the week's chicken now.",
+              "dish": "Big salad — grilled halloumi, feta, cucumber & avocado",
+              "note": "Weekend, slightly slower — vegetarian.",
               "ingredients": [
                 [
-                  "Chicken thighs",
-                  "300 g"
-                ],
-                [
-                  "Potato",
-                  "2"
-                ],
-                [
-                  "Rosemary",
-                  "sprig"
-                ],
-                [
-                  "Olive oil",
-                  "1 tbsp"
-                ]
-              ]
-            },
-            {
-              "slot": "Dinner",
-              "light": true,
-              "dish": "Vegetable frittata slice",
-              "note": "Uses up the odd ends.",
-              "ingredients": [
-                [
-                  "Eggs",
-                  "2"
-                ],
-                [
-                  "Zucchini",
-                  "½"
+                  "Halloumi",
+                  "150 g"
                 ],
                 [
                   "Feta",
                   "20 g"
                 ],
                 [
-                  "Herbs",
-                  "pinch"
+                  "Cucumber",
+                  "1/2"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ],
+                [
+                  "Mixed greens",
+                  "60 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Cheese, rye crackers, cucumber & pepper strips",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Cheese",
+                  "60 g"
+                ],
+                [
+                  "Rye crackers",
+                  "6"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ],
+                [
+                  "Red pepper",
+                  "1/2"
                 ]
               ]
             }
@@ -532,84 +516,40 @@
           "category": "Produce",
           "items": [
             [
-              "Banana",
-              "3"
-            ],
-            [
-              "Blueberries",
+              "Mixed berries",
               "120 g"
             ],
             [
-              "Apple",
-              "1"
+              "Avocado",
+              "3"
             ],
             [
-              "Pear",
-              "1"
-            ],
-            [
-              "Spinach",
-              "3 cups"
-            ],
-            [
-              "Bok choy",
-              "3 heads"
-            ],
-            [
-              "Zucchini",
+              "Banana",
               "2"
-            ],
-            [
-              "Asparagus",
-              "6 spears"
-            ],
-            [
-              "Carrot",
-              "1"
-            ],
-            [
-              "Beet",
-              "1"
             ],
             [
               "Cucumber",
-              "1"
+              "3"
             ],
             [
-              "Avocado",
+              "Mixed salad greens",
+              "220 g"
+            ],
+            [
+              "Carrot",
               "2"
             ],
             [
-              "Mixed greens",
-              "4 cups"
+              "Spinach",
+              "30 g"
             ],
             [
-              "Roasted pepper",
-              "1"
-            ],
-            [
-              "Potato",
+              "Red pepper / roasted pepper",
               "2"
             ],
             [
               "Lemon",
-              "3"
-            ],
-            [
-              "Garlic",
-              "1 head"
-            ],
-            [
-              "Ginger",
-              "1 knob"
-            ],
-            [
-              "Scallion",
-              "1 bunch"
-            ],
-            [
-              "Fresh herbs",
-              "1 bunch"
+              "1"
             ]
           ]
         },
@@ -617,28 +557,28 @@
           "category": "Protein",
           "items": [
             [
-              "Chicken",
-              "700 g"
+              "Salmon fillet",
+              "350 g"
             ],
             [
-              "Salmon",
-              "2 fillets"
-            ],
-            [
-              "Cod",
-              "130 g"
-            ],
-            [
-              "Tofu",
-              "100 g"
-            ],
-            [
-              "White beans",
-              "2 cans"
+              "Turkey breast",
+              "350 g"
             ],
             [
               "Eggs",
-              "12"
+              "8"
+            ],
+            [
+              "Chickpeas",
+              "150 g (~1 can)"
+            ],
+            [
+              "Halloumi",
+              "150 g"
+            ],
+            [
+              "Cottage cheese",
+              "150 g"
             ]
           ]
         },
@@ -646,20 +586,24 @@
           "category": "Dairy",
           "items": [
             [
-              "Milk",
-              "500 ml"
+              "Greek yogurt",
+              "200 g"
             ],
             [
-              "Greek yogurt",
-              "600 g"
+              "Kefir",
+              "400 ml"
             ],
             [
               "Feta",
-              "80 g"
+              "90 g"
             ],
             [
-              "Butter",
-              "1 pack"
+              "Cheese",
+              "60 g"
+            ],
+            [
+              "Milk",
+              "150 ml"
             ]
           ]
         },
@@ -667,76 +611,668 @@
           "category": "Pantry",
           "items": [
             [
-              "Rolled oats",
-              "250 g"
-            ],
-            [
-              "Farro",
-              "250 g"
-            ],
-            [
-              "Quinoa",
-              "80 g"
-            ],
-            [
               "Granola",
-              "100 g"
-            ],
-            [
-              "Chia",
-              "1 pack"
-            ],
-            [
-              "Peanut butter",
-              "1 jar"
-            ],
-            [
-              "Tahini",
-              "1 jar"
-            ],
-            [
-              "Hummus",
-              "1 tub"
-            ],
-            [
-              "White miso",
-              "1 tub"
-            ],
-            [
-              "Soy sauce",
-              "1 bottle"
+              "40 g"
             ],
             [
               "Honey",
-              "1 jar"
+              "2 tsp"
             ],
             [
-              "Olive oil",
-              "1 bottle"
+              "Baby potatoes",
+              "250 g"
             ],
             [
-              "Rye bread",
-              "1 loaf"
-            ],
-            [
-              "Sourdough",
-              "1 loaf"
-            ],
-            [
-              "Tortillas",
-              "1 pack"
+              "Rolled oats",
+              "50 g"
             ],
             [
               "Walnuts",
-              "1 bag"
+              "15 g"
             ],
             [
-              "Mixed seeds",
-              "1 bag"
+              "Quinoa",
+              "140 g"
             ],
             [
-              "Rice",
-              "1 bag"
+              "Muesli",
+              "40 g"
+            ],
+            [
+              "Wholegrain rye bread",
+              "2 slices"
+            ],
+            [
+              "Rye crackers",
+              "20"
+            ],
+            [
+              "Hummus",
+              "140 g"
+            ],
+            [
+              "Olives",
+              "30 g"
+            ],
+            [
+              "Olive oil",
+              "as needed"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-W31",
+      "label": "27 July – 1 August 2026",
+      "index": "Week 31",
+      "tagline": "No soups, no spice, easy on the raw tomato — quick dinners with chicken and beef reused across the week.",
+      "days": [
+        {
+          "day": "Monday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Kefir, muesli & berries",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Kefir",
+                  "200 ml"
+                ],
+                [
+                  "Muesli",
+                  "40 g"
+                ],
+                [
+                  "Mixed berries",
+                  "60 g"
+                ],
+                [
+                  "Honey",
+                  "1 tsp"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Chicken thighs, couscous & side salad",
+              "note": "Cook extra — used again Tuesday and Friday.",
+              "ingredients": [
+                [
+                  "Chicken thighs",
+                  "450 g"
+                ],
+                [
+                  "Couscous",
+                  "80 g"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Lemon",
+                  "1/4"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Hummus, carrot & cucumber sticks, boiled eggs",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Hummus",
+                  "80 g"
+                ],
+                [
+                  "Carrot",
+                  "1"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "training": {
+            "class": "Upper Body",
+            "type": "strength"
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Scrambled eggs, avocado & wholegrain rye toast",
+              "note": "Ten minutes.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Wholegrain rye bread",
+                  "1 slice"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Leftover chicken & couscous, cucumber salad",
+              "note": "Uses Monday's leftover chicken.",
+              "ingredients": [
+                [
+                  "Chicken (leftover)",
+                  "150 g"
+                ],
+                [
+                  "Couscous (leftover)",
+                  "as needed"
+                ],
+                [
+                  "Cucumber",
+                  "1/2"
+                ],
+                [
+                  "Lemon",
+                  "1/4"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Cottage cheese, cucumber & rye crackers",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Cottage cheese",
+                  "150 g"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ],
+                [
+                  "Olive oil",
+                  "drizzle"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "training": {
+            "class": "V-Burn",
+            "type": "strength"
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Overnight oats, banana & walnuts",
+              "note": "Made the night before — zero cook time.",
+              "ingredients": [
+                [
+                  "Rolled oats",
+                  "50 g"
+                ],
+                [
+                  "Milk",
+                  "150 ml"
+                ],
+                [
+                  "Banana",
+                  "1/2"
+                ],
+                [
+                  "Walnuts",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Lean beef & quinoa bowl, roasted pepper & feta, side salad",
+              "note": "Cook extra beef — used again Thursday.",
+              "ingredients": [
+                [
+                  "Lean beef mince",
+                  "300 g"
+                ],
+                [
+                  "Quinoa",
+                  "70 g"
+                ],
+                [
+                  "Roasted red pepper",
+                  "1"
+                ],
+                [
+                  "Feta",
+                  "30 g"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Guacamole, rye crackers & boiled egg",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Avocado",
+                  "1"
+                ],
+                [
+                  "Lemon",
+                  "1/4"
+                ],
+                [
+                  "Rye crackers",
+                  "6"
+                ],
+                [
+                  "Egg",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Cottage cheese, cucumber & wholegrain rye toast",
+              "note": "Five minutes.",
+              "ingredients": [
+                [
+                  "Cottage cheese",
+                  "150 g"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ],
+                [
+                  "Wholegrain rye bread",
+                  "1 slice"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Leftover beef & quinoa, side salad",
+              "note": "Uses Wednesday's leftover beef.",
+              "ingredients": [
+                [
+                  "Lean beef mince (leftover)",
+                  "150 g"
+                ],
+                [
+                  "Quinoa (leftover)",
+                  "as needed"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Cottage cheese, cucumber & rye crackers",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Cottage cheese",
+                  "150 g"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ],
+                [
+                  "Olive oil",
+                  "drizzle"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "training": {
+            "class": "Cycling",
+            "type": "cardio"
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Banana, spinach & kefir smoothie",
+              "note": "Five minutes.",
+              "ingredients": [
+                [
+                  "Banana",
+                  "1"
+                ],
+                [
+                  "Spinach",
+                  "30 g"
+                ],
+                [
+                  "Kefir",
+                  "200 ml"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Chickpea, feta & cucumber salad",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Chickpeas",
+                  "150 g"
+                ],
+                [
+                  "Feta",
+                  "30 g"
+                ],
+                [
+                  "Cucumber",
+                  "1/2"
+                ],
+                [
+                  "Mixed greens",
+                  "40 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Hummus, veg sticks & a little leftover chicken",
+              "note": "Uses Monday's leftover chicken.",
+              "ingredients": [
+                [
+                  "Hummus",
+                  "80 g"
+                ],
+                [
+                  "Carrot",
+                  "1"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Chicken (leftover)",
+                  "100 g"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "training": {
+            "class": "Running or Cycling",
+            "type": "cardio"
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Two eggs, avocado & wholegrain rye toast",
+              "note": "Weekend, slightly slower.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ],
+                [
+                  "Wholegrain rye bread",
+                  "1 slice"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Big salad — boiled egg, feta, cucumber & avocado",
+              "note": "Weekend, slightly slower.",
+              "ingredients": [
+                [
+                  "Egg",
+                  "2"
+                ],
+                [
+                  "Feta",
+                  "20 g"
+                ],
+                [
+                  "Cucumber",
+                  "1/2"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ],
+                [
+                  "Mixed greens",
+                  "60 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Cheese, rye crackers, cucumber & pepper strips",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Cheese",
+                  "60 g"
+                ],
+                [
+                  "Rye crackers",
+                  "6"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ],
+                [
+                  "Red pepper",
+                  "1/2"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "shopping": [
+        {
+          "category": "Produce",
+          "items": [
+            [
+              "Mixed berries",
+              "60 g"
+            ],
+            [
+              "Avocado",
+              "3"
+            ],
+            [
+              "Carrot",
+              "2"
+            ],
+            [
+              "Cucumber",
+              "3"
+            ],
+            [
+              "Mixed salad greens",
+              "200 g"
+            ],
+            [
+              "Banana",
+              "2"
+            ],
+            [
+              "Spinach",
+              "30 g"
+            ],
+            [
+              "Red pepper / roasted pepper",
+              "2"
+            ],
+            [
+              "Lemon",
+              "1"
+            ]
+          ]
+        },
+        {
+          "category": "Protein",
+          "items": [
+            [
+              "Chicken thighs",
+              "450 g"
+            ],
+            [
+              "Lean beef mince",
+              "300 g"
+            ],
+            [
+              "Eggs",
+              "9"
+            ],
+            [
+              "Chickpeas",
+              "150 g (~1 can)"
+            ],
+            [
+              "Cottage cheese",
+              "450 g"
+            ]
+          ]
+        },
+        {
+          "category": "Dairy",
+          "items": [
+            [
+              "Kefir",
+              "400 ml"
+            ],
+            [
+              "Feta",
+              "80 g"
+            ],
+            [
+              "Milk",
+              "150 ml"
+            ],
+            [
+              "Cheese",
+              "60 g"
+            ]
+          ]
+        },
+        {
+          "category": "Pantry",
+          "items": [
+            [
+              "Muesli",
+              "40 g"
+            ],
+            [
+              "Honey",
+              "1 tsp"
+            ],
+            [
+              "Hummus",
+              "160 g"
+            ],
+            [
+              "Rolled oats",
+              "50 g"
+            ],
+            [
+              "Walnuts",
+              "15 g"
+            ],
+            [
+              "Quinoa",
+              "70 g"
+            ],
+            [
+              "Wholegrain rye bread",
+              "3 slices"
+            ],
+            [
+              "Rye crackers",
+              "20"
+            ],
+            [
+              "Olive oil",
+              "as needed"
             ]
           ]
         }
@@ -1148,7 +1684,7 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Cycling or Running",
+            "class": "Running or Cycling",
             "type": "cardio"
           },
           "meals": [
@@ -1353,698 +1889,6 @@
             [
               "Olive oil",
               "as needed"
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-W28",
-      "label": "6 – 11 July 2026",
-      "index": "Week 28",
-      "tagline": "Rice and greens week. Simple, cheap, and everything reheats.",
-      "days": [
-        {
-          "day": "Monday",
-          "training": {
-            "class": "Barbell Strength",
-            "type": "strength"
-          },
-          "meals": [
-            {
-              "slot": "Breakfast",
-              "light": false,
-              "dish": "Overnight oats",
-              "note": "Mixed berries on top.",
-              "ingredients": [
-                [
-                  "Rolled oats",
-                  "60 g"
-                ],
-                [
-                  "Milk",
-                  "200 ml"
-                ],
-                [
-                  "Chia",
-                  "1 tbsp"
-                ],
-                [
-                  "Berries",
-                  "60 g"
-                ]
-              ]
-            },
-            {
-              "slot": "Lunch",
-              "light": false,
-              "dish": "Roast chicken rice bowl",
-              "note": "Half of Sunday's roast.",
-              "ingredients": [
-                [
-                  "Chicken",
-                  "150 g"
-                ],
-                [
-                  "Rice",
-                  "80 g"
-                ],
-                [
-                  "Broccoli",
-                  "1 cup"
-                ],
-                [
-                  "Lemon",
-                  "½"
-                ]
-              ]
-            },
-            {
-              "slot": "Dinner",
-              "light": true,
-              "dish": "Clear veg & tofu broth",
-              "note": "Bright and quick.",
-              "ingredients": [
-                [
-                  "Stock",
-                  "400 ml"
-                ],
-                [
-                  "Tofu",
-                  "100 g"
-                ],
-                [
-                  "Pak choi",
-                  "1 head"
-                ],
-                [
-                  "Scallion",
-                  "1"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "day": "Tuesday",
-          "training": {
-            "class": "Upper Body",
-            "type": "strength"
-          },
-          "meals": [
-            {
-              "slot": "Breakfast",
-              "light": false,
-              "dish": "Yogurt & granola",
-              "note": "Banana sliced in.",
-              "ingredients": [
-                [
-                  "Greek yogurt",
-                  "200 g"
-                ],
-                [
-                  "Granola",
-                  "40 g"
-                ],
-                [
-                  "Banana",
-                  "1"
-                ],
-                [
-                  "Honey",
-                  "1 tsp"
-                ]
-              ]
-            },
-            {
-              "slot": "Lunch",
-              "light": false,
-              "dish": "Chicken rice wrap",
-              "note": "Second half of Monday's chicken.",
-              "ingredients": [
-                [
-                  "Tortilla",
-                  "1"
-                ],
-                [
-                  "Chicken",
-                  "120 g"
-                ],
-                [
-                  "Hummus",
-                  "2 tbsp"
-                ],
-                [
-                  "Pepper",
-                  "½"
-                ]
-              ]
-            },
-            {
-              "slot": "Dinner",
-              "light": true,
-              "dish": "Ratatouille cup",
-              "note": "Freezer-friendly if doubled.",
-              "ingredients": [
-                [
-                  "Aubergine",
-                  "½"
-                ],
-                [
-                  "Courgette",
-                  "1"
-                ],
-                [
-                  "Pepper",
-                  "1"
-                ],
-                [
-                  "Olive oil",
-                  "1 tbsp"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "day": "Wednesday",
-          "training": {
-            "class": "Barbell Strength",
-            "type": "strength"
-          },
-          "meals": [
-            {
-              "slot": "Breakfast",
-              "light": false,
-              "dish": "Scrambled eggs & toast",
-              "note": "Soft scramble, low heat.",
-              "ingredients": [
-                [
-                  "Eggs",
-                  "2"
-                ],
-                [
-                  "Sourdough",
-                  "2 slices"
-                ],
-                [
-                  "Butter",
-                  "1 tsp"
-                ],
-                [
-                  "Chives",
-                  "pinch"
-                ]
-              ]
-            },
-            {
-              "slot": "Lunch",
-              "light": false,
-              "dish": "Rice & roasted veg",
-              "note": "Veg batch-roasted Tuesday.",
-              "ingredients": [
-                [
-                  "Rice",
-                  "80 g"
-                ],
-                [
-                  "Carrot",
-                  "1"
-                ],
-                [
-                  "Courgette",
-                  "1"
-                ],
-                [
-                  "Feta",
-                  "30 g"
-                ]
-              ]
-            },
-            {
-              "slot": "Dinner",
-              "light": true,
-              "dish": "Poached salmon & beans",
-              "note": "Cook the second fillet too.",
-              "ingredients": [
-                [
-                  "Salmon",
-                  "120 g"
-                ],
-                [
-                  "Green beans",
-                  "100 g"
-                ],
-                [
-                  "Lemon",
-                  "½"
-                ],
-                [
-                  "Dill",
-                  "sprig"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "day": "Thursday",
-          "training": {
-            "class": "Deadlift Club",
-            "type": "strength"
-          },
-          "meals": [
-            {
-              "slot": "Breakfast",
-              "light": false,
-              "dish": "Overnight oats",
-              "note": "Peanut butter and apple.",
-              "ingredients": [
-                [
-                  "Rolled oats",
-                  "60 g"
-                ],
-                [
-                  "Milk",
-                  "200 ml"
-                ],
-                [
-                  "Peanut butter",
-                  "1 tbsp"
-                ],
-                [
-                  "Apple",
-                  "½"
-                ]
-              ]
-            },
-            {
-              "slot": "Lunch",
-              "light": false,
-              "dish": "Salmon salad",
-              "note": "Wednesday's second fillet, flaked.",
-              "ingredients": [
-                [
-                  "Salmon",
-                  "100 g"
-                ],
-                [
-                  "Mixed greens",
-                  "2 cups"
-                ],
-                [
-                  "Avocado",
-                  "½"
-                ],
-                [
-                  "Seeds",
-                  "1 tbsp"
-                ]
-              ]
-            },
-            {
-              "slot": "Dinner",
-              "light": true,
-              "dish": "Egg drop & pak choi soup",
-              "note": "Ready before the kettle cools.",
-              "ingredients": [
-                [
-                  "Stock",
-                  "400 ml"
-                ],
-                [
-                  "Egg",
-                  "1"
-                ],
-                [
-                  "Pak choi",
-                  "1"
-                ],
-                [
-                  "Ginger",
-                  "thumb"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "day": "Friday",
-          "training": {
-            "class": "Zone 2 Run",
-            "type": "cardio"
-          },
-          "meals": [
-            {
-              "slot": "Breakfast",
-              "light": false,
-              "dish": "Yogurt & pear",
-              "note": "Almonds for the crunch.",
-              "ingredients": [
-                [
-                  "Greek yogurt",
-                  "200 g"
-                ],
-                [
-                  "Pear",
-                  "1"
-                ],
-                [
-                  "Almonds",
-                  "20 g"
-                ],
-                [
-                  "Honey",
-                  "1 tsp"
-                ]
-              ]
-            },
-            {
-              "slot": "Lunch",
-              "light": false,
-              "dish": "Lentil grain bowl",
-              "note": "Pantry-only, no shopping needed.",
-              "ingredients": [
-                [
-                  "Lentils",
-                  "150 g"
-                ],
-                [
-                  "Quinoa",
-                  "80 g"
-                ],
-                [
-                  "Roasted pepper",
-                  "1"
-                ],
-                [
-                  "Tahini",
-                  "1 tbsp"
-                ]
-              ]
-            },
-            {
-              "slot": "Dinner",
-              "light": true,
-              "dish": "Steamed cod & greens",
-              "note": "Small bowl of rice on the side.",
-              "ingredients": [
-                [
-                  "Cod",
-                  "130 g"
-                ],
-                [
-                  "Broccoli",
-                  "1 cup"
-                ],
-                [
-                  "Soy sauce",
-                  "1 tbsp"
-                ],
-                [
-                  "Rice",
-                  "60 g"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "day": "Saturday",
-          "training": {
-            "class": "Cycling or Running",
-            "type": "cardio"
-          },
-          "meals": [
-            {
-              "slot": "Breakfast",
-              "light": false,
-              "dish": "Weekend eggs & toast",
-              "note": "The slow one — no rush today.",
-              "ingredients": [
-                [
-                  "Eggs",
-                  "2"
-                ],
-                [
-                  "Sourdough",
-                  "2 slices"
-                ],
-                [
-                  "Avocado",
-                  "½"
-                ],
-                [
-                  "Butter",
-                  "1 tsp"
-                ]
-              ]
-            },
-            {
-              "slot": "Lunch",
-              "light": false,
-              "dish": "Roast prep bowl",
-              "note": "Roast next week's chicken now.",
-              "ingredients": [
-                [
-                  "Chicken thighs",
-                  "300 g"
-                ],
-                [
-                  "Potato",
-                  "2"
-                ],
-                [
-                  "Rosemary",
-                  "sprig"
-                ],
-                [
-                  "Olive oil",
-                  "1 tbsp"
-                ]
-              ]
-            },
-            {
-              "slot": "Dinner",
-              "light": true,
-              "dish": "Vegetable frittata slice",
-              "note": "Uses up the odd ends.",
-              "ingredients": [
-                [
-                  "Eggs",
-                  "2"
-                ],
-                [
-                  "Courgette",
-                  "½"
-                ],
-                [
-                  "Feta",
-                  "20 g"
-                ],
-                [
-                  "Herbs",
-                  "pinch"
-                ]
-              ]
-            }
-          ]
-        }
-      ],
-      "shopping": [
-        {
-          "category": "Produce",
-          "items": [
-            [
-              "Berries",
-              "60 g"
-            ],
-            [
-              "Banana",
-              "1"
-            ],
-            [
-              "Pear",
-              "1"
-            ],
-            [
-              "Apple",
-              "1"
-            ],
-            [
-              "Broccoli",
-              "2 cups"
-            ],
-            [
-              "Pak choi",
-              "2 heads"
-            ],
-            [
-              "Courgette",
-              "2"
-            ],
-            [
-              "Aubergine",
-              "1"
-            ],
-            [
-              "Green beans",
-              "100 g"
-            ],
-            [
-              "Carrot",
-              "1"
-            ],
-            [
-              "Pepper",
-              "2"
-            ],
-            [
-              "Avocado",
-              "2"
-            ],
-            [
-              "Mixed greens",
-              "2 cups"
-            ],
-            [
-              "Roasted pepper",
-              "1"
-            ],
-            [
-              "Potato",
-              "2"
-            ],
-            [
-              "Lemon",
-              "2"
-            ],
-            [
-              "Ginger",
-              "1 knob"
-            ],
-            [
-              "Scallion",
-              "1 bunch"
-            ],
-            [
-              "Fresh herbs",
-              "1 bunch"
-            ]
-          ]
-        },
-        {
-          "category": "Protein",
-          "items": [
-            [
-              "Chicken",
-              "700 g"
-            ],
-            [
-              "Salmon",
-              "2 fillets"
-            ],
-            [
-              "Cod",
-              "130 g"
-            ],
-            [
-              "Tofu",
-              "100 g"
-            ],
-            [
-              "Lentils",
-              "1 can"
-            ],
-            [
-              "Eggs",
-              "12"
-            ]
-          ]
-        },
-        {
-          "category": "Dairy",
-          "items": [
-            [
-              "Milk",
-              "500 ml"
-            ],
-            [
-              "Greek yogurt",
-              "600 g"
-            ],
-            [
-              "Feta",
-              "80 g"
-            ],
-            [
-              "Butter",
-              "1 pack"
-            ]
-          ]
-        },
-        {
-          "category": "Pantry",
-          "items": [
-            [
-              "Rolled oats",
-              "250 g"
-            ],
-            [
-              "Rice",
-              "1 bag"
-            ],
-            [
-              "Quinoa",
-              "80 g"
-            ],
-            [
-              "Granola",
-              "100 g"
-            ],
-            [
-              "Chia",
-              "1 pack"
-            ],
-            [
-              "Peanut butter",
-              "1 jar"
-            ],
-            [
-              "Tahini",
-              "1 jar"
-            ],
-            [
-              "Hummus",
-              "1 tub"
-            ],
-            [
-              "Soy sauce",
-              "1 bottle"
-            ],
-            [
-              "Honey",
-              "1 jar"
-            ],
-            [
-              "Olive oil",
-              "1 bottle"
-            ],
-            [
-              "Sourdough",
-              "1 loaf"
-            ],
-            [
-              "Tortillas",
-              "1 pack"
-            ],
-            [
-              "Almonds",
-              "1 bag"
-            ],
-            [
-              "Mixed seeds",
-              "1 bag"
             ]
           ]
         }
