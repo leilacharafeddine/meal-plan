@@ -36,9 +36,9 @@
   "weeks": [
     {
       "id": "2026-W30",
-      "label": "20 – 25 July 2026",
+      "label": "20 – 26 July 2026",
       "index": "Week 30",
-      "tagline": "Salmon, turkey and a veg-forward finish — no soups, no spice, quick dinners.",
+      "tagline": "Salmon and turkey, using up leftovers first — plus a temporary seated/floor workout swap while a broken toe heals.",
       "days": [
         {
           "day": "Monday",
@@ -46,28 +46,29 @@
             "class": "GAP",
             "type": "strength"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — seated/floor only, revert to normal GAP class once healed",
+            "activity": "Seated Upper Body Dumbbell Workout — 15 min",
+            "link": "https://www.youtube.com/watch?v=-SBpeY7EX9E"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Greek yogurt, granola & berries",
-              "note": "No cooking — five minutes.",
+              "dish": "Muesli, kiwi & almonds",
+              "note": "Uses leftover muesli. No cooking.",
               "ingredients": [
                 [
-                  "Greek yogurt",
-                  "200 g"
-                ],
-                [
-                  "Granola",
+                  "Muesli",
                   "40 g"
                 ],
                 [
-                  "Mixed berries",
-                  "60 g"
+                  "Kiwi",
+                  "1"
                 ],
                 [
-                  "Honey",
-                  "1 tsp"
+                  "Almonds",
+                  "15 g"
                 ]
               ]
             },
@@ -75,7 +76,7 @@
               "slot": "Lunch",
               "light": false,
               "dish": "Baked salmon, roasted baby potatoes & side salad",
-              "note": "Cook extra salmon & potatoes — used again Tuesday.",
+              "note": "Air fryer. Cook extra — used again Tuesday.",
               "ingredients": [
                 [
                   "Salmon fillet",
@@ -98,24 +99,20 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Boiled eggs, hummus & carrot sticks",
-              "note": "No cooking — five minutes.",
+              "dish": "Smashed avocado & feta on rye toast",
+              "note": "Uses leftover avocado and rye toast; opens the feta box.",
               "ingredients": [
                 [
-                  "Eggs",
-                  "2"
+                  "Avocado (leftover)",
+                  "1/2"
                 ],
                 [
-                  "Hummus",
-                  "60 g"
+                  "Rye toast (leftover)",
+                  "2 slices"
                 ],
                 [
-                  "Carrot",
-                  "1"
-                ],
-                [
-                  "Cucumber",
-                  "1/4"
+                  "Feta",
+                  "30 g"
                 ]
               ]
             }
@@ -127,24 +124,25 @@
             "class": "Upper Body",
             "type": "strength"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — seated/floor only, revert to normal Upper Body class once healed",
+            "activity": "Blogilates Weightless Arm Workout — 13 min, seated, no equipment",
+            "link": "https://www.blogilates.com/videos/insane-weightless-arms-workout/"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Scrambled eggs, avocado & wholegrain rye toast",
-              "note": "Ten minutes.",
+              "dish": "Scrambled eggs & rye toast",
+              "note": "Uses 2 more leftover rye toast slices.",
               "ingredients": [
                 [
                   "Eggs",
                   "2"
                 ],
                 [
-                  "Wholegrain rye bread",
-                  "1 slice"
-                ],
-                [
-                  "Avocado",
-                  "1/2"
+                  "Rye toast (leftover)",
+                  "2 slices"
                 ]
               ]
             },
@@ -175,20 +173,20 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Cottage cheese, cucumber & rye crackers",
-              "note": "No cooking — five minutes.",
+              "dish": "Hummus, cucumber & red pepper sticks",
+              "note": "Finishes leftover hummus, cucumber and red pepper.",
               "ingredients": [
                 [
-                  "Cottage cheese",
-                  "150 g"
+                  "Hummus (leftover)",
+                  "as remaining"
                 ],
                 [
-                  "Cucumber",
-                  "few slices"
+                  "Cucumber (leftover)",
+                  "1/2"
                 ],
                 [
-                  "Rye crackers",
-                  "4"
+                  "Red pepper (leftover)",
+                  "1/2"
                 ]
               ]
             }
@@ -200,12 +198,17 @@
             "class": "V-Burn",
             "type": "strength"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — seated/floor only, revert to normal V-Burn class once healed",
+            "activity": "15 Minute Mat Pilates Abs Workout (lying down) — skip any toe-loaded move (e.g. toe-supported plank) and substitute a knee plank",
+            "link": "https://www.youtube.com/watch?v=O7yqw4gCnaY"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Overnight oats, banana & walnuts",
-              "note": "Made the night before — zero cook time.",
+              "dish": "Overnight oats, cherries & almonds",
+              "note": "Made the night before.",
               "ingredients": [
                 [
                   "Rolled oats",
@@ -216,11 +219,11 @@
                   "150 ml"
                 ],
                 [
-                  "Banana",
-                  "1/2"
+                  "Cherries",
+                  "60 g"
                 ],
                 [
-                  "Walnuts",
+                  "Almonds",
                   "15 g"
                 ]
               ]
@@ -229,7 +232,7 @@
               "slot": "Lunch",
               "light": false,
               "dish": "Turkey breast, quinoa & roasted pepper, side salad",
-              "note": "Cook extra turkey & quinoa — used again Thursday.",
+              "note": "Air fryer. Cook extra — used again Thursday.",
               "ingredients": [
                 [
                   "Turkey breast",
@@ -252,24 +255,24 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Guacamole, rye crackers & boiled egg",
-              "note": "No cooking — five minutes.",
+              "dish": "Feta, cucumber, almonds & rye crackers",
+              "note": "No olives — almonds add the crunch instead.",
               "ingredients": [
                 [
-                  "Avocado",
-                  "1"
+                  "Feta",
+                  "40 g"
                 ],
                 [
-                  "Lemon",
-                  "1/4"
+                  "Cucumber",
+                  "few slices"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
                 ],
                 [
                   "Rye crackers",
-                  "6"
-                ],
-                [
-                  "Egg",
-                  "1"
+                  "4"
                 ]
               ]
             }
@@ -281,28 +284,29 @@
             "class": "GAP",
             "type": "strength"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — seated/floor only, revert to normal GAP class once healed",
+            "activity": "Seated Dumbbell Workout — 15 min",
+            "link": "https://www.youtube.com/watch?v=UXdXZQFw-UM"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Kefir, muesli & berries",
-              "note": "No cooking — five minutes.",
+              "dish": "Eggs & last leftover rye toast, kiwi on the side",
+              "note": "Finishes the rye toast.",
               "ingredients": [
                 [
-                  "Kefir",
-                  "200 ml"
+                  "Eggs",
+                  "2"
                 ],
                 [
-                  "Muesli",
-                  "40 g"
+                  "Rye toast (leftover)",
+                  "1 slice"
                 ],
                 [
-                  "Mixed berries",
-                  "60 g"
-                ],
-                [
-                  "Honey",
-                  "1 tsp"
+                  "Kiwi",
+                  "1"
                 ]
               ]
             },
@@ -329,16 +333,12 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Feta, olives, cucumber & rye crackers",
-              "note": "No cooking — five minutes.",
+              "dish": "Feta, cucumber & rye crackers",
+              "note": "No cooking.",
               "ingredients": [
                 [
                   "Feta",
                   "40 g"
-                ],
-                [
-                  "Olives",
-                  "30 g"
                 ],
                 [
                   "Cucumber",
@@ -358,24 +358,29 @@
             "class": "Cycling",
             "type": "cardio"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — no cardio, seated resistance band session instead; revert to normal Cycling class once healed",
+            "activity": "15 Min Upper Body Resistance Band Workout — seated",
+            "link": "https://www.youtube.com/watch?v=JdO0B4MkhTM"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Banana, spinach & kefir smoothie",
+              "dish": "Kefir, cherries & almonds",
               "note": "Five minutes.",
               "ingredients": [
                 [
-                  "Banana",
-                  "1"
-                ],
-                [
-                  "Spinach",
-                  "30 g"
-                ],
-                [
                   "Kefir",
                   "200 ml"
+                ],
+                [
+                  "Cherries",
+                  "60 g"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
                 ]
               ]
             },
@@ -383,7 +388,7 @@
               "slot": "Lunch",
               "light": false,
               "dish": "Chickpea, feta & cucumber salad",
-              "note": "No cooking — vegetarian.",
+              "note": "Uses the unopened chickpeas box. No cooking.",
               "ingredients": [
                 [
                   "Chickpeas",
@@ -407,7 +412,7 @@
               "slot": "Dinner",
               "light": true,
               "dish": "Hummus, veg sticks & boiled egg",
-              "note": "No cooking — five minutes.",
+              "note": "New small hummus container.",
               "ingredients": [
                 [
                   "Hummus",
@@ -432,43 +437,48 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Cycling or Running",
+            "class": "Running or Cycling",
             "type": "cardio"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — no cardio, seated dumbbell session instead; revert to normal Running or Cycling class once healed",
+            "activity": "20 Min Seated Upper Body Dumbbell Workout",
+            "link": "https://www.youtube.com/watch?v=wqvRwr5ogFw"
           },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Two eggs, avocado & wholegrain rye toast",
+              "dish": "Kefir, almonds & kiwi",
               "note": "Weekend, slightly slower.",
               "ingredients": [
                 [
-                  "Eggs",
-                  "2"
+                  "Kefir",
+                  "200 ml"
                 ],
                 [
-                  "Avocado",
-                  "1/2"
+                  "Almonds",
+                  "15 g"
                 ],
                 [
-                  "Wholegrain rye bread",
-                  "1 slice"
+                  "Kiwi",
+                  "1"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Big salad — grilled halloumi, feta, cucumber & avocado",
-              "note": "Weekend, slightly slower — vegetarian.",
+              "dish": "Big salad — white beans, feta, cucumber & avocado",
+              "note": "Vegetarian, no halloumi needed.",
               "ingredients": [
                 [
-                  "Halloumi",
+                  "White beans, canned",
                   "150 g"
                 ],
                 [
                   "Feta",
-                  "20 g"
+                  "40 g"
                 ],
                 [
                   "Cucumber",
@@ -487,11 +497,11 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Cheese, rye crackers, cucumber & pepper strips",
-              "note": "No cooking — five minutes.",
+              "dish": "Gouda, rye crackers, cucumber & pepper strips",
+              "note": "No cooking. Gouda from Mercadona (Edam or semicurado also fine).",
               "ingredients": [
                 [
-                  "Cheese",
+                  "Gouda",
                   "60 g"
                 ],
                 [
@@ -516,40 +526,36 @@
           "category": "Produce",
           "items": [
             [
-              "Mixed berries",
+              "Cherries",
               "120 g"
             ],
             [
-              "Avocado",
-              "3"
-            ],
-            [
-              "Banana",
+              "Cucumber",
               "2"
             ],
             [
-              "Cucumber",
-              "3"
+              "Red pepper",
+              "2"
+            ],
+            [
+              "Avocado",
+              "1"
             ],
             [
               "Mixed salad greens",
               "220 g"
             ],
             [
-              "Carrot",
-              "2"
-            ],
-            [
-              "Spinach",
-              "30 g"
-            ],
-            [
-              "Red pepper / roasted pepper",
-              "2"
-            ],
-            [
               "Lemon",
               "1"
+            ],
+            [
+              "Carrot",
+              "1"
+            ],
+            [
+              "Kiwi",
+              "3"
             ]
           ]
         },
@@ -566,19 +572,11 @@
             ],
             [
               "Eggs",
-              "8"
+              "6"
             ],
             [
-              "Chickpeas",
-              "150 g (~1 can)"
-            ],
-            [
-              "Halloumi",
-              "150 g"
-            ],
-            [
-              "Cottage cheese",
-              "150 g"
+              "White beans, canned",
+              "1 can"
             ]
           ]
         },
@@ -586,24 +584,12 @@
           "category": "Dairy",
           "items": [
             [
-              "Greek yogurt",
-              "200 g"
-            ],
-            [
               "Kefir",
               "400 ml"
             ],
             [
-              "Feta",
-              "90 g"
-            ],
-            [
-              "Cheese",
+              "Gouda",
               "60 g"
-            ],
-            [
-              "Milk",
-              "150 ml"
             ]
           ]
         },
@@ -611,52 +597,28 @@
           "category": "Pantry",
           "items": [
             [
-              "Granola",
-              "40 g"
-            ],
-            [
-              "Honey",
-              "2 tsp"
+              "Almonds",
+              "75 g"
             ],
             [
               "Baby potatoes",
               "250 g"
             ],
             [
-              "Rolled oats",
-              "50 g"
-            ],
-            [
-              "Walnuts",
-              "15 g"
-            ],
-            [
               "Quinoa",
               "140 g"
             ],
             [
-              "Muesli",
-              "40 g"
-            ],
-            [
-              "Wholegrain rye bread",
-              "2 slices"
-            ],
-            [
               "Rye crackers",
-              "20"
+              "14"
             ],
             [
-              "Hummus",
-              "140 g"
+              "Honey",
+              "top up if low"
             ],
             [
-              "Olives",
-              "30 g"
-            ],
-            [
-              "Olive oil",
-              "as needed"
+              "Hummus, small container",
+              "1"
             ]
           ]
         }
@@ -1068,7 +1030,7 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Cycling or Running",
+            "class": "Running or Cycling",
             "type": "cardio"
           },
           "meals": [
@@ -1684,7 +1646,7 @@
         {
           "day": "Saturday",
           "training": {
-            "class": "Cycling or Running",
+            "class": "Running or Cycling",
             "type": "cardio"
           },
           "meals": [
