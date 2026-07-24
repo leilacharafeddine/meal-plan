@@ -626,9 +626,9 @@
     },
     {
       "id": "2026-W31",
-      "label": "27 July – 1 August 2026",
+      "label": "27 July – 2 August 2026",
       "index": "Week 31",
-      "tagline": "No soups, no spice, easy on the raw tomato — quick dinners with chicken and beef reused across the week.",
+      "tagline": "Salmon, chicken and shrimp with beans reused across the week — seated/chair workouts sub in for cardio and standing work while the toe heals.",
       "days": [
         {
           "day": "Monday",
@@ -636,44 +636,53 @@
             "class": "GAP",
             "type": "strength"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — mat-based, no standing at all; revert to normal GAP class once healed",
+            "activity": "Abs and Glutes Workout – No Squats, No Lunges — 8 min",
+            "link": "https://www.nourishmovelove.com/10-minute-abs-and-butt-workout/"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Kefir, muesli & berries",
-              "note": "No cooking — five minutes.",
+              "dish": "Greek-style scrambled eggs, spinach & cheese toast",
+              "note": "Ten minutes.",
               "ingredients": [
                 [
-                  "Kefir",
-                  "200 ml"
+                  "Eggs",
+                  "2"
                 ],
                 [
-                  "Muesli",
-                  "40 g"
+                  "Spinach",
+                  "30 g"
                 ],
                 [
-                  "Mixed berries",
-                  "60 g"
+                  "Bread",
+                  "1 slice"
                 ],
                 [
-                  "Honey",
-                  "1 tsp"
+                  "Cheese",
+                  "20 g"
+                ],
+                [
+                  "Almonds",
+                  "10 g"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Chicken thighs, couscous & side salad",
-              "note": "Cook extra — used again Tuesday and Friday.",
+              "dish": "Air-fryer baked salmon, roasted white beans & side salad",
+              "note": "Air fryer. Cook extra salmon and beans — used again Tuesday.",
               "ingredients": [
                 [
-                  "Chicken thighs",
-                  "450 g"
+                  "Salmon fillet",
+                  "300 g"
                 ],
                 [
-                  "Couscous",
-                  "80 g"
+                  "White beans",
+                  "200 g"
                 ],
                 [
                   "Mixed greens",
@@ -684,6 +693,14 @@
                   "1/4"
                 ],
                 [
+                  "Cherry tomatoes",
+                  "20 g"
+                ],
+                [
+                  "Garlic",
+                  "1 clove"
+                ],
+                [
                   "Lemon",
                   "1/4"
                 ]
@@ -692,24 +709,16 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Hummus, carrot & cucumber sticks, boiled eggs",
-              "note": "No cooking — five minutes.",
+              "dish": "Grilled chicken breast strips, sautéed courgette",
+              "note": "15 minutes.",
               "ingredients": [
                 [
-                  "Hummus",
-                  "80 g"
+                  "Chicken breast",
+                  "250 g"
                 ],
                 [
-                  "Carrot",
+                  "Courgette",
                   "1"
-                ],
-                [
-                  "Cucumber",
-                  "1/4"
-                ],
-                [
-                  "Eggs",
-                  "2"
                 ]
               ]
             }
@@ -721,72 +730,81 @@
             "class": "Upper Body",
             "type": "strength"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing in place is fine, just no footwork; revert to normal Upper Body class once healed",
+            "activity": "20-Minute Dumbbell Upper-Body Workout (All Standing, No Jumping)",
+            "link": "https://www.youtube.com/watch?v=xxVRCzT2a1E"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Scrambled eggs, avocado & wholegrain rye toast",
-              "note": "Ten minutes.",
+              "dish": "Greek yogurt, kiwi & almonds",
+              "note": "No cooking — five minutes.",
               "ingredients": [
                 [
-                  "Eggs",
-                  "2"
+                  "Greek yogurt",
+                  "200 g"
                 ],
                 [
-                  "Wholegrain rye bread",
-                  "1 slice"
+                  "Kiwi",
+                  "1"
                 ],
                 [
-                  "Avocado",
-                  "1/2"
+                  "Almonds",
+                  "10 g"
+                ],
+                [
+                  "Honey",
+                  "1 tsp"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Leftover chicken & couscous, cucumber salad",
-              "note": "Uses Monday's leftover chicken.",
+              "dish": "Warm salmon & white bean salad, side salad",
+              "note": "Uses Monday's leftover salmon and white beans.",
               "ingredients": [
                 [
-                  "Chicken (leftover)",
+                  "Salmon (leftover)",
                   "150 g"
                 ],
                 [
-                  "Couscous (leftover)",
+                  "White beans (leftover)",
                   "as needed"
-                ],
-                [
-                  "Cucumber",
-                  "1/2"
-                ],
-                [
-                  "Lemon",
-                  "1/4"
-                ]
-              ]
-            },
-            {
-              "slot": "Dinner",
-              "light": true,
-              "dish": "Cottage cheese, cucumber & rye crackers",
-              "note": "No cooking — five minutes.",
-              "ingredients": [
-                [
-                  "Cottage cheese",
-                  "150 g"
-                ],
-                [
-                  "Cucumber",
-                  "few slices"
                 ],
                 [
                   "Olive oil",
                   "drizzle"
                 ],
                 [
-                  "Rye crackers",
-                  "4"
+                  "Herbs",
+                  "pinch"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Baked chickpeas, sautéed greens & poached egg",
+              "note": "Air fryer, lightly spiced — no hot spice.",
+              "ingredients": [
+                [
+                  "Chickpeas",
+                  "150 g"
+                ],
+                [
+                  "Spinach",
+                  "60 g"
+                ],
+                [
+                  "Egg",
+                  "1"
                 ]
               ]
             }
@@ -798,52 +816,49 @@
             "class": "V-Burn",
             "type": "strength"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — seated, no foot pressure; revert to normal V-Burn class once healed",
+            "activity": "Chair Cardio and Weights Workout — 20 min",
+            "link": "https://www.youtube.com/watch?v=KM_jSmwzvjs"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Overnight oats, banana & walnuts",
-              "note": "Made the night before — zero cook time.",
+              "dish": "Avocado toast, fried egg & grapes",
+              "note": "Ten minutes.",
               "ingredients": [
                 [
-                  "Rolled oats",
-                  "50 g"
+                  "Bread",
+                  "1 slice"
                 ],
                 [
-                  "Milk",
-                  "150 ml"
-                ],
-                [
-                  "Banana",
+                  "Avocado",
                   "1/2"
                 ],
                 [
-                  "Walnuts",
-                  "15 g"
+                  "Egg",
+                  "1"
+                ],
+                [
+                  "Grapes",
+                  "60 g"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Lean beef & quinoa bowl, roasted pepper & feta, side salad",
-              "note": "Cook extra beef — used again Thursday.",
+              "dish": "Air-fryer chicken thighs, roasted red beans & side salad",
+              "note": "Air fryer. Cook extra — used again Thursday.",
               "ingredients": [
                 [
-                  "Lean beef mince",
-                  "300 g"
+                  "Chicken thighs (boneless)",
+                  "350 g"
                 ],
                 [
-                  "Quinoa",
-                  "70 g"
-                ],
-                [
-                  "Roasted red pepper",
-                  "1"
-                ],
-                [
-                  "Feta",
-                  "30 g"
+                  "Red beans",
+                  "200 g"
                 ],
                 [
                   "Mixed greens",
@@ -854,24 +869,28 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Guacamole, rye crackers & boiled egg",
-              "note": "No cooking — five minutes.",
+              "dish": "Vegetable & white bean skillet with melted cheese",
+              "note": "One pan, 15 minutes.",
               "ingredients": [
                 [
-                  "Avocado",
+                  "Courgette",
                   "1"
                 ],
                 [
-                  "Lemon",
-                  "1/4"
-                ],
-                [
-                  "Rye crackers",
-                  "6"
-                ],
-                [
-                  "Egg",
+                  "Bell pepper",
                   "1"
+                ],
+                [
+                  "Onion",
+                  "1/2"
+                ],
+                [
+                  "White beans",
+                  "100 g"
+                ],
+                [
+                  "Cheese",
+                  "20 g"
                 ]
               ]
             }
@@ -883,40 +902,57 @@
             "class": "GAP",
             "type": "strength"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — chair-based, modified core moves; revert to normal GAP class once healed",
+            "activity": "Seated Core and Glute Exercises — 10 min",
+            "link": "https://morelifehealth.com/articles/seated-core-exercises"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Cottage cheese, cucumber & wholegrain rye toast",
-              "note": "Five minutes.",
+              "dish": "Porridge oats, pear & almonds",
+              "note": "Five minutes on the stove.",
               "ingredients": [
                 [
-                  "Cottage cheese",
-                  "150 g"
+                  "Rolled oats",
+                  "50 g"
                 ],
                 [
-                  "Cucumber",
-                  "few slices"
+                  "Milk",
+                  "150 ml"
                 ],
                 [
-                  "Wholegrain rye bread",
-                  "1 slice"
+                  "Pear",
+                  "1/2"
+                ],
+                [
+                  "Almonds",
+                  "10 g"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Leftover beef & quinoa, side salad",
-              "note": "Uses Wednesday's leftover beef.",
+              "dish": "Leftover chicken thighs & red beans, lemon & herbs",
+              "note": "Uses Wednesday's leftover chicken thighs and red beans.",
               "ingredients": [
                 [
-                  "Lean beef mince (leftover)",
+                  "Chicken thighs (leftover)",
                   "150 g"
                 ],
                 [
-                  "Quinoa (leftover)",
+                  "Red beans (leftover)",
                   "as needed"
+                ],
+                [
+                  "Lemon",
+                  "1/4"
+                ],
+                [
+                  "Herbs",
+                  "pinch"
                 ],
                 [
                   "Mixed greens",
@@ -927,24 +963,16 @@
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Cottage cheese, cucumber & rye crackers",
-              "note": "No cooking — five minutes.",
+              "dish": "Baked white fish, steamed green beans",
+              "note": "Air fryer, 15 minutes.",
               "ingredients": [
                 [
-                  "Cottage cheese",
+                  "White fish fillet",
+                  "200 g"
+                ],
+                [
+                  "Green beans",
                   "150 g"
-                ],
-                [
-                  "Cucumber",
-                  "few slices"
-                ],
-                [
-                  "Olive oil",
-                  "drizzle"
-                ],
-                [
-                  "Rye crackers",
-                  "4"
                 ]
               ]
             }
@@ -956,72 +984,69 @@
             "class": "Cycling",
             "type": "cardio"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — non-weight-bearing, designed for foot/ankle injury; revert to normal Cycling class once healed",
+            "activity": "20-Minute Chair Cardio Workout for Foot or Ankle Injury",
+            "link": "https://www.youtube.com/watch?v=WOW54mLxMLs"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Banana, spinach & kefir smoothie",
-              "note": "Five minutes.",
+              "dish": "Two-egg omelet with cheese, side salad",
+              "note": "Ten minutes.",
               "ingredients": [
                 [
-                  "Banana",
-                  "1"
+                  "Eggs",
+                  "2"
                 ],
                 [
-                  "Spinach",
+                  "Cheese",
+                  "20 g"
+                ],
+                [
+                  "Mixed greens",
                   "30 g"
-                ],
-                [
-                  "Kefir",
-                  "200 ml"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Chickpea, feta & cucumber salad",
-              "note": "No cooking.",
+              "dish": "Baked salmon, roasted chickpeas & side salad",
+              "note": "Cook extra — used again Saturday.",
               "ingredients": [
                 [
+                  "Salmon fillet",
+                  "300 g"
+                ],
+                [
                   "Chickpeas",
-                  "150 g"
-                ],
-                [
-                  "Feta",
-                  "30 g"
-                ],
-                [
-                  "Cucumber",
-                  "1/2"
+                  "200 g"
                 ],
                 [
                   "Mixed greens",
-                  "40 g"
+                  "30 g"
                 ]
               ]
             },
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Hummus, veg sticks & a little leftover chicken",
-              "note": "Uses Monday's leftover chicken.",
+              "dish": "Light white bean & vegetable stew",
+              "note": "Thick, not soupy — 20 minutes.",
               "ingredients": [
                 [
-                  "Hummus",
-                  "80 g"
+                  "White beans",
+                  "150 g"
                 ],
                 [
-                  "Carrot",
-                  "1"
+                  "Courgette",
+                  "1/2"
                 ],
                 [
-                  "Cucumber",
-                  "1/4"
-                ],
-                [
-                  "Chicken (leftover)",
-                  "100 g"
+                  "Tomato",
+                  "50 g"
                 ]
               ]
             }
@@ -1033,76 +1058,150 @@
             "class": "Running or Cycling",
             "type": "cardio"
           },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — seated cardio, strength & stretching; revert to normal Running or Cycling class once healed",
+            "activity": "40-Minute Non-Weight-Bearing Total Body Workout",
+            "link": "https://carolinejordanfitness.com/non-weight-bearing-workout/"
+          },
           "meals": [
             {
               "slot": "Breakfast",
               "light": false,
-              "dish": "Two eggs, avocado & wholegrain rye toast",
+              "dish": "Greek yogurt, kiwi & almonds",
               "note": "Weekend, slightly slower.",
               "ingredients": [
                 [
-                  "Eggs",
-                  "2"
+                  "Greek yogurt",
+                  "200 g"
                 ],
                 [
-                  "Avocado",
-                  "1/2"
+                  "Kiwi",
+                  "1"
                 ],
                 [
-                  "Wholegrain rye bread",
-                  "1 slice"
+                  "Almonds",
+                  "10 g"
+                ],
+                [
+                  "Honey",
+                  "1 tsp"
                 ]
               ]
             },
             {
               "slot": "Lunch",
               "light": false,
-              "dish": "Big salad — boiled egg, feta, cucumber & avocado",
-              "note": "Weekend, slightly slower.",
+              "dish": "Leftover salmon & chickpeas, side salad",
+              "note": "Uses Friday's leftover salmon and chickpeas.",
               "ingredients": [
                 [
-                  "Egg",
-                  "2"
+                  "Salmon (leftover)",
+                  "150 g"
                 ],
                 [
-                  "Feta",
-                  "20 g"
-                ],
-                [
-                  "Cucumber",
-                  "1/2"
-                ],
-                [
-                  "Avocado",
-                  "1/2"
+                  "Chickpeas (leftover)",
+                  "as needed"
                 ],
                 [
                   "Mixed greens",
-                  "60 g"
+                  "30 g"
                 ]
               ]
             },
             {
               "slot": "Dinner",
               "light": true,
-              "dish": "Cheese, rye crackers, cucumber & pepper strips",
-              "note": "No cooking — five minutes.",
+              "dish": "Grilled chicken breast, roasted courgette & peppers",
+              "note": "20 minutes.",
               "ingredients": [
                 [
+                  "Chicken breast",
+                  "250 g"
+                ],
+                [
+                  "Courgette",
+                  "1"
+                ],
+                [
+                  "Bell pepper",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "training": {
+            "class": "Rest day",
+            "type": "rest"
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Cheese toast & pear",
+              "note": "Five minutes.",
+              "ingredients": [
+                [
+                  "Bread",
+                  "1 slice"
+                ],
+                [
                   "Cheese",
-                  "60 g"
+                  "20 g"
                 ],
                 [
-                  "Rye crackers",
-                  "6"
-                ],
-                [
-                  "Cucumber",
-                  "few slices"
-                ],
-                [
-                  "Red pepper",
+                  "Pear",
                   "1/2"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Air-fryer garlic shrimp, roasted white beans & side salad",
+              "note": "Air fryer, 12 minutes.",
+              "ingredients": [
+                [
+                  "Shrimp, raw peeled",
+                  "200 g"
+                ],
+                [
+                  "Garlic",
+                  "2 cloves"
+                ],
+                [
+                  "White beans",
+                  "150 g"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Vegetable omelet",
+              "note": "Ten minutes.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Courgette",
+                  "1/2"
+                ],
+                [
+                  "Onion",
+                  "1/4"
+                ],
+                [
+                  "Cheese",
+                  "15 g"
                 ]
               ]
             }
@@ -1114,40 +1213,68 @@
           "category": "Produce",
           "items": [
             [
-              "Mixed berries",
-              "60 g"
-            ],
-            [
-              "Avocado",
-              "3"
-            ],
-            [
-              "Carrot",
-              "2"
+              "Spinach",
+              "90 g"
             ],
             [
               "Cucumber",
-              "3"
+              "1"
             ],
             [
-              "Mixed salad greens",
-              "200 g"
+              "Cherry tomatoes",
+              "20 g"
             ],
             [
-              "Banana",
-              "2"
-            ],
-            [
-              "Spinach",
-              "30 g"
-            ],
-            [
-              "Red pepper / roasted pepper",
-              "2"
+              "Garlic",
+              "3 cloves"
             ],
             [
               "Lemon",
               "1"
+            ],
+            [
+              "Courgette",
+              "4"
+            ],
+            [
+              "Bell pepper",
+              "2"
+            ],
+            [
+              "Green beans",
+              "150 g"
+            ],
+            [
+              "Onion",
+              "1"
+            ],
+            [
+              "Avocado",
+              "1"
+            ],
+            [
+              "Grapes",
+              "60 g"
+            ],
+            [
+              "Kiwi",
+              "2"
+            ],
+            [
+              "Pear",
+              "1"
+            ],
+            [
+              "Tomato",
+              "50 g"
+            ],
+            [
+              "Mixed salad greens",
+              "270 g"
+            ],
+            [
+              "Herbs (parsley, oregano)",
+              "small bunch"
             ]
           ]
         },
@@ -1155,24 +1282,40 @@
           "category": "Protein",
           "items": [
             [
-              "Chicken thighs",
-              "450 g"
+              "Salmon fillet",
+              "600 g"
             ],
             [
-              "Lean beef mince",
-              "300 g"
+              "Chicken breast",
+              "500 g"
+            ],
+            [
+              "Chicken thighs, boneless",
+              "350 g"
+            ],
+            [
+              "White fish fillet",
+              "200 g"
+            ],
+            [
+              "Shrimp, raw peeled",
+              "200 g"
             ],
             [
               "Eggs",
-              "9"
+              "8"
+            ],
+            [
+              "White beans",
+              "600 g"
+            ],
+            [
+              "Red beans",
+              "200 g"
             ],
             [
               "Chickpeas",
-              "150 g (~1 can)"
-            ],
-            [
-              "Cottage cheese",
-              "450 g"
+              "350 g"
             ]
           ]
         },
@@ -1180,20 +1323,16 @@
           "category": "Dairy",
           "items": [
             [
-              "Kefir",
-              "400 ml"
+              "Greek yogurt",
+              "400 g"
             ],
             [
-              "Feta",
-              "80 g"
+              "Cheese",
+              "100 g"
             ],
             [
               "Milk",
               "150 ml"
-            ],
-            [
-              "Cheese",
-              "60 g"
             ]
           ]
         },
@@ -1201,36 +1340,20 @@
           "category": "Pantry",
           "items": [
             [
-              "Muesli",
+              "Almonds",
               "40 g"
             ],
             [
               "Honey",
-              "1 tsp"
+              "2 tsp"
             ],
             [
-              "Hummus",
-              "160 g"
+              "Bread",
+              "3 slices"
             ],
             [
               "Rolled oats",
               "50 g"
-            ],
-            [
-              "Walnuts",
-              "15 g"
-            ],
-            [
-              "Quinoa",
-              "70 g"
-            ],
-            [
-              "Wholegrain rye bread",
-              "3 slices"
-            ],
-            [
-              "Rye crackers",
-              "20"
             ],
             [
               "Olive oil",

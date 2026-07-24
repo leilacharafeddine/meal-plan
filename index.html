@@ -364,22 +364,28 @@ function mondayOfIsoWeek(id) {
   return monday;
 }
 
-function weekContainsDate(id, date) {
-  const monday = mondayOfIsoWeek(id);
-  if (!monday) return false;
-  const saturday = new Date(monday);
-  saturday.setDate(monday.getDate() + 5);
-  saturday.setHours(23, 59, 59, 999);
-  return date >= monday && date <= saturday;
+// End date is derived from how many days the week actually lists (usually Mon-Sat,
+// but a week can run through Sunday) rather than assuming a fixed 6-day span.
+function weekEndDate(week) {
+  const monday = mondayOfIsoWeek(week.id);
+  if (!monday) return null;
+  const end = new Date(monday);
+  end.setDate(monday.getDate() + Math.max((week.days || []).length, 1) - 1);
+  end.setHours(23, 59, 59, 999);
+  return end;
 }
 
-function weekIsPast(id, date) {
-  const monday = mondayOfIsoWeek(id);
-  if (!monday) return false;
-  const saturday = new Date(monday);
-  saturday.setDate(monday.getDate() + 5);
-  saturday.setHours(23, 59, 59, 999);
-  return saturday < date;
+function weekContainsDate(week, date) {
+  const monday = mondayOfIsoWeek(week.id);
+  const end = weekEndDate(week);
+  if (!monday || !end) return false;
+  return date >= monday && date <= end;
+}
+
+function weekIsPast(week, date) {
+  const end = weekEndDate(week);
+  if (!end) return false;
+  return end < date;
 }
 
 class Component extends DCLogic {
@@ -399,9 +405,9 @@ class Component extends DCLogic {
         // A saved pick only wins if it's today's week or a future week — a stale saved
         // week that has already ended is ignored so the site always opens on the
         // actual current week instead of getting stuck on wherever you left off.
-        let weekIndex = savedIndex !== -1 && !weekIsPast(data.weeks[savedIndex].id, today) ? savedIndex : -1;
+        let weekIndex = savedIndex !== -1 && !weekIsPast(data.weeks[savedIndex], today) ? savedIndex : -1;
         if (weekIndex === -1) {
-          weekIndex = data.weeks.findIndex((w) => weekContainsDate(w.id, today));
+          weekIndex = data.weeks.findIndex((w) => weekContainsDate(w, today));
         }
         this.setState({ data, week: weekIndex !== -1 ? weekIndex : 0 });
       })
@@ -439,10 +445,11 @@ class Component extends DCLogic {
 
     const mealAccent = { Breakfast: '#2f9fc9', Lunch: '#37b98c', Dinner: '#9c3f47' };
     const days = w.days.map((day) => {
-      const t = day.training;
+      const t = day.training || { class: '', type: 'rest' };
+      const isRestDay = t.type === 'rest';
       const override = day.trainingOverrideTemporary;
       const workoutKey = w.id + '|' + day.day + '|workout';
-      const workoutChecked = !!this.state.checked[workoutKey];
+      const workoutChecked = !isRestDay && !!this.state.checked[workoutKey];
 
       const meals = day.meals.map((m) => {
         const mealKey = w.id + '|' + day.day + '|meal|' + m.slot;
@@ -457,17 +464,18 @@ class Component extends DCLogic {
         };
       });
 
-      const allChecked = workoutChecked && meals.every((x) => x.checked);
+      const allChecked = isRestDay ? meals.every((x) => x.checked) : (workoutChecked && meals.every((x) => x.checked));
       // when the whole day is done it's dimmed as one; otherwise dim each done item
       meals.forEach((m) => { m.dim = allChecked ? '1' : (m.checked ? '0.4' : '1'); });
 
       return {
         day: day.day,
-        hasOverride: !!override,
+        isRestDay,
+        hasOverride: !isRestDay && !!override,
         overrideActivity: override ? override.activity : '',
         overrideLink: override ? override.link : '',
         isStrength: t.type === 'strength' && !override,
-        notStrength: t.type !== 'strength' && !override,
+        notStrength: !isRestDay && t.type !== 'strength' && !override,
         trainClass: t.class,
         trainType: cap(t.type),
         workoutChecked,
@@ -479,12 +487,14 @@ class Component extends DCLogic {
       };
     });
 
-    let workoutsDone = 0, mealsDone = 0, mealsTotal = 0;
+    let workoutsDone = 0, mealsDone = 0, mealsTotal = 0, workoutsTotal = 0;
     days.forEach((dd) => {
-      if (dd.workoutChecked) workoutsDone++;
+      if (!dd.isRestDay) {
+        workoutsTotal++;
+        if (dd.workoutChecked) workoutsDone++;
+      }
       dd.meals.forEach((mm) => { mealsTotal++; if (mm.checked) mealsDone++; });
     });
-    const workoutsTotal = days.length;
     const doneItems = workoutsDone + mealsDone;
     const totalItems = workoutsTotal + mealsTotal;
     const pct = totalItems ? Math.round((doneItems / totalItems) * 100) : 0;
