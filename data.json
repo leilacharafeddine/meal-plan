@@ -48,8 +48,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — seated/floor only, revert to normal GAP class once healed",
-            "activity": "Seated Upper Body Dumbbell Workout — 15 min",
-            "link": "https://www.youtube.com/watch?v=-SBpeY7EX9E"
+            "activities": [
+              {
+                "name": "Seated Upper Body Dumbbell Workout — 15 min",
+                "link": "https://www.youtube.com/watch?v=-SBpeY7EX9E"
+              }
+            ]
           },
           "meals": [
             {
@@ -126,8 +130,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — seated/floor only, revert to normal Upper Body class once healed",
-            "activity": "Blogilates Weightless Arm Workout — 13 min, seated, no equipment",
-            "link": "https://www.blogilates.com/videos/insane-weightless-arms-workout/"
+            "activities": [
+              {
+                "name": "Blogilates Weightless Arm Workout — 13 min, seated, no equipment",
+                "link": "https://www.blogilates.com/videos/insane-weightless-arms-workout/"
+              }
+            ]
           },
           "meals": [
             {
@@ -200,8 +208,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — seated/floor only, revert to normal V-Burn class once healed",
-            "activity": "15 Minute Mat Pilates Abs Workout (lying down) — skip any toe-loaded move (e.g. toe-supported plank) and substitute a knee plank",
-            "link": "https://www.youtube.com/watch?v=O7yqw4gCnaY"
+            "activities": [
+              {
+                "name": "15 Minute Mat Pilates Abs Workout (lying down) — skip any toe-loaded move (e.g. toe-supported plank) and substitute a knee plank",
+                "link": "https://www.youtube.com/watch?v=O7yqw4gCnaY"
+              }
+            ]
           },
           "meals": [
             {
@@ -286,8 +298,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — seated/floor only, revert to normal GAP class once healed",
-            "activity": "Seated Dumbbell Workout — 15 min",
-            "link": "https://www.youtube.com/watch?v=UXdXZQFw-UM"
+            "activities": [
+              {
+                "name": "Seated Dumbbell Workout — 15 min",
+                "link": "https://www.youtube.com/watch?v=UXdXZQFw-UM"
+              }
+            ]
           },
           "meals": [
             {
@@ -360,8 +376,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — no cardio, seated resistance band session instead; revert to normal Cycling class once healed",
-            "activity": "15 Min Upper Body Resistance Band Workout — seated",
-            "link": "https://www.youtube.com/watch?v=JdO0B4MkhTM"
+            "activities": [
+              {
+                "name": "15 Min Upper Body Resistance Band Workout — seated",
+                "link": "https://www.youtube.com/watch?v=JdO0B4MkhTM"
+              }
+            ]
           },
           "meals": [
             {
@@ -442,8 +462,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — no cardio, seated dumbbell session instead; revert to normal Running or Cycling class once healed",
-            "activity": "20 Min Seated Upper Body Dumbbell Workout",
-            "link": "https://www.youtube.com/watch?v=wqvRwr5ogFw"
+            "activities": [
+              {
+                "name": "20 Min Seated Upper Body Dumbbell Workout",
+                "link": "https://www.youtube.com/watch?v=wqvRwr5ogFw"
+              }
+            ]
           },
           "meals": [
             {
@@ -638,8 +662,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — mat-based, no standing at all; revert to normal GAP class once healed",
-            "activity": "Abs and Glutes Workout – No Squats, No Lunges — 8 min",
-            "link": "https://www.nourishmovelove.com/10-minute-abs-and-butt-workout/"
+            "activities": [
+              {
+                "name": "Abs and Glutes Workout – No Squats, No Lunges — 8 min",
+                "link": "https://www.nourishmovelove.com/10-minute-abs-and-butt-workout/"
+              }
+            ]
           },
           "meals": [
             {
@@ -732,8 +760,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — standing in place is fine, just no footwork; revert to normal Upper Body class once healed",
-            "activity": "20-Minute Dumbbell Upper-Body Workout (All Standing, No Jumping)",
-            "link": "https://www.youtube.com/watch?v=xxVRCzT2a1E"
+            "activities": [
+              {
+                "name": "20-Minute Dumbbell Upper-Body Workout (All Standing, No Jumping)",
+                "link": "https://www.youtube.com/watch?v=xxVRCzT2a1E"
+              }
+            ]
           },
           "meals": [
             {
@@ -818,8 +850,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — seated, no foot pressure; revert to normal V-Burn class once healed",
-            "activity": "Chair Cardio and Weights Workout — 20 min",
-            "link": "https://www.youtube.com/watch?v=KM_jSmwzvjs"
+            "activities": [
+              {
+                "name": "Chair Cardio and Weights Workout — 20 min",
+                "link": "https://www.youtube.com/watch?v=KM_jSmwzvjs"
+              }
+            ]
           },
           "meals": [
             {
@@ -904,8 +940,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — chair-based, modified core moves; revert to normal GAP class once healed",
-            "activity": "Seated Core and Glute Exercises — 10 min",
-            "link": "https://morelifehealth.com/articles/seated-core-exercises"
+            "activities": [
+              {
+                "name": "Seated Core and Glute Exercises — 10 min",
+                "link": "https://morelifehealth.com/articles/seated-core-exercises"
+              }
+            ]
           },
           "meals": [
             {
@@ -986,8 +1026,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — non-weight-bearing, designed for foot/ankle injury; revert to normal Cycling class once healed",
-            "activity": "20-Minute Chair Cardio Workout for Foot or Ankle Injury",
-            "link": "https://www.youtube.com/watch?v=WOW54mLxMLs"
+            "activities": [
+              {
+                "name": "20-Minute Chair Cardio Workout for Foot or Ankle Injury",
+                "link": "https://www.youtube.com/watch?v=WOW54mLxMLs"
+              }
+            ]
           },
           "meals": [
             {
@@ -1060,8 +1104,12 @@
           },
           "trainingOverrideTemporary": {
             "reason": "broken toe — seated cardio, strength & stretching; revert to normal Running or Cycling class once healed",
-            "activity": "40-Minute Non-Weight-Bearing Total Body Workout",
-            "link": "https://carolinejordanfitness.com/non-weight-bearing-workout/"
+            "activities": [
+              {
+                "name": "40-Minute Non-Weight-Bearing Total Body Workout",
+                "link": "https://carolinejordanfitness.com/non-weight-bearing-workout/"
+              }
+            ]
           },
           "meals": [
             {
@@ -1358,6 +1406,773 @@
             [
               "Olive oil",
               "as needed"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-W32",
+      "label": "3 – 9 August 2026",
+      "index": "Week 32",
+      "tagline": "Turkey, minced meat and salmon reused across the week — all cardio/leg days swapped for upper body and abs while the toe heals.",
+      "days": [
+        {
+          "day": "Monday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — still not cleared for weight-bearing/impact; revert to normal GAP class once cleared",
+            "activities": [
+              {
+                "name": "Upper Body (light dumbbells) — 15-Min Seated Upper Body Dumbbell Workout",
+                "link": "https://www.youtube.com/watch?v=-SBpeY7EX9E"
+              },
+              {
+                "name": "Abs — 15-Min Mat Pilates Abs (lying down), skip toe-loaded plank, sub a knee plank",
+                "link": "https://www.youtube.com/watch?v=O7yqw4gCnaY"
+              }
+            ]
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Kefir, chocolate quinoa-chia muesli & blueberries",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Kefir",
+                  "200 ml"
+                ],
+                [
+                  "Muesli (quinoa/chia/chocolate)",
+                  "40 g"
+                ],
+                [
+                  "Blueberries",
+                  "60 g"
+                ],
+                [
+                  "Almonds",
+                  "10 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Pan-seared turkey, sautéed onion & mushroom, side salad",
+              "note": "Cook extra turkey — used again Thursday and Saturday.",
+              "ingredients": [
+                [
+                  "Turkey breast",
+                  "450 g"
+                ],
+                [
+                  "Onion",
+                  "1/2"
+                ],
+                [
+                  "Mushroom",
+                  "100 g"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ],
+                [
+                  "Lemon",
+                  "1/4"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Scrambled eggs, spinach & edam, side salad",
+              "note": "Ten minutes.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Spinach",
+                  "30 g"
+                ],
+                [
+                  "Edam",
+                  "20 g"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "training": {
+            "class": "Upper Body",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — still not cleared for weight-bearing/impact; revert to normal Upper Body class once cleared",
+            "activities": [
+              {
+                "name": "Upper Body (resistance bands) — Upper Body Seated Resistance Band Exercises",
+                "link": "https://www.youtube.com/watch?v=sbzR-daGhag"
+              },
+              {
+                "name": "Abs — 15-Min Mat Pilates Abs (lying down)",
+                "link": "https://www.youtube.com/watch?v=O7yqw4gCnaY"
+              }
+            ]
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Oat tortilla wrap — scrambled egg, feta & avocado",
+              "note": "Ten minutes.",
+              "ingredients": [
+                [
+                  "Oat tortilla wrap",
+                  "1"
+                ],
+                [
+                  "Egg",
+                  "1"
+                ],
+                [
+                  "Feta",
+                  "20 g"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Minced meat & white bean skillet, side salad",
+              "note": "Cook extra — used again Wednesday.",
+              "ingredients": [
+                [
+                  "Minced meat",
+                  "350 g"
+                ],
+                [
+                  "White beans",
+                  "200 g"
+                ],
+                [
+                  "Onion",
+                  "1/2"
+                ],
+                [
+                  "Mushroom",
+                  "100 g"
+                ],
+                [
+                  "Bell pepper",
+                  "1/2"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Feta & edam plate, rye crackers, cucumber & pickles",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Feta",
+                  "30 g"
+                ],
+                [
+                  "Edam",
+                  "30 g"
+                ],
+                [
+                  "Rye crackers",
+                  "5"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ],
+                [
+                  "Pickles",
+                  "a few"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "training": {
+            "class": "V-Burn",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — still not cleared for weight-bearing/impact; revert to normal V-Burn class once cleared",
+            "activities": [
+              {
+                "name": "Arms (resistance bands) — 15-Min Upper Body Resistance Band / Pilates Arm Workout",
+                "link": "https://www.youtube.com/watch?v=JdO0B4MkhTM"
+              },
+              {
+                "name": "Abs — 15-Min Mat Pilates Abs (lying down)",
+                "link": "https://www.youtube.com/watch?v=O7yqw4gCnaY"
+              }
+            ]
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Rye toast, mashed avocado & boiled egg",
+              "note": "Ten minutes.",
+              "ingredients": [
+                [
+                  "Rye toast",
+                  "1 slice"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ],
+                [
+                  "Egg",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Leftover minced meat & bean skillet, side salad",
+              "note": "Uses Tuesday's leftover minced meat and white beans.",
+              "ingredients": [
+                [
+                  "Minced meat (leftover)",
+                  "150 g"
+                ],
+                [
+                  "White beans (leftover)",
+                  "as needed"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Mushroom & feta omelette, side salad",
+              "note": "Ten minutes.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Mushroom",
+                  "60 g"
+                ],
+                [
+                  "Feta",
+                  "20 g"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — light/optional day, rest or abs only; revert to normal GAP class once cleared",
+            "activities": [
+              {
+                "name": "Abs only (optional, light day) — 15-Min Mat Pilates Abs (lying down)",
+                "link": "https://www.youtube.com/watch?v=O7yqw4gCnaY"
+              }
+            ]
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Kefir, chocolate muesli, blueberries & pumpkin seeds",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Kefir",
+                  "200 ml"
+                ],
+                [
+                  "Muesli (chocolate)",
+                  "40 g"
+                ],
+                [
+                  "Blueberries",
+                  "60 g"
+                ],
+                [
+                  "Pumpkin seeds",
+                  "10 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Leftover turkey oat tortilla wrap, avocado & edam",
+              "note": "Uses Monday's leftover turkey.",
+              "ingredients": [
+                [
+                  "Turkey (leftover)",
+                  "150 g"
+                ],
+                [
+                  "Oat tortilla wrap",
+                  "1"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ],
+                [
+                  "Lettuce",
+                  "handful"
+                ],
+                [
+                  "Edam",
+                  "20 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Boiled eggs, avocado & lemon, side salad",
+              "note": "Ten minutes.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ],
+                [
+                  "Lemon",
+                  "1/4"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "training": {
+            "class": "Cycling",
+            "type": "cardio"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — still not cleared for weight-bearing/impact; revert to normal Cycling class once cleared",
+            "activities": [
+              {
+                "name": "Upper Body (resistance bands, repeat) — Upper Body Seated Resistance Band Exercises",
+                "link": "https://www.youtube.com/watch?v=sbzR-daGhag"
+              },
+              {
+                "name": "Abs — 15-Min Mat Pilates Abs (lying down)",
+                "link": "https://www.youtube.com/watch?v=O7yqw4gCnaY"
+              }
+            ]
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Kefir, almonds & blueberries",
+              "note": "Five minutes.",
+              "ingredients": [
+                [
+                  "Kefir",
+                  "200 ml"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
+                ],
+                [
+                  "Blueberries",
+                  "60 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Baked salmon, roasted zucchini & pepper",
+              "note": "Lighter lunch this week — no quinoa side, no cycling.",
+              "ingredients": [
+                [
+                  "Salmon fillet",
+                  "1 fillet"
+                ],
+                [
+                  "Courgette",
+                  "1"
+                ],
+                [
+                  "Bell pepper",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Feta & edam plate, rye crackers & cucumber",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Feta",
+                  "30 g"
+                ],
+                [
+                  "Edam",
+                  "30 g"
+                ],
+                [
+                  "Rye crackers",
+                  "5"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "training": {
+            "class": "Running or Cycling",
+            "type": "cardio"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — still not cleared for weight-bearing/impact; revert to normal Running or Cycling class once cleared",
+            "activities": [
+              {
+                "name": "Upper Body (light dumbbells, gentle) — 20-Min Seated Upper Body Dumbbell Workout",
+                "link": "https://www.youtube.com/watch?v=wqvRwr5ogFw"
+              },
+              {
+                "name": "Abs — 15-Min Mat Pilates Abs (lying down)",
+                "link": "https://www.youtube.com/watch?v=O7yqw4gCnaY"
+              }
+            ]
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Eggs, rye toast & avocado",
+              "note": "Weekend, slightly slower.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Rye toast",
+                  "1 slice"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "White beans, feta, roasted mushroom & spinach",
+              "note": "Smaller bean portion this week — no running.",
+              "ingredients": [
+                [
+                  "White beans",
+                  "100 g"
+                ],
+                [
+                  "Feta",
+                  "30 g"
+                ],
+                [
+                  "Mushroom",
+                  "60 g"
+                ],
+                [
+                  "Spinach",
+                  "40 g"
+                ],
+                [
+                  "Pumpkin seeds",
+                  "10 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Light leftover turkey wrap",
+              "note": "Uses Monday's leftover turkey — small portion.",
+              "ingredients": [
+                [
+                  "Turkey (leftover)",
+                  "100 g"
+                ],
+                [
+                  "Oat tortilla wrap",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "training": {
+            "class": "Rest day",
+            "type": "rest"
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Kefir, quinoa & chia muesli & kiwi",
+              "note": "No cooking — five minutes.",
+              "ingredients": [
+                [
+                  "Kefir",
+                  "200 ml"
+                ],
+                [
+                  "Muesli (quinoa/chia)",
+                  "40 g"
+                ],
+                [
+                  "Kiwi",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Minced-meat stuffed peppers, side salad",
+              "note": "Air fryer.",
+              "ingredients": [
+                [
+                  "Minced meat",
+                  "200 g"
+                ],
+                [
+                  "Bell pepper",
+                  "2"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Mushroom & feta omelette, side salad",
+              "note": "Ten minutes.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Mushroom",
+                  "60 g"
+                ],
+                [
+                  "Feta",
+                  "20 g"
+                ],
+                [
+                  "Mixed greens",
+                  "30 g"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "shopping": [
+        {
+          "category": "Produce",
+          "items": [
+            [
+              "Onion",
+              "1"
+            ],
+            [
+              "Mushroom",
+              "400 g"
+            ],
+            [
+              "Mixed salad greens",
+              "250 g"
+            ],
+            [
+              "Lemon",
+              "2"
+            ],
+            [
+              "Bell pepper",
+              "4"
+            ],
+            [
+              "Cucumber",
+              "1"
+            ],
+            [
+              "Pickles",
+              "1 small jar"
+            ],
+            [
+              "Avocado",
+              "3"
+            ],
+            [
+              "Spinach",
+              "70 g"
+            ],
+            [
+              "Blueberries",
+              "180 g"
+            ],
+            [
+              "Kiwi",
+              "1"
+            ],
+            [
+              "Courgette (zucchini)",
+              "1"
+            ],
+            [
+              "Lettuce",
+              "1 head"
+            ]
+          ]
+        },
+        {
+          "category": "Protein",
+          "items": [
+            [
+              "Turkey breast",
+              "450 g"
+            ],
+            [
+              "Minced meat",
+              "550 g"
+            ],
+            [
+              "White beans",
+              "300 g"
+            ],
+            [
+              "Eggs",
+              "12"
+            ],
+            [
+              "Salmon fillet",
+              "1"
+            ]
+          ]
+        },
+        {
+          "category": "Dairy",
+          "items": [
+            [
+              "Feta",
+              "150 g"
+            ],
+            [
+              "Edam",
+              "100 g"
+            ],
+            [
+              "Kefir",
+              "800 ml"
+            ]
+          ]
+        },
+        {
+          "category": "Pantry",
+          "items": [
+            [
+              "Muesli (quinoa/chia/chocolate)",
+              "120 g"
+            ],
+            [
+              "Almonds",
+              "25 g"
+            ],
+            [
+              "Pumpkin seeds",
+              "20 g"
+            ],
+            [
+              "Rye toast/bread",
+              "2 slices"
+            ],
+            [
+              "Rye crackers",
+              "10"
+            ],
+            [
+              "Oat tortilla wraps",
+              "3"
             ]
           ]
         }
