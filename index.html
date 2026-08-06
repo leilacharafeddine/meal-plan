@@ -3,6 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
+<script>
+  firebase.initializeApp({
+    apiKey: "AIzaSyCxNRFXVzP1eIi5cmoPOv10NWv2csZUs10",
+    authDomain: "weekly-board-ce280.firebaseapp.com",
+    projectId: "weekly-board-ce280",
+    storageBucket: "weekly-board-ce280.firebasestorage.app",
+    messagingSenderId: "453026607271",
+    appId: "1:453026607271:web:dbbc4ca13a83d6e05f2b82"
+  });
+  window.__twbDb = firebase.firestore();
+</script>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -396,10 +409,41 @@ class Component extends DCLogic {
   state = { data: null, week: 0, menuOpen: false, standingOpen: false, timingOpen: false, checked: {} };
 
   componentDidMount() {
+    let localChecked = {};
     try {
       const saved = JSON.parse(localStorage.getItem('twb-checked') || '{}');
-      if (saved && typeof saved === 'object') this.setState({ checked: saved });
+      if (saved && typeof saved === 'object') localChecked = saved;
     } catch (e) {}
+    this.setState({ checked: localChecked });
+
+    // Firestore is the cross-device source of truth for checkmarks going forward;
+    // localStorage above is just an instant-paint fallback for the first render and
+    // for offline use.
+    if (window.__twbDb) {
+      this.checkedDocRef = window.__twbDb.collection('twb').doc('checkmarks');
+      let firstSnapshot = true;
+      this.checkedDocRef.onSnapshot(
+        (doc) => {
+          const remote = (doc.exists && doc.data().checked) || {};
+          let merged = remote;
+          if (firstSnapshot) {
+            // Reconcile this device's local history with the cloud exactly once, so
+            // turning on cross-device sync doesn't silently erase whatever was already
+            // checked here before the cloud copy existed.
+            firstSnapshot = false;
+            const hasNewLocalKeys = Object.keys(localChecked).some((k) => !(k in remote));
+            if (hasNewLocalKeys) {
+              merged = { ...remote, ...localChecked };
+              this.checkedDocRef.set({ checked: merged }).catch((err) => console.error('Failed to merge local checkmarks', err));
+            }
+          }
+          this.setState({ checked: merged });
+          try { localStorage.setItem('twb-checked', JSON.stringify(merged)); } catch (e) {}
+        },
+        (err) => console.error('Checkmark sync unavailable, staying local-only', err)
+      );
+    }
+
     fetch('./data.json')
       .then((r) => r.json())
       .then((data) => {
@@ -428,6 +472,9 @@ class Component extends DCLogic {
     this.setState((s) => {
       const checked = { ...s.checked, [key]: !s.checked[key] };
       try { localStorage.setItem('twb-checked', JSON.stringify(checked)); } catch (e) {}
+      if (this.checkedDocRef) {
+        this.checkedDocRef.set({ checked }).catch((err) => console.error('Failed to sync checkmark', err));
+      }
       return { checked };
     });
   }
