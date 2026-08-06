@@ -2179,6 +2179,614 @@
       ]
     },
     {
+      "id": "2026-W33",
+      "label": "10 – 16 August 2026",
+      "index": "Week 33",
+      "tagline": "Fridge & freezer clean-out — minced meat, shrimp and chicken all used up; Pevide pasta prioritized before its October date.",
+      "days": [
+        {
+          "day": "Monday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing now allowed if no jumping/no single-leg balance; still no equilibrium-heavy or jump work",
+            "activities": [
+              {
+                "title": "15 MIN BACK ATTACK — Back-Only Workout (Pamela Reif)",
+                "note": "standing, weights + towel",
+                "link": "https://www.youtube.com/watch?v=qcjD6HJlSRk"
+              },
+              {
+                "title": "15 Min Pilates Flow for Waist, Glutes & Core (Lilly Sabri)",
+                "note": "mat, lower body",
+                "link": "https://www.youtube.com/watch?v=IOCPEIN1HaI"
+              }
+            ],
+            "totalMinutes": 30
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Oat tortilla, scrambled egg & avocado wrap",
+              "note": "Uses oat tortillas from the freezer stash and the current avocado.",
+              "ingredients": [
+                [
+                  "Oat tortilla",
+                  "1"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Avocado",
+                  "1/4"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Creamy garlic minced-meat & butterfly pasta, side salad",
+              "note": "Cook 250g of the minced meat (freezer) — extra reserved for Tuesday. Uses garlic, onion, half the butterfly pasta pack.",
+              "ingredients": [
+                [
+                  "Minced meat (freezer)",
+                  "250 g"
+                ],
+                [
+                  "Butterfly pasta",
+                  "half pack"
+                ],
+                [
+                  "Garlic",
+                  "2 cloves"
+                ],
+                [
+                  "Onion",
+                  "1/2"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Edam, rye crackers & cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Edam slices",
+                  "2"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "training": {
+            "class": "Upper Body",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing now allowed if no jumping/no single-leg balance",
+            "activities": [
+              {
+                "title": "Eliminate Fat from the Armpits and Toning Arms Workout with Elastic Bands (FunFit)",
+                "note": "bands",
+                "link": "https://www.youtube.com/watch?v=UuM26K0Qeis"
+              },
+              {
+                "title": "10 Min Standing Arm Workout, No Repeat (MadFit)",
+                "note": "dumbbells, all standing, joint-friendly",
+                "link": "https://www.youtube.com/watch?v=9bJ8o8peiKY"
+              }
+            ],
+            "totalMinutes": 20
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Queso fresco batido, berries & almonds",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Queso fresco batido con yogur",
+                  "150 g"
+                ],
+                [
+                  "Berries",
+                  "60 g"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Leftover minced-meat pasta, side salad",
+              "note": "Uses Monday's leftover.",
+              "ingredients": [
+                [
+                  "Minced-meat pasta (leftover)",
+                  "as remaining"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Boiled eggs, hummus & cucumber/carrot sticks",
+              "note": "Finishes the current half-pack of hummus.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Hummus (leftover)",
+                  "as remaining"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Carrot",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "training": {
+            "class": "V-Burn",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing now allowed if no jumping/no single-leg balance",
+            "activities": [
+              {
+                "title": "20 Min Abs & Booty, on the floor (MadFit)",
+                "note": "mat, no squats/lunges",
+                "link": "https://www.youtube.com/watch?v=IBxMKe3EoNQ"
+              },
+              {
+                "title": "Lean Arms & Toned Back — Upper Body Sculpt (Rebecca-Louise)",
+                "note": "standing, weights",
+                "link": "https://www.youtube.com/watch?v=o5z-u_g4qPE"
+              }
+            ],
+            "totalMinutes": 30
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Oat tortilla, scrambled egg & edam wrap",
+              "note": "Uses another oat tortilla and edam.",
+              "ingredients": [
+                [
+                  "Oat tortilla",
+                  "1"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Edam slices",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Garlic lemon shrimp, roasted mini potatoes & side salad",
+              "note": "Air fryer. Uses all 8 mini potatoes and the freezer shrimp — freezer freed.",
+              "ingredients": [
+                [
+                  "Shrimp (freezer)",
+                  "as available"
+                ],
+                [
+                  "Mini potatoes",
+                  "8"
+                ],
+                [
+                  "Garlic",
+                  "1 clove"
+                ],
+                [
+                  "Lemon",
+                  "1/2"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Chickpea & edam salad, cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Chickpeas",
+                  "100 g"
+                ],
+                [
+                  "Edam slices",
+                  "1"
+                ],
+                [
+                  "Cucumber",
+                  "1/2"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing now allowed if no jumping/no single-leg balance",
+            "activities": [
+              {
+                "title": "15 MIN BOOTY WORKOUT, LOW IMPACT — knee friendly, no squats, no jumps (Pamela Reif)",
+                "note": "standing, weight kept on heels not toes",
+                "link": "https://www.youtube.com/watch?v=p-uUnrCdhR8"
+              },
+              {
+                "title": "No Jumping Fat Burn — Full Body Cardio (Rebecca-Louise)",
+                "note": "standing, no jump",
+                "link": "https://www.youtube.com/watch?v=ZOqncnzDFDc"
+              }
+            ],
+            "totalMinutes": 25
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Kefir, kiwi & almonds",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Kefir",
+                  "200 ml"
+                ],
+                [
+                  "Kiwi",
+                  "1"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Chickpea & egg skillet with melted edam, side salad",
+              "note": "Sauté onion & garlic, add remaining chickpeas, poach 2 eggs on top, melt a little edam over. One pan, ~15 min. The 250g minced meat stays in the freezer for a future week.",
+              "ingredients": [
+                [
+                  "Chickpeas (remaining)",
+                  "as remaining"
+                ],
+                [
+                  "Onion",
+                  "1/2"
+                ],
+                [
+                  "Garlic",
+                  "1 clove"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Edam slices",
+                  "1"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Edam, rye crackers & cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Edam slices",
+                  "2"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "training": {
+            "class": "Cycling",
+            "type": "cardio"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — no cardio this month, seated/standing/mat swap instead",
+            "activities": [
+              {
+                "title": "15 Min Pilates Flow for Waist, Glutes & Core (Lilly Sabri)",
+                "note": "mat, lower body — repeat",
+                "link": "https://www.youtube.com/watch?v=IOCPEIN1HaI"
+              },
+              {
+                "title": "Eliminate Fat from the Armpits and Toning Arms Workout with Elastic Bands (FunFit)",
+                "note": "bands — repeat",
+                "link": "https://www.youtube.com/watch?v=UuM26K0Qeis"
+              }
+            ],
+            "totalMinutes": 25
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Queso fresco batido, berries & pumpkin seeds",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Queso fresco batido con yogur",
+                  "150 g"
+                ],
+                [
+                  "Berries",
+                  "60 g"
+                ],
+                [
+                  "Pumpkin seeds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Air-fried chicken breast with pesto & Pevide pasta, side salad",
+              "note": "Uses all 3 chicken breast slices (freezer freed) and the Pevide pasta, prioritized ahead of its October expiry.",
+              "ingredients": [
+                [
+                  "Chicken breast slices (freezer)",
+                  "3"
+                ],
+                [
+                  "Pevide pasta",
+                  "500 g"
+                ],
+                [
+                  "Pesto fresco con albahaca",
+                  "2 tbsp"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Hummus, veg sticks & boiled egg",
+              "note": "New small hummus container.",
+              "ingredients": [
+                [
+                  "Hummus",
+                  "80 g"
+                ],
+                [
+                  "Carrot",
+                  "1"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Egg",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "training": {
+            "class": "Running or Cycling",
+            "type": "cardio"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — no cardio this month, seated/standing/mat swap instead",
+            "activities": [
+              {
+                "title": "15 MIN BACK ATTACK — Back-Only Workout (Pamela Reif)",
+                "note": "standing, weights + towel — repeat",
+                "link": "https://www.youtube.com/watch?v=qcjD6HJlSRk"
+              },
+              {
+                "title": "20 Min Abs & Booty, on the floor (MadFit)",
+                "note": "mat, no squats/lunges — repeat",
+                "link": "https://www.youtube.com/watch?v=IBxMKe3EoNQ"
+              }
+            ],
+            "totalMinutes": 35
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Oat tortilla, scrambled egg wrap",
+              "note": "Uses the last oat tortilla.",
+              "ingredients": [
+                [
+                  "Oat tortilla",
+                  "1"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Big salad — avocado, boiled eggs, cucumber & mixed greens, lemon",
+              "note": "Vegetarian, no cooking beyond boiling eggs.",
+              "ingredients": [
+                [
+                  "Avocado",
+                  "1/4"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Cucumber",
+                  "1/2"
+                ],
+                [
+                  "Mixed salad greens",
+                  "60 g"
+                ],
+                [
+                  "Lemon",
+                  "1/4"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Queso fresco batido, cucumber & pumpkin seeds",
+              "note": "Savory version — no cooking.",
+              "ingredients": [
+                [
+                  "Queso fresco batido con yogur",
+                  "150 g"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ],
+                [
+                  "Pumpkin seeds",
+                  "10 g"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "shopping": [
+        {
+          "category": "Produce",
+          "items": [
+            [
+              "Cucumber",
+              "3"
+            ],
+            [
+              "Mixed salad greens",
+              "220 g"
+            ],
+            [
+              "Lemon",
+              "1"
+            ],
+            [
+              "Carrot",
+              "1"
+            ],
+            [
+              "Avocado",
+              "1"
+            ]
+          ]
+        },
+        {
+          "category": "Dairy",
+          "items": [
+            [
+              "Kefir",
+              "200 ml"
+            ]
+          ]
+        },
+        {
+          "category": "Pantry",
+          "items": [
+            [
+              "Rye crackers",
+              "1 pack"
+            ],
+            [
+              "Hummus, small container",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "notesForNextWeek": "500g minced meat used in full this week (Mon/Tue), so nothing carried forward. The 'line' pasta pack was not used and remains available for a future week."
+    },
+    {
       "id": "2026-W29",
       "label": "13 – 18 July 2026",
       "index": "Week 29",
