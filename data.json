@@ -2787,6 +2787,771 @@
       "notesForNextWeek": "500g minced meat used in full this week (Mon/Tue), so nothing carried forward. The 'line' pasta pack was not used and remains available for a future week."
     },
     {
+      "id": "2026-W34",
+      "label": "17 – 23 August 2026",
+      "index": "Week 34",
+      "tagline": "Only 2 fresh proteins this week (salmon, minced beef) — no chicken, nothing extra in the freezer. Two batch dishes each cover 2 lunches. Fiber-forward: lentils (mashed for easy digestion), red beans, chickpeas, chia woven through most days.",
+      "days": [
+        {
+          "day": "Monday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing allowed if no jumping/no single-leg balance; still no equilibrium-heavy or jump work",
+            "activities": [
+              {
+                "title": "10 MIN FULL BODY, SLOW & HARD — Floor only, Low Impact (Pamela Reif)",
+                "note": "floor only, no squats/jumps",
+                "link": "https://www.youtube.com/watch?v=DkLISiTHRjU"
+              },
+              {
+                "title": "15 Min Pilates Flow for Waist, Glutes & Core (Lilly Sabri)",
+                "note": "mat, lower body",
+                "link": "https://www.youtube.com/watch?v=IOCPEIN1HaI"
+              }
+            ],
+            "totalMinutes": 25
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Yogurt bowl — 0% yogurt, oats, chia, berries & almonds",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "0% fat yogurt",
+                  "150 g"
+                ],
+                [
+                  "Oats",
+                  "40 g"
+                ],
+                [
+                  "Chia seeds",
+                  "1 tbsp"
+                ],
+                [
+                  "Berries",
+                  "60 g"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Batch A (day 1): Baked salmon with mashed red lentils, side salad",
+              "note": "Cook 400g salmon total (freezer-fresh, not frozen) — half today, half reserved for Tuesday. Cook 120g dry red lentils, blend with garlic, lemon and olive oil into a smooth mash (easier digestion).",
+              "ingredients": [
+                [
+                  "Salmon fillet",
+                  "400 g total (200 g today)"
+                ],
+                [
+                  "Red lentils (dry)",
+                  "120 g"
+                ],
+                [
+                  "Garlic",
+                  "1 clove"
+                ],
+                [
+                  "Lemon",
+                  "1/2"
+                ],
+                [
+                  "Olive oil",
+                  "1 tbsp"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Tzatziki, rye crackers, boiled egg & cucumber",
+              "note": "Make tzatziki batch (yogurt, grated cucumber, garlic, lemon, olive oil) — reused Wednesday as a dressing.",
+              "ingredients": [
+                [
+                  "0% fat yogurt",
+                  "100 g"
+                ],
+                [
+                  "Cucumber",
+                  "1/2"
+                ],
+                [
+                  "Garlic",
+                  "1/2 clove"
+                ],
+                [
+                  "Lemon",
+                  "squeeze"
+                ],
+                [
+                  "Olive oil",
+                  "1 tsp"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "training": {
+            "class": "Upper Body",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing allowed if no jumping/no single-leg balance",
+            "activities": [
+              {
+                "title": "Lean Arms & Toned Back — Upper Body Sculpt (Rebecca-Louise)",
+                "note": "standing, weights",
+                "link": "https://www.youtube.com/watch?v=o5z-u_g4qPE"
+              },
+              {
+                "title": "10 Min Standing Arm Workout, No Repeat (MadFit)",
+                "note": "dumbbells, all standing, joint-friendly",
+                "link": "https://www.youtube.com/watch?v=9bJ8o8peiKY"
+              }
+            ],
+            "totalMinutes": 20
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Oat tortilla, scrambled egg & avocado wrap",
+              "note": "No cooking beyond scrambling egg.",
+              "ingredients": [
+                [
+                  "Oat tortilla",
+                  "1"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Avocado",
+                  "1/4"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Batch A (day 2, leftover): Salmon & lentil mash, side salad",
+              "note": "Reheat Monday's leftover salmon and lentil mash.",
+              "ingredients": [
+                [
+                  "Salmon & lentil mash (leftover)",
+                  "as remaining"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Edam, rye crackers & cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Edam slices",
+                  "2"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "training": {
+            "class": "V-Burn",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing allowed if no jumping/no single-leg balance",
+            "activities": [
+              {
+                "title": "15 MIN BOOTY WORKOUT, KNEE FRIENDLY, LOW IMPACT — no squats, no jumps (Pamela Reif)",
+                "note": "standing, knee/toe friendly",
+                "link": "https://www.youtube.com/watch?v=ggSfmY8gmO4"
+              },
+              {
+                "title": "20 Min Abs & Booty, on the floor (MadFit)",
+                "note": "mat, no squats/lunges",
+                "link": "https://www.youtube.com/watch?v=IBxMKe3EoNQ"
+              }
+            ],
+            "totalMinutes": 30
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Kefir, berries, chia & pumpkin seeds",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Kefir",
+                  "150 g"
+                ],
+                [
+                  "Berries",
+                  "60 g"
+                ],
+                [
+                  "Chia seeds",
+                  "1 tbsp"
+                ],
+                [
+                  "Pumpkin seeds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Chickpea, cucumber & cherry tomato salad with feta and tzatziki dressing",
+              "note": "Uses remaining tzatziki from Monday as the dressing — finishes the tub.",
+              "ingredients": [
+                [
+                  "Chickpeas (cooked)",
+                  "150 g"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Cherry tomatoes",
+                  "small handful"
+                ],
+                [
+                  "Feta",
+                  "40 g"
+                ],
+                [
+                  "Tzatziki (leftover)",
+                  "as remaining"
+                ],
+                [
+                  "Lemon",
+                  "squeeze"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Boiled eggs, hummus & cucumber/carrot sticks",
+              "note": "No cooking beyond boiling eggs.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Hummus",
+                  "as needed"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Carrot",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing allowed if no jumping/no single-leg balance",
+            "activities": [
+              {
+                "title": "15 MIN BACK ATTACK — Back-Only Workout (Pamela Reif)",
+                "note": "standing, weights + towel",
+                "link": "https://www.youtube.com/watch?v=qcjD6HJlSRk"
+              },
+              {
+                "title": "15 Min Pilates Flow for Waist, Glutes & Core (Lilly Sabri)",
+                "note": "mat, lower body — repeat of Monday",
+                "link": "https://www.youtube.com/watch?v=IOCPEIN1HaI"
+              }
+            ],
+            "totalMinutes": 30
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Queso fresco batido, kiwi & almonds",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Queso fresco batido con yogur",
+                  "150 g"
+                ],
+                [
+                  "Kiwi",
+                  "1"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Batch B (day 1): Minced beef & red bean skillet with roasted eggplant, side salad",
+              "note": "Cook 500g minced beef total (fresh) — half today, half reserved for Friday. Garlic, onion, chopped tomato, mild paprika. Roast eggplant in air fryer.",
+              "ingredients": [
+                [
+                  "Minced beef",
+                  "500 g total (250 g today)"
+                ],
+                [
+                  "Red beans (cooked)",
+                  "150 g"
+                ],
+                [
+                  "Garlic",
+                  "2 cloves"
+                ],
+                [
+                  "Onion",
+                  "1/2"
+                ],
+                [
+                  "Tomato",
+                  "1"
+                ],
+                [
+                  "Mild paprika",
+                  "to taste"
+                ],
+                [
+                  "Eggplant",
+                  "1/2"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Edam, rye crackers & cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Edam slices",
+                  "2"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "training": {
+            "class": "Cycling",
+            "type": "cardio"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing allowed if no jumping/no single-leg balance",
+            "activities": [
+              {
+                "title": "Eliminate Fat from the Armpits and Toning Arms Workout with Elastic Bands (FunFit)",
+                "note": "bands",
+                "link": "https://www.youtube.com/watch?v=UuM26K0Qeis"
+              },
+              {
+                "title": "20 Min Abs & Booty, on the floor (MadFit)",
+                "note": "mat, no squats/lunges — repeat",
+                "link": "https://www.youtube.com/watch?v=IBxMKe3EoNQ"
+              }
+            ],
+            "totalMinutes": 25
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Oat tortilla, scrambled egg & edam wrap",
+              "note": "No cooking beyond scrambling egg.",
+              "ingredients": [
+                [
+                  "Oat tortilla",
+                  "1"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Edam slice",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Batch B (day 2, leftover): Minced beef & red bean skillet, side salad",
+              "note": "Reheat Thursday's leftover.",
+              "ingredients": [
+                [
+                  "Beef & red bean skillet (leftover)",
+                  "as remaining"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Hummus, veg sticks & boiled egg",
+              "note": "No cooking beyond boiling egg.",
+              "ingredients": [
+                [
+                  "Hummus",
+                  "as needed"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Carrot",
+                  "1"
+                ],
+                [
+                  "Eggs",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "training": {
+            "class": "Running or Cycling",
+            "type": "cardio"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "broken toe — standing allowed if no jumping/no single-leg balance",
+            "activities": [
+              {
+                "title": "10 MIN FULL BODY, SLOW & HARD — Floor only, Low Impact (Pamela Reif)",
+                "note": "floor only, no squats/jumps — repeat",
+                "link": "https://www.youtube.com/watch?v=DkLISiTHRjU"
+              },
+              {
+                "title": "Lean Arms & Toned Back — Upper Body Sculpt (Rebecca-Louise)",
+                "note": "standing, weights — repeat",
+                "link": "https://www.youtube.com/watch?v=o5z-u_g4qPE"
+              }
+            ],
+            "totalMinutes": 25
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Chia pudding, berries & almonds",
+              "note": "Make the night before: chia soaked in milk or kefir.",
+              "ingredients": [
+                [
+                  "Chia seeds",
+                  "3 tbsp"
+                ],
+                [
+                  "Milk or kefir",
+                  "200 ml"
+                ],
+                [
+                  "Berries",
+                  "60 g"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Red bean, egg & avocado salad bowl, cucumber, pumpkin seeds, lemon dressing",
+              "note": "No cooking beyond boiling eggs.",
+              "ingredients": [
+                [
+                  "Red beans (cooked)",
+                  "150 g"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Pumpkin seeds",
+                  "15 g"
+                ],
+                [
+                  "Lemon",
+                  "1/2"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Edam, rye crackers, cherry tomatoes & cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Edam slices",
+                  "2"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ],
+                [
+                  "Cherry tomatoes",
+                  "small handful"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "shopping": [
+        {
+          "category": "Produce",
+          "items": [
+            [
+              "Cucumber",
+              "3"
+            ],
+            [
+              "Garlic",
+              "4 cloves"
+            ],
+            [
+              "Lemon",
+              "2"
+            ],
+            [
+              "Mixed salad greens",
+              "120 g"
+            ],
+            [
+              "Avocado",
+              "1"
+            ],
+            [
+              "Cherry tomatoes",
+              "1 small punnet"
+            ],
+            [
+              "Carrot",
+              "2"
+            ],
+            [
+              "Tomato",
+              "1"
+            ],
+            [
+              "Eggplant",
+              "1"
+            ],
+            [
+              "Kiwi",
+              "1"
+            ],
+            [
+              "Onion",
+              "1"
+            ],
+            [
+              "Berries",
+              "180 g"
+            ]
+          ]
+        },
+        {
+          "category": "Protein",
+          "items": [
+            [
+              "Salmon fillet",
+              "400 g"
+            ],
+            [
+              "Red lentils (dry)",
+              "120 g"
+            ],
+            [
+              "Minced beef",
+              "500 g"
+            ],
+            [
+              "Red beans (cooked)",
+              "300 g"
+            ],
+            [
+              "Chickpeas (cooked)",
+              "150 g"
+            ],
+            [
+              "Eggs",
+              "11"
+            ]
+          ]
+        },
+        {
+          "category": "Dairy",
+          "items": [
+            [
+              "0% fat yogurt",
+              "250 g"
+            ],
+            [
+              "Kefir",
+              "150 g"
+            ],
+            [
+              "Milk or kefir",
+              "200 ml"
+            ],
+            [
+              "Queso fresco batido con yogur",
+              "150 g"
+            ],
+            [
+              "Edam slices",
+              "7"
+            ],
+            [
+              "Feta",
+              "40 g"
+            ]
+          ]
+        },
+        {
+          "category": "Pantry",
+          "items": [
+            [
+              "Oats",
+              "40 g"
+            ],
+            [
+              "Chia seeds",
+              "5 tbsp"
+            ],
+            [
+              "Almonds",
+              "45 g"
+            ],
+            [
+              "Pumpkin seeds",
+              "30 g"
+            ],
+            [
+              "Rye crackers",
+              "16"
+            ],
+            [
+              "Oat tortilla",
+              "2"
+            ],
+            [
+              "Olive oil",
+              "as needed"
+            ],
+            [
+              "Mild paprika",
+              "to taste"
+            ],
+            [
+              "Hummus, small container",
+              "1"
+            ]
+          ]
+        }
+      ],
+      "notesForNextWeek": "Tzatziki tub (from the 0% yogurt) fully used up by Wednesday — don't carry it forward. Red lentils and red beans from the cupboard both used this week; restock if you want them again soon. No chicken this week — only salmon and minced beef as fresh proteins."
+    },
+    {
       "id": "2026-W29",
       "label": "13 – 18 July 2026",
       "index": "Week 29",
