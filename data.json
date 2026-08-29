@@ -3552,6 +3552,718 @@
       "notesForNextWeek": "Tzatziki tub (from the 0% yogurt) fully used up by Wednesday — don't carry it forward. Red lentils and red beans from the cupboard both used this week; restock if you want them again soon. No chicken this week — only salmon and minced beef as fresh proteins."
     },
     {
+      "id": "2026-W36",
+      "label": "31 August – 5 September 2026",
+      "index": "Week 36",
+      "tagline": "Using up the freezer — chicken thighs (Mon/Tue batch) and minced beef (Thu/Fri batch), courgette worked into both. No new fresh protein purchases needed this week. Same dumbbell-forward, low-impact workout style.",
+      "days": [
+        {
+          "day": "Monday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "foot feeling better, standing/dumbbell work fine — still avoiding jumping or single-leg balance work, not back to the gym yet",
+            "activities": [
+              {
+                "title": "20 min Standing Dumbbell Workout — Full Body, Sculpt & Strengthen (fitbymik)",
+                "note": "standing, dumbbells",
+                "link": "https://www.youtube.com/watch?v=Gtr7-Eiirg0"
+              }
+            ],
+            "totalMinutes": 20
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Oat tortilla, scrambled egg & avocado wrap",
+              "note": "No cooking beyond scrambling egg.",
+              "ingredients": [
+                [
+                  "Oat tortilla",
+                  "1"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Avocado",
+                  "1/4"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Batch A (day 1): Baked chicken thighs with lemon, garlic & courgette, side of rice",
+              "note": "All 3 chicken thighs from the freezer go in — half for today, half reserved for Tuesday. Bake or air fry with courgette alongside; rice on the side.",
+              "ingredients": [
+                [
+                  "Chicken thighs (from freezer)",
+                  "3 pieces total"
+                ],
+                [
+                  "Courgette",
+                  "1"
+                ],
+                [
+                  "Garlic",
+                  "2 cloves"
+                ],
+                [
+                  "Lemon",
+                  "1/2"
+                ],
+                [
+                  "Rice",
+                  "150 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Edam cheese, rye crackers & cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Edam cheese slices",
+                  "2"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "training": {
+            "class": "Upper Body",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "foot feeling better, standing/dumbbell work fine — still avoiding jumping or single-leg balance work",
+            "activities": [
+              {
+                "title": "15 min Standing Arm Workout with Dumbbells (fitbymik)",
+                "note": "standing, dumbbells",
+                "link": "https://www.youtube.com/watch?v=i-Ci1PxwUpY"
+              },
+              {
+                "title": "Lean Arms & Toned Back — Upper Body Sculpt (Rebecca-Louise)",
+                "note": "standing, weights",
+                "link": "https://www.youtube.com/watch?v=o5z-u_g4qPE"
+              }
+            ],
+            "totalMinutes": 35
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Kefir, berries, chia & almonds",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Kefir",
+                  "150 g"
+                ],
+                [
+                  "Berries",
+                  "60 g"
+                ],
+                [
+                  "Chia seeds",
+                  "1 tbsp"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Batch A (day 2, leftover): Chicken & courgette, side salad",
+              "note": "Reheat Monday's leftover.",
+              "ingredients": [
+                [
+                  "Chicken & courgette (leftover)",
+                  "as remaining"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Boiled eggs, hummus & cucumber/carrot sticks",
+              "note": "No cooking beyond boiling eggs.",
+              "ingredients": [
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Hummus",
+                  "as needed"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Carrot",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "training": {
+            "class": "V-Burn",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "foot feeling better, standing/dumbbell work fine — still avoiding jumping or single-leg balance work",
+            "activities": [
+              {
+                "title": "15 MIN BACK ATTACK — Back-Only Workout (Pamela Reif)",
+                "note": "standing, weights + towel",
+                "link": "https://www.youtube.com/watch?v=qcjD6HJlSRk"
+              },
+              {
+                "title": "20 Min Abs & Booty, on the floor (MadFit)",
+                "note": "mat, no squats/lunges",
+                "link": "https://www.youtube.com/watch?v=IBxMKe3EoNQ"
+              }
+            ],
+            "totalMinutes": 35
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Thick yogurt with kiwi & pumpkin seeds",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Thick/strained yogurt",
+                  "150 g"
+                ],
+                [
+                  "Kiwi",
+                  "1"
+                ],
+                [
+                  "Pumpkin seeds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Chickpea, cucumber & feta salad, lemon",
+              "note": "No cooking. Vegetarian day.",
+              "ingredients": [
+                [
+                  "Chickpeas (cooked)",
+                  "150 g"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Feta",
+                  "40 g"
+                ],
+                [
+                  "Lemon",
+                  "squeeze"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Chickpea & Edam cheese salad, cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Chickpeas (cooked)",
+                  "80 g"
+                ],
+                [
+                  "Edam cheese",
+                  "1 slice, cubed"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "training": {
+            "class": "GAP",
+            "type": "strength"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "foot feeling better, standing/dumbbell work fine — still avoiding jumping or single-leg balance work",
+            "activities": [
+              {
+                "title": "20 min Standing Dumbbell Workout — Full Body, Sculpt & Strengthen (fitbymik)",
+                "note": "standing, dumbbells — repeat of Monday",
+                "link": "https://www.youtube.com/watch?v=Gtr7-Eiirg0"
+              },
+              {
+                "title": "15 Min Pilates Flow for Waist, Glutes & Core (Lilly Sabri)",
+                "note": "mat, lower body",
+                "link": "https://www.youtube.com/watch?v=IOCPEIN1HaI"
+              }
+            ],
+            "totalMinutes": 35
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Chia pudding, berries & almonds",
+              "note": "Make the night before: chia soaked in milk or kefir.",
+              "ingredients": [
+                [
+                  "Chia seeds",
+                  "3 tbsp"
+                ],
+                [
+                  "Milk or kefir",
+                  "200 ml"
+                ],
+                [
+                  "Berries",
+                  "60 g"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Batch B (day 1): Minced beef & courgette skillet, mashed potato",
+              "note": "500g minced beef from the freezer — half today, half reserved for Friday. Garlic, onion, chopped tomato, courgette. Small side of mashed potato.",
+              "ingredients": [
+                [
+                  "Minced beef (from freezer)",
+                  "500 g total (250 g today)"
+                ],
+                [
+                  "Courgette",
+                  "1"
+                ],
+                [
+                  "Garlic",
+                  "2 cloves"
+                ],
+                [
+                  "Onion",
+                  "1/2"
+                ],
+                [
+                  "Tomato",
+                  "1"
+                ],
+                [
+                  "Potato",
+                  "2 medium"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Edam cheese, rye crackers & cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Edam cheese slices",
+                  "2"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "training": {
+            "class": "Cycling",
+            "type": "cardio"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "foot feeling better, standing/dumbbell work fine — still avoiding jumping or single-leg balance work",
+            "activities": [
+              {
+                "title": "Eliminate Fat from the Armpits and Toning Arms Workout with Elastic Bands (FunFit)",
+                "note": "bands",
+                "link": "https://www.youtube.com/watch?v=UuM26K0Qeis"
+              },
+              {
+                "title": "15 min Standing Arm Workout with Dumbbells (fitbymik)",
+                "note": "standing, dumbbells — repeat of Tuesday",
+                "link": "https://www.youtube.com/watch?v=i-Ci1PxwUpY"
+              }
+            ],
+            "totalMinutes": 30
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Oat tortilla, scrambled egg & Edam cheese wrap",
+              "note": "No cooking beyond scrambling egg.",
+              "ingredients": [
+                [
+                  "Oat tortilla",
+                  "1"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Edam cheese slice",
+                  "1"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "Batch B (day 2, leftover): Minced beef & courgette skillet, side salad",
+              "note": "Reheat Thursday's leftover.",
+              "ingredients": [
+                [
+                  "Beef & courgette skillet (leftover)",
+                  "as remaining"
+                ],
+                [
+                  "Mixed salad greens",
+                  "30 g"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Hummus, veg sticks & boiled egg",
+              "note": "No cooking beyond boiling egg.",
+              "ingredients": [
+                [
+                  "Hummus",
+                  "as needed"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Carrot",
+                  "1"
+                ],
+                [
+                  "Eggs",
+                  "1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "training": {
+            "class": "Running or Cycling",
+            "type": "cardio"
+          },
+          "trainingOverrideTemporary": {
+            "reason": "foot feeling better, standing/dumbbell work fine — still avoiding jumping or single-leg balance work",
+            "activities": [
+              {
+                "title": "10 MIN FULL BODY, SLOW & HARD — Floor only, Low Impact (Pamela Reif)",
+                "note": "floor only, no squats/jumps",
+                "link": "https://www.youtube.com/watch?v=DkLISiTHRjU"
+              },
+              {
+                "title": "20 min Standing Dumbbell Workout — Full Body, Sculpt & Strengthen (fitbymik)",
+                "note": "standing, dumbbells — repeat",
+                "link": "https://www.youtube.com/watch?v=Gtr7-Eiirg0"
+              }
+            ],
+            "totalMinutes": 30
+          },
+          "meals": [
+            {
+              "slot": "Breakfast",
+              "light": false,
+              "dish": "Yogurt bowl, berries, almonds & chia",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "0% fat yogurt",
+                  "150 g"
+                ],
+                [
+                  "Berries",
+                  "60 g"
+                ],
+                [
+                  "Almonds",
+                  "15 g"
+                ],
+                [
+                  "Chia seeds",
+                  "1 tbsp"
+                ]
+              ]
+            },
+            {
+              "slot": "Lunch",
+              "light": false,
+              "dish": "White bean, egg & avocado salad, cucumber, pumpkin seeds, lemon dressing",
+              "note": "No cooking beyond boiling eggs.",
+              "ingredients": [
+                [
+                  "White beans (cooked)",
+                  "150 g"
+                ],
+                [
+                  "Eggs",
+                  "2"
+                ],
+                [
+                  "Avocado",
+                  "1/2"
+                ],
+                [
+                  "Cucumber",
+                  "1/4"
+                ],
+                [
+                  "Pumpkin seeds",
+                  "15 g"
+                ],
+                [
+                  "Lemon",
+                  "1/2"
+                ]
+              ]
+            },
+            {
+              "slot": "Dinner",
+              "light": true,
+              "dish": "Edam cheese, rye crackers, cherry tomatoes & cucumber",
+              "note": "No cooking.",
+              "ingredients": [
+                [
+                  "Edam cheese slices",
+                  "2"
+                ],
+                [
+                  "Rye crackers",
+                  "4"
+                ],
+                [
+                  "Cherry tomatoes",
+                  "small handful"
+                ],
+                [
+                  "Cucumber",
+                  "few slices"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "shopping": [
+        {
+          "category": "Produce",
+          "items": [
+            [
+              "Avocado",
+              "1"
+            ],
+            [
+              "Courgette",
+              "2"
+            ],
+            [
+              "Garlic",
+              "4 cloves"
+            ],
+            [
+              "Lemon",
+              "2"
+            ],
+            [
+              "Cucumber",
+              "2"
+            ],
+            [
+              "Carrot",
+              "2"
+            ],
+            [
+              "Kiwi",
+              "1"
+            ],
+            [
+              "Onion",
+              "1"
+            ],
+            [
+              "Tomato",
+              "1"
+            ],
+            [
+              "Potato",
+              "2 medium"
+            ],
+            [
+              "Berries",
+              "180 g"
+            ],
+            [
+              "Cherry tomatoes",
+              "1 small punnet"
+            ],
+            [
+              "Mixed salad greens",
+              "60 g"
+            ]
+          ]
+        },
+        {
+          "category": "Protein",
+          "items": [
+            [
+              "Chicken thighs",
+              "3 pieces (already in freezer, no purchase needed)"
+            ],
+            [
+              "Minced beef",
+              "500 g (already in freezer, no purchase needed)"
+            ],
+            [
+              "Chickpeas (cooked)",
+              "230 g"
+            ],
+            [
+              "White beans (cooked)",
+              "150 g"
+            ],
+            [
+              "Eggs",
+              "9"
+            ]
+          ]
+        },
+        {
+          "category": "Dairy",
+          "items": [
+            [
+              "Kefir",
+              "150 g"
+            ],
+            [
+              "Milk or kefir",
+              "200 ml"
+            ],
+            [
+              "Thick/strained yogurt",
+              "150 g"
+            ],
+            [
+              "0% fat yogurt",
+              "150 g"
+            ],
+            [
+              "Edam cheese slices",
+              "8"
+            ],
+            [
+              "Feta",
+              "40 g"
+            ]
+          ]
+        },
+        {
+          "category": "Pantry",
+          "items": [
+            [
+              "Rice",
+              "150 g"
+            ],
+            [
+              "Rye crackers",
+              "12"
+            ],
+            [
+              "Hummus, small container",
+              "1"
+            ],
+            [
+              "Chia seeds",
+              "5 tbsp"
+            ],
+            [
+              "Almonds",
+              "45 g"
+            ],
+            [
+              "Pumpkin seeds",
+              "30 g"
+            ],
+            [
+              "Oat tortilla",
+              "2"
+            ]
+          ]
+        }
+      ],
+      "notesForNextWeek": "Freezer chicken thighs and minced beef both fully used up this week — restock if wanted again. Courgette used twice (Mon and Thu). No chicken/beef leftover in freezer going into the following week, so plan fresh proteins accordingly."
+    },
+    {
       "id": "2026-W29",
       "label": "13 – 18 July 2026",
       "index": "Week 29",

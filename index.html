@@ -465,6 +465,21 @@ class Component extends DCLogic {
         if (weekIndex === -1) {
           weekIndex = data.weeks.findIndex((w) => weekContainsDate(w, today));
         }
+        if (weekIndex === -1) {
+          // No week's date range covers today (e.g. a week was skipped/never added) —
+          // fall back to the most recently started week rather than an arbitrary array
+          // position, so the page never lands on something stale or out of order.
+          const withMonday = data.weeks
+            .map((w, i) => ({ i, monday: mondayOfIsoWeek(w.id) }))
+            .filter((x) => x.monday)
+            .sort((a, b) => a.monday - b.monday);
+          const started = withMonday.filter((x) => x.monday <= today);
+          if (started.length) {
+            weekIndex = started[started.length - 1].i;
+          } else if (withMonday.length) {
+            weekIndex = withMonday[0].i;
+          }
+        }
         this.setState({ data, week: weekIndex !== -1 ? weekIndex : 0 });
       })
       .catch((err) => console.error('Failed to load data.json', err));
@@ -491,22 +506,21 @@ class Component extends DCLogic {
     const d = this.state.data;
     if (!d) return {};
 
-    // The picker only ever shows up to 3 weeks — the one before today's, today's, and
-    // the one after — in chronological order, regardless of how many weeks are in the
-    // data or which one is currently being viewed.
+    // Standing rule: weeks whose end date is more than 14 days in the past drop out of
+    // the picker on their own — a permanent display-time filter (data.json is untouched)
+    // so nothing needs manual pruning here each week. Current and future weeks always show.
     const today = new Date();
+    const cutoff = new Date(today);
+    cutoff.setDate(cutoff.getDate() - 14);
     const chronological = d.weeks
       .map((w, i) => ({ i, monday: mondayOfIsoWeek(w.id) }))
       .sort((a, b) => (a.monday && b.monday ? a.monday - b.monday : 0));
-    let anchorPos = chronological.findIndex(({ i }) => weekContainsDate(d.weeks[i], today));
-    if (anchorPos === -1) anchorPos = chronological.findIndex(({ i }) => i === this.state.week);
-    if (anchorPos === -1) anchorPos = 0;
-    const visibleIndices = new Set(
-      chronological.slice(Math.max(0, anchorPos - 1), anchorPos + 2).map(({ i }) => i)
-    );
 
     const weeks = chronological
-      .filter(({ i }) => visibleIndices.has(i))
+      .filter(({ i }) => {
+        const end = weekEndDate(d.weeks[i]);
+        return !end || end >= cutoff;
+      })
       .map(({ i }) => {
         const w = d.weeks[i];
         return {
