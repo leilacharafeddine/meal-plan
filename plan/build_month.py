@@ -323,7 +323,7 @@ def phase(cd):
 
 def mealobj(slot, d):
     m = {"slot": slot, "light": d.get("light", False), "dish": d["dish"], "note": d["note"],
-         "equipment": d["equipment"], "ingredients": [[n, qty(a, u)] for n, a, u, c in d["ingredients"]],
+         "equipment": d["equipment"], "ingredients": [[EN.get(n, n), qty(a, u)] for n, a, u, c in d["ingredients"]],
          "steps": d["steps"]}
     ends = [int(re.findall(r"\d+", s["at"])[-1]) for s in d["steps"] if re.findall(r"\d+", s["at"])]
     m["minutes"] = max(ends) if ends else 5
@@ -336,10 +336,9 @@ CATS = OrderedDict([("F", "Fruta y verdura"), ("C", "Carne y pescado"), ("L", "H
 BUYHINT = {"Huevos": "docena", "Ajo": "1 cabeza", "Perejil fresco": "1 manojo", "Menta o eneldo fresco": "1 manojo", "Cebolleta": "1 manojo",
            "Crispbread de centeno (your usual)": "1–2 paquetes", "Ensalada mezclum": "bolsas", "Espinacas baby": "bolsa"}
 
-# English names for the shopping list only — the per-meal ingredient lists and recipe
-# steps stay in Spanish (Mercadona product names, same store); this is purely so the
-# shopping list itself reads in English. Falls back to the Spanish name if a new
-# ingredient is added here and not yet translated, rather than erroring.
+# English display names for ingredients — used in the shopping list, the per-meal
+# ingredient lists and the recipe bottom sheet. Falls back to the Spanish name if a
+# new ingredient is added here and not yet translated, rather than erroring.
 EN = {
     "Aceitunas negras / kalamata": "Black olives / kalamata", "Aceitunas verdes": "Green olives",
     "Aguacate": "Avocado", "Ajo": "Garlic", "Ajo en polvo": "Garlic powder", "Alioli": "Garlic mayo (alioli)",
