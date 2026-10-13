@@ -2,12 +2,13 @@
   "id": "2026-W43",
   "label": "19 – 25 October 2026",
   "index": "Week 43",
-  "tagline": "Ovulation tail into early luteal — colourful, balanced meals Mon–Tue, then grounding carbs and magnesium. Salmon & alioli on Wednesday. New gym timetable: rest Monday, GAP Thursday evening, V-Power Saturday 12:30.",
+  "tagline": "End of ovulation → early luteal. Chicken week. Colourful early, then grounding carbs + magnesium.",
   "cycle": {
     "mode": "natural (practice — currently on the pill)",
-    "anchor": "Day 1 = Mon 5 Oct (bleed Mon–Fri), 28-day cycle",
-    "summary": "Mon–Tue: cycle days 15–16, end of the ovulation window. Wed–Sun: days 17–21, early luteal."
+    "anchor": "Day 1 = Mon 5 Oct 2026, 28-day cycle, bleed Mon–Fri",
+    "summary": "Cycle days 15–21: End of ovulation → early luteal."
   },
+  "soupRule": "Soups only in the bleed week, only smooth blended (cremas) or clear broth with noodles.",
   "days": [
     {
       "day": "Monday",
@@ -19,16 +20,18 @@
       },
       "cycle": {
         "day": 15,
-        "phase": "Ovulation (end of window)",
-        "focus": "Rest day. Colourful fruit & veg, antioxidants, balanced plates."
+        "phase": "Ovulation window",
+        "focus": "Colourful fruit & veg, antioxidants, balanced plates. Highest energy."
       },
       "meals": [
         {
           "slot": "Breakfast",
           "light": false,
-          "minutes": 5,
           "dish": "Greek yoghurt, kiwi, berries, oats & almonds",
-          "note": "No cooking. Rest day — no gym this morning.",
+          "note": "No cooking.",
+          "equipment": [
+            "Bowl"
+          ],
           "ingredients": [
             [
               "Yogur griego natural",
@@ -39,7 +42,7 @@
               "1"
             ],
             [
-              "Frutos rojos (frozen, thawed)",
+              "Frutos rojos",
               "60 g"
             ],
             [
@@ -47,70 +50,63 @@
               "20 g"
             ],
             [
-              "Almendras",
+              "Almendras naturales",
               "15 g"
             ]
           ],
           "steps": [
             {
               "at": "0–5 min",
-              "text": "Spoon yoghurt into a bowl. Top with sliced kiwi, berries, oats and chopped almonds."
+              "text": "Yoghurt in a bowl. Top with sliced kiwi, berries, oats, chopped almonds."
             }
           ],
-          "equipment": [
-            "Bowl"
-          ]
+          "minutes": 5
         },
         {
           "slot": "Lunch",
           "light": false,
-          "minutes": 20,
           "dish": "Chicken souvlaki rice, peppers, cucumber & tzatziki",
-          "note": "Cook 2 portions of chicken (Tuesday dinner wrap) and 2 of rice (Tuesday lunch).",
-          "recipeRef": "chicken-souvlaki-rice",
-          "swaps": [
-            "No raw tomato — cucumber and pepper instead."
+          "note": "Cook ×2 — tomorrow's lunch is the second portion.",
+          "equipment": [
+            "Rice cooker",
+            "Air fryer"
           ],
           "ingredients": [
             [
-              "Pechuga de pollo (filetes)",
-              "360 g (2 portions)"
+              "Pechuga de pollo en filetes",
+              "360 g"
             ],
             [
               "Arroz basmati",
-              "150 g (2 portions)"
+              "150 g"
             ],
             [
               "Limón",
-              "½"
+              "1"
             ],
             [
-              "Orégano seco",
+              "Orégano",
               "1 tsp"
             ],
             [
               "Ajo",
-              "1 clove"
-            ],
-            [
-              "Aceite de oliva",
-              "1 tbsp"
+              "2 cloves"
             ],
             [
               "Pimiento rojo",
-              "½"
+              "1"
             ],
             [
               "Pepino",
-              "¼"
+              "½"
             ],
             [
               "Salsa tzatziki",
-              "3 tbsp"
+              "6 tbsp"
             ],
             [
-              "Side salad",
-              "1 handful"
+              "Ensalada mezclum",
+              "2 handfuls"
             ]
           ],
           "steps": [
@@ -120,40 +116,43 @@
             },
             {
               "at": "2–5 min",
-              "text": "Cube all the chicken. Mix with oil, lemon juice, oregano, grated garlic and salt."
+              "text": "Cube chicken. Mix with 1 tbsp oil, lemon juice, oregano, grated garlic, salt."
             },
             {
               "at": "5–17 min",
               "text": "Air fryer, 200°C, 12 min. Shake halfway."
             },
             {
-              "at": "5–11 min",
-              "text": "Slice pepper into strips; add to the air fryer for the last 6 min. Dice cucumber."
+              "at": "11–17 min",
+              "text": "Pepper strips into the drawer for the last 6 min. Dice cucumber."
             },
             {
               "at": "17–20 min",
-              "text": "Plate half the rice, half the chicken, pepper, cucumber, tzatziki, salad. Box the rest of the rice and chicken."
+              "text": "Plate half: rice, chicken, pepper, cucumber, tzatziki, salad. Box the other half for tomorrow."
             }
           ],
-          "equipment": [
-            "Rice cooker",
-            "Air fryer"
-          ]
+          "minutes": 20,
+          "swaps": [
+            "No raw tomato — cucumber and roasted pepper instead."
+          ],
+          "recipeRef": "chicken-souvlaki-rice"
         },
         {
           "slot": "Dinner",
           "light": true,
-          "minutes": 10,
-          "dish": "Falafel, hummus & cucumber plate with side salad",
-          "note": "Air fryer. Quick and light.",
+          "dish": "Hummus, rye crispbread, cucumber & carrot sticks, olives",
+          "note": "Light plate. No cooking.",
+          "equipment": [
+            "Plate"
+          ],
           "ingredients": [
             [
-              "Falafel (refrigerated)",
-              "5"
+              "Hummus",
+              "4 tbsp"
             ],
             [
-              "Hummus",
-              "3 tbsp"
+              "Crispbread de centeno (your usual)",
+              "3 pieces"
             ],
             [
               "Pepino",
@@ -164,31 +163,17 @@
               "1"
             ],
             [
-              "Ensalada mezclum",
-              "1 handful"
-            ],
-            [
-              "Limón",
-              "squeeze"
+              "Aceitunas verdes",
+              "8"
             ]
           ],
           "steps": [
             {
-              "at": "0–8 min",
-              "text": "Air fryer, 190°C, 8 min for the falafel."
-            },
-            {
               "at": "0–5 min",
-              "text": "Cut cucumber and carrot into sticks. Dress salad with lemon and oil."
-            },
-            {
-              "at": "8–10 min",
-              "text": "Plate falafel, hummus, veg sticks and salad."
+              "text": "Cut cucumber and carrot into sticks. Plate with hummus, crispbread, olives."
             }
           ],
-          "equipment": [
-            "Air fryer"
-          ]
+          "minutes": 5
         }
       ]
     },
@@ -202,20 +187,27 @@
       },
       "cycle": {
         "day": 16,
-        "phase": "Ovulation (end of window)",
-        "focus": "Vitamin C + iron-rich protein; high-energy day."
+        "phase": "Ovulation window",
+        "focus": "Colourful fruit & veg, antioxidants, balanced plates. Highest energy."
       },
       "meals": [
         {
           "slot": "Breakfast",
           "light": false,
-          "minutes": 8,
-          "dish": "Scrambled eggs with spinach on rye toast, kiwi",
+          "dish": "Mushroom & spinach scrambled eggs on rye",
           "note": "Ten minutes.",
+          "equipment": [
+            "Air fryer (toast)",
+            "Frying pan"
+          ],
           "ingredients": [
             [
               "Huevos",
               "2"
+            ],
+            [
+              "Champiñón laminado",
+              "60 g"
             ],
             [
               "Espinacas baby",
@@ -228,153 +220,92 @@
             [
               "Mantequilla",
               "5 g"
-            ],
-            [
-              "Kiwi",
-              "1"
-            ]
-          ],
-          "steps": [
-            {
-              "at": "0–2 min",
-              "text": "Air fryer, 200°C, 3 min for the bread. Melt butter in a pan on medium-low."
-            },
-            {
-              "at": "2–4 min",
-              "text": "Wilt the spinach in the pan, 1 min."
-            },
-            {
-              "at": "4–8 min",
-              "text": "Add beaten eggs. Stir slowly until just set. Season. Serve on toast with kiwi."
-            }
-          ],
-          "equipment": [
-            "Air fryer (toast)",
-            "Frying pan"
-          ]
-        },
-        {
-          "slot": "Lunch",
-          "light": false,
-          "minutes": 20,
-          "dish": "Steak fajita rice with peppers & onion",
-          "note": "Steak + peppers = iron with vitamin C. Uses Monday's rice.",
-          "recipeRef": "steak-fajita-rice",
-          "swaps": [
-            "Mild seasoning: sweet paprika, garlic, oregano. No chilli, no cumin.",
-            "Parsley instead of coriander."
-          ],
-          "ingredients": [
-            [
-              "Filete de ternera (añojo)",
-              "150 g"
-            ],
-            [
-              "Pimentón dulce",
-              "1 tsp"
-            ],
-            [
-              "Ajo en polvo",
-              "½ tsp"
-            ],
-            [
-              "Orégano",
-              "½ tsp"
-            ],
-            [
-              "Lima",
-              "1"
-            ],
-            [
-              "Aceite de oliva",
-              "1 tbsp"
-            ],
-            [
-              "Pimientos (tricolor)",
-              "1"
-            ],
-            [
-              "Cebolla roja",
-              "½"
-            ],
-            [
-              "Leftover rice (Monday)",
-              "1 portion"
-            ],
-            [
-              "Perejil",
-              "small handful"
             ]
           ],
           "steps": [
             {
               "at": "0–3 min",
-              "text": "Mix paprika, garlic powder, oregano, salt, ½ lime juice and oil. Coat the steak."
+              "text": "Air fryer, 200°C, 3 min for the bread."
             },
             {
-              "at": "3–10 min",
-              "text": "Slice pepper and onion. Fry in a hot pan 6 min until charred. Set aside."
+              "at": "0–4 min",
+              "text": "Butter in pan, medium-high. Fry mushrooms 3 min until golden."
             },
             {
-              "at": "10–16 min",
-              "text": "High heat. Sear steak 2–3 min per side. Rest 3 min."
+              "at": "4–5 min",
+              "text": "Add spinach. Wilt 1 min."
             },
             {
-              "at": "16–18 min",
-              "text": "Microwave leftover rice 1½ min, covered, splash of water."
-            },
-            {
-              "at": "18–20 min",
-              "text": "Slice steak thin. Plate rice, veg, steak. Squeeze lime, add parsley."
+              "at": "5–9 min",
+              "text": "Lower heat. Add beaten eggs. Stir slowly until just set. Season. Serve on the toast."
             }
           ],
+          "minutes": 9
+        },
+        {
+          "slot": "Lunch",
+          "light": false,
+          "dish": "Chicken souvlaki rice, peppers, cucumber & tzatziki (leftover)",
+          "note": "Second portion of yesterday's lunch.",
           "equipment": [
-            "Frying pan",
             "Microwave"
-          ]
+          ],
+          "ingredients": [],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Microwave 2½–3 min, covered, stir halfway (pasta: add a splash of water)."
+            },
+            {
+              "at": "3–5 min",
+              "text": "Plate with a handful of salad leaves."
+            }
+          ],
+          "minutes": 5,
+          "recipeRef": "chicken-souvlaki-rice"
         },
         {
           "slot": "Dinner",
           "light": true,
-          "minutes": 5,
-          "dish": "Leftover chicken wrap with tzatziki & cucumber",
-          "note": "Uses Monday's chicken. No cooking.",
+          "dish": "Labneh with za'atar & olive oil, cucumber, olives, pitta",
+          "note": "Light plate. No cooking.",
+          "equipment": [
+            "Plate",
+            "Frying pan (warm pitta)"
+          ],
           "ingredients": [
             [
-              "Leftover souvlaki chicken",
-              "1 portion"
+              "Labneh",
+              "4 tbsp"
             ],
             [
-              "Tortilla de trigo / pan de pita",
-              "1"
-            ],
-            [
-              "Salsa tzatziki",
-              "2 tbsp"
+              "Za'atar",
+              "1 tsp"
             ],
             [
               "Pepino",
               "¼"
             ],
             [
-              "Ensalada mezclum",
-              "1 handful"
+              "Aceitunas verdes",
+              "8"
+            ],
+            [
+              "Pan de pita",
+              "1"
             ]
           ],
           "steps": [
             {
               "at": "0–2 min",
-              "text": "Microwave chicken 1 min. Warm the wrap in a dry pan 30 s per side."
+              "text": "Warm pitta in a dry pan, 30 s per side. Cut into triangles."
             },
             {
               "at": "2–5 min",
-              "text": "Spread tzatziki, add leaves, cucumber, chicken. Roll."
+              "text": "Labneh on a plate. Olive oil + za'atar on top. Add cucumber and olives."
             }
           ],
-          "equipment": [
-            "Frying pan",
-            "Microwave"
-          ]
+          "minutes": 5
         }
       ]
     },
@@ -389,15 +320,17 @@
       "cycle": {
         "day": 17,
         "phase": "Luteal (early)",
-        "focus": "Complex carbs, magnesium, grounding meals."
+        "focus": "Complex carbs, magnesium, grounding meals. Steady blood sugar."
       },
       "meals": [
         {
           "slot": "Breakfast",
           "light": false,
-          "minutes": 5,
           "dish": "Cocoa overnight oats with kefir, banana & almonds",
-          "note": "Make Tuesday night. Oats, cocoa and almonds = magnesium.",
+          "note": "Make the night before.",
+          "equipment": [
+            "Jar (fridge overnight)"
+          ],
           "ingredients": [
             [
               "Copos de avena",
@@ -408,11 +341,11 @@
               "150 ml"
             ],
             [
-              "Yogur griego",
-              "2 tbsp"
+              "Yogur griego natural",
+              "30 g"
             ],
             [
-              "Cacao puro en polvo",
+              "Cacao puro",
               "1 tsp"
             ],
             [
@@ -420,146 +353,139 @@
               "½"
             ],
             [
-              "Almendras",
+              "Almendras naturales",
               "15 g"
             ]
           ],
           "steps": [
             {
               "at": "Night before",
-              "text": "Mix oats, kefir, yoghurt and cocoa in a jar. Fridge overnight."
+              "text": "Mix oats, kefir, yoghurt, cocoa in a jar. Fridge."
             },
             {
               "at": "0–3 min",
               "text": "Top with sliced banana and chopped almonds."
             }
           ],
-          "equipment": [
-            "Jar (fridge overnight)"
-          ]
+          "minutes": 3
         },
         {
           "slot": "Lunch",
           "light": false,
-          "minutes": 22,
-          "dish": "Salmon with alioli, baby potatoes & green beans",
-          "note": "Your favourite. Cook 2 salmon fillets — the second is Thursday's dinner.",
+          "dish": "Beef meatballs in tomato-mushroom sauce, spaghetti",
+          "note": "Cook ×2 — tomorrow's lunch is the second portion.",
+          "equipment": [
+            "Frying pan with lid",
+            "Large pot"
+          ],
           "ingredients": [
             [
-              "Lomos de salmón",
-              "2 (≈250 g)"
-            ],
-            [
-              "Patata baby / patata pequeña",
+              "Carne picada de ternera",
               "250 g"
             ],
             [
-              "Judías verdes",
-              "100 g"
+              "Champiñón laminado",
+              "200 g"
             ],
             [
-              "Alioli",
-              "1 tbsp"
+              "Ajo",
+              "2 cloves"
             ],
             [
-              "Limón",
-              "½"
+              "Pan rallado",
+              "2 tbsp"
             ],
             [
-              "Perejil",
-              "pinch"
+              "Huevos",
+              "1"
             ],
             [
-              "Aceite de oliva",
-              "1 tbsp"
+              "Perejil fresco",
+              "1 handful"
+            ],
+            [
+              "Tomate triturado",
+              "400 g"
+            ],
+            [
+              "Espaguetis",
+              "180 g"
+            ],
+            [
+              "Parmesano rallado",
+              "30 g"
+            ],
+            [
+              "Ensalada mezclum",
+              "2 handfuls"
             ]
           ],
           "steps": [
             {
-              "at": "0–3 min",
-              "text": "Halve the potatoes. Toss with oil and salt."
+              "at": "0–4 min",
+              "text": "Mix mince, 1 grated garlic clove, breadcrumbs, egg, parsley, salt. Roll 16 small balls. Put pasta water on."
             },
             {
-              "at": "3–21 min",
-              "text": "Air fryer, 200°C, 18 min. Shake at 9 min."
+              "at": "4–9 min",
+              "text": "1 tbsp oil, medium-high. Brown meatballs all over, 5 min."
             },
             {
-              "at": "11–21 min",
-              "text": "At 11 min: add both salmon fillets (skin down, salted) and the green beans. Cook the last 10 min together."
+              "at": "9–12 min",
+              "text": "Add mushrooms and the other garlic clove. Cook 3 min."
             },
             {
-              "at": "21–22 min",
-              "text": "Plate 1 salmon, potatoes, beans. Big spoon of alioli, lemon, parsley. Fridge the 2nd fillet."
+              "at": "12–22 min",
+              "text": "Add tomato. Lid on. Simmer 10 min. Cook spaghetti meanwhile."
+            },
+            {
+              "at": "22–24 min",
+              "text": "Plate half with parmesan and salad. Box the other half."
             }
           ],
-          "equipment": [
-            "Air fryer"
-          ]
+          "minutes": 24,
+          "recipeRef": "spaghetti-meatballs"
         },
         {
           "slot": "Dinner",
           "light": true,
-          "minutes": 18,
-          "dish": "Kale green sauce rigatoni with white beans",
-          "note": "Light. Kale + beans = magnesium, folate, iron.",
-          "recipeRef": "kale-rigatoni",
-          "swaps": [
-            "No chilli.",
-            "White beans added for protein."
+          "dish": "Falafel, hummus & salad leaves",
+          "note": "Light plate.",
+          "equipment": [
+            "Air fryer"
           ],
           "ingredients": [
             [
-              "Rigatoni / macarrones",
-              "80 g"
+              "Falafel",
+              "4"
             ],
             [
-              "Kale",
-              "100 g"
+              "Hummus",
+              "3 tbsp"
             ],
             [
-              "Ajo",
-              "1 clove"
-            ],
-            [
-              "Aceite de oliva",
-              "1½ tbsp"
+              "Ensalada mezclum",
+              "1 handful"
             ],
             [
               "Limón",
-              "½"
-            ],
-            [
-              "Parmesano rallado",
-              "15 g"
-            ],
-            [
-              "Alubias blancas cocidas (bote)",
-              "100 g"
+              "¼"
             ]
           ],
           "steps": [
             {
-              "at": "0–2 min",
-              "text": "Boil salted water. Gently fry the garlic in the oil until golden. Tip into a tall jug."
+              "at": "0–8 min",
+              "text": "Air fryer, 190°C, 8 min for the falafel."
             },
             {
-              "at": "2–6 min",
-              "text": "Blanch kale 3 min. Lift into the jug with a splash of water. Add lemon and salt. Blitz with the hand blender until smooth."
+              "at": "0–3 min",
+              "text": "Dress leaves with lemon and oil."
             },
             {
-              "at": "6–16 min",
-              "text": "Cook pasta in the same water. Add rinsed beans for the last 2 min."
-            },
-            {
-              "at": "16–18 min",
-              "text": "Drain. Stir in kale sauce and parmesan."
+              "at": "8–9 min",
+              "text": "Plate falafel, hummus, salad."
             }
           ],
-          "equipment": [
-            "Large pot",
-            "Small pan",
-            "Hand blender + tall jug"
-          ]
+          "minutes": 9
         }
       ]
     },
@@ -574,15 +500,17 @@
       "cycle": {
         "day": 18,
         "phase": "Luteal (early)",
-        "focus": "Steady blood sugar; snack before the evening class, protein dinner after."
+        "focus": "Complex carbs, magnesium, grounding meals. Steady blood sugar."
       },
       "meals": [
         {
           "slot": "Breakfast",
           "light": false,
-          "minutes": 5,
           "dish": "Cottage cheese & avocado rye toast, pumpkin seeds",
-          "note": "Five minutes. No gym this morning (GAP is tonight).",
+          "note": "Five minutes.",
+          "equipment": [
+            "Air fryer (toast)"
+          ],
           "ingredients": [
             [
               "Pan de centeno",
@@ -598,106 +526,52 @@
             ],
             [
               "Pipas de calabaza",
-              "1 tbsp"
+              "10 g"
             ],
             [
               "Limón",
-              "squeeze"
+              "¼"
             ]
           ],
           "steps": [
             {
-              "at": "0–5 min",
-              "text": "Air fryer, 200°C, 3 min for the bread. Mash avocado with lemon and salt. Spread, top with cottage cheese and pumpkin seeds."
+              "at": "0–3 min",
+              "text": "Air fryer, 200°C, 3 min for the bread."
+            },
+            {
+              "at": "3–5 min",
+              "text": "Mash avocado with lemon and salt. Spread. Top with cottage cheese and pumpkin seeds."
             }
           ],
-          "equipment": [
-            "Air fryer (toast)"
-          ]
+          "minutes": 5
         },
         {
           "slot": "Lunch",
           "light": false,
-          "minutes": 23,
-          "dish": "Spaghetti & beef meatballs + side salad",
-          "note": "Double batch — the second portion is Saturday's dinner. Also start rice for tonight and tomorrow.",
-          "recipeRef": "spaghetti-meatballs",
-          "ingredients": [
-            [
-              "Carne picada de ternera",
-              "250 g (2 portions)"
-            ],
-            [
-              "Ajo",
-              "2 cloves"
-            ],
-            [
-              "Pan rallado",
-              "2 tbsp"
-            ],
-            [
-              "Huevo",
-              "1"
-            ],
-            [
-              "Perejil",
-              "small handful"
-            ],
-            [
-              "Tomate triturado",
-              "400 g"
-            ],
-            [
-              "Espaguetis",
-              "90 g"
-            ],
-            [
-              "Parmesano rallado",
-              "15 g"
-            ],
-            [
-              "Aceite de oliva",
-              "1 tbsp"
-            ],
-            [
-              "Arroz basmati",
-              "150 g (for Thu dinner + Fri lunch)"
-            ]
+          "dish": "Beef meatballs in tomato-mushroom sauce, spaghetti (leftover)",
+          "note": "Second portion of yesterday's lunch.",
+          "equipment": [
+            "Microwave"
           ],
+          "ingredients": [],
           "steps": [
             {
-              "at": "0–1 min",
-              "text": "Rinse 150 g rice. Rice cooker, 300 ml water, pinch of salt. Start."
+              "at": "0–3 min",
+              "text": "Microwave 2½–3 min, covered, stir halfway (pasta: add a splash of water)."
             },
             {
-              "at": "0–4 min",
-              "text": "Mix mince, half the garlic, breadcrumbs, egg, parsley, salt. Roll 16 small balls."
-            },
-            {
-              "at": "4–9 min",
-              "text": "Brown the meatballs in the oil, 5 min."
-            },
-            {
-              "at": "9–21 min",
-              "text": "Add rest of garlic and the tomato. Cover. Simmer 12 min. Boil spaghetti at the same time."
-            },
-            {
-              "at": "21–23 min",
-              "text": "Serve half over spaghetti with parmesan. Box the other half."
+              "at": "3–5 min",
+              "text": "Plate with a handful of salad leaves."
             }
           ],
-          "equipment": [
-            "Rice cooker",
-            "Frying pan with lid",
-            "Large pot"
-          ]
+          "minutes": 5,
+          "recipeRef": "spaghetti-meatballs"
         },
         {
           "slot": "Snack",
           "light": true,
-          "minutes": 3,
           "dish": "Pre-GAP snack: Greek yoghurt, banana & almonds",
-          "note": "Around 18:00, before the evening class. Carbs for energy + a little protein.",
+          "note": "~18:00, before the evening class.",
           "equipment": [
             "Bowl"
           ],
@@ -711,67 +585,59 @@
               "1"
             ],
             [
-              "Almendras",
+              "Almendras naturales",
               "10 g"
-            ],
-            [
-              "Miel",
-              "drizzle"
             ]
           ],
           "steps": [
             {
               "at": "0–3 min",
-              "text": "Slice banana into the yoghurt. Top with almonds and honey."
+              "text": "Slice banana into yoghurt. Almonds on top."
             }
-          ]
+          ],
+          "minutes": 3
         },
         {
           "slot": "Dinner",
-          "light": false,
-          "minutes": 5,
-          "dish": "Post-GAP salmon bowl — rice, cucumber, feta, cherry tomatoes",
-          "note": "After GAP. Uses Wednesday's salmon — protein + carbs, ready in 5 min.",
-          "recipeRef": "mediterranean-salmon-bowl",
+          "light": true,
+          "dish": "After GAP: labneh, 2 boiled eggs, cucumber, rye crispbread",
+          "note": "Light but protein-forward after the evening class.",
+          "equipment": [
+            "Small pot"
+          ],
           "ingredients": [
             [
-              "Leftover salmon",
-              "1 fillet"
+              "Huevos",
+              "2"
             ],
             [
-              "Rice (from today's rice cooker)",
-              "1 generous portion"
+              "Labneh",
+              "4 tbsp"
+            ],
+            [
+              "Za'atar",
+              "1 tsp"
             ],
             [
               "Pepino",
               "¼"
             ],
             [
-              "Tomate cherry",
-              "5"
-            ],
-            [
-              "Queso feta",
-              "30 g"
-            ],
-            [
-              "Limón + aceite",
-              "dressing"
+              "Crispbread de centeno (your usual)",
+              "3 pieces"
             ]
           ],
           "steps": [
             {
-              "at": "0–2 min",
-              "text": "Microwave rice 1½ min, covered, splash of water."
+              "at": "0–8 min",
+              "text": "Boil eggs 8 min. Cool in cold water. (Or boil them before class.)"
             },
             {
-              "at": "2–5 min",
-              "text": "Flake salmon. Add cucumber, halved tomatoes, feta. Dress with lemon and oil."
+              "at": "8–10 min",
+              "text": "Labneh + olive oil + za'atar. Plate with halved eggs, cucumber, crispbread."
             }
           ],
-          "equipment": [
-            "Microwave"
-          ]
+          "minutes": 10
         }
       ]
     },
@@ -782,27 +648,29 @@
         "class": "Cycling or GAP",
         "type": "cardio",
         "time": "Morning",
-        "note": "If you pick GAP, it counts as strength — lunch has ~33 g protein to cover it."
+        "note": "Pick GAP if you feel strong — lunch has enough protein for it."
       },
       "cycle": {
         "day": 19,
-        "phase": "Luteal",
-        "focus": "Magnesium (tofu, seeds, greens), complex carbs."
+        "phase": "Luteal (early)",
+        "focus": "Complex carbs, magnesium, grounding meals. Steady blood sugar."
       },
       "meals": [
         {
           "slot": "Breakfast",
           "light": false,
-          "minutes": 5,
           "dish": "Berry, spinach & kefir smoothie + almonds",
           "note": "Five minutes.",
+          "equipment": [
+            "Hand blender + tall jug"
+          ],
           "ingredients": [
             [
               "Kéfir",
               "250 ml"
             ],
             [
-              "Frutos rojos congelados",
+              "Frutos rojos",
               "80 g"
             ],
             [
@@ -818,149 +686,122 @@
               "20 g"
             ],
             [
-              "Almendras",
+              "Almendras naturales",
               "15 g"
             ]
           ],
           "steps": [
             {
               "at": "0–5 min",
-              "text": "Put everything except almonds in a tall jug. Blitz with the hand blender. Eat almonds on the side."
+              "text": "Everything except almonds in a tall jug. Blitz with the hand blender. Almonds on the side."
             }
           ],
-          "equipment": [
-            "Hand blender + tall jug"
-          ]
+          "minutes": 5
         },
         {
           "slot": "Lunch",
           "light": false,
-          "minutes": 22,
-          "dish": "Crispy honey-soy tofu rice bowl",
-          "note": "Tofu = magnesium + iron. Whole tofu pack + a soft-boiled egg ≈ 33 g protein, in case you choose GAP. Uses Thursday's rice.",
-          "recipeRef": "crispy-tofu-bowl",
-          "swaps": [
-            "No chilli — honey-soy glaze."
+          "dish": "Creamy chicken, mushroom & spinach pasta",
+          "note": "Cook ×2 — Saturday's post-V-Power lunch is the second portion.",
+          "equipment": [
+            "Large pot",
+            "Large frying pan"
           ],
           "ingredients": [
             [
-              "Tofu firme",
-              "250 g (whole pack)"
+              "Pechuga de pollo en filetes",
+              "300 g"
             ],
             [
-              "Maicena",
-              "1 tbsp"
+              "Champiñón laminado",
+              "200 g"
             ],
             [
-              "Salsa de soja",
-              "1½ tbsp"
+              "Espinacas baby",
+              "80 g"
             ],
             [
-              "Miel",
-              "1 tbsp"
+              "Ajo",
+              "2 cloves"
             ],
             [
-              "Vinagre de arroz o de manzana",
-              "1 tsp"
+              "Nata para cocinar ligera",
+              "200 ml"
             ],
             [
-              "Leftover rice (Thursday)",
-              "1 portion"
+              "Parmesano rallado",
+              "30 g"
+            ],
+            [
+              "Macarrones / pasta corta",
+              "160 g"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–2 min",
+              "text": "Boil salted water. Cut chicken into bite-size pieces. Season."
+            },
+            {
+              "at": "2–13 min",
+              "text": "Cook pasta per packet (~11 min). Keep a mug of pasta water."
+            },
+            {
+              "at": "2–8 min",
+              "text": "1 tbsp oil, high. Fry chicken 6 min until golden and cooked."
+            },
+            {
+              "at": "8–12 min",
+              "text": "Add mushrooms 4 min. Add grated garlic 30 s."
+            },
+            {
+              "at": "12–16 min",
+              "text": "Pour in cream. Simmer 2 min. Stir in spinach until wilted. Add parmesan."
+            },
+            {
+              "at": "16–18 min",
+              "text": "Add pasta + a splash of pasta water. Plate half. Box the other half."
+            }
+          ],
+          "minutes": 18
+        },
+        {
+          "slot": "Dinner",
+          "light": true,
+          "dish": "Smoked salmon & cream cheese on rye crispbread, cucumber",
+          "note": "Light plate. No cooking.",
+          "equipment": [
+            "Plate"
+          ],
+          "ingredients": [
+            [
+              "Salmón ahumado",
+              "60 g"
+            ],
+            [
+              "Queso crema",
+              "2 tbsp"
+            ],
+            [
+              "Crispbread de centeno (your usual)",
+              "3 pieces"
             ],
             [
               "Pepino",
               "¼"
             ],
             [
-              "Cebolleta",
-              "1"
-            ],
-            [
-              "Sésamo",
-              "1 tsp"
-            ],
-            [
-              "Huevo",
-              "1"
+              "Limón",
+              "¼"
             ]
           ],
           "steps": [
             {
-              "at": "0–4 min",
-              "text": "Pat tofu dry. Cube. Toss with cornflour and salt."
-            },
-            {
-              "at": "4–18 min",
-              "text": "Air fryer, 200°C, 14 min. Shake twice."
-            },
-            {
-              "at": "5–12 min",
-              "text": "Boil the egg 7 min. Cool in cold water."
-            },
-            {
-              "at": "12–14 min",
-              "text": "Mix soy, honey, vinegar. Slice cucumber and spring onion."
-            },
-            {
-              "at": "18–20 min",
-              "text": "Toss hot tofu in the sauce. Microwave rice 1½ min, covered."
-            },
-            {
-              "at": "20–22 min",
-              "text": "Plate rice, tofu, cucumber, halved egg. Top with sesame and spring onion."
+              "at": "0–5 min",
+              "text": "Spread cream cheese on crispbread. Top with salmon, cucumber slices, lemon, black pepper."
             }
           ],
-          "equipment": [
-            "Air fryer",
-            "Small pot",
-            "Microwave"
-          ]
-        },
-        {
-          "slot": "Dinner",
-          "light": true,
-          "minutes": 9,
-          "dish": "Spinach & feta omelette with side salad",
-          "note": "Ten minutes.",
-          "ingredients": [
-            [
-              "Huevos",
-              "2"
-            ],
-            [
-              "Espinacas baby",
-              "1 handful"
-            ],
-            [
-              "Queso feta",
-              "20 g"
-            ],
-            [
-              "Ensalada mezclum",
-              "1 handful"
-            ],
-            [
-              "Aceite de oliva",
-              "1 tsp"
-            ]
-          ],
-          "steps": [
-            {
-              "at": "0–2 min",
-              "text": "Wilt spinach in the oil, 1 min."
-            },
-            {
-              "at": "2–7 min",
-              "text": "Pour in beaten eggs. Cook on medium 3–4 min. Crumble feta on one half. Fold."
-            },
-            {
-              "at": "7–9 min",
-              "text": "Serve with dressed salad."
-            }
-          ],
-          "equipment": [
-            "Frying pan"
-          ]
+          "minutes": 5
         }
       ]
     },
@@ -974,16 +815,19 @@
       },
       "cycle": {
         "day": 20,
-        "phase": "Luteal",
-        "focus": "Fuel before V-Power at 12:30; protein + root veg after."
+        "phase": "Luteal (early)",
+        "focus": "Complex carbs, magnesium, grounding meals. Steady blood sugar."
       },
       "meals": [
         {
           "slot": "Breakfast",
           "light": false,
-          "minutes": 9,
           "dish": "Two eggs, avocado & rye toast, small side salad",
-          "note": "Eat by ~10:30 so it settles before V-Power at 12:30.",
+          "note": "Ten minutes.",
+          "equipment": [
+            "Small pot",
+            "Air fryer (toast)"
+          ],
           "ingredients": [
             [
               "Huevos",
@@ -1005,143 +849,85 @@
           "steps": [
             {
               "at": "0–7 min",
-              "text": "Boil eggs 7 min (jammy) or fry."
+              "text": "Boil eggs 7 min (jammy)."
             },
             {
-              "at": "0–5 min",
-              "text": "Air fryer, 200°C, 3 min for the bread. Slice avocado. Dress salad."
+              "at": "0–3 min",
+              "text": "Air fryer, 200°C, 3 min for the bread."
+            },
+            {
+              "at": "3–7 min",
+              "text": "Slice avocado. Dress salad with oil and lemon."
             },
             {
               "at": "7–9 min",
-              "text": "Peel eggs. Plate together."
+              "text": "Cool and peel eggs. Plate everything."
             }
           ],
-          "equipment": [
-            "Small pot",
-            "Air fryer (toast)"
-          ]
+          "minutes": 9
         },
         {
           "slot": "Lunch",
           "light": false,
-          "minutes": 30,
-          "dish": "Lemon herb halloumi bowl, roasted sweet potato, hummus & red cabbage slaw",
-          "note": "After V-Power (~14:00). Chickpeas + yoghurt drizzle push protein to ~35 g. Uses half the halloumi — the rest is Sunday dinner.",
-          "recipeRef": "lemon-herb-halloumi-bowl",
-          "swaps": [
-            "Peri peri → lemon, oregano, sweet paprika.",
-            "No chilli. Parsley instead of coriander."
+          "dish": "Creamy chicken, mushroom & spinach pasta (leftover)",
+          "note": "Second portion of yesterday's lunch.",
+          "equipment": [
+            "Microwave"
           ],
-          "ingredients": [
-            [
-              "Boniato",
-              "1 medium"
-            ],
-            [
-              "Garbanzos cocidos (bote)",
-              "100 g"
-            ],
-            [
-              "Halloumi",
-              "110 g (half pack)"
-            ],
-            [
-              "Miel",
-              "1 tsp"
-            ],
-            [
-              "Limón",
-              "1"
-            ],
-            [
-              "Orégano",
-              "1 tsp"
-            ],
-            [
-              "Pimentón dulce",
-              "½ tsp"
-            ],
-            [
-              "Lombarda",
-              "75 g"
-            ],
-            [
-              "Cebolleta",
-              "1"
-            ],
-            [
-              "Hummus",
-              "3 tbsp"
-            ],
-            [
-              "Pan de pita",
-              "1"
-            ],
-            [
-              "Perejil, sésamo",
-              "to top"
-            ],
-            [
-              "Yogur griego",
-              "2 tbsp"
-            ]
-          ],
+          "ingredients": [],
           "steps": [
             {
               "at": "0–3 min",
-              "text": "Cube sweet potato. Toss with drained chickpeas, oil, ½ lemon juice, oregano, paprika, salt."
+              "text": "Microwave 2½–3 min, covered, stir halfway (pasta: add a splash of water)."
             },
             {
-              "at": "3–23 min",
-              "text": "Air fryer, 200°C, 20 min. Shake at 10 min."
-            },
-            {
-              "at": "8–12 min",
-              "text": "Shred cabbage, slice spring onion. Toss with lemon and salt."
-            },
-            {
-              "at": "20–27 min",
-              "text": "Slice halloumi. Fry 2–3 min per side. Brush with honey + lemon zest, 1 more min."
-            },
-            {
-              "at": "27–30 min",
-              "text": "Warm pitta. Hummus in bowl, add sweet potato + chickpeas, slaw, halloumi, a spoon of yoghurt, parsley, sesame."
+              "at": "3–5 min",
+              "text": "Plate with a handful of salad leaves."
             }
           ],
-          "equipment": [
-            "Air fryer",
-            "Frying pan"
-          ]
+          "minutes": 5
         },
         {
           "slot": "Dinner",
           "light": true,
-          "minutes": 5,
-          "dish": "Leftover meatballs in tomato with a big green salad",
-          "note": "Uses Thursday's meatballs. No pasta — keeps it light.",
+          "dish": "Feta, olives, roasted pepper & rye crispbread",
+          "note": "Light plate. No cooking.",
+          "equipment": [
+            "Plate"
+          ],
           "ingredients": [
             [
-              "Leftover meatballs + sauce",
-              "1 portion"
+              "Queso feta",
+              "50 g"
             ],
             [
-              "Ensalada mezclum",
-              "2 handfuls"
+              "Aceitunas negras / kalamata",
+              "8"
             ],
             [
-              "Parmesano",
-              "pinch"
+              "Pimiento asado (bote)",
+              "½"
+            ],
+            [
+              "Pepino",
+              "¼"
+            ],
+            [
+              "Crispbread de centeno (your usual)",
+              "3 pieces"
+            ],
+            [
+              "Orégano",
+              "1 pinch"
             ]
           ],
           "steps": [
             {
-              "at": "0–4 min",
-              "text": "Microwave meatballs 3 min, stir halfway. Serve with dressed salad and parmesan."
+              "at": "0–5 min",
+              "text": "Plate feta (olive oil + oregano on top), olives, pepper strips, cucumber, crispbread."
             }
           ],
-          "equipment": [
-            "Microwave"
-          ]
+          "minutes": 5
         }
       ]
     },
@@ -1155,16 +941,19 @@
       },
       "cycle": {
         "day": 21,
-        "phase": "Luteal",
-        "focus": "Warm, comforting, magnesium. Rest."
+        "phase": "Luteal (early)",
+        "focus": "Complex carbs, magnesium, grounding meals. Steady blood sugar."
       },
       "meals": [
         {
           "slot": "Breakfast",
           "light": false,
-          "minutes": 17,
           "dish": "Banana-oat pancakes, Greek yoghurt & kiwi",
-          "note": "After your run — carbs + protein to refuel.",
+          "note": "After your run.",
+          "equipment": [
+            "Hand blender + tall jug",
+            "Non-stick frying pan"
+          ],
           "ingredients": [
             [
               "Plátano",
@@ -1179,8 +968,8 @@
               "40 g"
             ],
             [
-              "Yogur griego",
-              "3 tbsp"
+              "Yogur griego natural",
+              "60 g"
             ],
             [
               "Kiwi",
@@ -1198,183 +987,136 @@
             },
             {
               "at": "3–15 min",
-              "text": "Non-stick pan, medium, little butter. Small pancakes, 2 min per side, in batches."
+              "text": "Non-stick pan, medium, a little butter. Small pancakes, 2 min per side, in batches."
             },
             {
               "at": "15–17 min",
-              "text": "Top with yoghurt, kiwi, honey."
+              "text": "Top with yoghurt, sliced kiwi, honey."
             }
           ],
-          "equipment": [
-            "Hand blender + tall jug",
-            "Non-stick frying pan"
-          ]
+          "minutes": 17
         },
         {
           "slot": "Lunch",
           "light": false,
-          "minutes": 27,
-          "dish": "Mushroom & pea risotto with a fried egg + side salad",
-          "note": "Warm and grounding. Egg adds protein.",
-          "recipeRef": "mushroom-pea-risotto",
+          "dish": "Salmon with alioli, baby potatoes & green beans",
+          "note": "Your favourite. One drawer, all together.",
+          "equipment": [
+            "Air fryer"
+          ],
           "ingredients": [
             [
-              "Arroz redondo",
-              "75 g"
+              "Lomos de salmón",
+              "1 fillet (~130 g)"
             ],
             [
-              "Champiñón laminado",
+              "Patata baby",
+              "250 g"
+            ],
+            [
+              "Judías verdes",
               "100 g"
             ],
             [
-              "Guisantes congelados",
-              "80 g"
-            ],
-            [
-              "Cebolla",
-              "½"
-            ],
-            [
-              "Ajo",
-              "1 clove"
-            ],
-            [
-              "Caldo de verduras (brick)",
-              "300 ml, hot"
-            ],
-            [
-              "Mantequilla",
-              "10 g"
-            ],
-            [
-              "Parmesano rallado",
-              "15 g"
-            ],
-            [
-              "Huevo",
-              "1"
-            ]
-          ],
-          "steps": [
-            {
-              "at": "0–5 min",
-              "text": "Butter, onion, garlic 2 min. Add mushrooms 3 min."
-            },
-            {
-              "at": "5–7 min",
-              "text": "Add rice. Toast 1–2 min."
-            },
-            {
-              "at": "7–25 min",
-              "text": "Add hot stock a ladle at a time. Stir often. ~18 min. Peas in for the last 4 min."
-            },
-            {
-              "at": "23–26 min",
-              "text": "Fry the egg."
-            },
-            {
-              "at": "25–27 min",
-              "text": "Off heat: stir in parmesan. Top with egg."
-            }
-          ],
-          "equipment": [
-            "Wide pan",
-            "Small pot (hot stock)",
-            "Frying pan"
-          ]
-        },
-        {
-          "slot": "Dinner",
-          "light": true,
-          "minutes": 10,
-          "dish": "Halloumi gyros with tzatziki, lettuce & cucumber",
-          "note": "Uses the rest of Saturday's halloumi.",
-          "recipeRef": "halloumi-gyros",
-          "swaps": [
-            "No chilli flakes. Roasted pepper instead of raw tomato."
-          ],
-          "ingredients": [
-            [
-              "Halloumi",
-              "110 g (rest of pack)"
-            ],
-            [
-              "Miel",
-              "1 tsp"
-            ],
-            [
-              "Orégano",
-              "½ tsp"
+              "Alioli",
+              "1 tbsp"
             ],
             [
               "Limón",
               "½"
             ],
             [
-              "Pan de pita",
-              "1"
+              "Perejil fresco",
+              "1 pinch"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Halve potatoes. Toss with 1 tbsp oil and salt."
+            },
+            {
+              "at": "3–21 min",
+              "text": "Air fryer, 200°C, 18 min. Shake at 9 min."
+            },
+            {
+              "at": "11–21 min",
+              "text": "At 11 min: add salmon (skin down, salted) and green beans. Cook the last 10 min together."
+            },
+            {
+              "at": "21–23 min",
+              "text": "Plate. Big spoon of alioli, lemon, parsley."
+            }
+          ],
+          "minutes": 23
+        },
+        {
+          "slot": "Dinner",
+          "light": true,
+          "dish": "Champiñones al ajillo, hummus & bread",
+          "note": "Light plate.",
+          "equipment": [
+            "Frying pan"
+          ],
+          "ingredients": [
+            [
+              "Champiñón laminado",
+              "150 g"
             ],
             [
-              "Salsa tzatziki",
+              "Ajo",
+              "2 cloves"
+            ],
+            [
+              "Perejil fresco",
+              "1 pinch"
+            ],
+            [
+              "Hummus",
               "3 tbsp"
             ],
             [
-              "Lechuga",
-              "few leaves"
-            ],
-            [
-              "Pepino",
-              "¼"
-            ],
-            [
-              "Pimiento asado (bote)",
-              "½"
+              "Pan de pita",
+              "1"
             ]
           ],
           "steps": [
             {
               "at": "0–2 min",
-              "text": "Slice halloumi. Toss with honey, oregano, lemon."
+              "text": "Slice garlic. 1 tbsp oil, medium-high."
             },
             {
               "at": "2–8 min",
-              "text": "Hot pan, 2–3 min per side until charred."
+              "text": "Mushrooms 5 min until golden. Garlic in for the last minute. Salt, parsley."
             },
             {
               "at": "8–10 min",
-              "text": "Warm pitta 1 min. Fill with tzatziki, lettuce, cucumber, pepper, halloumi."
+              "text": "Warm pitta in the same pan. Plate with hummus."
             }
           ],
-          "equipment": [
-            "Frying pan"
-          ]
+          "minutes": 10
         }
       ]
     }
   ],
-  "snack": "Optional 18:00–19:00 if dinner is late: 15 g almonds + 2 squares of 85% dark chocolate (magnesium — good in the luteal phase) or a kiwi.",
   "shopping": [
     {
       "category": "Fruta y verdura",
       "items": [
         [
           "Kiwi",
-          "4"
-        ],
-        [
-          "Plátano",
-          "3"
-        ],
-        [
-          "Aguacate",
-          "1"
+          "2"
         ],
         [
           "Limón",
-          "4"
+          "3"
         ],
         [
-          "Lima",
+          "Ajo",
+          "1 cabeza"
+        ],
+        [
+          "Pimiento rojo",
           "1"
         ],
         [
@@ -1382,68 +1124,40 @@
           "2"
         ],
         [
-          "Pimientos tricolor (pack)",
-          "1"
-        ],
-        [
-          "Cebolla roja",
-          "1"
-        ],
-        [
-          "Cebolla",
-          "1"
+          "Ensalada mezclum",
+          "6 handfuls → 2 bolsa(s)"
         ],
         [
           "Zanahoria",
           "1"
         ],
         [
-          "Tomate cherry",
-          "1 tarrina (small)"
+          "Champiñón laminado",
+          "610 g"
         ],
         [
           "Espinacas baby",
-          "1 bolsa"
+          "2 handfuls → 1 bolsa(s) + 80 g"
         ],
         [
-          "Ensalada mezclum",
-          "2 bolsas"
-        ],
-        [
-          "Kale",
-          "1 bolsa"
-        ],
-        [
-          "Judías verdes",
-          "1 bolsa (100 g used)"
-        ],
-        [
-          "Patata baby",
-          "1 bolsa (250 g used)"
-        ],
-        [
-          "Boniato",
-          "1"
-        ],
-        [
-          "Lombarda",
-          "1 bolsa / ¼ head"
-        ],
-        [
-          "Champiñón laminado",
-          "1 bandeja"
-        ],
-        [
-          "Cebolleta",
-          "1 manojo"
+          "Plátano",
+          "3"
         ],
         [
           "Perejil fresco",
           "1 manojo"
         ],
         [
-          "Ajo",
-          "1 cabeza"
+          "Aguacate",
+          "1"
+        ],
+        [
+          "Patata baby",
+          "250 g"
+        ],
+        [
+          "Judías verdes",
+          "100 g"
         ]
       ]
     },
@@ -1452,19 +1166,19 @@
       "items": [
         [
           "Pechuga de pollo en filetes",
-          "360 g"
-        ],
-        [
-          "Filete de añojo (ternera)",
-          "150 g"
+          "660 g"
         ],
         [
           "Carne picada de ternera",
           "250 g"
         ],
         [
+          "Salmón ahumado",
+          "60 g"
+        ],
+        [
           "Lomos de salmón",
-          "2 (≈250 g)"
+          "1 lomo(s), ~130 g each"
         ]
       ]
     },
@@ -1472,52 +1186,48 @@
       "category": "Huevos, lácteos y refrigerados",
       "items": [
         [
-          "Huevos",
-          "1 docena"
-        ],
-        [
           "Yogur griego natural",
-          "1 tarrina grande (≈500 g)"
-        ],
-        [
-          "Kéfir",
-          "1 botella (≈500 ml)"
-        ],
-        [
-          "Queso cottage",
-          "1 tarrina"
-        ],
-        [
-          "Queso feta",
-          "1 paquete"
-        ],
-        [
-          "Halloumi / queso para plancha",
-          "1 paquete (≈220 g)"
+          "415 g"
         ],
         [
           "Salsa tzatziki",
-          "1 tarrina"
+          "6 tbsp → tarrina"
         ],
         [
           "Hummus",
-          "1 tarrina"
+          "10 tbsp → tarrina(s)"
         ],
         [
-          "Falafel",
-          "1 paquete"
+          "Huevos",
+          "9 → 1 docena"
         ],
         [
-          "Tofu firme",
-          "1 paquete"
+          "Kéfir",
+          "400 ml"
         ],
         [
           "Parmesano rallado",
-          "1 bolsa"
+          "60 g"
         ],
         [
-          "Mantequilla",
-          "check pantry"
+          "Falafel",
+          "4"
+        ],
+        [
+          "Queso cottage",
+          "100 g"
+        ],
+        [
+          "Nata para cocinar ligera",
+          "200 ml"
+        ],
+        [
+          "Queso crema",
+          "2 tbsp → tarrina"
+        ],
+        [
+          "Queso feta",
+          "50 g"
         ]
       ]
     },
@@ -1525,88 +1235,60 @@
       "category": "Despensa",
       "items": [
         [
-          "Arroz basmati",
-          "1 paquete (300 g used)"
-        ],
-        [
-          "Arroz redondo",
-          "75 g (check pantry)"
-        ],
-        [
-          "Espaguetis",
-          "90 g"
-        ],
-        [
-          "Macarrones / rigatoni",
-          "80 g"
-        ],
-        [
           "Copos de avena",
-          "1 paquete"
+          "125 g"
+        ],
+        [
+          "Almendras naturales",
+          "55 g"
+        ],
+        [
+          "Arroz basmati",
+          "150 g"
+        ],
+        [
+          "Crispbread de centeno (your usual)",
+          "12 pieces → 1 paquete"
+        ],
+        [
+          "Aceitunas verdes",
+          "16"
         ],
         [
           "Pan de centeno",
-          "1"
+          "4 slices → 1 pan"
         ],
         [
           "Pan de pita",
-          "1 paquete"
-        ],
-        [
-          "Tortillas de trigo",
-          "optional, or use pitta"
-        ],
-        [
-          "Alubias blancas cocidas",
-          "1 bote"
+          "2"
         ],
         [
           "Tomate triturado",
-          "1 lata 400 g"
+          "400 g"
         ],
         [
-          "Garbanzos cocidos",
-          "1 bote"
+          "Espaguetis",
+          "180 g"
         ],
         [
-          "Pan rallado",
-          "check pantry"
+          "Pipas de calabaza",
+          "10 g"
         ],
         [
-          "Caldo de verduras (brick)",
-          "1"
+          "Macarrones / pasta corta",
+          "160 g"
         ],
         [
-          "Alioli",
-          "1 tarro"
+          "Aceitunas negras / kalamata",
+          "8"
         ],
         [
           "Pimiento asado (bote)",
           "1"
         ],
         [
-          "Almendras naturales",
-          "1 bolsa"
-        ],
-        [
-          "Pipas de calabaza",
-          "1 bolsa"
-        ],
-        [
-          "Cacao puro en polvo",
-          "check pantry"
-        ],
-        [
-          "Chocolate negro 85%",
-          "1 tableta"
-        ],
-        [
-          "Maicena",
-          "check pantry"
-        ],
-        [
-          "Miel, salsa de soja, sésamo, pimentón dulce, orégano, ajo en polvo",
-          "check pantry"
+          "Alioli",
+          "1 tbsp → tarro"
         ]
       ]
     },
@@ -1615,14 +1297,47 @@
       "items": [
         [
           "Frutos rojos",
-          "1 bolsa"
+          "140 g"
+        ]
+      ]
+    },
+    {
+      "category": "Tienda libanesa (you buy)",
+      "items": [
+        [
+          "Labneh",
+          "8 tbsp → tub"
         ],
         [
-          "Guisantes",
-          "1 bolsa"
+          "Za'atar",
+          "2 tsp → pot"
+        ]
+      ]
+    },
+    {
+      "category": "Check pantry",
+      "items": [
+        [
+          "Cacao puro",
+          "check"
+        ],
+        [
+          "Mantequilla",
+          "check"
+        ],
+        [
+          "Miel",
+          "check"
+        ],
+        [
+          "Orégano",
+          "check"
+        ],
+        [
+          "Pan rallado",
+          "check"
         ]
       ]
     }
-  ],
-  "soupRule": "Soups only in the bleed week, and only smooth blended ones (cremas/purés) or a clear broth with noodles. No chunky soups."
+  ]
 }

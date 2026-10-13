@@ -3,31 +3,37 @@
 From Leila, prepared with Claude on 13 Oct 2026. Read this whole file before changing anything.
 
 Repo: `leilacharafeddine/meal-plan` · Live: https://leilacharafeddine.github.io/meal-plan/
-Files that come with this handoff (attach / add to repo):
-- `recipes.json` — recipe library, 29 recipes, one serving each, timed steps, swaps already applied.
-- `plan-2026-W43.json`, `plan-2026-W44.json`, `plan-2026-W45.json`, `plan-2026-W46.json` — the month plan, 19 Oct – 15 Nov 2026 (one week object per file, ready to append to `data.json → weeks`).
+All files are already in the repo on branch **`month-plan-w43`** (pushed 13 Oct 2026). Start from that branch:
+- `recipes.json` — recipe library, 29 recipes, one serving each, timed steps, swaps applied (reference/"source" links).
+- `plan/2026-W43.json` … `plan/2026-W46.json` — the approved month plan, 19 Oct – 15 Nov 2026. One week object per file, already in the `data.json → weeks` shape. **This is the content to show — don't rewrite it.**
+- `plan/month-plan.md` — the same month as readable text (for checking).
+- `plan/build_month.py` — script that generated the week files. Edit dishes there and re-run if something needs changing.
+- `data.json` — only change on the branch: soup rule wording in `standing.avoid`.
 
 ---
 
 ## 1. What to build (checklist)
 
-1. Copy `recipes.json` to the repo root. Load it alongside `data.json`.
-2. Append the four week objects to `data.json → weeks`. Don't edit or delete past weeks.
+1. Check out branch `month-plan-w43`. Load `recipes.json` alongside `data.json`.
+2. Append the four week objects from `plan/2026-W43.json` … `W46.json` to `data.json → weeks`. Don't edit or delete past weeks.
 3. Support the new fields (section 6).
 4. Build the recipe bottom sheet / pop-up exactly as designed in **Claude Design** (section 7). Content rules are in section 7 — follow them.
 5. Build the cycle calendar as designed in Claude Design (section 5).
 6. Update the "Food I don't like" list in `data.json → standing.avoid` to match section 2.
 7. Shopping categories are Mercadona sections in Spanish (section 8). Add their colours.
-8. Commit and push to `main` so GitHub Pages updates. Check the live site on a phone-width screen.
+8. Merge to `main` so GitHub Pages updates. Check the live site on a phone-width screen.
 
 ---
 
 ## 2. Leila's food rules
 
 **Cooking**
-- Cooking for one. Lunch or dinner is often last night's leftovers ("cook once, eat twice").
+- Cooking for one.
+- **Lunch is cooked ×2 and the second portion is the NEXT DAY's lunch**: Mon→Tue, Wed→Thu, Fri→Sat. Sunday lunch is cooked fresh. Leftover lunch meals have `leftoverOf` set and just say "reheat".
+- **Dinners are never lunch leftovers.** Dinners are very light Mediterranean little plates: hummus & rye crispbread, labneh with za'atar & olive oil, olives, cucumber, feta, boiled eggs, falafel, smoked salmon on crispbread, champiñones al ajillo. Bleed week: a bowl of smooth soup counts as dinner. After Thursday's evening GAP: still a little plate, but protein-forward.
 - Weekday dishes: **25 min max**. Weekend dishes: **35 min max**.
-- Lunch (14:00–16:00) is the biggest meal. Dinner (20:00–21:00) is light — except after an evening class, when it's protein-forward.
+- Lunch (14:00–16:00) is the biggest meal. Dinner 20:00–21:00.
+- Crackers = **rye crispbread** (her usual). Labneh and za'atar she buys at a Lebanese shop — listed separately in the shopping list.
 - A small side salad most days. Loves breakfast — vary breakfasts week to week.
 - Shopping at **Mercadona** (Spanish product names, Hacendado where possible).
 
@@ -46,6 +52,7 @@ Files that come with this handoff (attach / add to repo):
 
 **Loves / use often**
 - Salmon with alioli — every week or two.
+- Mushrooms — use often (they were missing from older plans; this month has ~20 mushroom meals).
 - Almonds. Kiwi. Greek yoghurt, eggs, rye bread, avocado, feta, halloumi, white/red beans.
 - Open to vegetarian meals if they're nutritious.
 
@@ -123,9 +130,10 @@ Meal:
 - `steps` → `[{ at, text }]` — the instructions.
 - `swaps` → strings — "Swapped for you".
 - `recipeRef` → id in `recipes.json` (optional; the meal's own `steps` win if both exist).
+- `leftoverOf` → name of the dish this leftover comes from. Show a small "Leftover" tag.
 
 Shopping categories (Mercadona sections) and colours:
-`Fruta y verdura` #37b98c · `Carne y pescado` #9c3f47 · `Huevos, lácteos y refrigerados` #2f9fc9 · `Despensa` #6a8f9a · `Congelados` #1f8fb8.
+`Fruta y verdura` #37b98c · `Carne y pescado` #9c3f47 · `Huevos, lácteos y refrigerados` #2f9fc9 · `Despensa` #6a8f9a · `Congelados` #1f8fb8 · `Tienda libanesa (you buy)` #c98a2f · `Check pantry` #8aa6ae (show this one collapsed / greyed — it's a reminder, not a buy list).
 
 ---
 

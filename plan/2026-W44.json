@@ -1,0 +1,1434 @@
+{
+  "id": "2026-W44",
+  "label": "26 October – 1 November 2026",
+  "index": "Week 44",
+  "tagline": "Late luteal. Turkey week. Comfort carbs, magnesium (oats, cocoa, almonds, beans), steady blood sugar.",
+  "cycle": {
+    "mode": "natural (practice — currently on the pill)",
+    "anchor": "Day 1 = Mon 5 Oct 2026, 28-day cycle, bleed Mon–Fri",
+    "summary": "Cycle days 22–28: Late luteal."
+  },
+  "soupRule": "Soups only in the bleed week, only smooth blended (cremas) or clear broth with noodles.",
+  "days": [
+    {
+      "day": "Monday",
+      "date": "2026-10-26",
+      "training": {
+        "class": "Rest day",
+        "type": "rest",
+        "time": ""
+      },
+      "cycle": {
+        "day": 22,
+        "phase": "Luteal (late)",
+        "focus": "Comfort carbs, magnesium (oats, cocoa, almonds, beans, greens). Don't under-eat."
+      },
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "light": false,
+          "dish": "Apple-cinnamon overnight oats with almonds",
+          "note": "Make the night before.",
+          "equipment": [
+            "Jar (fridge overnight)",
+            "Grater"
+          ],
+          "ingredients": [
+            [
+              "Copos de avena",
+              "45 g"
+            ],
+            [
+              "Kéfir",
+              "150 ml"
+            ],
+            [
+              "Yogur griego natural",
+              "30 g"
+            ],
+            [
+              "Manzana",
+              "½"
+            ],
+            [
+              "Canela",
+              "½ tsp"
+            ],
+            [
+              "Almendras naturales",
+              "15 g"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "Night before",
+              "text": "Grate the apple into a jar. Add oats, kefir, yoghurt, cinnamon. Mix. Fridge."
+            },
+            {
+              "at": "0–2 min",
+              "text": "Top with chopped almonds."
+            }
+          ],
+          "minutes": 2
+        },
+        {
+          "slot": "Lunch",
+          "light": false,
+          "dish": "Turkey & mushroom stroganoff with rice",
+          "note": "Cook ×2 — tomorrow's lunch is the second portion.",
+          "equipment": [
+            "Rice cooker",
+            "Large frying pan"
+          ],
+          "ingredients": [
+            [
+              "Pechuga de pavo en filetes",
+              "300 g"
+            ],
+            [
+              "Champiñón laminado",
+              "250 g"
+            ],
+            [
+              "Cebolla",
+              "1"
+            ],
+            [
+              "Ajo",
+              "1 clove"
+            ],
+            [
+              "Pimentón dulce",
+              "1 tsp"
+            ],
+            [
+              "Nata para cocinar ligera",
+              "200 ml"
+            ],
+            [
+              "Mostaza",
+              "1 tsp"
+            ],
+            [
+              "Arroz basmati",
+              "150 g"
+            ],
+            [
+              "Perejil fresco",
+              "1 handful"
+            ],
+            [
+              "Ensalada mezclum",
+              "2 handfuls"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–2 min",
+              "text": "Rinse 150 g rice. Rice cooker, 300 ml water, pinch of salt. Start."
+            },
+            {
+              "at": "2–6 min",
+              "text": "Slice onion. 1 tbsp oil, medium. Soften onion 4 min."
+            },
+            {
+              "at": "6–11 min",
+              "text": "Turn heat up. Add turkey strips. Cook 5 min until golden."
+            },
+            {
+              "at": "11–16 min",
+              "text": "Add mushrooms and garlic. Cook 5 min."
+            },
+            {
+              "at": "16–20 min",
+              "text": "Stir in paprika, cream, mustard. Simmer 3 min. Season."
+            },
+            {
+              "at": "20–22 min",
+              "text": "Plate half with rice, parsley, salad. Box the other half."
+            }
+          ],
+          "minutes": 22
+        },
+        {
+          "slot": "Dinner",
+          "light": true,
+          "dish": "Labneh with za'atar & olive oil, cucumber, olives, pitta",
+          "note": "Light plate. No cooking.",
+          "equipment": [
+            "Plate",
+            "Frying pan (warm pitta)"
+          ],
+          "ingredients": [
+            [
+              "Labneh",
+              "4 tbsp"
+            ],
+            [
+              "Za'atar",
+              "1 tsp"
+            ],
+            [
+              "Pepino",
+              "¼"
+            ],
+            [
+              "Aceitunas verdes",
+              "8"
+            ],
+            [
+              "Pan de pita",
+              "1"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–2 min",
+              "text": "Warm pitta in a dry pan, 30 s per side. Cut into triangles."
+            },
+            {
+              "at": "2–5 min",
+              "text": "Labneh on a plate. Olive oil + za'atar on top. Add cucumber and olives."
+            }
+          ],
+          "minutes": 5
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "date": "2026-10-27",
+      "training": {
+        "class": "GAP",
+        "type": "strength",
+        "time": "Morning"
+      },
+      "cycle": {
+        "day": 23,
+        "phase": "Luteal (late)",
+        "focus": "Comfort carbs, magnesium (oats, cocoa, almonds, beans, greens). Don't under-eat."
+      },
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "light": false,
+          "dish": "Greek yoghurt, pear, granola & almonds",
+          "note": "No cooking.",
+          "equipment": [
+            "Bowl"
+          ],
+          "ingredients": [
+            [
+              "Yogur griego natural",
+              "200 g"
+            ],
+            [
+              "Pera",
+              "1"
+            ],
+            [
+              "Granola sin azúcar añadido",
+              "30 g"
+            ],
+            [
+              "Almendras naturales",
+              "10 g"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–5 min",
+              "text": "Yoghurt in a bowl. Top with sliced pear, granola, almonds."
+            }
+          ],
+          "minutes": 5
+        },
+        {
+          "slot": "Lunch",
+          "light": false,
+          "dish": "Turkey & mushroom stroganoff with rice (leftover)",
+          "note": "Second portion of yesterday's lunch.",
+          "equipment": [
+            "Microwave"
+          ],
+          "ingredients": [],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Microwave 2½–3 min, covered, stir halfway (pasta: add a splash of water)."
+            },
+            {
+              "at": "3–5 min",
+              "text": "Plate with a handful of salad leaves."
+            }
+          ],
+          "minutes": 5
+        },
+        {
+          "slot": "Dinner",
+          "light": true,
+          "dish": "Hummus, veg sticks & a boiled egg",
+          "note": "Light plate.",
+          "equipment": [
+            "Small pot"
+          ],
+          "ingredients": [
+            [
+              "Huevos",
+              "1"
+            ],
+            [
+              "Hummus",
+              "4 tbsp"
+            ],
+            [
+              "Zanahoria",
+              "1"
+            ],
+            [
+              "Pepino",
+              "¼"
+            ],
+            [
+              "Pimiento rojo",
+              "½"
+            ],
+            [
+              "Crispbread de centeno (your usual)",
+              "3 pieces"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–8 min",
+              "text": "Boil egg 8 min. Cut veg into sticks meanwhile."
+            },
+            {
+              "at": "8–10 min",
+              "text": "Cool and halve egg. Plate everything."
+            }
+          ],
+          "minutes": 10
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "2026-10-28",
+      "training": {
+        "class": "V-Power",
+        "type": "strength",
+        "time": "Morning"
+      },
+      "cycle": {
+        "day": 24,
+        "phase": "Luteal (late)",
+        "focus": "Comfort carbs, magnesium (oats, cocoa, almonds, beans, greens). Don't under-eat."
+      },
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "light": false,
+          "dish": "Smoked salmon & scrambled eggs on rye",
+          "note": "Ten minutes.",
+          "equipment": [
+            "Air fryer (toast)",
+            "Frying pan"
+          ],
+          "ingredients": [
+            [
+              "Huevos",
+              "2"
+            ],
+            [
+              "Salmón ahumado",
+              "50 g"
+            ],
+            [
+              "Pan de centeno",
+              "1 slice"
+            ],
+            [
+              "Mantequilla",
+              "5 g"
+            ],
+            [
+              "Kiwi",
+              "1"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Air fryer, 200°C, 3 min for the bread."
+            },
+            {
+              "at": "0–5 min",
+              "text": "Butter in pan, low. Add beaten eggs. Stir slowly until just set."
+            },
+            {
+              "at": "5–7 min",
+              "text": "Eggs on toast. Lay salmon on top. Black pepper. Kiwi on the side."
+            }
+          ],
+          "minutes": 7
+        },
+        {
+          "slot": "Lunch",
+          "light": false,
+          "dish": "Honey-soy pork, rice & green beans",
+          "note": "Cook ×2 — tomorrow's lunch is the second portion.",
+          "equipment": [
+            "Rice cooker",
+            "Large frying pan"
+          ],
+          "ingredients": [
+            [
+              "Filetes de lomo de cerdo",
+              "300 g"
+            ],
+            [
+              "Arroz basmati",
+              "150 g"
+            ],
+            [
+              "Judías verdes",
+              "200 g"
+            ],
+            [
+              "Ajo",
+              "1 clove"
+            ],
+            [
+              "Salsa de soja",
+              "2 tbsp"
+            ],
+            [
+              "Miel",
+              "2 tbsp"
+            ],
+            [
+              "Vinagre de manzana",
+              "1 tsp"
+            ],
+            [
+              "Sésamo",
+              "1 tsp"
+            ],
+            [
+              "Cebolleta",
+              "1"
+            ],
+            [
+              "Lima",
+              "½"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–2 min",
+              "text": "Rinse 150 g rice. Rice cooker, 300 ml water, pinch of salt. Start."
+            },
+            {
+              "at": "2–4 min",
+              "text": "Mix soy, honey, vinegar, grated garlic. Trim beans."
+            },
+            {
+              "at": "4–10 min",
+              "text": "Oil, medium-high. Fry beans 3 min. Splash of water, lid, 3 min. Lime juice. Set aside."
+            },
+            {
+              "at": "10–18 min",
+              "text": "Same pan. Season pork. Fry 3 min per side, then 2 min more. No pink inside."
+            },
+            {
+              "at": "18–20 min",
+              "text": "Pour in sauce. Bubble 1–2 min until sticky."
+            },
+            {
+              "at": "20–22 min",
+              "text": "Slice. Plate half with rice, beans, sesame, spring onion. Box the other half."
+            }
+          ],
+          "minutes": 22,
+          "swaps": [
+            "No hoisin or sriracha — honey-soy glaze, no heat."
+          ]
+        },
+        {
+          "slot": "Dinner",
+          "light": true,
+          "dish": "White bean & feta mash on rye crispbread",
+          "note": "Light plate.",
+          "equipment": [
+            "Bowl",
+            "Fork"
+          ],
+          "ingredients": [
+            [
+              "Alubias blancas cocidas",
+              "120 g"
+            ],
+            [
+              "Queso feta",
+              "30 g"
+            ],
+            [
+              "Limón",
+              "½"
+            ],
+            [
+              "Ajo",
+              "½ clove"
+            ],
+            [
+              "Crispbread de centeno (your usual)",
+              "3 pieces"
+            ],
+            [
+              "Pepino",
+              "¼"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–5 min",
+              "text": "Rinse beans. Mash with fork, olive oil, lemon, grated garlic, salt. Crumble feta in."
+            },
+            {
+              "at": "5–7 min",
+              "text": "Spread on crispbread. Cucumber on the side."
+            }
+          ],
+          "minutes": 7
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "date": "2026-10-29",
+      "training": {
+        "class": "GAP",
+        "type": "strength",
+        "time": "Evening"
+      },
+      "cycle": {
+        "day": 25,
+        "phase": "Luteal (late)",
+        "focus": "Comfort carbs, magnesium (oats, cocoa, almonds, beans, greens). Don't under-eat."
+      },
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "light": false,
+          "dish": "Cocoa-banana kefir smoothie + almonds",
+          "note": "Five minutes.",
+          "equipment": [
+            "Hand blender + tall jug"
+          ],
+          "ingredients": [
+            [
+              "Kéfir",
+              "250 ml"
+            ],
+            [
+              "Plátano",
+              "1"
+            ],
+            [
+              "Cacao puro",
+              "1 tsp"
+            ],
+            [
+              "Copos de avena",
+              "20 g"
+            ],
+            [
+              "Almendras naturales",
+              "15 g"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–5 min",
+              "text": "Everything except almonds in a tall jug. Blitz with the hand blender. Almonds on the side."
+            }
+          ],
+          "minutes": 5
+        },
+        {
+          "slot": "Lunch",
+          "light": false,
+          "dish": "Honey-soy pork, rice & green beans (leftover)",
+          "note": "Second portion of yesterday's lunch.",
+          "equipment": [
+            "Microwave"
+          ],
+          "ingredients": [],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Microwave 2½–3 min, covered, stir halfway (pasta: add a splash of water)."
+            },
+            {
+              "at": "3–5 min",
+              "text": "Plate with a handful of salad leaves."
+            }
+          ],
+          "minutes": 5
+        },
+        {
+          "slot": "Snack",
+          "light": true,
+          "dish": "Pre-GAP snack: Greek yoghurt, kiwi & almonds",
+          "note": "~18:00, before the evening class.",
+          "equipment": [
+            "Bowl"
+          ],
+          "ingredients": [
+            [
+              "Yogur griego natural",
+              "125 g"
+            ],
+            [
+              "Kiwi",
+              "1"
+            ],
+            [
+              "Almendras naturales",
+              "10 g"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Slice kiwi into yoghurt. Almonds on top."
+            }
+          ],
+          "minutes": 3
+        },
+        {
+          "slot": "Dinner",
+          "light": true,
+          "dish": "After GAP: turkey slices, labneh, boiled egg, rye crispbread",
+          "note": "Light but protein-forward after the evening class.",
+          "equipment": [
+            "Small pot"
+          ],
+          "ingredients": [
+            [
+              "Pechuga de pavo en lonchas",
+              "60 g"
+            ],
+            [
+              "Huevos",
+              "1"
+            ],
+            [
+              "Labneh",
+              "3 tbsp"
+            ],
+            [
+              "Za'atar",
+              "1 tsp"
+            ],
+            [
+              "Pepino",
+              "¼"
+            ],
+            [
+              "Crispbread de centeno (your usual)",
+              "3 pieces"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–8 min",
+              "text": "Boil egg 8 min. Cool. (Or boil it before class.)"
+            },
+            {
+              "at": "8–10 min",
+              "text": "Plate turkey, labneh with oil + za'atar, egg, cucumber, crispbread."
+            }
+          ],
+          "minutes": 10
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "date": "2026-10-30",
+      "training": {
+        "class": "Cycling or GAP",
+        "type": "cardio",
+        "time": "Morning",
+        "note": "Pick GAP if you feel strong — lunch has enough protein for it."
+      },
+      "cycle": {
+        "day": 26,
+        "phase": "Luteal (late)",
+        "focus": "Comfort carbs, magnesium (oats, cocoa, almonds, beans, greens). Don't under-eat."
+      },
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "light": false,
+          "dish": "Avocado & fried egg on rye",
+          "note": "Ten minutes.",
+          "equipment": [
+            "Air fryer (toast)",
+            "Frying pan"
+          ],
+          "ingredients": [
+            [
+              "Huevos",
+              "2"
+            ],
+            [
+              "Aguacate",
+              "½"
+            ],
+            [
+              "Pan de centeno",
+              "1 slice"
+            ],
+            [
+              "Limón",
+              "¼"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Air fryer, 200°C, 3 min for the bread."
+            },
+            {
+              "at": "0–5 min",
+              "text": "Fry eggs in a little oil, 3–4 min."
+            },
+            {
+              "at": "5–7 min",
+              "text": "Mash avocado with lemon and salt on the toast. Top with eggs."
+            }
+          ],
+          "minutes": 7
+        },
+        {
+          "slot": "Lunch",
+          "light": false,
+          "dish": "Farfalle with feta, broad beans & jamón",
+          "note": "Cook ×2 — great cold for Saturday after V-Power.",
+          "equipment": [
+            "Large pot",
+            "Frying pan"
+          ],
+          "ingredients": [
+            [
+              "Farfalle",
+              "180 g"
+            ],
+            [
+              "Habitas baby",
+              "160 g"
+            ],
+            [
+              "Chalota",
+              "1"
+            ],
+            [
+              "Limón",
+              "1"
+            ],
+            [
+              "Queso feta",
+              "80 g"
+            ],
+            [
+              "Jamón serrano en lonchas",
+              "60 g"
+            ],
+            [
+              "Menta o eneldo fresco",
+              "1 handful"
+            ],
+            [
+              "Ensalada mezclum",
+              "2 handfuls"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Boil salted water. Blanch broad beans 3 min. Lift out with a slotted spoon."
+            },
+            {
+              "at": "3–14 min",
+              "text": "Cook farfalle in the same water (~11 min). Keep a mug of pasta water."
+            },
+            {
+              "at": "4–9 min",
+              "text": "2 tbsp oil, medium. Soften sliced shallot 5 min."
+            },
+            {
+              "at": "14–17 min",
+              "text": "Add pasta, beans, lemon zest + juice, splash of pasta water, most of the feta and herbs. Stir until glossy."
+            },
+            {
+              "at": "17–19 min",
+              "text": "Plate half. Tear jamón on top, rest of feta, pepper. Box the other half (jamón separate)."
+            }
+          ],
+          "minutes": 19,
+          "swaps": [
+            "Chilli flakes → black pepper and lemon zest.",
+            "Prosciutto → jamón serrano (Mercadona)."
+          ],
+          "recipeRef": "farfalle-feta-broad-beans"
+        },
+        {
+          "slot": "Dinner",
+          "light": true,
+          "dish": "Yoghurt-cucumber-mint dip with pitta & olives",
+          "note": "Light plate (khiyar bi laban style).",
+          "equipment": [
+            "Bowl",
+            "Grater",
+            "Frying pan (warm pitta)"
+          ],
+          "ingredients": [
+            [
+              "Yogur griego natural",
+              "150 g"
+            ],
+            [
+              "Pepino",
+              "½"
+            ],
+            [
+              "Menta o eneldo fresco",
+              "1 pinch"
+            ],
+            [
+              "Ajo",
+              "½ clove"
+            ],
+            [
+              "Pan de pita",
+              "1"
+            ],
+            [
+              "Aceitunas verdes",
+              "8"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–4 min",
+              "text": "Grate cucumber, squeeze out water. Mix with yoghurt, mint, grated garlic, salt, olive oil."
+            },
+            {
+              "at": "4–6 min",
+              "text": "Warm pitta in a dry pan. Plate with the dip and olives."
+            }
+          ],
+          "minutes": 6
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "date": "2026-10-31",
+      "training": {
+        "class": "V-Power",
+        "type": "strength",
+        "time": "12:30"
+      },
+      "cycle": {
+        "day": 27,
+        "phase": "Luteal (late)",
+        "focus": "Comfort carbs, magnesium (oats, cocoa, almonds, beans, greens). Don't under-eat."
+      },
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "light": false,
+          "dish": "Cocoa porridge with banana & almonds",
+          "note": "Eat by ~10:30, before V-Power.",
+          "equipment": [
+            "Microwave"
+          ],
+          "ingredients": [
+            [
+              "Copos de avena",
+              "50 g"
+            ],
+            [
+              "Leche",
+              "250 ml"
+            ],
+            [
+              "Cacao puro",
+              "1 tsp"
+            ],
+            [
+              "Plátano",
+              "1"
+            ],
+            [
+              "Almendras naturales",
+              "15 g"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–4 min",
+              "text": "Oats, milk, cocoa in a big bowl. Microwave 3 min, stir halfway."
+            },
+            {
+              "at": "4–6 min",
+              "text": "Top with sliced banana and chopped almonds."
+            }
+          ],
+          "minutes": 6
+        },
+        {
+          "slot": "Lunch",
+          "light": false,
+          "dish": "Farfalle with feta, broad beans & jamón (leftover)",
+          "note": "Second portion of yesterday's lunch.",
+          "equipment": [
+            "Microwave"
+          ],
+          "ingredients": [],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Eat cold or warm 1½ min. Add the jamón."
+            },
+            {
+              "at": "3–5 min",
+              "text": "Plate with a handful of salad leaves."
+            }
+          ],
+          "minutes": 5,
+          "recipeRef": "farfalle-feta-broad-beans"
+        },
+        {
+          "slot": "Dinner",
+          "light": true,
+          "dish": "Champiñones al ajillo, manchego & bread",
+          "note": "Light plate.",
+          "equipment": [
+            "Frying pan"
+          ],
+          "ingredients": [
+            [
+              "Champiñón laminado",
+              "150 g"
+            ],
+            [
+              "Ajo",
+              "2 cloves"
+            ],
+            [
+              "Perejil fresco",
+              "1 pinch"
+            ],
+            [
+              "Queso manchego",
+              "40 g"
+            ],
+            [
+              "Pan de centeno",
+              "1 slice"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–2 min",
+              "text": "Slice garlic. 1 tbsp oil, medium-high."
+            },
+            {
+              "at": "2–8 min",
+              "text": "Mushrooms 5 min until golden. Garlic in for the last minute. Salt, parsley."
+            },
+            {
+              "at": "8–10 min",
+              "text": "Plate with manchego slices and bread."
+            }
+          ],
+          "minutes": 10
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "date": "2026-11-01",
+      "training": {
+        "class": "Run",
+        "type": "cardio",
+        "time": "Morning"
+      },
+      "cycle": {
+        "day": 28,
+        "phase": "Luteal (late)",
+        "focus": "Comfort carbs, magnesium (oats, cocoa, almonds, beans, greens). Don't under-eat."
+      },
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "light": false,
+          "dish": "Mushroom & feta baked eggs, rye toast",
+          "note": "After your run.",
+          "equipment": [
+            "Air fryer",
+            "Small ovenproof dish"
+          ],
+          "ingredients": [
+            [
+              "Huevos",
+              "2"
+            ],
+            [
+              "Champiñón laminado",
+              "80 g"
+            ],
+            [
+              "Espinacas baby",
+              "1 handful"
+            ],
+            [
+              "Queso feta",
+              "30 g"
+            ],
+            [
+              "Pan de centeno",
+              "1 slice"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–6 min",
+              "text": "Mushrooms + a drizzle of oil in the small dish. Air fryer, 190°C, 6 min."
+            },
+            {
+              "at": "6–8 min",
+              "text": "Stir in spinach. Make 2 wells. Crack in the eggs. Crumble feta on top."
+            },
+            {
+              "at": "8–16 min",
+              "text": "Air fryer, 170°C, 7–8 min until whites set."
+            },
+            {
+              "at": "16–19 min",
+              "text": "Toast bread in the air fryer, 200°C, 3 min. Serve."
+            }
+          ],
+          "minutes": 19
+        },
+        {
+          "slot": "Lunch",
+          "light": false,
+          "dish": "Paprika salmon, sweet potato fries & sprout slaw",
+          "note": "Weekend cook.",
+          "equipment": [
+            "Air fryer",
+            "Frying pan"
+          ],
+          "ingredients": [
+            [
+              "Lomos de salmón",
+              "1 fillet (~130 g)"
+            ],
+            [
+              "Boniato",
+              "1"
+            ],
+            [
+              "Pimentón dulce",
+              "1 tsp"
+            ],
+            [
+              "Ajo",
+              "1 clove"
+            ],
+            [
+              "Coles de Bruselas",
+              "75 g"
+            ],
+            [
+              "Kale",
+              "1 handful"
+            ],
+            [
+              "Manzana",
+              "½"
+            ],
+            [
+              "Limón",
+              "½"
+            ],
+            [
+              "Yogur griego natural",
+              "30 g"
+            ],
+            [
+              "Pipas de calabaza",
+              "10 g"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–4 min",
+              "text": "Cut sweet potato into fries. Toss with oil, salt, ½ tsp paprika."
+            },
+            {
+              "at": "4–24 min",
+              "text": "Air fryer, 200°C, 20 min. Shake at 10 min."
+            },
+            {
+              "at": "6–12 min",
+              "text": "Thinly slice sprouts, shred kale, apple matchsticks. Toss with lemon, yoghurt, half the grated garlic, salt. Massage 1 min."
+            },
+            {
+              "at": "12–14 min",
+              "text": "Season salmon with rest of paprika + garlic, salt."
+            },
+            {
+              "at": "14–24 min",
+              "text": "At 14 min: salmon into the drawer, skin down, for the last 10 min."
+            },
+            {
+              "at": "14–16 min",
+              "text": "Toast pumpkin seeds in a dry pan, 2 min."
+            },
+            {
+              "at": "24–26 min",
+              "text": "Plate fries, slaw, salmon. Seeds on top."
+            }
+          ],
+          "minutes": 26,
+          "swaps": [
+            "Smoked paprika is the sweet kind — no heat."
+          ],
+          "recipeRef": "paprika-salmon-slaw"
+        },
+        {
+          "slot": "Dinner",
+          "light": true,
+          "dish": "Hummus, olives, feta & cucumber",
+          "note": "Light plate. No cooking.",
+          "equipment": [
+            "Plate"
+          ],
+          "ingredients": [
+            [
+              "Hummus",
+              "3 tbsp"
+            ],
+            [
+              "Aceitunas verdes",
+              "8"
+            ],
+            [
+              "Queso feta",
+              "30 g"
+            ],
+            [
+              "Pepino",
+              "¼"
+            ],
+            [
+              "Crispbread de centeno (your usual)",
+              "3 pieces"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–5 min",
+              "text": "Plate everything. Olive oil over the hummus."
+            }
+          ],
+          "minutes": 5
+        }
+      ]
+    }
+  ],
+  "shopping": [
+    {
+      "category": "Fruta y verdura",
+      "items": [
+        [
+          "Manzana",
+          "1"
+        ],
+        [
+          "Champiñón laminado",
+          "480 g"
+        ],
+        [
+          "Cebolla",
+          "1"
+        ],
+        [
+          "Ajo",
+          "1 cabeza"
+        ],
+        [
+          "Perejil fresco",
+          "1 manojo"
+        ],
+        [
+          "Ensalada mezclum",
+          "4 handfuls → 1 bolsa(s)"
+        ],
+        [
+          "Pepino",
+          "2"
+        ],
+        [
+          "Pera",
+          "1"
+        ],
+        [
+          "Zanahoria",
+          "1"
+        ],
+        [
+          "Pimiento rojo",
+          "1"
+        ],
+        [
+          "Kiwi",
+          "2"
+        ],
+        [
+          "Judías verdes",
+          "200 g"
+        ],
+        [
+          "Cebolleta",
+          "1 manojo"
+        ],
+        [
+          "Lima",
+          "1"
+        ],
+        [
+          "Limón",
+          "3"
+        ],
+        [
+          "Plátano",
+          "2"
+        ],
+        [
+          "Aguacate",
+          "1"
+        ],
+        [
+          "Chalota",
+          "1"
+        ],
+        [
+          "Menta o eneldo fresco",
+          "1 manojo"
+        ],
+        [
+          "Espinacas baby",
+          "1 handfuls → 1 bolsa(s)"
+        ],
+        [
+          "Boniato",
+          "1"
+        ],
+        [
+          "Coles de Bruselas",
+          "75 g"
+        ],
+        [
+          "Kale",
+          "1 handfuls → 1 bolsa(s)"
+        ]
+      ]
+    },
+    {
+      "category": "Carne y pescado",
+      "items": [
+        [
+          "Pechuga de pavo en filetes",
+          "300 g"
+        ],
+        [
+          "Salmón ahumado",
+          "50 g"
+        ],
+        [
+          "Filetes de lomo de cerdo",
+          "300 g"
+        ],
+        [
+          "Pechuga de pavo en lonchas",
+          "60 g"
+        ],
+        [
+          "Jamón serrano en lonchas",
+          "60 g"
+        ],
+        [
+          "Lomos de salmón",
+          "1 lomo(s), ~130 g each"
+        ]
+      ]
+    },
+    {
+      "category": "Huevos, lácteos y refrigerados",
+      "items": [
+        [
+          "Kéfir",
+          "400 ml"
+        ],
+        [
+          "Yogur griego natural",
+          "535 g"
+        ],
+        [
+          "Nata para cocinar ligera",
+          "200 ml"
+        ],
+        [
+          "Huevos",
+          "8 → 1 docena"
+        ],
+        [
+          "Hummus",
+          "7 tbsp → tarrina(s)"
+        ],
+        [
+          "Queso feta",
+          "170 g"
+        ],
+        [
+          "Leche",
+          "250 ml"
+        ],
+        [
+          "Queso manchego",
+          "40 g"
+        ]
+      ]
+    },
+    {
+      "category": "Despensa",
+      "items": [
+        [
+          "Copos de avena",
+          "115 g"
+        ],
+        [
+          "Almendras naturales",
+          "65 g"
+        ],
+        [
+          "Arroz basmati",
+          "300 g"
+        ],
+        [
+          "Aceitunas verdes",
+          "24"
+        ],
+        [
+          "Pan de pita",
+          "2"
+        ],
+        [
+          "Granola sin azúcar añadido",
+          "30 g"
+        ],
+        [
+          "Crispbread de centeno (your usual)",
+          "12 pieces → 1 paquete"
+        ],
+        [
+          "Pan de centeno",
+          "4 slices → 1 pan"
+        ],
+        [
+          "Alubias blancas cocidas",
+          "120 g"
+        ],
+        [
+          "Farfalle",
+          "180 g"
+        ],
+        [
+          "Pipas de calabaza",
+          "10 g"
+        ]
+      ]
+    },
+    {
+      "category": "Congelados",
+      "items": [
+        [
+          "Habitas baby",
+          "160 g"
+        ]
+      ]
+    },
+    {
+      "category": "Tienda libanesa (you buy)",
+      "items": [
+        [
+          "Labneh",
+          "7 tbsp → tub"
+        ],
+        [
+          "Za'atar",
+          "2 tsp → pot"
+        ]
+      ]
+    },
+    {
+      "category": "Check pantry",
+      "items": [
+        [
+          "Cacao puro",
+          "check"
+        ],
+        [
+          "Canela",
+          "check"
+        ],
+        [
+          "Mantequilla",
+          "check"
+        ],
+        [
+          "Miel",
+          "check"
+        ],
+        [
+          "Mostaza",
+          "check"
+        ],
+        [
+          "Pimentón dulce",
+          "check"
+        ],
+        [
+          "Salsa de soja",
+          "check"
+        ],
+        [
+          "Sésamo",
+          "check"
+        ],
+        [
+          "Vinagre de manzana",
+          "check"
+        ]
+      ]
+    }
+  ]
+}
