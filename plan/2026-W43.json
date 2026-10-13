@@ -782,7 +782,7 @@
         "class": "Cycling or GAP",
         "type": "cardio",
         "time": "Morning",
-        "note": "If you pick GAP, it counts as strength — the edamame in lunch covers the extra protein."
+        "note": "If you pick GAP, it counts as strength — lunch has ~33 g protein to cover it."
       },
       "cycle": {
         "day": 19,
@@ -837,7 +837,7 @@
           "light": false,
           "minutes": 22,
           "dish": "Crispy honey-soy tofu rice bowl",
-          "note": "Tofu = magnesium + iron. Edamame adds protein (~33 g total) in case you choose GAP. Uses Thursday's rice.",
+          "note": "Tofu = magnesium + iron. Whole tofu pack + a soft-boiled egg ≈ 33 g protein, in case you choose GAP. Uses Thursday's rice.",
           "recipeRef": "crispy-tofu-bowl",
           "swaps": [
             "No chilli — honey-soy glaze."
@@ -845,7 +845,7 @@
           "ingredients": [
             [
               "Tofu firme",
-              "200 g"
+              "250 g (whole pack)"
             ],
             [
               "Maicena",
@@ -880,8 +880,8 @@
               "1 tsp"
             ],
             [
-              "Edamame congelado",
-              "60 g"
+              "Huevo",
+              "1"
             ]
           ],
           "steps": [
@@ -894,20 +894,25 @@
               "text": "Air fryer, 200°C, 14 min. Shake twice."
             },
             {
-              "at": "10–12 min",
+              "at": "5–12 min",
+              "text": "Boil the egg 7 min. Cool in cold water."
+            },
+            {
+              "at": "12–14 min",
               "text": "Mix soy, honey, vinegar. Slice cucumber and spring onion."
             },
             {
               "at": "18–20 min",
-              "text": "Toss hot tofu in the sauce. Microwave rice + edamame 2 min, covered."
+              "text": "Toss hot tofu in the sauce. Microwave rice 1½ min, covered."
             },
             {
               "at": "20–22 min",
-              "text": "Plate rice, tofu, cucumber. Top with sesame and spring onion."
+              "text": "Plate rice, tofu, cucumber, halved egg. Top with sesame and spring onion."
             }
           ],
           "equipment": [
             "Air fryer",
+            "Small pot",
             "Microwave"
           ]
         },
@@ -1614,10 +1619,6 @@
         ],
         [
           "Guisantes",
-          "1 bolsa"
-        ],
-        [
-          "Edamame",
           "1 bolsa"
         ]
       ]
