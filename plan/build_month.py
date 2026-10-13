@@ -265,16 +265,6 @@ D["hummus_bread"] = dish("Hummus, olives, cucumber & bread", "Light plate. No co
     [I("Hummus", 4, "tbsp", "L"), I("Aceitunas verdes", 8, "", "D"), I("Pepino", 0.25), I("Pan de pita", 1, "", "D")],
     [S("0–5 min", "Warm pitta in a dry pan if you like. Plate everything.")], light=True)
 
-SNACK = {
-    "W43": dish("Pre-GAP snack: Greek yoghurt, banana & almonds", "~18:00, before the evening class.", ["Bowl"],
-        [I("Yogur griego natural", 125, "g", "L"), I("Plátano", 1), I("Almendras naturales", 10, "g", "D")], [S("0–3 min", "Slice banana into yoghurt. Almonds on top.")], light=True),
-    "W44": dish("Pre-GAP snack: Greek yoghurt, kiwi & almonds", "~18:00, before the evening class.", ["Bowl"],
-        [I("Yogur griego natural", 125, "g", "L"), I("Kiwi", 1), I("Almendras naturales", 10, "g", "D")], [S("0–3 min", "Slice kiwi into yoghurt. Almonds on top.")], light=True),
-    "W45": dish("Pre-GAP snack: banana & almonds", "~18:00, before the evening class.", ["None"],
-        [I("Plátano", 1), I("Almendras naturales", 15, "g", "D")], [S("0–1 min", "Banana + a small handful of almonds.")], light=True),
-    "W46": dish("Pre-GAP snack: Greek yoghurt, honey & berries", "~18:00, before the evening class.", ["Bowl"],
-        [I("Yogur griego natural", 125, "g", "L"), I("Frutos rojos", 50, "g", "Z"), I("Miel", "", "drizzle", "P")], [S("0–3 min", "Thawed berries + honey on yoghurt.")], light=True),
-}
 
 # ================================================================ WEEK STRUCTURE (approved 13 Oct)
 LO = "LO:"
@@ -346,6 +336,48 @@ CATS = OrderedDict([("F", "Fruta y verdura"), ("C", "Carne y pescado"), ("L", "H
 BUYHINT = {"Huevos": "docena", "Ajo": "1 cabeza", "Perejil fresco": "1 manojo", "Menta o eneldo fresco": "1 manojo", "Cebolleta": "1 manojo",
            "Crispbread de centeno (your usual)": "1–2 paquetes", "Ensalada mezclum": "bolsas", "Espinacas baby": "bolsa"}
 
+# English names for the shopping list only — the per-meal ingredient lists and recipe
+# steps stay in Spanish (Mercadona product names, same store); this is purely so the
+# shopping list itself reads in English. Falls back to the Spanish name if a new
+# ingredient is added here and not yet translated, rather than erroring.
+EN = {
+    "Aceitunas negras / kalamata": "Black olives / kalamata", "Aceitunas verdes": "Green olives",
+    "Aguacate": "Avocado", "Ajo": "Garlic", "Ajo en polvo": "Garlic powder", "Alioli": "Garlic mayo (alioli)",
+    "Almendras naturales": "Almonds (plain)", "Alubias blancas cocidas": "White beans, cooked",
+    "Alubias rojas cocidas": "Red beans, cooked", "Arroz basmati": "Basmati rice", "Arroz redondo": "Risotto rice",
+    "Boniato": "Sweet potato", "Brócoli (floretes)": "Broccoli (florets)", "Cacao puro": "Pure cocoa powder",
+    "Calabacín": "Courgette (zucchini)", "Calabaza troceada": "Pumpkin/squash, diced",
+    "Caldo de verduras": "Vegetable stock", "Canela": "Cinnamon", "Carne picada de ternera": "Beef mince",
+    "Cebolla": "Onion", "Cebolla roja": "Red onion", "Cebolleta": "Spring onion", "Chalota": "Shallot",
+    "Champiñón laminado": "Mushrooms, sliced", "Coles de Bruselas": "Brussels sprouts",
+    "Copos de avena": "Rolled oats", "Crispbread de centeno (your usual)": "Rye crispbread (your usual)",
+    "Cuscús": "Couscous", "Ensalada mezclum": "Mixed salad leaves", "Espaguetis": "Spaghetti",
+    "Espinacas baby": "Baby spinach", "Falafel": "Falafel", "Farfalle": "Farfalle (bow-tie pasta)",
+    "Filete de añojo (ternera)": "Beef steak (young beef)", "Filetes de lomo de cerdo": "Pork loin steaks",
+    "Frutos rojos": "Mixed berries", "Granola sin azúcar añadido": "Granola, no added sugar",
+    "Guisantes": "Peas", "Habitas baby": "Baby broad beans", "Huevos": "Eggs", "Hummus": "Hummus",
+    "Jamón cocido": "Cooked ham", "Jamón serrano en lonchas": "Serrano ham, sliced",
+    "Judías verdes": "Green beans", "Kale": "Kale", "Kiwi": "Kiwi", "Kéfir": "Kefir", "Labneh": "Labneh",
+    "Leche": "Milk", "Lechuga (cogollos)": "Lettuce (little gem)", "Lima": "Lime", "Limón": "Lemon",
+    "Lomos de salmón": "Salmon fillets", "Macarrones / pasta corta": "Macaroni / short pasta",
+    "Macarrones / rigatoni": "Macaroni / rigatoni", "Maicena": "Cornflour", "Mantequilla": "Butter",
+    "Manzana": "Apple", "Menta o eneldo fresco": "Fresh mint or dill", "Miel": "Honey", "Mostaza": "Mustard",
+    "Nata para cocinar ligera": "Light cooking cream", "Orégano": "Oregano", "Pan de centeno": "Rye bread",
+    "Pan de pita": "Pitta bread", "Pan rallado": "Breadcrumbs", "Parmesano rallado": "Grated parmesan",
+    "Patata": "Potato", "Patata baby": "Baby potatoes", "Pechuga de pavo en filetes": "Turkey breast fillets",
+    "Pechuga de pavo en lonchas": "Turkey breast, sliced", "Pechuga de pollo en filetes": "Chicken breast fillets",
+    "Pepino": "Cucumber", "Pera": "Pear", "Perejil fresco": "Fresh parsley",
+    "Pimentón dulce": "Sweet smoked paprika", "Pimiento asado (bote)": "Roasted red pepper (jarred)",
+    "Pimiento rojo": "Red pepper", "Pimientos tricolor": "Mixed peppers (tricolour)",
+    "Pipas de calabaza": "Pumpkin seeds", "Plátano": "Banana", "Queso cottage": "Cottage cheese",
+    "Queso crema": "Cream cheese", "Queso en lonchas (havarti o similar)": "Cheese slices (havarti or similar)",
+    "Queso feta": "Feta cheese", "Queso manchego": "Manchego cheese", "Queso rallado mozzarella": "Grated mozzarella",
+    "Salmón ahumado": "Smoked salmon", "Salsa de soja": "Soy sauce", "Salsa tzatziki": "Tzatziki sauce",
+    "Solomillo de cerdo": "Pork tenderloin", "Sésamo": "Sesame seeds", "Tomate triturado": "Chopped tomato",
+    "Vinagre de manzana": "Apple cider vinegar", "Yogur griego natural": "Greek yoghurt, plain",
+    "Za'atar": "Za'atar", "Zanahoria": "Carrot",
+}
+
 def shopping(cooked):
     agg = OrderedDict()
     for d in cooked:
@@ -364,16 +396,16 @@ def shopping(cooked):
         seen.add(n)
         if u == "" and isinstance(tot, (int, float)) and tot and not float(tot).is_integer() and n not in ("Huevos",):
             import math; tot = math.ceil(tot)
-        if n == "Ajo": out[CATS[c]].append([n, "1 cabeza"]); continue
-        if n in ("Perejil fresco", "Menta o eneldo fresco", "Cebolleta"): out[CATS[c]].append([n, "1 manojo"]); continue
-        if n == "Crispbread de centeno (your usual)": out[CATS[c]].append([n, f"{fmt(tot)} pieces → 1 paquete"]); continue
-        if n == "Huevos": out[CATS[c]].append([n, f"{fmt(tot)} → 1 docena" if tot <= 12 else f"{fmt(tot)} → 2 docenas"]); continue
+        if n == "Ajo": out[CATS[c]].append([n, "1 head"]); continue
+        if n in ("Perejil fresco", "Menta o eneldo fresco", "Cebolleta"): out[CATS[c]].append([n, "1 bunch"]); continue
+        if n == "Crispbread de centeno (your usual)": out[CATS[c]].append([n, f"{fmt(tot)} pieces → 1 pack"]); continue
+        if n == "Huevos": out[CATS[c]].append([n, f"{fmt(tot)} → 1 dozen" if tot <= 12 else f"{fmt(tot)} → 2 dozen"]); continue
         if u == "handful" and n in ("Ensalada mezclum", "Espinacas baby", "Kale"):
-            out[CATS[c]].append([n, f"{fmt(tot)} handfuls → {max(1, round(tot / 5 + 0.49))} bolsa(s)"]); continue
-        if n == "Pan de centeno": out[CATS[c]].append([n, f"{fmt(tot)} slices → 1 pan"]); continue
-        if u == "fillet": out[CATS[c]].append([n, f"{fmt(tot)} lomo(s), ~130 g each"]); continue
+            out[CATS[c]].append([n, f"{fmt(tot)} handfuls → {max(1, round(tot / 5 + 0.49))} bag(s)"]); continue
+        if n == "Pan de centeno": out[CATS[c]].append([n, f"{fmt(tot)} slices → 1 loaf"]); continue
+        if u == "fillet": out[CATS[c]].append([n, f"{fmt(tot)} fillet(s), ~130 g each"]); continue
         if u in ("tbsp", "tsp", "pinch", "slice", "pieces") and n not in ("Queso en lonchas (havarti o similar)", "Jamón cocido"):
-            label = {"Hummus": "tarrina(s)", "Salsa tzatziki": "tarrina", "Labneh": "tub", "Za'atar": "pot", "Queso crema": "tarrina", "Alioli": "tarro"}.get(n, "")
+            label = {"Hummus": "tub(s)", "Salsa tzatziki": "tub", "Labneh": "tub", "Za'atar": "pot", "Queso crema": "tub", "Alioli": "jar"}.get(n, "")
             out[CATS[c]].append([n, (f"{fmt(tot)} {u}" + (f" → {label}" if label else "")).strip()]); continue
         q = qty(tot, u) if tot else ""
         if extra: q = (q + " + " if q else "") + ", ".join(sorted(set(extra)))
@@ -382,8 +414,8 @@ def shopping(cooked):
         merged = OrderedDict()
         for n, q in out[k]:
             merged[n] = (merged[n] + " + " + q) if n in merged and q else (merged.get(n) or q)
-        out[k] = [[n, q] for n, q in merged.items()]
-    out[CATS["P"]] = [[p, "check"] for p in sorted(pantry)]
+        out[k] = [[EN.get(n, n), q] for n, q in merged.items()]
+    out[CATS["P"]] = [[EN.get(p, p), "check"] for p in sorted(pantry, key=lambda p: EN.get(p, p))]
     return [{"category": k, "items": v} for k, v in out.items() if v]
 
 weeks_json = []
@@ -399,8 +431,6 @@ for wid, label, tagline, rows in WEEKS:
             meals.append(mealobj("Lunch", leftover(l[3:])))
         else:
             meals.append(mealobj("Lunch", L[l])); cooked.append(L[l])
-        if i == 3:
-            meals.append(mealobj("Snack", SNACK[wid[-3:]])); cooked.append(SNACK[wid[-3:]])
         meals.append(mealobj("Dinner", D[dn])); cooked.append(D[dn])
         days.append({"day": DAYS[i], "date": date.isoformat(), "training": TRAIN[i],
                      "cycle": {"day": cd, "phase": ph, "focus": focus}, "meals": meals})

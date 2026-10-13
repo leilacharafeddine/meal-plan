@@ -103,12 +103,6 @@ What you need: Microwave
 - **0–3 min** — Microwave 2½–3 min, covered, stir halfway (pasta: add a splash of water).
 - **3–5 min** — Plate with a handful of salad leaves.
 
-### Snack · Pre-GAP snack: Greek yoghurt, banana & almonds — 3 min
-~18:00, before the evening class.
-What you need: Bowl
-Ingredients: Yogur griego natural 125 g, Plátano 1, Almendras naturales 10 g
-- **0–3 min** — Slice banana into yoghurt. Almonds on top.
-
 ### Dinner · After GAP: labneh, 2 boiled eggs, cucumber, rye crispbread — 10 min
 Light but protein-forward after the evening class.
 What you need: Small pot
@@ -195,13 +189,13 @@ Ingredients: Champiñón laminado 150 g, Ajo 2 cloves, Perejil fresco 1 pinch, H
 - **8–10 min** — Warm pitta in the same pan. Plate with hummus.
 
 ## Shopping list — Week 43
-**Fruta y verdura:** Kiwi (2); Limón (3); Ajo (1 cabeza); Pimiento rojo (1); Pepino (2); Ensalada mezclum (6 handfuls → 2 bolsa(s)); Zanahoria (1); Champiñón laminado (610 g); Espinacas baby (2 handfuls → 1 bolsa(s) + 80 g); Plátano (3); Perejil fresco (1 manojo); Aguacate (1); Patata baby (250 g); Judías verdes (100 g)
-**Carne y pescado:** Pechuga de pollo en filetes (660 g); Carne picada de ternera (250 g); Salmón ahumado (60 g); Lomos de salmón (1 lomo(s), ~130 g each)
-**Huevos, lácteos y refrigerados:** Yogur griego natural (415 g); Salsa tzatziki (6 tbsp → tarrina); Hummus (10 tbsp → tarrina(s)); Huevos (9 → 1 docena); Kéfir (400 ml); Parmesano rallado (60 g); Falafel (4); Queso cottage (100 g); Nata para cocinar ligera (200 ml); Queso crema (2 tbsp → tarrina); Queso feta (50 g)
-**Despensa:** Copos de avena (125 g); Almendras naturales (55 g); Arroz basmati (150 g); Crispbread de centeno (your usual) (12 pieces → 1 paquete); Aceitunas verdes (16); Pan de centeno (4 slices → 1 pan); Pan de pita (2); Tomate triturado (400 g); Espaguetis (180 g); Pipas de calabaza (10 g); Macarrones / pasta corta (160 g); Aceitunas negras / kalamata (8); Pimiento asado (bote) (1); Alioli (1 tbsp → tarro)
-**Congelados:** Frutos rojos (140 g)
+**Fruta y verdura:** Kiwi (2); Lemon (3); Garlic (1 head); Red pepper (1); Cucumber (2); Mixed salad leaves (6 handfuls → 2 bag(s)); Carrot (1); Mushrooms, sliced (610 g); Baby spinach (2 handfuls → 1 bag(s) + 80 g); Banana (2); Fresh parsley (1 bunch); Avocado (1); Baby potatoes (250 g); Green beans (100 g)
+**Carne y pescado:** Chicken breast fillets (660 g); Beef mince (250 g); Smoked salmon (60 g); Salmon fillets (1 fillet(s), ~130 g each)
+**Huevos, lácteos y refrigerados:** Greek yoghurt, plain (290 g); Tzatziki sauce (6 tbsp → tub); Hummus (10 tbsp → tub(s)); Eggs (9 → 1 dozen); Kefir (400 ml); Grated parmesan (60 g); Falafel (4); Cottage cheese (100 g); Light cooking cream (200 ml); Cream cheese (2 tbsp → tub); Feta cheese (50 g)
+**Despensa:** Rolled oats (125 g); Almonds (plain) (45 g); Basmati rice (150 g); Rye crispbread (your usual) (12 pieces → 1 pack); Green olives (16); Rye bread (4 slices → 1 loaf); Pitta bread (2); Chopped tomato (400 g); Spaghetti (180 g); Pumpkin seeds (10 g); Macaroni / short pasta (160 g); Black olives / kalamata (8); Roasted red pepper (jarred) (1); Garlic mayo (alioli) (1 tbsp → jar)
+**Congelados:** Mixed berries (140 g)
 **Tienda libanesa (you buy):** Labneh (8 tbsp → tub); Za'atar (2 tsp → pot)
-**Check pantry:** Cacao puro (check); Mantequilla (check); Miel (check); Orégano (check); Pan rallado (check)
+**Check pantry:** Breadcrumbs (check); Butter (check); Honey (check); Oregano (check); Pure cocoa powder (check)
 
 ---
 
@@ -303,12 +297,6 @@ What you need: Microwave
 - **0–3 min** — Microwave 2½–3 min, covered, stir halfway (pasta: add a splash of water).
 - **3–5 min** — Plate with a handful of salad leaves.
 
-### Snack · Pre-GAP snack: Greek yoghurt, kiwi & almonds — 3 min
-~18:00, before the evening class.
-What you need: Bowl
-Ingredients: Yogur griego natural 125 g, Kiwi 1, Almendras naturales 10 g
-- **0–3 min** — Slice kiwi into yoghurt. Almonds on top.
-
 ### Dinner · After GAP: turkey slices, labneh, boiled egg, rye crispbread — 10 min
 Light but protein-forward after the evening class.
 What you need: Small pot
@@ -401,13 +389,13 @@ Ingredients: Hummus 3 tbsp, Aceitunas verdes 8, Queso feta 30 g, Pepino ¼, Cris
 - **0–5 min** — Plate everything. Olive oil over the hummus.
 
 ## Shopping list — Week 44
-**Fruta y verdura:** Manzana (1); Champiñón laminado (480 g); Cebolla (1); Ajo (1 cabeza); Perejil fresco (1 manojo); Ensalada mezclum (4 handfuls → 1 bolsa(s)); Pepino (2); Pera (1); Zanahoria (1); Pimiento rojo (1); Kiwi (2); Judías verdes (200 g); Cebolleta (1 manojo); Lima (1); Limón (3); Plátano (2); Aguacate (1); Chalota (1); Menta o eneldo fresco (1 manojo); Espinacas baby (1 handfuls → 1 bolsa(s)); Boniato (1); Coles de Bruselas (75 g); Kale (1 handfuls → 1 bolsa(s))
-**Carne y pescado:** Pechuga de pavo en filetes (300 g); Salmón ahumado (50 g); Filetes de lomo de cerdo (300 g); Pechuga de pavo en lonchas (60 g); Jamón serrano en lonchas (60 g); Lomos de salmón (1 lomo(s), ~130 g each)
-**Huevos, lácteos y refrigerados:** Kéfir (400 ml); Yogur griego natural (535 g); Nata para cocinar ligera (200 ml); Huevos (8 → 1 docena); Hummus (7 tbsp → tarrina(s)); Queso feta (170 g); Leche (250 ml); Queso manchego (40 g)
-**Despensa:** Copos de avena (115 g); Almendras naturales (65 g); Arroz basmati (300 g); Aceitunas verdes (24); Pan de pita (2); Granola sin azúcar añadido (30 g); Crispbread de centeno (your usual) (12 pieces → 1 paquete); Pan de centeno (4 slices → 1 pan); Alubias blancas cocidas (120 g); Farfalle (180 g); Pipas de calabaza (10 g)
-**Congelados:** Habitas baby (160 g)
+**Fruta y verdura:** Apple (1); Mushrooms, sliced (480 g); Onion (1); Garlic (1 head); Fresh parsley (1 bunch); Mixed salad leaves (4 handfuls → 1 bag(s)); Cucumber (2); Pear (1); Carrot (1); Red pepper (1); Kiwi (1); Green beans (200 g); Spring onion (1 bunch); Lime (1); Lemon (3); Banana (2); Avocado (1); Shallot (1); Fresh mint or dill (1 bunch); Baby spinach (1 handfuls → 1 bag(s)); Sweet potato (1); Brussels sprouts (75 g); Kale (1 handfuls → 1 bag(s))
+**Carne y pescado:** Turkey breast fillets (300 g); Smoked salmon (50 g); Pork loin steaks (300 g); Turkey breast, sliced (60 g); Serrano ham, sliced (60 g); Salmon fillets (1 fillet(s), ~130 g each)
+**Huevos, lácteos y refrigerados:** Kefir (400 ml); Greek yoghurt, plain (410 g); Light cooking cream (200 ml); Eggs (8 → 1 dozen); Hummus (7 tbsp → tub(s)); Feta cheese (170 g); Milk (250 ml); Manchego cheese (40 g)
+**Despensa:** Rolled oats (115 g); Almonds (plain) (55 g); Basmati rice (300 g); Green olives (24); Pitta bread (2); Granola, no added sugar (30 g); Rye crispbread (your usual) (12 pieces → 1 pack); Rye bread (4 slices → 1 loaf); White beans, cooked (120 g); Farfalle (bow-tie pasta) (180 g); Pumpkin seeds (10 g)
+**Congelados:** Baby broad beans (160 g)
 **Tienda libanesa (you buy):** Labneh (7 tbsp → tub); Za'atar (2 tsp → pot)
-**Check pantry:** Cacao puro (check); Canela (check); Mantequilla (check); Miel (check); Mostaza (check); Pimentón dulce (check); Salsa de soja (check); Sésamo (check); Vinagre de manzana (check)
+**Check pantry:** Apple cider vinegar (check); Butter (check); Cinnamon (check); Honey (check); Mustard (check); Pure cocoa powder (check); Sesame seeds (check); Soy sauce (check); Sweet smoked paprika (check)
 
 ---
 
@@ -518,12 +506,6 @@ What you need: Microwave
 - **0–3 min** — Microwave 2½–3 min, covered, stir halfway (pasta: add a splash of water).
 - **3–5 min** — Plate with a handful of salad leaves.
 
-### Snack · Pre-GAP snack: banana & almonds — 1 min
-~18:00, before the evening class.
-What you need: None
-Ingredients: Plátano 1, Almendras naturales 15 g
-- **0–1 min** — Banana + a small handful of almonds.
-
 ### Dinner · After GAP: labneh, 2 boiled eggs, cucumber, rye crispbread — 10 min
 Light but protein-forward after the evening class.
 What you need: Small pot
@@ -613,13 +595,13 @@ Ingredients: Labneh 4 tbsp, Za'atar 1 tsp, Pepino ¼, Aceitunas verdes 8, Pan de
 - **2–5 min** — Labneh on a plate. Olive oil + za'atar on top. Add cucumber and olives.
 
 ## Shopping list — Week 45
-**Fruta y verdura:** Manzana (1); Champiñón laminado (560 g); Cebolla (2); Zanahoria (2); Ajo (1 cabeza); Ensalada mezclum (4 handfuls → 1 bolsa(s)); Calabaza troceada (500 g); Espinacas baby (2 handfuls → 1 bolsa(s)); Kiwi (2); Lima (2); Perejil fresco (1 manojo); Lechuga (cogollos) (2); Patata (1 small); Aguacate (1); Limón (1); Plátano (3); Pepino (1); Pimientos tricolor (2); Cebolla roja (1); Patata baby (250 g); Brócoli (floretes) (120 g)
-**Carne y pescado:** Carne picada de ternera (300 g); Pechuga de pollo en filetes (360 g); Filete de añojo (ternera) (300 g); Lomos de salmón (1 lomo(s), ~130 g each)
-**Huevos, lácteos y refrigerados:** Leche (250 ml); Yogur griego natural (370 g); Parmesano rallado (30 g); Huevos (9 → 1 docena); Nata para cocinar ligera (50 ml); Queso cottage (100 g); Kéfir (250 ml); Queso en lonchas (havarti o similar) (1 slice); Falafel (4); Hummus (3 tbsp → tarrina(s))
-**Despensa:** Copos de avena (130 g); Almendras naturales (60 g); Tomate triturado (500 g); Macarrones / rigatoni (180 g); Pipas de calabaza (25 g); Crispbread de centeno (your usual) (12 pieces → 1 paquete); Pan de centeno (5 slices → 1 pan); Arroz basmati (300 g); Alubias rojas cocidas (1 jar (400 g)); Alioli (1 tbsp → tarro); Aceitunas verdes (8); Pan de pita (1)
-**Congelados:** Frutos rojos (140 g)
+**Fruta y verdura:** Apple (1); Mushrooms, sliced (560 g); Onion (2); Carrot (2); Garlic (1 head); Mixed salad leaves (4 handfuls → 1 bag(s)); Pumpkin/squash, diced (500 g); Baby spinach (2 handfuls → 1 bag(s)); Kiwi (2); Lime (2); Fresh parsley (1 bunch); Lettuce (little gem) (2); Potato (1 small); Avocado (1); Lemon (1); Cucumber (1); Banana (2); Mixed peppers (tricolour) (2); Red onion (1); Baby potatoes (250 g); Broccoli (florets) (120 g)
+**Carne y pescado:** Beef mince (300 g); Chicken breast fillets (360 g); Beef steak (young beef) (300 g); Salmon fillets (1 fillet(s), ~130 g each)
+**Huevos, lácteos y refrigerados:** Milk (250 ml); Greek yoghurt, plain (370 g); Grated parmesan (30 g); Eggs (9 → 1 dozen); Light cooking cream (50 ml); Cottage cheese (100 g); Kefir (250 ml); Cheese slices (havarti or similar) (1 slice); Falafel (4); Hummus (3 tbsp → tub(s))
+**Despensa:** Rolled oats (130 g); Almonds (plain) (45 g); Chopped tomato (500 g); Macaroni / rigatoni (180 g); Pumpkin seeds (25 g); Rye crispbread (your usual) (12 pieces → 1 pack); Rye bread (5 slices → 1 loaf); Basmati rice (300 g); Red beans, cooked (1 jar (400 g)); Garlic mayo (alioli) (1 tbsp → jar); Green olives (8); Pitta bread (1)
+**Congelados:** Mixed berries (140 g)
 **Tienda libanesa (you buy):** Labneh (8 tbsp → tub); Za'atar (2 tsp → pot)
-**Check pantry:** Ajo en polvo (check); Caldo de verduras (check); Canela (check); Mantequilla (check); Miel (check); Orégano (check); Pimentón dulce (check)
+**Check pantry:** Butter (check); Cinnamon (check); Garlic powder (check); Honey (check); Oregano (check); Sweet smoked paprika (check); Vegetable stock (check)
 
 ---
 
@@ -722,12 +704,6 @@ What you need: Microwave
 - **0–3 min** — Microwave 2½–3 min, covered, stir halfway (pasta: add a splash of water).
 - **3–5 min** — Plate with a handful of salad leaves.
 
-### Snack · Pre-GAP snack: Greek yoghurt, honey & berries — 3 min
-~18:00, before the evening class.
-What you need: Bowl
-Ingredients: Yogur griego natural 125 g, Frutos rojos 50 g, Miel drizzle
-- **0–3 min** — Thawed berries + honey on yoghurt.
-
 ### Dinner · After GAP: labneh, 2 boiled eggs, cucumber, rye crispbread — 10 min
 Light but protein-forward after the evening class.
 What you need: Small pot
@@ -811,10 +787,10 @@ Ingredients: Hummus 4 tbsp, Aceitunas verdes 8, Pepino ¼, Pan de pita 1
 - **0–5 min** — Warm pitta in a dry pan if you like. Plate everything.
 
 ## Shopping list — Week 46
-**Fruta y verdura:** Limón (3); Ajo (1 cabeza); Pimiento rojo (4); Pepino (2); Ensalada mezclum (4 handfuls → 1 bolsa(s)); Aguacate (1); Champiñón laminado (520 g); Zanahoria (1); Cebolleta (1 manojo); Kiwi (4); Espinacas baby (1 handfuls → 1 bolsa(s)); Plátano (2); Calabacín (1); Cebolla roja (1); Perejil fresco (1 manojo); Cebolla (1)
-**Carne y pescado:** Pechuga de pavo en filetes (360 g); Salmón ahumado (60 g); Filete de añojo (ternera) (300 g); Solomillo de cerdo (1 (~400 g)); Jamón cocido (2 slice)
-**Huevos, lácteos y refrigerados:** Yogur griego natural (475 g); Salsa tzatziki (9 tbsp → tarrina); Huevos (10 → 1 docena); Queso rallado mozzarella (20 g); Hummus (8 tbsp → tarrina(s)); Kéfir (400 ml); Falafel (4); Queso en lonchas (havarti o similar) (2 slice); Queso feta (50 g); Parmesano rallado (15 g)
-**Despensa:** Granola sin azúcar añadido (30 g); Almendras naturales (40 g); Arroz basmati (300 g); Crispbread de centeno (your usual) (12 pieces → 1 paquete); Pan de centeno (4 slices → 1 pan); Copos de avena (105 g); Aceitunas verdes (16); Pan de pita (2); Cuscús (140 g); Aceitunas negras / kalamata (8); Pimiento asado (bote) (1); Arroz redondo (75 g)
-**Congelados:** Frutos rojos (170 g); Guisantes (80 g)
+**Fruta y verdura:** Lemon (3); Garlic (1 head); Red pepper (4); Cucumber (2); Mixed salad leaves (4 handfuls → 1 bag(s)); Avocado (1); Mushrooms, sliced (520 g); Carrot (1); Spring onion (1 bunch); Kiwi (4); Baby spinach (1 handfuls → 1 bag(s)); Banana (2); Courgette (zucchini) (1); Red onion (1); Fresh parsley (1 bunch); Onion (1)
+**Carne y pescado:** Turkey breast fillets (360 g); Smoked salmon (60 g); Beef steak (young beef) (300 g); Pork tenderloin (1 (~400 g)); Cooked ham (2 slice)
+**Huevos, lácteos y refrigerados:** Greek yoghurt, plain (350 g); Tzatziki sauce (9 tbsp → tub); Eggs (10 → 1 dozen); Grated mozzarella (20 g); Hummus (8 tbsp → tub(s)); Kefir (400 ml); Falafel (4); Cheese slices (havarti or similar) (2 slice); Feta cheese (50 g); Grated parmesan (15 g)
+**Despensa:** Granola, no added sugar (30 g); Almonds (plain) (40 g); Basmati rice (300 g); Rye crispbread (your usual) (12 pieces → 1 pack); Rye bread (4 slices → 1 loaf); Rolled oats (105 g); Green olives (16); Pitta bread (2); Couscous (140 g); Black olives / kalamata (8); Roasted red pepper (jarred) (1); Risotto rice (75 g)
+**Congelados:** Mixed berries (120 g); Peas (80 g)
 **Tienda libanesa (you buy):** Labneh (8 tbsp → tub); Za'atar (2 tsp → pot)
-**Check pantry:** Caldo de verduras (check); Maicena (check); Mantequilla (check); Miel (check); Orégano (check); Pimentón dulce (check); Salsa de soja (check); Sésamo (check)
+**Check pantry:** Butter (check); Cornflour (check); Honey (check); Oregano (check); Sesame seeds (check); Soy sauce (check); Sweet smoked paprika (check); Vegetable stock (check)

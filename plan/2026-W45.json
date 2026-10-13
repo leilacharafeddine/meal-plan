@@ -620,32 +620,6 @@
           "leftoverOf": "Mild chicken & red bean rice bowl"
         },
         {
-          "slot": "Snack",
-          "light": true,
-          "dish": "Pre-GAP snack: banana & almonds",
-          "note": "~18:00, before the evening class.",
-          "equipment": [
-            "None"
-          ],
-          "ingredients": [
-            [
-              "Plátano",
-              "1"
-            ],
-            [
-              "Almendras naturales",
-              "15 g"
-            ]
-          ],
-          "steps": [
-            {
-              "at": "0–1 min",
-              "text": "Banana + a small handful of almonds."
-            }
-          ],
-          "minutes": 1
-        },
-        {
           "slot": "Dinner",
           "light": true,
           "dish": "After GAP: labneh, 2 boiled eggs, cucumber, rye crispbread",
@@ -1157,87 +1131,87 @@
       "category": "Fruta y verdura",
       "items": [
         [
-          "Manzana",
+          "Apple",
           "1"
         ],
         [
-          "Champiñón laminado",
+          "Mushrooms, sliced",
           "560 g"
         ],
         [
-          "Cebolla",
+          "Onion",
           "2"
         ],
         [
-          "Zanahoria",
+          "Carrot",
           "2"
         ],
         [
-          "Ajo",
-          "1 cabeza"
+          "Garlic",
+          "1 head"
         ],
         [
-          "Ensalada mezclum",
-          "4 handfuls → 1 bolsa(s)"
+          "Mixed salad leaves",
+          "4 handfuls → 1 bag(s)"
         ],
         [
-          "Calabaza troceada",
+          "Pumpkin/squash, diced",
           "500 g"
         ],
         [
-          "Espinacas baby",
-          "2 handfuls → 1 bolsa(s)"
+          "Baby spinach",
+          "2 handfuls → 1 bag(s)"
         ],
         [
           "Kiwi",
           "2"
         ],
         [
-          "Lima",
+          "Lime",
           "2"
         ],
         [
-          "Perejil fresco",
-          "1 manojo"
+          "Fresh parsley",
+          "1 bunch"
         ],
         [
-          "Lechuga (cogollos)",
+          "Lettuce (little gem)",
           "2"
         ],
         [
-          "Patata",
+          "Potato",
           "1 small"
         ],
         [
-          "Aguacate",
+          "Avocado",
           "1"
         ],
         [
-          "Limón",
+          "Lemon",
           "1"
         ],
         [
-          "Plátano",
-          "3"
-        ],
-        [
-          "Pepino",
+          "Cucumber",
           "1"
         ],
         [
-          "Pimientos tricolor",
+          "Banana",
           "2"
         ],
         [
-          "Cebolla roja",
+          "Mixed peppers (tricolour)",
+          "2"
+        ],
+        [
+          "Red onion",
           "1"
         ],
         [
-          "Patata baby",
+          "Baby potatoes",
           "250 g"
         ],
         [
-          "Brócoli (floretes)",
+          "Broccoli (florets)",
           "120 g"
         ]
       ]
@@ -1246,20 +1220,20 @@
       "category": "Carne y pescado",
       "items": [
         [
-          "Carne picada de ternera",
+          "Beef mince",
           "300 g"
         ],
         [
-          "Pechuga de pollo en filetes",
+          "Chicken breast fillets",
           "360 g"
         ],
         [
-          "Filete de añojo (ternera)",
+          "Beef steak (young beef)",
           "300 g"
         ],
         [
-          "Lomos de salmón",
-          "1 lomo(s), ~130 g each"
+          "Salmon fillets",
+          "1 fillet(s), ~130 g each"
         ]
       ]
     },
@@ -1267,35 +1241,35 @@
       "category": "Huevos, lácteos y refrigerados",
       "items": [
         [
-          "Leche",
+          "Milk",
           "250 ml"
         ],
         [
-          "Yogur griego natural",
+          "Greek yoghurt, plain",
           "370 g"
         ],
         [
-          "Parmesano rallado",
+          "Grated parmesan",
           "30 g"
         ],
         [
-          "Huevos",
-          "9 → 1 docena"
+          "Eggs",
+          "9 → 1 dozen"
         ],
         [
-          "Nata para cocinar ligera",
+          "Light cooking cream",
           "50 ml"
         ],
         [
-          "Queso cottage",
+          "Cottage cheese",
           "100 g"
         ],
         [
-          "Kéfir",
+          "Kefir",
           "250 ml"
         ],
         [
-          "Queso en lonchas (havarti o similar)",
+          "Cheese slices (havarti or similar)",
           "1 slice"
         ],
         [
@@ -1304,7 +1278,7 @@
         ],
         [
           "Hummus",
-          "3 tbsp → tarrina(s)"
+          "3 tbsp → tub(s)"
         ]
       ]
     },
@@ -1312,51 +1286,51 @@
       "category": "Despensa",
       "items": [
         [
-          "Copos de avena",
+          "Rolled oats",
           "130 g"
         ],
         [
-          "Almendras naturales",
-          "60 g"
+          "Almonds (plain)",
+          "45 g"
         ],
         [
-          "Tomate triturado",
+          "Chopped tomato",
           "500 g"
         ],
         [
-          "Macarrones / rigatoni",
+          "Macaroni / rigatoni",
           "180 g"
         ],
         [
-          "Pipas de calabaza",
+          "Pumpkin seeds",
           "25 g"
         ],
         [
-          "Crispbread de centeno (your usual)",
-          "12 pieces → 1 paquete"
+          "Rye crispbread (your usual)",
+          "12 pieces → 1 pack"
         ],
         [
-          "Pan de centeno",
-          "5 slices → 1 pan"
+          "Rye bread",
+          "5 slices → 1 loaf"
         ],
         [
-          "Arroz basmati",
+          "Basmati rice",
           "300 g"
         ],
         [
-          "Alubias rojas cocidas",
+          "Red beans, cooked",
           "1 jar (400 g)"
         ],
         [
-          "Alioli",
-          "1 tbsp → tarro"
+          "Garlic mayo (alioli)",
+          "1 tbsp → jar"
         ],
         [
-          "Aceitunas verdes",
+          "Green olives",
           "8"
         ],
         [
-          "Pan de pita",
+          "Pitta bread",
           "1"
         ]
       ]
@@ -1365,7 +1339,7 @@
       "category": "Congelados",
       "items": [
         [
-          "Frutos rojos",
+          "Mixed berries",
           "140 g"
         ]
       ]
@@ -1387,31 +1361,31 @@
       "category": "Check pantry",
       "items": [
         [
-          "Ajo en polvo",
+          "Butter",
           "check"
         ],
         [
-          "Caldo de verduras",
+          "Cinnamon",
           "check"
         ],
         [
-          "Canela",
+          "Garlic powder",
           "check"
         ],
         [
-          "Mantequilla",
+          "Honey",
           "check"
         ],
         [
-          "Miel",
+          "Oregano",
           "check"
         ],
         [
-          "Orégano",
+          "Sweet smoked paprika",
           "check"
         ],
         [
-          "Pimentón dulce",
+          "Vegetable stock",
           "check"
         ]
       ]
