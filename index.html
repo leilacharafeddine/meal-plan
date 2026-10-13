@@ -170,15 +170,12 @@
 
     <!-- CYCLE CALENDAR -->
     <div style="margin-top: 22px; max-width: 560px; width: 100%; box-sizing: border-box; background: rgba(255,255,255,0.74); border: 1px solid rgba(255,255,255,0.6); border-radius: 20px; padding: 16px clamp(10px, 3vw, 18px); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
-      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
-        <button onClick="{{ toggleCycle }}" style="display: flex; align-items: center; gap: 10px; background: none; border: none; padding: 0; cursor: pointer; text-align: left; color: #123842;">
-          <span style="font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 16px;">Cycle · {{ calMonthLabel }}</span>
-          <span style="display: inline-flex; color: #1f8fb8; transform: rotate({{ cycleChevron }}); transition: transform 0.3s ease;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+        <button onClick="{{ toggleCycle }}" style="display: flex; align-items: center; gap: 8px; min-width: 0; background: none; border: none; padding: 0; cursor: pointer; text-align: left; color: #123842;">
+          <span style="font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Cycle · {{ calMonthLabel }}</span>
+          <span style="display: inline-flex; flex: 0 0 auto; color: #1f8fb8; transform: rotate({{ cycleChevron }}); transition: transform 0.3s ease;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
         </button>
-        <div style="display: flex; gap: 6px; align-items: center;">
-          <button onClick="{{ setPillMode }}" style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; border-radius: 99px; padding: 5px 10px; cursor: pointer; border: 1px solid rgba(18,54,66,0.15); background: {{ pillModeBg }}; color: {{ pillModeColor }};">Pill</button>
-          <button onClick="{{ setNaturalMode }}" style="font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; border-radius: 99px; padding: 5px 10px; cursor: pointer; border: 1px solid rgba(18,54,66,0.15); background: {{ naturalModeBg }}; color: {{ naturalModeColor }};">Natural</button>
-          <span style="width: 1px; height: 18px; background: rgba(18,54,66,0.15); margin: 0 2px;"></span>
+        <div style="display: flex; gap: 6px; flex: 0 0 auto;">
           <button onClick="{{ calPrev }}" style="width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.7); border: 1px solid rgba(18,54,66,0.1); border-radius: 9px; cursor: pointer; color: #123842;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
           <button onClick="{{ calNext }}" style="width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.7); border: 1px solid rgba(18,54,66,0.1); border-radius: 9px; cursor: pointer; color: #123842;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
         </div>
@@ -195,15 +192,13 @@
               <span style="position: relative; display: flex; align-items: center; justify-content: center; height: 5px; width: 18px;">
                 <span style="width: 5px; height: 5px; border-radius: 50%; background: #9c3f47; opacity: {{ c.bleedDot }};"></span>
                 <span style="position: absolute; width: 18px; height: 3px; border-radius: 3px; background: #d9a23a; opacity: {{ c.ovuLine }};"></span>
-                <span style="position: absolute; width: 6px; height: 6px; border-radius: 50%; background: #2f9f78; opacity: {{ c.packDot }};"></span>
               </span>
             </div>
           </sc-for>
         </div>
         <div style="display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(18,54,66,0.1); font-family: 'Roboto Mono', monospace; font-size: 10.5px; color: #3d6b76;">
           <span style="display: flex; align-items: center; gap: 7px;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #9c3f47;"></span>Bleed (estimate)</span>
-          <span style="display: flex; align-items: center; gap: 7px;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #2f9f78;"></span>New pack starts</span>
-          <span style="display: flex; align-items: center; gap: 7px;"><span style="width: 16px; height: 3px; border-radius: 3px; background: #d9a23a;"></span>Ovulation if off the pill</span>
+          <span style="display: flex; align-items: center; gap: 7px;"><span style="width: 16px; height: 3px; border-radius: 3px; background: #d9a23a;"></span>Ovulation</span>
         </div>
       </div>
     </div>
@@ -509,9 +504,6 @@
         </sc-if>
         <span style="font-family: 'Roboto Mono', monospace; font-size: 11px; color: #3d6b76; background: rgba(18,54,66,0.06); border-radius: 99px; padding: 6px 11px;">Serves 1</span>
       </div>
-      <sc-if value="{{ sheet.hasCycleLine }}" hint-placeholder-val="{{ false }}">
-        <div style="font-size: 13px; line-height: 1.5; color: #3d6b76; margin-top: 12px;">{{ sheet.cyclePhaseLine }}</div>
-      </sc-if>
     </div>
     <div style="flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; padding: 18px clamp(16px, 5vw, 28px) calc(28px + env(safe-area-inset-bottom));">
       <sc-if value="{{ sheet.hasEquipment }}" hint-placeholder-val="{{ true }}">
@@ -621,21 +613,10 @@ function naturalPhase(cd) {
   if (cd <= 21) return 'Luteal (early)';
   return 'Luteal (late)';
 }
-// Pill facts: combined pill, 21 active + 7-day break, no placebo. Packs start Saturdays;
-// current pack started Sat 10 Oct 2026, repeats every 28 days. Bleed = Mon-Fri of the
-// break week (pack days 23-27); a new pack starts on pack day 0.
-const PILL_PACK_START = new Date(2026, 9, 10);
-function packDay(date) {
-  const DAY = 86400000;
-  const d0 = new Date(date.getFullYear(), date.getMonth(), date.getDate());
-  const diff = Math.round((d0 - PILL_PACK_START) / DAY);
-  return ((diff % 28) + 28) % 28;
-}
-function isPillBleed(date) { const p = packDay(date); return p >= 23 && p <= 27; }
-function isNewPackStart(date) { return packDay(date) === 0; }
+function isBleedDay(date) { return naturalCycleDay(date) <= 5; }
 
 class Component extends DCLogic {
-  state = { data: null, recipes: {}, week: 0, menuOpen: false, standingOpen: false, timingOpen: false, checked: {}, sheet: null, sheetOpen: false, cycleOpen: true, calOffset: 0, cycleTrackMode: 'pill', pantryOpen: false };
+  state = { data: null, recipes: {}, week: 0, menuOpen: false, standingOpen: false, timingOpen: false, checked: {}, sheet: null, sheetOpen: false, cycleOpen: true, calOffset: 0, pantryOpen: false };
 
   componentDidMount() {
     let localChecked = {};
@@ -763,7 +744,7 @@ class Component extends DCLogic {
 
     const cells = [];
     for (let i = 0; i < lead; i++) {
-      cells.push({ label: '', bg: 'transparent', opacity: '1', weight: 400, color: '#123842', bleedDot: '0', ovuLine: '0', packDot: '0' });
+      cells.push({ label: '', bg: 'transparent', opacity: '1', weight: 400, color: '#123842', bleedDot: '0', ovuLine: '0' });
     }
     for (let dd = 1; dd <= daysIn; dd++) {
       const date = new Date(y, m, dd);
@@ -775,40 +756,30 @@ class Component extends DCLogic {
         color: isToday ? '#ffffff' : '#123842',
         weight: isToday ? 700 : 400,
         opacity: date < today ? '0.55' : '1',
-        bleedDot: isPillBleed(date) ? '1' : '0',
+        bleedDot: isBleedDay(date) ? '1' : '0',
         ovuLine: naturalCycleDay(date) === 14 ? '1' : '0',
-        packDot: isNewPackStart(date) ? '1' : '0',
       });
     }
 
     const fmt = (dt) => dt.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
     let ns = new Date(today);
-    while (!isPillBleed(ns)) ns.setDate(ns.getDate() + 1);
+    while (!isBleedDay(ns)) ns.setDate(ns.getDate() + 1);
     const nsEnd = new Date(ns); nsEnd.setDate(nsEnd.getDate() + 4);
     let ov = new Date(today);
     while (naturalCycleDay(ov) !== 14) ov.setDate(ov.getDate() + 1);
 
     const open = this.state.cycleOpen;
-    const pillMode = this.state.cycleTrackMode === 'pill';
     return {
       calMonthLabel: base.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' }),
       calWeekdays: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'],
       calCells: cells,
-      cycleSummary: (pillMode ? 'On the pill — ' : 'Tracking naturally — ') + 'next bleed ' + fmt(ns) + '–' + fmt(nsEnd) + ' · est. ovulation ' + fmt(ov) + ' if off the pill',
+      cycleSummary: 'Next bleed ' + fmt(ns) + '–' + fmt(nsEnd) + ' · est. ovulation ' + fmt(ov),
       cycleMax: open ? '560px' : '0px',
       cycleOpacity: open ? '1' : '0',
       cycleChevron: open ? '180deg' : '0deg',
       toggleCycle: () => this.setState((s) => ({ cycleOpen: !s.cycleOpen })),
       calPrev: () => this.setState((s) => ({ calOffset: s.calOffset - 1, cycleOpen: true })),
       calNext: () => this.setState((s) => ({ calOffset: s.calOffset + 1, cycleOpen: true })),
-      isPillTrackMode: pillMode,
-      isNaturalTrackMode: !pillMode,
-      setPillMode: () => this.setState({ cycleTrackMode: 'pill' }),
-      setNaturalMode: () => this.setState({ cycleTrackMode: 'natural' }),
-      pillModeBg: pillMode ? '#123842' : 'transparent',
-      pillModeColor: pillMode ? '#ffffff' : '#5a8a97',
-      naturalModeBg: !pillMode ? '#123842' : 'transparent',
-      naturalModeColor: !pillMode ? '#ffffff' : '#5a8a97',
     };
   }
 
@@ -855,8 +826,6 @@ class Component extends DCLogic {
         slot: m.slot,
         accent: mealAccent[m.slot] || '#9c3f47',
         minutesLabel: m.minutes ? m.minutes + ' min' : '',
-        hasCycleLine: !!(day.cycle && day.cycle.focus),
-        cyclePhaseLine: day.cycle ? day.cycle.phase + ' — ' + day.cycle.focus : '',
         equipment: m.equipment || [],
         hasEquipment: !!(m.equipment && m.equipment.length),
         swaps: m.swaps || [],
@@ -991,7 +960,7 @@ class Component extends DCLogic {
       };
     });
 
-    const sheet = this.state.sheet || { dish: '', slot: '', accent: '#123842', minutesLabel: '', hasCycleLine: false, cyclePhaseLine: '', equipment: [], hasEquipment: false, swaps: [], hasSwaps: false, ingredients: [], steps: [], hasSteps: false, sourceUrl: '', hasSource: false };
+    const sheet = this.state.sheet || { dish: '', slot: '', accent: '#123842', minutesLabel: '', equipment: [], hasEquipment: false, swaps: [], hasSwaps: false, ingredients: [], steps: [], hasSteps: false, sourceUrl: '', hasSource: false };
 
     return {
       ...this.cycleVals(),
