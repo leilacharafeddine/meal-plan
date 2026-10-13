@@ -5,7 +5,11 @@ Week files live in the project docs: `claude/plan-2026-W43.json` (W44–W46 foll
 
 ## What to do
 1. Append each week object from the plan file to `data.json → weeks`. Don't edit past weeks.
-2. Weeks now run **Monday–Sunday** (7 days). Sunday has `training.type = "rest"`.
+2. Weeks now run **Monday–Sunday** (7 days). New gym timetable (from W43):
+   Mon Rest · Tue GAP (morning) · Wed V-Power (morning) · Thu GAP (evening) · Fri Cycling or GAP (morning) · Sat V-Power (12:30) · Sun Run (morning).
+   `training` now has an optional `time` ("Morning", "Evening", "12:30") and optional `note`. Show the time next to the class name.
+   Leila is no longer injured: drop `trainingOverrideTemporary` / YouTube workout videos from new weeks. Leave old weeks as they are.
+   Meals can include a `"Snack"` slot (e.g. before an evening class) — give it an accent colour (`#c98a2f`).
 3. New optional fields — render them if present, ignore if missing:
    - `day.date` (ISO), `day.cycle` → `{ day, phase, focus }`: show as a small line under the training chip, e.g. "Cycle day 17 · Luteal (early)".
    - `meal.minutes`: show as "20 min" next to the dish name.

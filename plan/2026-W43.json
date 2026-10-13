@@ -2,7 +2,7 @@
   "id": "2026-W43",
   "label": "19 – 25 October 2026",
   "index": "Week 43",
-  "tagline": "Ovulation tail into early luteal — colourful, balanced meals Mon–Tue, then grounding carbs and magnesium (almonds, oats, beans, dark chocolate). Salmon & alioli on Wednesday.",
+  "tagline": "Ovulation tail into early luteal — colourful, balanced meals Mon–Tue, then grounding carbs and magnesium. Salmon & alioli on Wednesday. New gym timetable: rest Monday, GAP Thursday evening, V-Power Saturday 12:30.",
   "cycle": {
     "mode": "natural (practice — currently on the pill)",
     "anchor": "Day 1 = Mon 5 Oct (bleed Mon–Fri), 28-day cycle",
@@ -13,13 +13,14 @@
       "day": "Monday",
       "date": "2026-10-19",
       "training": {
-        "class": "GAP",
-        "type": "strength"
+        "class": "Rest day",
+        "type": "rest",
+        "time": ""
       },
       "cycle": {
         "day": 15,
         "phase": "Ovulation (end of window)",
-        "focus": "Colourful fruit & veg, antioxidants, balanced plates."
+        "focus": "Rest day. Colourful fruit & veg, antioxidants, balanced plates."
       },
       "meals": [
         {
@@ -27,7 +28,7 @@
           "light": false,
           "minutes": 5,
           "dish": "Greek yoghurt, kiwi, berries, oats & almonds",
-          "note": "No cooking. Protein after the gym.",
+          "note": "No cooking. Rest day — no gym this morning.",
           "ingredients": [
             [
               "Yogur griego natural",
@@ -195,8 +196,9 @@
       "day": "Tuesday",
       "date": "2026-10-20",
       "training": {
-        "class": "Upper Body",
-        "type": "strength"
+        "class": "GAP",
+        "type": "strength",
+        "time": "Morning"
       },
       "cycle": {
         "day": 16,
@@ -380,8 +382,9 @@
       "day": "Wednesday",
       "date": "2026-10-21",
       "training": {
-        "class": "V-Burn",
-        "type": "strength"
+        "class": "V-Power",
+        "type": "strength",
+        "time": "Morning"
       },
       "cycle": {
         "day": 17,
@@ -565,12 +568,13 @@
       "date": "2026-10-22",
       "training": {
         "class": "GAP",
-        "type": "strength"
+        "type": "strength",
+        "time": "Evening"
       },
       "cycle": {
         "day": 18,
         "phase": "Luteal (early)",
-        "focus": "Steady blood sugar; iron + slow carbs."
+        "focus": "Steady blood sugar; snack before the evening class, protein dinner after."
       },
       "meals": [
         {
@@ -578,7 +582,7 @@
           "light": false,
           "minutes": 5,
           "dish": "Cottage cheese & avocado rye toast, pumpkin seeds",
-          "note": "Five minutes.",
+          "note": "Five minutes. No gym this morning (GAP is tonight).",
           "ingredients": [
             [
               "Pan de centeno",
@@ -689,11 +693,45 @@
           ]
         },
         {
-          "slot": "Dinner",
+          "slot": "Snack",
           "light": true,
+          "minutes": 3,
+          "dish": "Pre-GAP snack: Greek yoghurt, banana & almonds",
+          "note": "Around 18:00, before the evening class. Carbs for energy + a little protein.",
+          "equipment": [
+            "Bowl"
+          ],
+          "ingredients": [
+            [
+              "Yogur griego natural",
+              "125 g"
+            ],
+            [
+              "Plátano",
+              "1"
+            ],
+            [
+              "Almendras",
+              "10 g"
+            ],
+            [
+              "Miel",
+              "drizzle"
+            ]
+          ],
+          "steps": [
+            {
+              "at": "0–3 min",
+              "text": "Slice banana into the yoghurt. Top with almonds and honey."
+            }
+          ]
+        },
+        {
+          "slot": "Dinner",
+          "light": false,
           "minutes": 5,
-          "dish": "Cold salmon bowl — rice, cucumber, feta, cherry tomatoes",
-          "note": "Uses Wednesday's salmon. No cooking.",
+          "dish": "Post-GAP salmon bowl — rice, cucumber, feta, cherry tomatoes",
+          "note": "After GAP. Uses Wednesday's salmon — protein + carbs, ready in 5 min.",
           "recipeRef": "mediterranean-salmon-bowl",
           "ingredients": [
             [
@@ -702,7 +740,7 @@
             ],
             [
               "Rice (from today's rice cooker)",
-              "1 portion"
+              "1 generous portion"
             ],
             [
               "Pepino",
@@ -741,8 +779,10 @@
       "day": "Friday",
       "date": "2026-10-23",
       "training": {
-        "class": "Cycling",
-        "type": "cardio"
+        "class": "Cycling or GAP",
+        "type": "cardio",
+        "time": "Morning",
+        "note": "If you pick GAP, it counts as strength — the edamame in lunch covers the extra protein."
       },
       "cycle": {
         "day": 19,
@@ -797,7 +837,7 @@
           "light": false,
           "minutes": 22,
           "dish": "Crispy honey-soy tofu rice bowl",
-          "note": "Tofu = magnesium + iron. Uses Thursday's rice.",
+          "note": "Tofu = magnesium + iron. Edamame adds protein (~33 g total) in case you choose GAP. Uses Thursday's rice.",
           "recipeRef": "crispy-tofu-bowl",
           "swaps": [
             "No chilli — honey-soy glaze."
@@ -838,6 +878,10 @@
             [
               "Sésamo",
               "1 tsp"
+            ],
+            [
+              "Edamame congelado",
+              "60 g"
             ]
           ],
           "steps": [
@@ -855,7 +899,7 @@
             },
             {
               "at": "18–20 min",
-              "text": "Toss hot tofu in the sauce. Microwave leftover rice 1½ min, covered."
+              "text": "Toss hot tofu in the sauce. Microwave rice + edamame 2 min, covered."
             },
             {
               "at": "20–22 min",
@@ -919,13 +963,14 @@
       "day": "Saturday",
       "date": "2026-10-24",
       "training": {
-        "class": "Running or Cycling",
-        "type": "cardio"
+        "class": "V-Power",
+        "type": "strength",
+        "time": "12:30"
       },
       "cycle": {
         "day": 20,
         "phase": "Luteal",
-        "focus": "Root veg + complex carbs; a slower weekend cook."
+        "focus": "Fuel before V-Power at 12:30; protein + root veg after."
       },
       "meals": [
         {
@@ -933,7 +978,7 @@
           "light": false,
           "minutes": 9,
           "dish": "Two eggs, avocado & rye toast, small side salad",
-          "note": "Weekend, slightly slower.",
+          "note": "Eat by ~10:30 so it settles before V-Power at 12:30.",
           "ingredients": [
             [
               "Huevos",
@@ -976,7 +1021,7 @@
           "light": false,
           "minutes": 30,
           "dish": "Lemon herb halloumi bowl, roasted sweet potato, hummus & red cabbage slaw",
-          "note": "Weekend cook. Uses half the halloumi — the rest is Sunday dinner.",
+          "note": "After V-Power (~14:00). Chickpeas + yoghurt drizzle push protein to ~35 g. Uses half the halloumi — the rest is Sunday dinner.",
           "recipeRef": "lemon-herb-halloumi-bowl",
           "swaps": [
             "Peri peri → lemon, oregano, sweet paprika.",
@@ -986,6 +1031,10 @@
             [
               "Boniato",
               "1 medium"
+            ],
+            [
+              "Garbanzos cocidos (bote)",
+              "100 g"
             ],
             [
               "Halloumi",
@@ -1026,12 +1075,16 @@
             [
               "Perejil, sésamo",
               "to top"
+            ],
+            [
+              "Yogur griego",
+              "2 tbsp"
             ]
           ],
           "steps": [
             {
               "at": "0–3 min",
-              "text": "Cube sweet potato. Toss with oil, ½ lemon juice, oregano, paprika, salt."
+              "text": "Cube sweet potato. Toss with drained chickpeas, oil, ½ lemon juice, oregano, paprika, salt."
             },
             {
               "at": "3–23 min",
@@ -1047,7 +1100,7 @@
             },
             {
               "at": "27–30 min",
-              "text": "Warm pitta. Hummus in bowl, add sweet potato, slaw, halloumi, parsley, sesame."
+              "text": "Warm pitta. Hummus in bowl, add sweet potato + chickpeas, slaw, halloumi, a spoon of yoghurt, parsley, sesame."
             }
           ],
           "equipment": [
@@ -1091,8 +1144,9 @@
       "day": "Sunday",
       "date": "2026-10-25",
       "training": {
-        "class": "Rest day",
-        "type": "rest"
+        "class": "Run",
+        "type": "cardio",
+        "time": "Morning"
       },
       "cycle": {
         "day": 21,
@@ -1105,7 +1159,7 @@
           "light": false,
           "minutes": 17,
           "dish": "Banana-oat pancakes, Greek yoghurt & kiwi",
-          "note": "Weekend treat breakfast.",
+          "note": "After your run — carbs + protein to refuel.",
           "ingredients": [
             [
               "Plátano",
@@ -1304,7 +1358,7 @@
         ],
         [
           "Plátano",
-          "2"
+          "3"
         ],
         [
           "Aguacate",
@@ -1418,7 +1472,7 @@
         ],
         [
           "Yogur griego natural",
-          "1 pack (≈400 g)"
+          "1 tarrina grande (≈500 g)"
         ],
         [
           "Kéfir",
@@ -1506,6 +1560,10 @@
           "1 lata 400 g"
         ],
         [
+          "Garbanzos cocidos",
+          "1 bote"
+        ],
+        [
           "Pan rallado",
           "check pantry"
         ],
@@ -1556,6 +1614,10 @@
         ],
         [
           "Guisantes",
+          "1 bolsa"
+        ],
+        [
+          "Edamame",
           "1 bolsa"
         ]
       ]
