@@ -34,16 +34,16 @@ PANTRY = "Aceite de oliva virgen extra, sal, pimienta, orégano, pimentón dulce
 
 # ================================================================ BREAKFASTS
 B = {}
-B["yog_kiwi"] = dish("Greek yoghurt, kiwi, berries, oats & almonds", "No cooking.", ["Bowl"],
-    [I("Yogur griego natural", 200, "g", "L"), I("Kiwi", 1), I("Frutos rojos", 60, "g", "Z"), I("Copos de avena", 20, "g", "D"), I("Almendras naturales", 15, "g", "D")],
-    [S("0–5 min", "Yoghurt in a bowl. Top with sliced kiwi, berries, oats, chopped almonds.")])
+B["yog_kiwi"] = dish("Kefir, kiwi, berries, oats & almonds", "No cooking.", ["Bowl"],
+    [I("Kéfir", 200, "ml", "L"), I("Kiwi", 1), I("Frutos rojos", 60, "g", "Z"), I("Copos de avena", 20, "g", "D"), I("Almendras naturales", 15, "g", "D")],
+    [S("0–5 min", "Kefir in a bowl. Top with sliced kiwi, berries, oats, chopped almonds.")])
 B["mush_eggs"] = dish("Mushroom & spinach scrambled eggs on rye", "Ten minutes.", ["Air fryer (toast)", "Frying pan"],
     [I("Huevos", 2, "", "L"), I("Champiñón laminado", 60, "g"), I("Espinacas baby", 1, "handful"), I("Pan de centeno", 1, "slice", "D"), I("Mantequilla", 5, "g", "P")],
     [S("0–3 min", "Air fryer, 200°C, 3 min for the bread."), S("0–4 min", "Butter in pan, medium-high. Fry mushrooms 3 min until golden."),
      S("4–5 min", "Add spinach. Wilt 1 min."), S("5–9 min", "Lower heat. Add beaten eggs. Stir slowly until just set. Season. Serve on the toast.")])
 B["cocoa_oats"] = dish("Cocoa overnight oats with kefir, banana & almonds", "Make the night before.", ["Jar (fridge overnight)"],
-    [I("Copos de avena", 45, "g", "D"), I("Kéfir", 150, "ml", "L"), I("Yogur griego natural", 30, "g", "L"), I("Cacao puro", 1, "tsp", "P"), I("Plátano", 0.5), I("Almendras naturales", 15, "g", "D")],
-    [S("Night before", "Mix oats, kefir, yoghurt, cocoa in a jar. Fridge."), S("0–3 min", "Top with sliced banana and chopped almonds.")])
+    [I("Copos de avena", 45, "g", "D"), I("Kéfir", 180, "ml", "L"), I("Cacao puro", 1, "tsp", "P"), I("Plátano", 0.5), I("Almendras naturales", 15, "g", "D")],
+    [S("Night before", "Mix oats, kefir, cocoa in a jar. Fridge."), S("0–3 min", "Top with sliced banana and chopped almonds.")])
 B["cottage_avo"] = dish("Cottage cheese & avocado rye toast, pumpkin seeds", "Five minutes.", ["Air fryer (toast)"],
     [I("Pan de centeno", 2, "slices", "D"), I("Queso cottage", 100, "g", "L"), I("Aguacate", 0.5), I("Pipas de calabaza", 10, "g", "D"), I("Limón", 0.25)],
     [S("0–3 min", "Air fryer, 200°C, 3 min for the bread."), S("3–5 min", "Mash avocado with lemon and salt. Spread. Top with cottage cheese and pumpkin seeds.")])
@@ -53,15 +53,15 @@ B["berry_smoothie"] = dish("Berry, spinach & kefir smoothie + almonds", "Five mi
 B["eggs_avo"] = dish("Two eggs, avocado & rye toast, small side salad", "Ten minutes.", ["Small pot", "Air fryer (toast)"],
     [I("Huevos", 2, "", "L"), I("Aguacate", 0.5), I("Pan de centeno", 1, "slice", "D"), I("Ensalada mezclum", 1, "handful")],
     [S("0–7 min", "Boil eggs 7 min (jammy)."), S("0–3 min", "Air fryer, 200°C, 3 min for the bread."), S("3–7 min", "Slice avocado. Dress salad with oil and lemon."), S("7–9 min", "Cool and peel eggs. Plate everything.")])
-B["pancakes"] = dish("Banana-oat pancakes, Greek yoghurt & kiwi", "After your run.", ["Hand blender + tall jug", "Non-stick frying pan"],
-    [I("Plátano", 1), I("Huevos", 2, "", "L"), I("Copos de avena", 40, "g", "D"), I("Yogur griego natural", 60, "g", "L"), I("Kiwi", 1), I("Miel", "", "drizzle", "P")],
-    [S("0–3 min", "Banana, eggs, oats, pinch of salt in a tall jug. Blitz with the hand blender."), S("3–15 min", "Non-stick pan, medium, a little butter. Small pancakes, 2 min per side, in batches."), S("15–17 min", "Top with yoghurt, sliced kiwi, honey.")])
+B["pancakes"] = dish("Banana-oat pancakes, kefir & kiwi", "After your run.", ["Hand blender + tall jug", "Non-stick frying pan"],
+    [I("Plátano", 1), I("Huevos", 2, "", "L"), I("Copos de avena", 40, "g", "D"), I("Kéfir", 60, "ml", "L"), I("Kiwi", 1), I("Miel", "", "drizzle", "P")],
+    [S("0–3 min", "Banana, eggs, oats, pinch of salt in a tall jug. Blitz with the hand blender."), S("3–15 min", "Non-stick pan, medium, a little butter. Small pancakes, 2 min per side, in batches."), S("15–17 min", "Top with kefir, sliced kiwi, honey.")])
 B["apple_oats"] = dish("Apple-cinnamon overnight oats with almonds", "Make the night before.", ["Jar (fridge overnight)", "Grater"],
-    [I("Copos de avena", 45, "g", "D"), I("Kéfir", 150, "ml", "L"), I("Yogur griego natural", 30, "g", "L"), I("Manzana", 0.5), I("Canela", 0.5, "tsp", "P"), I("Almendras naturales", 15, "g", "D")],
-    [S("Night before", "Grate the apple into a jar. Add oats, kefir, yoghurt, cinnamon. Mix. Fridge."), S("0–2 min", "Top with chopped almonds.")])
-B["yog_pear"] = dish("Greek yoghurt, pear, granola & almonds", "No cooking.", ["Bowl"],
-    [I("Yogur griego natural", 200, "g", "L"), I("Pera", 1), I("Granola sin azúcar añadido", 30, "g", "D"), I("Almendras naturales", 10, "g", "D")],
-    [S("0–5 min", "Yoghurt in a bowl. Top with sliced pear, granola, almonds.")])
+    [I("Copos de avena", 45, "g", "D"), I("Kéfir", 180, "ml", "L"), I("Manzana", 0.5), I("Canela", 0.5, "tsp", "P"), I("Almendras naturales", 15, "g", "D")],
+    [S("Night before", "Grate the apple into a jar. Add oats, kefir, cinnamon. Mix. Fridge."), S("0–2 min", "Top with chopped almonds.")])
+B["yog_pear"] = dish("Kefir, pear, granola & almonds", "No cooking.", ["Bowl"],
+    [I("Kéfir", 200, "ml", "L"), I("Pera", 1), I("Granola sin azúcar añadido", 30, "g", "D"), I("Almendras naturales", 10, "g", "D")],
+    [S("0–5 min", "Kefir in a bowl. Top with sliced pear, granola, almonds.")])
 B["salmon_eggs"] = dish("Smoked salmon & scrambled eggs on rye", "Ten minutes.", ["Air fryer (toast)", "Frying pan"],
     [I("Huevos", 2, "", "L"), I("Salmón ahumado", 50, "g", "C"), I("Pan de centeno", 1, "slice", "D"), I("Mantequilla", 5, "g", "P"), I("Kiwi", 1)],
     [S("0–3 min", "Air fryer, 200°C, 3 min for the bread."), S("0–5 min", "Butter in pan, low. Add beaten eggs. Stir slowly until just set."), S("5–7 min", "Eggs on toast. Lay salmon on top. Black pepper. Kiwi on the side.")])
@@ -79,17 +79,17 @@ B["mush_feta_eggs"] = dish("Mushroom & feta baked eggs, rye toast", "After your 
     [S("0–6 min", "Mushrooms + a drizzle of oil in the small dish. Air fryer, 190°C, 6 min."), S("6–8 min", "Stir in spinach. Make 2 wells. Crack in the eggs. Crumble feta on top."),
      S("8–16 min", "Air fryer, 170°C, 7–8 min until whites set."), S("16–19 min", "Toast bread in the air fryer, 200°C, 3 min. Serve.")])
 B["apple_porridge"] = dish("Apple & almond porridge", "Warm start to the bleed week.", ["Microwave", "Grater"],
-    [I("Copos de avena", 50, "g", "D"), I("Leche", 250, "ml", "L"), I("Manzana", 0.5), I("Canela", 0.5, "tsp", "P"), I("Almendras naturales", 15, "g", "D"), I("Yogur griego natural", 50, "g", "L")],
-    [S("0–4 min", "Oats, milk, grated apple, cinnamon in a big bowl. Microwave 3 min, stir halfway."), S("4–6 min", "Top with yoghurt and chopped almonds.")])
-B["yog_granola"] = dish("Greek yoghurt, berries & granola", "No cooking.", ["Bowl"],
-    [I("Yogur griego natural", 200, "g", "L"), I("Frutos rojos", 60, "g", "Z"), I("Granola sin azúcar añadido", 30, "g", "D"), I("Almendras naturales", 10, "g", "D")],
-    [S("0–5 min", "Yoghurt in a bowl. Top with berries, granola, almonds.")])
+    [I("Copos de avena", 50, "g", "D"), I("Leche", 250, "ml", "L"), I("Manzana", 0.5), I("Canela", 0.5, "tsp", "P"), I("Almendras naturales", 15, "g", "D"), I("Kéfir", 50, "ml", "L")],
+    [S("0–4 min", "Oats, milk, grated apple, cinnamon in a big bowl. Microwave 3 min, stir halfway."), S("4–6 min", "Top with kefir and chopped almonds.")])
+B["yog_granola"] = dish("Kefir, berries & granola", "No cooking.", ["Bowl"],
+    [I("Kéfir", 200, "ml", "L"), I("Frutos rojos", 60, "g", "Z"), I("Granola sin azúcar añadido", 30, "g", "D"), I("Almendras naturales", 10, "g", "D")],
+    [S("0–5 min", "Kefir in a bowl. Top with berries, granola, almonds.")])
 B["mush_omelette"] = dish("Mushroom & cheese omelette, rye toast", "Ten minutes.", ["Frying pan", "Air fryer (toast)"],
     [I("Huevos", 2, "", "L"), I("Champiñón laminado", 60, "g"), I("Queso rallado mozzarella", 20, "g", "L"), I("Pan de centeno", 1, "slice", "D")],
     [S("0–3 min", "Air fryer, 200°C, 3 min for the bread."), S("0–4 min", "Fry mushrooms in a little oil, 3 min."), S("4–9 min", "Pour in beaten eggs. Cook 3–4 min on medium. Cheese on one half. Fold.")])
 B["berry_oats"] = dish("Berry overnight oats with almonds", "Make the night before.", ["Jar (fridge overnight)"],
-    [I("Copos de avena", 45, "g", "D"), I("Kéfir", 150, "ml", "L"), I("Yogur griego natural", 30, "g", "L"), I("Frutos rojos", 60, "g", "Z"), I("Almendras naturales", 15, "g", "D")],
-    [S("Night before", "Mix oats, kefir, yoghurt, frozen berries in a jar. Fridge."), S("0–2 min", "Top with chopped almonds.")])
+    [I("Copos de avena", 45, "g", "D"), I("Kéfir", 180, "ml", "L"), I("Frutos rojos", 60, "g", "Z"), I("Almendras naturales", 15, "g", "D")],
+    [S("Night before", "Mix oats, kefir, frozen berries in a jar. Fridge."), S("0–2 min", "Top with chopped almonds.")])
 B["kiwi_smoothie"] = dish("Kiwi, spinach & kefir smoothie + almonds", "Five minutes.", ["Hand blender + tall jug"],
     [I("Kéfir", 250, "ml", "L"), I("Kiwi", 2), I("Espinacas baby", 1, "handful"), I("Plátano", 0.5), I("Copos de avena", 20, "g", "D"), I("Almendras naturales", 15, "g", "D")],
     [S("0–5 min", "Peel kiwis. Everything except almonds in a tall jug. Blitz with the hand blender. Almonds on the side.")])
@@ -146,9 +146,9 @@ L["farfalle"] = dish("Farfalle with feta, broad beans & jamón", "Cook ×2 — g
      S("17–19 min", "Plate half. Tear jamón on top, rest of feta, pepper. Box the other half (jamón separate).")],
     swaps=["Chilli flakes → black pepper and lemon zest.", "Prosciutto → jamón serrano (Mercadona)."], servings=2, ref="farfalle-feta-broad-beans")
 L["paprika_salmon"] = dish("Paprika salmon, sweet potato fries & sprout slaw", "Weekend cook.", ["Air fryer", "Frying pan"],
-    [I("Lomos de salmón", 1, "fillet (~130 g)", "C"), I("Boniato", 1), I("Pimentón dulce", 1, "tsp", "P"), I("Ajo", 1, "clove"), I("Coles de Bruselas", 75, "g"), I("Kale", 1, "handful"), I("Manzana", 0.5), I("Limón", 0.5), I("Yogur griego natural", 30, "g", "L"), I("Pipas de calabaza", 10, "g", "D")],
+    [I("Lomos de salmón", 1, "fillet (~130 g)", "C"), I("Boniato", 1), I("Pimentón dulce", 1, "tsp", "P"), I("Ajo", 1, "clove"), I("Coles de Bruselas", 75, "g"), I("Kale", 1, "handful"), I("Manzana", 0.5), I("Limón", 0.5), I("Kéfir", 30, "ml", "L"), I("Pipas de calabaza", 10, "g", "D")],
     [S("0–4 min", "Cut sweet potato into fries. Toss with oil, salt, ½ tsp paprika."), S("4–24 min", "Air fryer, 200°C, 20 min. Shake at 10 min."),
-     S("6–12 min", "Thinly slice sprouts, shred kale, apple matchsticks. Toss with lemon, yoghurt, half the grated garlic, salt. Massage 1 min."),
+     S("6–12 min", "Thinly slice sprouts, shred kale, apple matchsticks. Toss with lemon, kefir, half the grated garlic, salt. Massage 1 min."),
      S("12–14 min", "Season salmon with rest of paprika + garlic, salt."), S("14–24 min", "At 14 min: salmon into the drawer, skin down, for the last 10 min."),
      S("14–16 min", "Toast pumpkin seeds in a dry pan, 2 min."), S("24–26 min", "Plate fries, slaw, salmon. Seeds on top.")],
     swaps=["Smoked paprika is the sweet kind — no heat."], ref="paprika-salmon-slaw")
@@ -177,11 +177,11 @@ L["steak_mush_stirfry"] = dish("Honey-soy steak & mushroom stir-fry with rice", 
      S("15–17 min", "Steak back in. Pour sauce. Bubble 1–2 min."), S("17–19 min", "Plate half with rice and sesame. Box the other half.")],
     swaps=["No chilli."], servings=2)
 L["pork_couscous"] = dish("Pork tenderloin, roasted veg & couscous", "Cook ×2 — Saturday's post-V-Power lunch is the second portion.", ["Air fryer", "Kettle / microwave"],
-    [I("Solomillo de cerdo", 1, "(~400 g)", "C"), I("Calabacín", 1), I("Pimiento rojo", 1), I("Cebolla roja", 0.5), I("Cuscús", 140, "g", "D"), I("Limón", 1), I("Orégano", 1, "tsp", "P"), I("Pimentón dulce", 1, "tsp", "P"), I("Yogur griego natural", 60, "g", "L"), I("Perejil fresco", 1, "handful")],
+    [I("Solomillo de cerdo", 1, "(~400 g)", "C"), I("Calabacín", 1), I("Pimiento rojo", 1), I("Cebolla roja", 0.5), I("Cuscús", 140, "g", "D"), I("Limón", 1), I("Orégano", 1, "tsp", "P"), I("Pimentón dulce", 1, "tsp", "P"), I("Kéfir", 60, "ml", "L"), I("Perejil fresco", 1, "handful")],
     [S("0–4 min", "Chop courgette, pepper, onion. Toss with oil, salt, oregano. Rub pork with oil, paprika, salt."),
      S("4–22 min", "Air fryer, 200°C. Pork + veg together, 18 min. Turn pork at 9 min. Inside must be no longer pink."),
      S("10–15 min", "Couscous in a bowl. 140 ml boiling salted water + lemon juice. Cover 5 min. Fluff with a fork and parsley."),
-     S("22–25 min", "Rest pork 3 min. Slice. Plate half with veg, couscous, spoon of yoghurt. Box the other half.")],
+     S("22–25 min", "Rest pork 3 min. Slice. Plate half with veg, couscous, spoon of kefir. Box the other half.")],
     servings=2)
 L["mush_risotto"] = dish("Mushroom & pea risotto with a fried egg", "Weekend cook. Warm and grounding.", ["Wide pan", "Small pot (hot stock)", "Frying pan"],
     [I("Arroz redondo", 75, "g", "D"), I("Champiñón laminado", 150, "g"), I("Guisantes", 80, "g", "Z"), I("Cebolla", 0.5), I("Ajo", 1, "clove"), I("Caldo de verduras", 350, "ml", "P"), I("Mantequilla", 10, "g", "P"), I("Parmesano rallado", 15, "g", "L"), I("Huevos", 1, "", "L"), I("Ensalada mezclum", 1, "handful")],
@@ -230,19 +230,19 @@ D["whitebean_mash"] = dish("White bean & feta mash on rye crispbread", "Light pl
 D["postgap_turkey"] = dish("After GAP: turkey slices, labneh, boiled egg, rye crispbread", "Light but protein-forward after the evening class.", ["Small pot"],
     [I("Pechuga de pavo en lonchas", 60, "g", "C"), I("Huevos", 1, "", "L"), I("Labneh", 3, "tbsp", "X"), I("Za'atar", 1, "tsp", "X"), I("Pepino", 0.25), RYE],
     [S("0–8 min", "Boil egg 8 min. Cool. (Or boil it before class.)"), S("8–10 min", "Plate turkey, labneh with oil + za'atar, egg, cucumber, crispbread.")], light=True)
-D["yog_cucumber_pitta"] = dish("Yoghurt-cucumber-mint dip with pitta & olives", "Light plate (khiyar bi laban style).", ["Bowl", "Grater", "Frying pan (warm pitta)"],
-    [I("Yogur griego natural", 150, "g", "L"), I("Pepino", 0.5), I("Menta o eneldo fresco", 1, "pinch"), I("Ajo", 0.5, "clove"), I("Pan de pita", 1, "", "D"), I("Aceitunas verdes", 8, "", "D")],
-    [S("0–4 min", "Grate cucumber, squeeze out water. Mix with yoghurt, mint, grated garlic, salt, olive oil."), S("4–6 min", "Warm pitta in a dry pan. Plate with the dip and olives.")], light=True)
+D["yog_cucumber_pitta"] = dish("Kefir-cucumber-mint dip with pitta & olives", "Light plate (khiyar bi laban style).", ["Bowl", "Grater", "Frying pan (warm pitta)"],
+    [I("Kéfir", 150, "ml", "L"), I("Pepino", 0.5), I("Menta o eneldo fresco", 1, "pinch"), I("Ajo", 0.5, "clove"), I("Pan de pita", 1, "", "D"), I("Aceitunas verdes", 8, "", "D")],
+    [S("0–4 min", "Grate cucumber, squeeze out water. Mix with kefir, mint, grated garlic, salt, olive oil."), S("4–6 min", "Warm pitta in a dry pan. Plate with the dip and olives.")], light=True)
 D["ajillo_manchego"] = dish("Champiñones al ajillo, manchego & bread", "Light plate.", ["Frying pan"],
     [I("Champiñón laminado", 150, "g"), I("Ajo", 2, "cloves"), I("Perejil fresco", 1, "pinch"), I("Queso manchego", 40, "g", "L"), I("Pan de centeno", 1, "slice", "D")],
     [S("0–2 min", "Slice garlic. 1 tbsp oil, medium-high."), S("2–8 min", "Mushrooms 5 min until golden. Garlic in for the last minute. Salt, parsley."), S("8–10 min", "Plate with manchego slices and bread.")], light=True)
 D["hummus_olives_feta"] = dish("Hummus, olives, feta & cucumber", "Light plate. No cooking.", ["Plate"],
     [I("Hummus", 3, "tbsp", "L"), I("Aceitunas verdes", 8, "", "D"), I("Queso feta", 30, "g", "L"), I("Pepino", 0.25), RYE],
     [S("0–5 min", "Plate everything. Olive oil over the hummus.")], light=True)
-D["crema_calabaza"] = dish("Smooth pumpkin soup (crema de calabaza), yoghurt & pumpkin seeds", "Bleed-week soup. Make ×2 — tomorrow's dinner is the second bowl.", ["Pot with lid", "Hand blender"],
-    [I("Calabaza troceada", 500, "g"), I("Zanahoria", 1), I("Cebolla", 0.5), I("Caldo de verduras", 500, "ml", "P"), I("Yogur griego natural", 60, "g", "L"), I("Pipas de calabaza", 15, "g", "D"), RYE],
+D["crema_calabaza"] = dish("Smooth pumpkin soup (crema de calabaza), kefir & pumpkin seeds", "Bleed-week soup. Make ×2 — tomorrow's dinner is the second bowl.", ["Pot with lid", "Hand blender"],
+    [I("Calabaza troceada", 500, "g"), I("Zanahoria", 1), I("Cebolla", 0.5), I("Caldo de verduras", 500, "ml", "P"), I("Kéfir", 60, "ml", "L"), I("Pipas de calabaza", 15, "g", "D"), RYE],
     [S("0–3 min", "Chop onion + carrot. 1 tbsp oil, medium. Soften 3 min."), S("3–18 min", "Add pumpkin + stock. Lid on. Simmer 15 min until soft."),
-     S("18–21 min", "Blitz with the hand blender until completely smooth. Season."), S("21–23 min", "Bowl with a swirl of yoghurt + seeds. Crispbread on the side. Fridge the other half.")],
+     S("18–21 min", "Blitz with the hand blender until completely smooth. Season."), S("21–23 min", "Bowl with a swirl of kefir + seeds. Crispbread on the side. Fridge the other half.")],
     swaps=["Fully blended — no pieces."], light=True, servings=2)
 D["crema_champi"] = dish("Smooth mushroom soup (crema de champiñones)", "Bleed-week soup. Make ×2 — Friday's dinner is the second bowl.", ["Pot with lid", "Hand blender"],
     [I("Champiñón laminado", 300, "g"), I("Cebolla", 0.5), I("Ajo", 1, "clove"), I("Patata", 1, "small"), I("Caldo de verduras", 500, "ml", "P"), I("Nata para cocinar ligera", 50, "ml", "L"), RYE],
@@ -374,7 +374,7 @@ EN = {
     "Queso feta": "Feta cheese", "Queso manchego": "Manchego cheese", "Queso rallado mozzarella": "Grated mozzarella",
     "Salmón ahumado": "Smoked salmon", "Salsa de soja": "Soy sauce", "Salsa tzatziki": "Tzatziki sauce",
     "Solomillo de cerdo": "Pork tenderloin", "Sésamo": "Sesame seeds", "Tomate triturado": "Chopped tomato",
-    "Vinagre de manzana": "Apple cider vinegar", "Yogur griego natural": "Greek yoghurt, plain",
+    "Vinagre de manzana": "Apple cider vinegar",
     "Za'atar": "Za'atar", "Zanahoria": "Carrot",
 }
 

@@ -27,15 +27,15 @@
         {
           "slot": "Breakfast",
           "light": false,
-          "dish": "Greek yoghurt, kiwi, berries, oats & almonds",
+          "dish": "Kefir, kiwi, berries, oats & almonds",
           "note": "No cooking.",
           "equipment": [
             "Bowl"
           ],
           "ingredients": [
             [
-              "Yogur griego natural",
-              "200 g"
+              "Kéfir",
+              "200 ml"
             ],
             [
               "Kiwi",
@@ -57,7 +57,7 @@
           "steps": [
             {
               "at": "0–5 min",
-              "text": "Yoghurt in a bowl. Top with sliced kiwi, berries, oats, chopped almonds."
+              "text": "Kefir in a bowl. Top with sliced kiwi, berries, oats, chopped almonds."
             }
           ],
           "minutes": 5
@@ -339,11 +339,7 @@
             ],
             [
               "Kéfir",
-              "150 ml"
-            ],
-            [
-              "Yogur griego natural",
-              "30 g"
+              "180 ml"
             ],
             [
               "Cacao puro",
@@ -361,7 +357,7 @@
           "steps": [
             {
               "at": "Night before",
-              "text": "Mix oats, kefir, yoghurt, cocoa in a jar. Fridge."
+              "text": "Mix oats, kefir, cocoa in a jar. Fridge."
             },
             {
               "at": "0–3 min",
@@ -921,7 +917,7 @@
         {
           "slot": "Breakfast",
           "light": false,
-          "dish": "Banana-oat pancakes, Greek yoghurt & kiwi",
+          "dish": "Banana-oat pancakes, kefir & kiwi",
           "note": "After your run.",
           "equipment": [
             "Hand blender + tall jug",
@@ -941,8 +937,8 @@
               "40 g"
             ],
             [
-              "Yogur griego natural",
-              "60 g"
+              "Kéfir",
+              "60 ml"
             ],
             [
               "Kiwi",
@@ -964,7 +960,7 @@
             },
             {
               "at": "15–17 min",
-              "text": "Top with yoghurt, sliced kiwi, honey."
+              "text": "Top with kefir, sliced kiwi, honey."
             }
           ],
           "minutes": 17
@@ -1159,8 +1155,8 @@
       "category": "Huevos, lácteos y refrigerados",
       "items": [
         [
-          "Greek yoghurt, plain",
-          "290 g"
+          "Kefir",
+          "690 ml"
         ],
         [
           "Tzatziki sauce",
@@ -1173,10 +1169,6 @@
         [
           "Eggs",
           "9 → 1 dozen"
-        ],
-        [
-          "Kefir",
-          "400 ml"
         ],
         [
           "Grated parmesan",

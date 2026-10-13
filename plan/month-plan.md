@@ -11,11 +11,11 @@ _End of ovulation → early luteal. Chicken week. Colourful early, then groundin
 ## Monday 19/10 — Rest day · Cycle day 15: Ovulation window
 _Colourful fruit & veg, antioxidants, balanced plates. Highest energy._
 
-### Breakfast · Greek yoghurt, kiwi, berries, oats & almonds — 5 min
+### Breakfast · Kefir, kiwi, berries, oats & almonds — 5 min
 No cooking.
 What you need: Bowl
-Ingredients: Yogur griego natural 200 g, Kiwi 1, Frutos rojos 60 g, Copos de avena 20 g, Almendras naturales 15 g
-- **0–5 min** — Yoghurt in a bowl. Top with sliced kiwi, berries, oats, chopped almonds.
+Ingredients: Kéfir 200 ml, Kiwi 1, Frutos rojos 60 g, Copos de avena 20 g, Almendras naturales 15 g
+- **0–5 min** — Kefir in a bowl. Top with sliced kiwi, berries, oats, chopped almonds.
 
 ### Lunch · Chicken souvlaki rice, peppers, cucumber & tzatziki — 20 min
 Cook ×2 — tomorrow's lunch is the second portion.
@@ -65,8 +65,8 @@ _Complex carbs, magnesium, grounding meals. Steady blood sugar._
 ### Breakfast · Cocoa overnight oats with kefir, banana & almonds — 3 min
 Make the night before.
 What you need: Jar (fridge overnight)
-Ingredients: Copos de avena 45 g, Kéfir 150 ml, Yogur griego natural 30 g, Cacao puro 1 tsp, Plátano ½, Almendras naturales 15 g
-- **Night before** — Mix oats, kefir, yoghurt, cocoa in a jar. Fridge.
+Ingredients: Copos de avena 45 g, Kéfir 180 ml, Cacao puro 1 tsp, Plátano ½, Almendras naturales 15 g
+- **Night before** — Mix oats, kefir, cocoa in a jar. Fridge.
 - **0–3 min** — Top with sliced banana and chopped almonds.
 
 ### Lunch · Beef meatballs in tomato-mushroom sauce, spaghetti — 24 min
@@ -163,13 +163,13 @@ Ingredients: Queso feta 50 g, Aceitunas negras / kalamata 8, Pimiento asado (bot
 ## Sunday 25/10 — Run (Morning) · Cycle day 21: Luteal (early)
 _Complex carbs, magnesium, grounding meals. Steady blood sugar._
 
-### Breakfast · Banana-oat pancakes, Greek yoghurt & kiwi — 17 min
+### Breakfast · Banana-oat pancakes, kefir & kiwi — 17 min
 After your run.
 What you need: Hand blender + tall jug, Non-stick frying pan
-Ingredients: Plátano 1, Huevos 2, Copos de avena 40 g, Yogur griego natural 60 g, Kiwi 1, Miel drizzle
+Ingredients: Plátano 1, Huevos 2, Copos de avena 40 g, Kéfir 60 ml, Kiwi 1, Miel drizzle
 - **0–3 min** — Banana, eggs, oats, pinch of salt in a tall jug. Blitz with the hand blender.
 - **3–15 min** — Non-stick pan, medium, a little butter. Small pancakes, 2 min per side, in batches.
-- **15–17 min** — Top with yoghurt, sliced kiwi, honey.
+- **15–17 min** — Top with kefir, sliced kiwi, honey.
 
 ### Lunch · Salmon with alioli, baby potatoes & green beans — 23 min
 Your favourite. One drawer, all together.
@@ -191,7 +191,7 @@ Ingredients: Champiñón laminado 150 g, Ajo 2 cloves, Perejil fresco 1 pinch, H
 ## Shopping list — Week 43
 **Fruta y verdura:** Kiwi (2); Lemon (3); Garlic (1 head); Red pepper (1); Cucumber (2); Mixed salad leaves (6 handfuls → 2 bag(s)); Carrot (1); Mushrooms, sliced (610 g); Baby spinach (2 handfuls → 1 bag(s) + 80 g); Banana (2); Fresh parsley (1 bunch); Avocado (1); Baby potatoes (250 g); Green beans (100 g)
 **Carne y pescado:** Chicken breast fillets (660 g); Beef mince (250 g); Smoked salmon (60 g); Salmon fillets (1 fillet(s), ~130 g each)
-**Huevos, lácteos y refrigerados:** Greek yoghurt, plain (290 g); Tzatziki sauce (6 tbsp → tub); Hummus (10 tbsp → tub(s)); Eggs (9 → 1 dozen); Kefir (400 ml); Grated parmesan (60 g); Falafel (4); Cottage cheese (100 g); Light cooking cream (200 ml); Cream cheese (2 tbsp → tub); Feta cheese (50 g)
+**Huevos, lácteos y refrigerados:** Kefir (690 ml); Tzatziki sauce (6 tbsp → tub); Hummus (10 tbsp → tub(s)); Eggs (9 → 1 dozen); Grated parmesan (60 g); Falafel (4); Cottage cheese (100 g); Light cooking cream (200 ml); Cream cheese (2 tbsp → tub); Feta cheese (50 g)
 **Despensa:** Rolled oats (125 g); Almonds (plain) (45 g); Basmati rice (150 g); Rye crispbread (your usual) (12 pieces → 1 pack); Green olives (16); Rye bread (4 slices → 1 loaf); Pitta bread (2); Chopped tomato (400 g); Spaghetti (180 g); Pumpkin seeds (10 g); Macaroni / short pasta (160 g); Black olives / kalamata (8); Roasted red pepper (jarred) (1); Garlic mayo (alioli) (1 tbsp → jar)
 **Congelados:** Mixed berries (140 g)
 **Tienda libanesa (you buy):** Labneh (8 tbsp → tub); Za'atar (2 tsp → pot)
@@ -208,8 +208,8 @@ _Comfort carbs, magnesium (oats, cocoa, almonds, beans, greens). Don't under-eat
 ### Breakfast · Apple-cinnamon overnight oats with almonds — 2 min
 Make the night before.
 What you need: Jar (fridge overnight), Grater
-Ingredients: Copos de avena 45 g, Kéfir 150 ml, Yogur griego natural 30 g, Manzana ½, Canela ½ tsp, Almendras naturales 15 g
-- **Night before** — Grate the apple into a jar. Add oats, kefir, yoghurt, cinnamon. Mix. Fridge.
+Ingredients: Copos de avena 45 g, Kéfir 180 ml, Manzana ½, Canela ½ tsp, Almendras naturales 15 g
+- **Night before** — Grate the apple into a jar. Add oats, kefir, cinnamon. Mix. Fridge.
 - **0–2 min** — Top with chopped almonds.
 
 ### Lunch · Turkey & mushroom stroganoff with rice — 22 min
@@ -233,11 +233,11 @@ Ingredients: Labneh 4 tbsp, Za'atar 1 tsp, Pepino ¼, Aceitunas verdes 8, Pan de
 ## Tuesday 27/10 — GAP (Morning) · Cycle day 23: Luteal (late)
 _Comfort carbs, magnesium (oats, cocoa, almonds, beans, greens). Don't under-eat._
 
-### Breakfast · Greek yoghurt, pear, granola & almonds — 5 min
+### Breakfast · Kefir, pear, granola & almonds — 5 min
 No cooking.
 What you need: Bowl
-Ingredients: Yogur griego natural 200 g, Pera 1, Granola sin azúcar añadido 30 g, Almendras naturales 10 g
-- **0–5 min** — Yoghurt in a bowl. Top with sliced pear, granola, almonds.
+Ingredients: Kéfir 200 ml, Pera 1, Granola sin azúcar añadido 30 g, Almendras naturales 10 g
+- **0–5 min** — Kefir in a bowl. Top with sliced pear, granola, almonds.
 
 ### Lunch · Turkey & mushroom stroganoff with rice (leftover) — 5 min
 Second portion of yesterday's lunch.
@@ -326,11 +326,11 @@ Ingredients: Farfalle 180 g, Habitas baby 160 g, Chalota 1, Limón 1, Queso feta
 - **14–17 min** — Add pasta, beans, lemon zest + juice, splash of pasta water, most of the feta and herbs. Stir until glossy.
 - **17–19 min** — Plate half. Tear jamón on top, rest of feta, pepper. Box the other half (jamón separate).
 
-### Dinner · Yoghurt-cucumber-mint dip with pitta & olives — 6 min
+### Dinner · Kefir-cucumber-mint dip with pitta & olives — 6 min
 Light plate (khiyar bi laban style).
 What you need: Bowl, Grater, Frying pan (warm pitta)
-Ingredients: Yogur griego natural 150 g, Pepino ½, Menta o eneldo fresco 1 pinch, Ajo ½ clove, Pan de pita 1, Aceitunas verdes 8
-- **0–4 min** — Grate cucumber, squeeze out water. Mix with yoghurt, mint, grated garlic, salt, olive oil.
+Ingredients: Kéfir 150 ml, Pepino ½, Menta o eneldo fresco 1 pinch, Ajo ½ clove, Pan de pita 1, Aceitunas verdes 8
+- **0–4 min** — Grate cucumber, squeeze out water. Mix with kefir, mint, grated garlic, salt, olive oil.
 - **4–6 min** — Warm pitta in a dry pan. Plate with the dip and olives.
 
 ## Saturday 31/10 — V-Power (12:30) · Cycle day 27: Luteal (late)
@@ -373,10 +373,10 @@ Ingredients: Huevos 2, Champiñón laminado 80 g, Espinacas baby 1 handful, Ques
 Weekend cook.
 What you need: Air fryer, Frying pan
 Swapped for you: Smoked paprika is the sweet kind — no heat.
-Ingredients: Lomos de salmón 1 fillet (~130 g), Boniato 1, Pimentón dulce 1 tsp, Ajo 1 clove, Coles de Bruselas 75 g, Kale 1 handful, Manzana ½, Limón ½, Yogur griego natural 30 g, Pipas de calabaza 10 g
+Ingredients: Lomos de salmón 1 fillet (~130 g), Boniato 1, Pimentón dulce 1 tsp, Ajo 1 clove, Coles de Bruselas 75 g, Kale 1 handful, Manzana ½, Limón ½, Kéfir 30 ml, Pipas de calabaza 10 g
 - **0–4 min** — Cut sweet potato into fries. Toss with oil, salt, ½ tsp paprika.
 - **4–24 min** — Air fryer, 200°C, 20 min. Shake at 10 min.
-- **6–12 min** — Thinly slice sprouts, shred kale, apple matchsticks. Toss with lemon, yoghurt, half the grated garlic, salt. Massage 1 min.
+- **6–12 min** — Thinly slice sprouts, shred kale, apple matchsticks. Toss with lemon, kefir, half the grated garlic, salt. Massage 1 min.
 - **12–14 min** — Season salmon with rest of paprika + garlic, salt.
 - **14–24 min** — At 14 min: salmon into the drawer, skin down, for the last 10 min.
 - **14–16 min** — Toast pumpkin seeds in a dry pan, 2 min.
@@ -391,7 +391,7 @@ Ingredients: Hummus 3 tbsp, Aceitunas verdes 8, Queso feta 30 g, Pepino ¼, Cris
 ## Shopping list — Week 44
 **Fruta y verdura:** Apple (1); Mushrooms, sliced (480 g); Onion (1); Garlic (1 head); Fresh parsley (1 bunch); Mixed salad leaves (4 handfuls → 1 bag(s)); Cucumber (2); Pear (1); Carrot (1); Red pepper (1); Kiwi (1); Green beans (200 g); Spring onion (1 bunch); Lime (1); Lemon (3); Banana (2); Avocado (1); Shallot (1); Fresh mint or dill (1 bunch); Baby spinach (1 handfuls → 1 bag(s)); Sweet potato (1); Brussels sprouts (75 g); Kale (1 handfuls → 1 bag(s))
 **Carne y pescado:** Turkey breast fillets (300 g); Smoked salmon (50 g); Pork loin steaks (300 g); Turkey breast, sliced (60 g); Serrano ham, sliced (60 g); Salmon fillets (1 fillet(s), ~130 g each)
-**Huevos, lácteos y refrigerados:** Kefir (400 ml); Greek yoghurt, plain (410 g); Light cooking cream (200 ml); Eggs (8 → 1 dozen); Hummus (7 tbsp → tub(s)); Feta cheese (170 g); Milk (250 ml); Manchego cheese (40 g)
+**Huevos, lácteos y refrigerados:** Kefir (810 ml); Light cooking cream (200 ml); Eggs (8 → 1 dozen); Hummus (7 tbsp → tub(s)); Feta cheese (170 g); Milk (250 ml); Manchego cheese (40 g)
 **Despensa:** Rolled oats (115 g); Almonds (plain) (55 g); Basmati rice (300 g); Green olives (24); Pitta bread (2); Granola, no added sugar (30 g); Rye crispbread (your usual) (12 pieces → 1 pack); Rye bread (4 slices → 1 loaf); White beans, cooked (120 g); Farfalle (bow-tie pasta) (180 g); Pumpkin seeds (10 g)
 **Congelados:** Baby broad beans (160 g)
 **Tienda libanesa (you buy):** Labneh (7 tbsp → tub); Za'atar (2 tsp → pot)
@@ -408,9 +408,9 @@ _Iron + vitamin C, warm meals, smooth soups OK. Train lighter if tired._
 ### Breakfast · Apple & almond porridge — 6 min
 Warm start to the bleed week.
 What you need: Microwave, Grater
-Ingredients: Copos de avena 50 g, Leche 250 ml, Manzana ½, Canela ½ tsp, Almendras naturales 15 g, Yogur griego natural 50 g
+Ingredients: Copos de avena 50 g, Leche 250 ml, Manzana ½, Canela ½ tsp, Almendras naturales 15 g, Kéfir 50 ml
 - **0–4 min** — Oats, milk, grated apple, cinnamon in a big bowl. Microwave 3 min, stir halfway.
-- **4–6 min** — Top with yoghurt and chopped almonds.
+- **4–6 min** — Top with kefir and chopped almonds.
 
 ### Lunch · Beef & mushroom ragù rigatoni — 25 min
 Cook ×2 — iron for the bleed week. Tomorrow's lunch is the second portion.
@@ -423,15 +423,15 @@ Ingredients: Carne picada de ternera 300 g, Champiñón laminado 200 g, Cebolla 
 - **14–24 min** — Add tomato + oregano. Simmer 10 min. Cook pasta meanwhile.
 - **24–25 min** — Plate half with parmesan and salad. Box the other half.
 
-### Dinner · Smooth pumpkin soup (crema de calabaza), yoghurt & pumpkin seeds — 23 min
+### Dinner · Smooth pumpkin soup (crema de calabaza), kefir & pumpkin seeds — 23 min
 Bleed-week soup. Make ×2 — tomorrow's dinner is the second bowl.
 What you need: Pot with lid, Hand blender
 Swapped for you: Fully blended — no pieces.
-Ingredients: Calabaza troceada 500 g, Zanahoria 1, Cebolla ½, Caldo de verduras 500 ml, Yogur griego natural 60 g, Pipas de calabaza 15 g, Crispbread de centeno (your usual) 3 pieces
+Ingredients: Calabaza troceada 500 g, Zanahoria 1, Cebolla ½, Caldo de verduras 500 ml, Kéfir 60 ml, Pipas de calabaza 15 g, Crispbread de centeno (your usual) 3 pieces
 - **0–3 min** — Chop onion + carrot. 1 tbsp oil, medium. Soften 3 min.
 - **3–18 min** — Add pumpkin + stock. Lid on. Simmer 15 min until soft.
 - **18–21 min** — Blitz with the hand blender until completely smooth. Season.
-- **21–23 min** — Bowl with a swirl of yoghurt + seeds. Crispbread on the side. Fridge the other half.
+- **21–23 min** — Bowl with a swirl of kefir + seeds. Crispbread on the side. Fridge the other half.
 
 ## Tuesday 03/11 — GAP (Morning) · Cycle day 2: Bleed (menstrual)
 _Iron + vitamin C, warm meals, smooth soups OK. Train lighter if tired._
@@ -462,11 +462,11 @@ Ingredients: Huevos 1, Crispbread de centeno (your usual) 3 pieces
 ## Wednesday 04/11 — V-Power (Morning) · Cycle day 3: Bleed (menstrual)
 _Iron + vitamin C, warm meals, smooth soups OK. Train lighter if tired._
 
-### Breakfast · Greek yoghurt, kiwi, berries, oats & almonds — 5 min
+### Breakfast · Kefir, kiwi, berries, oats & almonds — 5 min
 No cooking.
 What you need: Bowl
-Ingredients: Yogur griego natural 200 g, Kiwi 1, Frutos rojos 60 g, Copos de avena 20 g, Almendras naturales 15 g
-- **0–5 min** — Yoghurt in a bowl. Top with sliced kiwi, berries, oats, chopped almonds.
+Ingredients: Kéfir 200 ml, Kiwi 1, Frutos rojos 60 g, Copos de avena 20 g, Almendras naturales 15 g
+- **0–5 min** — Kefir in a bowl. Top with sliced kiwi, berries, oats, chopped almonds.
 
 ### Lunch · Mild chicken & red bean rice bowl — 22 min
 Cook ×2 — iron (beans) + vitamin C (lime). Tomorrow's lunch is the second portion.
@@ -570,13 +570,13 @@ Ingredients: Falafel 4, Hummus 3 tbsp, Ensalada mezclum 1 handful, Limón ¼
 ## Sunday 08/11 — Run (Morning) · Cycle day 7: Follicular
 _Fresh, lighter meals, lean protein. Energy rising — good strength days._
 
-### Breakfast · Banana-oat pancakes, Greek yoghurt & kiwi — 17 min
+### Breakfast · Banana-oat pancakes, kefir & kiwi — 17 min
 After your run.
 What you need: Hand blender + tall jug, Non-stick frying pan
-Ingredients: Plátano 1, Huevos 2, Copos de avena 40 g, Yogur griego natural 60 g, Kiwi 1, Miel drizzle
+Ingredients: Plátano 1, Huevos 2, Copos de avena 40 g, Kéfir 60 ml, Kiwi 1, Miel drizzle
 - **0–3 min** — Banana, eggs, oats, pinch of salt in a tall jug. Blitz with the hand blender.
 - **3–15 min** — Non-stick pan, medium, a little butter. Small pancakes, 2 min per side, in batches.
-- **15–17 min** — Top with yoghurt, sliced kiwi, honey.
+- **15–17 min** — Top with kefir, sliced kiwi, honey.
 
 ### Lunch · Salmon with alioli, baby potatoes & broccoli — 23 min
 Your favourite. One drawer, all together.
@@ -597,7 +597,7 @@ Ingredients: Labneh 4 tbsp, Za'atar 1 tsp, Pepino ¼, Aceitunas verdes 8, Pan de
 ## Shopping list — Week 45
 **Fruta y verdura:** Apple (1); Mushrooms, sliced (560 g); Onion (2); Carrot (2); Garlic (1 head); Mixed salad leaves (4 handfuls → 1 bag(s)); Pumpkin/squash, diced (500 g); Baby spinach (2 handfuls → 1 bag(s)); Kiwi (2); Lime (2); Fresh parsley (1 bunch); Lettuce (little gem) (2); Potato (1 small); Avocado (1); Lemon (1); Cucumber (1); Banana (2); Mixed peppers (tricolour) (2); Red onion (1); Baby potatoes (250 g); Broccoli (florets) (120 g)
 **Carne y pescado:** Beef mince (300 g); Chicken breast fillets (360 g); Beef steak (young beef) (300 g); Salmon fillets (1 fillet(s), ~130 g each)
-**Huevos, lácteos y refrigerados:** Milk (250 ml); Greek yoghurt, plain (370 g); Grated parmesan (30 g); Eggs (9 → 1 dozen); Light cooking cream (50 ml); Cottage cheese (100 g); Kefir (250 ml); Cheese slices (havarti or similar) (1 slice); Falafel (4); Hummus (3 tbsp → tub(s))
+**Huevos, lácteos y refrigerados:** Milk (250 ml); Kefir (620 ml); Grated parmesan (30 g); Eggs (9 → 1 dozen); Light cooking cream (50 ml); Cottage cheese (100 g); Cheese slices (havarti or similar) (1 slice); Falafel (4); Hummus (3 tbsp → tub(s))
 **Despensa:** Rolled oats (130 g); Almonds (plain) (45 g); Chopped tomato (500 g); Macaroni / rigatoni (180 g); Pumpkin seeds (25 g); Rye crispbread (your usual) (12 pieces → 1 pack); Rye bread (5 slices → 1 loaf); Basmati rice (300 g); Red beans, cooked (1 jar (400 g)); Garlic mayo (alioli) (1 tbsp → jar); Green olives (8); Pitta bread (1)
 **Congelados:** Mixed berries (140 g)
 **Tienda libanesa (you buy):** Labneh (8 tbsp → tub); Za'atar (2 tsp → pot)
@@ -611,11 +611,11 @@ _Follicular → ovulation (~Sun 15 Nov). Turkey week. Fresh, colourful, lean pro
 ## Monday 09/11 — Rest day · Cycle day 8: Follicular
 _Fresh, lighter meals, lean protein. Energy rising — good strength days._
 
-### Breakfast · Greek yoghurt, berries & granola — 5 min
+### Breakfast · Kefir, berries & granola — 5 min
 No cooking.
 What you need: Bowl
-Ingredients: Yogur griego natural 200 g, Frutos rojos 60 g, Granola sin azúcar añadido 30 g, Almendras naturales 10 g
-- **0–5 min** — Yoghurt in a bowl. Top with berries, granola, almonds.
+Ingredients: Kéfir 200 ml, Frutos rojos 60 g, Granola sin azúcar añadido 30 g, Almendras naturales 10 g
+- **0–5 min** — Kefir in a bowl. Top with berries, granola, almonds.
 
 ### Lunch · Turkey souvlaki rice, peppers, cucumber & tzatziki — 20 min
 Cook ×2 — tomorrow's lunch is the second portion.
@@ -664,8 +664,8 @@ _Fresh, lighter meals, lean protein. Energy rising — good strength days._
 ### Breakfast · Berry overnight oats with almonds — 2 min
 Make the night before.
 What you need: Jar (fridge overnight)
-Ingredients: Copos de avena 45 g, Kéfir 150 ml, Yogur griego natural 30 g, Frutos rojos 60 g, Almendras naturales 15 g
-- **Night before** — Mix oats, kefir, yoghurt, frozen berries in a jar. Fridge.
+Ingredients: Copos de avena 45 g, Kéfir 180 ml, Frutos rojos 60 g, Almendras naturales 15 g
+- **Night before** — Mix oats, kefir, frozen berries in a jar. Fridge.
 - **0–2 min** — Top with chopped almonds.
 
 ### Lunch · Honey-soy steak & mushroom stir-fry with rice — 19 min
@@ -723,11 +723,11 @@ Ingredients: Kéfir 250 ml, Kiwi 2, Espinacas baby 1 handful, Plátano ½, Copos
 ### Lunch · Pork tenderloin, roasted veg & couscous — 25 min
 Cook ×2 — Saturday's post-V-Power lunch is the second portion.
 What you need: Air fryer, Kettle / microwave
-Ingredients: Solomillo de cerdo 1 (~400 g), Calabacín 1, Pimiento rojo 1, Cebolla roja ½, Cuscús 140 g, Limón 1, Orégano 1 tsp, Pimentón dulce 1 tsp, Yogur griego natural 60 g, Perejil fresco 1 handful
+Ingredients: Solomillo de cerdo 1 (~400 g), Calabacín 1, Pimiento rojo 1, Cebolla roja ½, Cuscús 140 g, Limón 1, Orégano 1 tsp, Pimentón dulce 1 tsp, Kéfir 60 ml, Perejil fresco 1 handful
 - **0–4 min** — Chop courgette, pepper, onion. Toss with oil, salt, oregano. Rub pork with oil, paprika, salt.
 - **4–22 min** — Air fryer, 200°C. Pork + veg together, 18 min. Turn pork at 9 min. Inside must be no longer pink.
 - **10–15 min** — Couscous in a bowl. 140 ml boiling salted water + lemon juice. Cover 5 min. Fluff with a fork and parsley.
-- **22–25 min** — Rest pork 3 min. Slice. Plate half with veg, couscous, spoon of yoghurt. Box the other half.
+- **22–25 min** — Rest pork 3 min. Slice. Plate half with veg, couscous, spoon of kefir. Box the other half.
 
 ### Dinner · Falafel & tzatziki, cucumber, leaves — 10 min
 Light plate.
@@ -762,13 +762,13 @@ Ingredients: Queso feta 50 g, Aceitunas negras / kalamata 8, Pimiento asado (bot
 ## Sunday 15/11 — Run (Morning) · Cycle day 14: Ovulation window (est. ovulation)
 _Colourful fruit & veg, antioxidants, balanced plates. Highest energy._
 
-### Breakfast · Banana-oat pancakes, Greek yoghurt & kiwi — 17 min
+### Breakfast · Banana-oat pancakes, kefir & kiwi — 17 min
 After your run.
 What you need: Hand blender + tall jug, Non-stick frying pan
-Ingredients: Plátano 1, Huevos 2, Copos de avena 40 g, Yogur griego natural 60 g, Kiwi 1, Miel drizzle
+Ingredients: Plátano 1, Huevos 2, Copos de avena 40 g, Kéfir 60 ml, Kiwi 1, Miel drizzle
 - **0–3 min** — Banana, eggs, oats, pinch of salt in a tall jug. Blitz with the hand blender.
 - **3–15 min** — Non-stick pan, medium, a little butter. Small pancakes, 2 min per side, in batches.
-- **15–17 min** — Top with yoghurt, sliced kiwi, honey.
+- **15–17 min** — Top with kefir, sliced kiwi, honey.
 
 ### Lunch · Mushroom & pea risotto with a fried egg — 27 min
 Weekend cook. Warm and grounding.
@@ -789,7 +789,7 @@ Ingredients: Hummus 4 tbsp, Aceitunas verdes 8, Pepino ¼, Pan de pita 1
 ## Shopping list — Week 46
 **Fruta y verdura:** Lemon (3); Garlic (1 head); Red pepper (4); Cucumber (2); Mixed salad leaves (4 handfuls → 1 bag(s)); Avocado (1); Mushrooms, sliced (520 g); Carrot (1); Spring onion (1 bunch); Kiwi (4); Baby spinach (1 handfuls → 1 bag(s)); Banana (2); Courgette (zucchini) (1); Red onion (1); Fresh parsley (1 bunch); Onion (1)
 **Carne y pescado:** Turkey breast fillets (360 g); Smoked salmon (60 g); Beef steak (young beef) (300 g); Pork tenderloin (1 (~400 g)); Cooked ham (2 slice)
-**Huevos, lácteos y refrigerados:** Greek yoghurt, plain (350 g); Tzatziki sauce (9 tbsp → tub); Eggs (10 → 1 dozen); Grated mozzarella (20 g); Hummus (8 tbsp → tub(s)); Kefir (400 ml); Falafel (4); Cheese slices (havarti or similar) (2 slice); Feta cheese (50 g); Grated parmesan (15 g)
+**Huevos, lácteos y refrigerados:** Kefir (750 ml); Tzatziki sauce (9 tbsp → tub); Eggs (10 → 1 dozen); Grated mozzarella (20 g); Hummus (8 tbsp → tub(s)); Falafel (4); Cheese slices (havarti or similar) (2 slice); Feta cheese (50 g); Grated parmesan (15 g)
 **Despensa:** Granola, no added sugar (30 g); Almonds (plain) (40 g); Basmati rice (300 g); Rye crispbread (your usual) (12 pieces → 1 pack); Rye bread (4 slices → 1 loaf); Rolled oats (105 g); Green olives (16); Pitta bread (2); Couscous (140 g); Black olives / kalamata (8); Roasted red pepper (jarred) (1); Risotto rice (75 g)
 **Congelados:** Mixed berries (120 g); Peas (80 g)
 **Tienda libanesa (you buy):** Labneh (8 tbsp → tub); Za'atar (2 tsp → pot)

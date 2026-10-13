@@ -40,11 +40,7 @@
             ],
             [
               "Kéfir",
-              "150 ml"
-            ],
-            [
-              "Yogur griego natural",
-              "30 g"
+              "180 ml"
             ],
             [
               "Manzana",
@@ -62,7 +58,7 @@
           "steps": [
             {
               "at": "Night before",
-              "text": "Grate the apple into a jar. Add oats, kefir, yoghurt, cinnamon. Mix. Fridge."
+              "text": "Grate the apple into a jar. Add oats, kefir, cinnamon. Mix. Fridge."
             },
             {
               "at": "0–2 min",
@@ -212,15 +208,15 @@
         {
           "slot": "Breakfast",
           "light": false,
-          "dish": "Greek yoghurt, pear, granola & almonds",
+          "dish": "Kefir, pear, granola & almonds",
           "note": "No cooking.",
           "equipment": [
             "Bowl"
           ],
           "ingredients": [
             [
-              "Yogur griego natural",
-              "200 g"
+              "Kéfir",
+              "200 ml"
             ],
             [
               "Pera",
@@ -238,7 +234,7 @@
           "steps": [
             {
               "at": "0–5 min",
-              "text": "Yoghurt in a bowl. Top with sliced pear, granola, almonds."
+              "text": "Kefir in a bowl. Top with sliced pear, granola, almonds."
             }
           ],
           "minutes": 5
@@ -760,7 +756,7 @@
         {
           "slot": "Dinner",
           "light": true,
-          "dish": "Yoghurt-cucumber-mint dip with pitta & olives",
+          "dish": "Kefir-cucumber-mint dip with pitta & olives",
           "note": "Light plate (khiyar bi laban style).",
           "equipment": [
             "Bowl",
@@ -769,8 +765,8 @@
           ],
           "ingredients": [
             [
-              "Yogur griego natural",
-              "150 g"
+              "Kéfir",
+              "150 ml"
             ],
             [
               "Pepino",
@@ -796,7 +792,7 @@
           "steps": [
             {
               "at": "0–4 min",
-              "text": "Grate cucumber, squeeze out water. Mix with yoghurt, mint, grated garlic, salt, olive oil."
+              "text": "Grate cucumber, squeeze out water. Mix with kefir, mint, grated garlic, salt, olive oil."
             },
             {
               "at": "4–6 min",
@@ -1042,8 +1038,8 @@
               "½"
             ],
             [
-              "Yogur griego natural",
-              "30 g"
+              "Kéfir",
+              "30 ml"
             ],
             [
               "Pipas de calabaza",
@@ -1061,7 +1057,7 @@
             },
             {
               "at": "6–12 min",
-              "text": "Thinly slice sprouts, shred kale, apple matchsticks. Toss with lemon, yoghurt, half the grated garlic, salt. Massage 1 min."
+              "text": "Thinly slice sprouts, shred kale, apple matchsticks. Toss with lemon, kefir, half the grated garlic, salt. Massage 1 min."
             },
             {
               "at": "12–14 min",
@@ -1259,11 +1255,7 @@
       "items": [
         [
           "Kefir",
-          "400 ml"
-        ],
-        [
-          "Greek yoghurt, plain",
-          "410 g"
+          "810 ml"
         ],
         [
           "Light cooking cream",

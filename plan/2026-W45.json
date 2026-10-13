@@ -55,8 +55,8 @@
               "15 g"
             ],
             [
-              "Yogur griego natural",
-              "50 g"
+              "Kéfir",
+              "50 ml"
             ]
           ],
           "steps": [
@@ -66,7 +66,7 @@
             },
             {
               "at": "4–6 min",
-              "text": "Top with yoghurt and chopped almonds."
+              "text": "Top with kefir and chopped almonds."
             }
           ],
           "minutes": 6
@@ -154,7 +154,7 @@
         {
           "slot": "Dinner",
           "light": true,
-          "dish": "Smooth pumpkin soup (crema de calabaza), yoghurt & pumpkin seeds",
+          "dish": "Smooth pumpkin soup (crema de calabaza), kefir & pumpkin seeds",
           "note": "Bleed-week soup. Make ×2 — tomorrow's dinner is the second bowl.",
           "equipment": [
             "Pot with lid",
@@ -178,8 +178,8 @@
               "500 ml"
             ],
             [
-              "Yogur griego natural",
-              "60 g"
+              "Kéfir",
+              "60 ml"
             ],
             [
               "Pipas de calabaza",
@@ -205,7 +205,7 @@
             },
             {
               "at": "21–23 min",
-              "text": "Bowl with a swirl of yoghurt + seeds. Crispbread on the side. Fridge the other half."
+              "text": "Bowl with a swirl of kefir + seeds. Crispbread on the side. Fridge the other half."
             }
           ],
           "minutes": 23,
@@ -356,15 +356,15 @@
         {
           "slot": "Breakfast",
           "light": false,
-          "dish": "Greek yoghurt, kiwi, berries, oats & almonds",
+          "dish": "Kefir, kiwi, berries, oats & almonds",
           "note": "No cooking.",
           "equipment": [
             "Bowl"
           ],
           "ingredients": [
             [
-              "Yogur griego natural",
-              "200 g"
+              "Kéfir",
+              "200 ml"
             ],
             [
               "Kiwi",
@@ -386,7 +386,7 @@
           "steps": [
             {
               "at": "0–5 min",
-              "text": "Yoghurt in a bowl. Top with sliced kiwi, berries, oats, chopped almonds."
+              "text": "Kefir in a bowl. Top with sliced kiwi, berries, oats, chopped almonds."
             }
           ],
           "minutes": 5
@@ -978,7 +978,7 @@
         {
           "slot": "Breakfast",
           "light": false,
-          "dish": "Banana-oat pancakes, Greek yoghurt & kiwi",
+          "dish": "Banana-oat pancakes, kefir & kiwi",
           "note": "After your run.",
           "equipment": [
             "Hand blender + tall jug",
@@ -998,8 +998,8 @@
               "40 g"
             ],
             [
-              "Yogur griego natural",
-              "60 g"
+              "Kéfir",
+              "60 ml"
             ],
             [
               "Kiwi",
@@ -1021,7 +1021,7 @@
             },
             {
               "at": "15–17 min",
-              "text": "Top with yoghurt, sliced kiwi, honey."
+              "text": "Top with kefir, sliced kiwi, honey."
             }
           ],
           "minutes": 17
@@ -1245,8 +1245,8 @@
           "250 ml"
         ],
         [
-          "Greek yoghurt, plain",
-          "370 g"
+          "Kefir",
+          "620 ml"
         ],
         [
           "Grated parmesan",
@@ -1263,10 +1263,6 @@
         [
           "Cottage cheese",
           "100 g"
-        ],
-        [
-          "Kefir",
-          "250 ml"
         ],
         [
           "Cheese slices (havarti or similar)",
