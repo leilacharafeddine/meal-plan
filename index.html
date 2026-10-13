@@ -46,7 +46,6 @@
     .day-card { flex: 0 0 84% !important; }
     .shopping-grid { column-count: 1 !important; }
     .timing-grid { grid-template-columns: 1fr !important; }
-    .week-menu { left: 0 !important; right: auto !important; }
   }
 </style>
 </helmet>
@@ -115,32 +114,10 @@
         <h1 style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 52px; line-height: 1.02; margin: 0; color: #123842; letter-spacing: -0.005em;">The Weekly Board</h1>
       </div>
 
-      <!-- WEEK PICKER -->
-      <div style="position: relative; padding-top: 6px;">
-        <button onClick="{{ toggleMenu }}" style="display: flex; align-items: center; gap: 16px; background: rgba(255,255,255,0.74); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; padding: 11px 16px; cursor: pointer; text-align: left; box-shadow: 0 8px 22px -12px rgba(18,54,66,0.4); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);">
-          <span>
-            <span style="display: block; font-family: 'Roboto Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #5a8a97;">{{ weekIndex }}</span>
-            <span style="display: block; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 15px; color: #123842; margin-top: 3px;">{{ weekLabel }}</span>
-          </span>
-          <span style="display: inline-flex; color: #1f8fb8; transform: rotate({{ menuChevron }}); transition: transform 0.3s ease;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
-        </button>
-        <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
-          <div style="position: fixed; inset: 0; z-index: 10;" onClick="{{ toggleMenu }}"></div>
-          <div class="week-menu" style="position: absolute; top: calc(100% + 8px); right: 0; z-index: 11; min-width: 248px; background: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; box-shadow: 0 18px 44px -14px rgba(18,54,66,0.4); overflow: hidden; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);">
-            <div style="font-family: 'Roboto Mono', monospace; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #5a8a97; padding: 13px 16px 8px;">Weeks</div>
-            <sc-for list="{{ weeks }}" as="w" hint-placeholder-count="3">
-              <button onClick="{{ w.select }}" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; background: none; border: none; border-top: 1px solid rgba(18,54,66,0.08); padding: 12px 16px; cursor: pointer; text-align: left;">
-                <span>
-                  <span style="display: block; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 14px; color: #123842;">{{ w.label }}</span>
-                  <span style="display: block; font-family: 'Roboto Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: #5a8a97; margin-top: 3px;">{{ w.index }}</span>
-                </span>
-                <sc-if value="{{ w.isCurrent }}" hint-placeholder-val="{{ false }}">
-                  <span style="font-size: 11px; color: #1f9fd0;">●</span>
-                </sc-if>
-              </button>
-            </sc-for>
-          </div>
-        </sc-if>
+      <!-- WEEK LABEL (static — pick a week by clicking a date in the cycle calendar below) -->
+      <div style="padding-top: 6px; background: rgba(255,255,255,0.74); border: 1px solid rgba(255,255,255,0.6); border-radius: 16px; padding: 11px 16px; box-shadow: 0 8px 22px -12px rgba(18,54,66,0.4); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);">
+        <span style="display: block; font-family: 'Roboto Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: #5a8a97;">{{ weekIndex }}</span>
+        <span style="display: block; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 15px; color: #123842; margin-top: 3px;">{{ weekLabel }}</span>
       </div>
     </div>
 
@@ -187,7 +164,7 @@
             <div style="text-align: center; font-family: 'Roboto Mono', monospace; font-size: 9.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #5a8a97; padding-bottom: 4px;">{{ wd }}</div>
           </sc-for>
           <sc-for list="{{ calCells }}" as="c" hint-placeholder-count="35">
-            <div style="height: 42px; border-radius: 10px; background: {{ c.bg }}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: {{ c.opacity }};">
+            <div onClick="{{ c.select }}" style="height: 42px; border-radius: 10px; background: {{ c.bg }}; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: {{ c.opacity }}; cursor: {{ c.cursor }};">
               <span style="font-family: 'Roboto', sans-serif; font-size: 13px; font-weight: {{ c.weight }}; color: {{ c.color }};">{{ c.label }}</span>
               <span style="position: relative; display: flex; align-items: center; justify-content: center; height: 5px; width: 18px;">
                 <span style="width: 5px; height: 5px; border-radius: 50%; background: #9c3f47; opacity: {{ c.bleedDot }};"></span>
@@ -616,7 +593,7 @@ function naturalPhase(cd) {
 function isBleedDay(date) { return naturalCycleDay(date) <= 5; }
 
 class Component extends DCLogic {
-  state = { data: null, recipes: {}, week: 0, menuOpen: false, standingOpen: false, timingOpen: false, checked: {}, sheet: null, sheetOpen: false, cycleOpen: true, calOffset: 0, pantryOpen: false };
+  state = { data: null, recipes: {}, week: 0, standingOpen: false, timingOpen: false, checked: {}, sheet: null, sheetOpen: false, cycleOpen: true, calOffset: 0, pantryOpen: false };
 
   componentDidMount() {
     let localChecked = {};
@@ -680,18 +657,25 @@ class Component extends DCLogic {
           weekIndex = data.weeks.findIndex((w) => weekContainsDate(w, today));
         }
         if (weekIndex === -1) {
-          // No week's date range covers today (e.g. a week was skipped/never added) —
-          // fall back to the most recently started week rather than an arbitrary array
-          // position, so the page never lands on something stale or out of order.
+          // No week's date range covers today (e.g. there's a gap before the next
+          // planned week). Prefer the nearest upcoming week as a preview — better to
+          // show what's coming next than to land back on something already finished —
+          // and only fall back to the most recently started past week if nothing is
+          // upcoming at all.
           const withMonday = data.weeks
             .map((w, i) => ({ i, monday: mondayOfIsoWeek(w.id) }))
             .filter((x) => x.monday)
             .sort((a, b) => a.monday - b.monday);
-          const started = withMonday.filter((x) => x.monday <= today);
-          if (started.length) {
-            weekIndex = started[started.length - 1].i;
-          } else if (withMonday.length) {
-            weekIndex = withMonday[0].i;
+          const upcoming = withMonday.filter((x) => x.monday > today);
+          if (upcoming.length) {
+            weekIndex = upcoming[0].i;
+          } else {
+            const started = withMonday.filter((x) => x.monday <= today);
+            if (started.length) {
+              weekIndex = started[started.length - 1].i;
+            } else if (withMonday.length) {
+              weekIndex = withMonday[0].i;
+            }
           }
         }
         this.setState({ data, week: weekIndex !== -1 ? weekIndex : 0 });
@@ -707,7 +691,24 @@ class Component extends DCLogic {
   selectWeek(i) {
     const w = this.state.data.weeks[i];
     try { localStorage.setItem('twb-week', w.id); } catch (e) {}
-    this.setState({ week: i, menuOpen: false });
+    this.setState({ week: i });
+  }
+
+  // Clicking a date in the cycle calendar jumps to the week containing it, then
+  // scrolls the day gallery so that specific day's card comes into view.
+  selectDate(date) {
+    const data = this.state.data;
+    if (!data) return;
+    const weekIdx = data.weeks.findIndex((w) => weekContainsDate(w, date));
+    if (weekIdx === -1) return; // no plan for that date — nothing to jump to
+    const monday = mondayOfIsoWeek(data.weeks[weekIdx].id);
+    const dayOffset = Math.round((new Date(date.getFullYear(), date.getMonth(), date.getDate()) - monday) / 86400000);
+    this.selectWeek(weekIdx);
+    setTimeout(() => {
+      const cards = document.querySelectorAll('.gallery .day-card');
+      const card = cards[dayOffset];
+      if (card) card.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });
+    }, 60);
   }
 
   openSheet(sheet) {
@@ -742,14 +743,16 @@ class Component extends DCLogic {
     const weekStart = new Date(today.getFullYear(), today.getMonth(), today.getDate() - dow);
     const weekEnd = new Date(weekStart.getFullYear(), weekStart.getMonth(), weekStart.getDate() + 6);
 
+    const data = this.state.data;
     const cells = [];
     for (let i = 0; i < lead; i++) {
-      cells.push({ label: '', bg: 'transparent', opacity: '1', weight: 400, color: '#123842', bleedDot: '0', ovuLine: '0' });
+      cells.push({ label: '', bg: 'transparent', opacity: '1', weight: 400, color: '#123842', bleedDot: '0', ovuLine: '0', cursor: 'default', select: () => {} });
     }
     for (let dd = 1; dd <= daysIn; dd++) {
       const date = new Date(y, m, dd);
       const isToday = date.getTime() === today.getTime();
       const inThisWeek = date >= weekStart && date <= weekEnd;
+      const hasPlan = !!data && data.weeks.some((wk) => weekContainsDate(wk, date));
       cells.push({
         label: String(dd),
         bg: isToday ? '#123842' : (inThisWeek ? 'rgba(31,159,208,0.12)' : 'transparent'),
@@ -758,6 +761,8 @@ class Component extends DCLogic {
         opacity: date < today ? '0.55' : '1',
         bleedDot: isBleedDay(date) ? '1' : '0',
         ovuLine: naturalCycleDay(date) === 14 ? '1' : '0',
+        cursor: hasPlan ? 'pointer' : 'default',
+        select: hasPlan ? (() => this.selectDate(date)) : (() => {}),
       });
     }
 
@@ -786,31 +791,6 @@ class Component extends DCLogic {
   renderVals() {
     const d = this.state.data;
     if (!d) return {};
-
-    // Standing rule: weeks whose end date is more than 14 days in the past drop out of
-    // the picker on their own — a permanent display-time filter (data.json is untouched)
-    // so nothing needs manual pruning here each week. Current and future weeks always show.
-    const today = new Date();
-    const cutoff = new Date(today);
-    cutoff.setDate(cutoff.getDate() - 14);
-    const chronological = d.weeks
-      .map((w, i) => ({ i, monday: mondayOfIsoWeek(w.id) }))
-      .sort((a, b) => (a.monday && b.monday ? a.monday - b.monday : 0));
-
-    const weeks = chronological
-      .filter(({ i }) => {
-        const end = weekEndDate(d.weeks[i]);
-        return !end || end >= cutoff;
-      })
-      .map(({ i }) => {
-        const w = d.weeks[i];
-        return {
-          label: w.label,
-          index: w.index,
-          isCurrent: i === this.state.week,
-          select: () => this.selectWeek(i),
-        };
-      });
 
     const w = d.weeks[this.state.week] || d.weeks[0];
 
@@ -973,7 +953,6 @@ class Component extends DCLogic {
       pct,
       barWidth: pct + '%',
       progressCaption: doneItems + ' of ' + totalItems + ' logged · ' + pct + '% of the week complete',
-      weeks,
       weekLabel: w.label,
       weekIndex: w.index,
       tagline: w.tagline,
@@ -990,10 +969,8 @@ class Component extends DCLogic {
       sheetBackdrop: this.state.sheetOpen ? '1' : '0',
       sheetPointer: this.state.sheetOpen ? 'auto' : 'none',
       closeSheet: () => this.closeSheet(),
-      menuOpen: this.state.menuOpen,
       standingOpen: this.state.standingOpen,
       standingChevron: this.state.standingOpen ? '180deg' : '0deg',
-      menuChevron: this.state.menuOpen ? '180deg' : '0deg',
       timingOpen: this.state.timingOpen,
       timingChevron: this.state.timingOpen ? '180deg' : '0deg',
       toggleTiming: () => this.setState((s) => ({ timingOpen: !s.timingOpen })),
@@ -1001,7 +978,6 @@ class Component extends DCLogic {
       timingOpacity: this.state.timingOpen ? '1' : '0',
       standingMax: this.state.standingOpen ? '360px' : '0px',
       standingOpacity: this.state.standingOpen ? '1' : '0',
-      toggleMenu: () => this.setState((s) => ({ menuOpen: !s.menuOpen })),
       toggleStanding: () => this.setState((s) => ({ standingOpen: !s.standingOpen })),
     };
   }
