@@ -17,8 +17,67 @@
   window.__twbDb = firebase.firestore();
 </script>
 <script src="./support.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<!-- ================= PASSWORD GATE (plain HTML/JS, outside the app) ================= -->
+<div id="twb-gate" style="position: fixed; inset: 0; z-index: 99999; display: flex; align-items: center; justify-content: center; padding: 24px; background: linear-gradient(160deg, #c4ecf3 0%, #57c4e6 100%); font-family: 'Roboto', system-ui, sans-serif;">
+  <div style="width: 100%; max-width: 360px; background: rgba(255,255,255,0.86); border: 1px solid rgba(255,255,255,0.6); border-radius: 26px; padding: 34px 28px; box-shadow: 0 20px 60px -24px rgba(18,54,66,0.5); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); text-align: center;">
+    <h1 style="font-family: 'Roboto Serif', serif; font-style: italic; font-weight: 700; font-size: 28px; line-height: 1.1; margin: 0 0 6px; color: #123842;">The Weekly Board</h1>
+    <p style="margin: 0 0 22px; font-family: 'Roboto Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #5a8a97;">Enter password to continue</p>
+    <form id="twb-gate-form" autocomplete="off">
+      <input id="twb-gate-pw" type="password" placeholder="Password" autocapitalize="off" autocorrect="off" spellcheck="false" style="box-sizing: border-box; width: 100%; font-size: 16px; font-family: 'Roboto', sans-serif; padding: 13px 15px; border-radius: 14px; border: 1px solid rgba(18,54,66,0.18); background: rgba(255,255,255,0.92); color: #123842; outline: none;">
+      <div id="twb-gate-error" style="display: none; margin-top: 10px; font-family: 'Roboto Mono', monospace; font-size: 11px; letter-spacing: 0.04em; color: #9c3f47;">Incorrect password — try again.</div>
+      <button type="submit" style="margin-top: 16px; width: 100%; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 15px; padding: 13px 15px; border-radius: 14px; border: none; background: #123842; color: #ffffff; cursor: pointer;">Enter</button>
+    </form>
+  </div>
+</div>
+<script>
+(function () {
+  var STORAGE_KEY = 'twb-unlocked';
+  var PW_HASH = 'b493d48364afe44d11c0165cf470a4164d1e2609911ef998be868d46ade3de4e';
+  var gate = document.getElementById('twb-gate');
+
+  try {
+    if (localStorage.getItem(STORAGE_KEY) === '1') {
+      gate.style.display = 'none';
+    }
+  } catch (e) {}
+
+  function sha256Hex(str) {
+    var bytes = new TextEncoder().encode(str);
+    return crypto.subtle.digest('SHA-256', bytes).then(function (buf) {
+      return Array.prototype.map.call(new Uint8Array(buf), function (b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    });
+  }
+
+  var form = document.getElementById('twb-gate-form');
+  var input = document.getElementById('twb-gate-pw');
+  var error = document.getElementById('twb-gate-error');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var guess = (input.value || '').trim().toLowerCase();
+    sha256Hex(guess).then(function (hex) {
+      if (hex === PW_HASH) {
+        try { localStorage.setItem(STORAGE_KEY, '1'); } catch (e) {}
+        error.style.display = 'none';
+        gate.style.display = 'none';
+      } else {
+        error.style.display = 'block';
+        input.value = '';
+        input.focus();
+      }
+    });
+  });
+})();
+</script>
+
 <x-dc>
 <helmet>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -450,6 +509,9 @@
       <button onClick="{{ toggleStanding }}" style="display: inline-flex; align-items: center; gap: 7px; background: none; border: none; padding: 4px 2px; cursor: pointer; font-family: 'Roboto Mono', monospace; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #ffffff;">
         <span>Food I don't like</span>
         <span style="display: inline-flex; transform: rotate({{ standingChevron }}); transition: transform 0.3s ease;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+      <button onClick="{{ lockApp }}" style="display: inline-flex; align-items: center; gap: 7px; background: none; border: none; padding: 4px 2px; cursor: pointer; font-family: 'Roboto Mono', monospace; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #ffffff;">
+        <span>Lock</span>
       </button>
     </div>
   </footer>
@@ -974,6 +1036,10 @@ class Component extends DCLogic {
       standingMax: this.state.standingOpen ? '360px' : '0px',
       standingOpacity: this.state.standingOpen ? '1' : '0',
       toggleStanding: () => this.setState((s) => ({ standingOpen: !s.standingOpen })),
+      lockApp: () => {
+        try { localStorage.removeItem('twb-unlocked'); } catch (e) {}
+        location.reload();
+      },
     };
   }
 }
