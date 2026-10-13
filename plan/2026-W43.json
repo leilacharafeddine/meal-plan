@@ -65,7 +65,7 @@
           "light": false,
           "minutes": 20,
           "dish": "Chicken souvlaki rice, peppers, cucumber & tzatziki",
-          "note": "Cook 2 portions of chicken — the second is Tuesday's dinner wrap.",
+          "note": "Cook 2 portions of chicken (Tuesday dinner wrap) and 2 of rice (Tuesday lunch).",
           "recipeRef": "chicken-souvlaki-rice",
           "swaps": [
             "No raw tomato — cucumber and pepper instead."
@@ -76,8 +76,8 @@
               "360 g (2 portions)"
             ],
             [
-              "Vasito de arroz basmati",
-              "1"
+              "Arroz basmati",
+              "150 g (2 portions)"
             ],
             [
               "Limón",
@@ -114,29 +114,29 @@
           ],
           "steps": [
             {
-              "at": "0–3 min",
+              "at": "0–2 min",
+              "text": "Rinse 150 g rice. Rice cooker, 300 ml water, pinch of salt. Start."
+            },
+            {
+              "at": "2–5 min",
               "text": "Cube all the chicken. Mix with oil, lemon juice, oregano, grated garlic and salt."
             },
             {
-              "at": "3–15 min",
+              "at": "5–17 min",
               "text": "Air fryer, 200°C, 12 min. Shake halfway."
             },
             {
-              "at": "3–8 min",
+              "at": "5–11 min",
               "text": "Slice pepper into strips; add to the air fryer for the last 6 min. Dice cucumber."
             },
             {
-              "at": "15–17 min",
-              "text": "Microwave rice vasito 1 min."
-            },
-            {
               "at": "17–20 min",
-              "text": "Plate rice, half the chicken, pepper, cucumber, tzatziki, salad. Box the other half of the chicken for Tuesday."
+              "text": "Plate half the rice, half the chicken, pepper, cucumber, tzatziki, salad. Box the rest of the rice and chicken."
             }
           ],
           "equipment": [
-            "Air fryer",
-            "Microwave"
+            "Rice cooker",
+            "Air fryer"
           ]
         },
         {
@@ -256,7 +256,7 @@
           "light": false,
           "minutes": 20,
           "dish": "Steak fajita rice with peppers & onion",
-          "note": "Steak + peppers = iron with vitamin C.",
+          "note": "Steak + peppers = iron with vitamin C. Uses Monday's rice.",
           "recipeRef": "steak-fajita-rice",
           "swaps": [
             "Mild seasoning: sweet paprika, garlic, oregano. No chilli, no cumin.",
@@ -296,8 +296,8 @@
               "½"
             ],
             [
-              "Vasito de arroz basmati",
-              "1"
+              "Leftover rice (Monday)",
+              "1 portion"
             ],
             [
               "Perejil",
@@ -319,7 +319,7 @@
             },
             {
               "at": "16–18 min",
-              "text": "Microwave rice vasito 1 min."
+              "text": "Microwave leftover rice 1½ min, covered, splash of water."
             },
             {
               "at": "18–20 min",
@@ -537,11 +537,11 @@
           "steps": [
             {
               "at": "0–2 min",
-              "text": "Boil salted water. Gently fry the garlic in the oil until golden. Tip into the blender."
+              "text": "Boil salted water. Gently fry the garlic in the oil until golden. Tip into a tall jug."
             },
             {
               "at": "2–6 min",
-              "text": "Blanch kale 3 min. Lift into blender with a splash of water. Blend with lemon and salt."
+              "text": "Blanch kale 3 min. Lift into the jug with a splash of water. Add lemon and salt. Blitz with the hand blender until smooth."
             },
             {
               "at": "6–16 min",
@@ -555,7 +555,7 @@
           "equipment": [
             "Large pot",
             "Small pan",
-            "Blender"
+            "Hand blender + tall jug"
           ]
         }
       ]
@@ -616,7 +616,7 @@
           "light": false,
           "minutes": 23,
           "dish": "Spaghetti & beef meatballs + side salad",
-          "note": "Double batch — the second portion is Saturday's dinner.",
+          "note": "Double batch — the second portion is Saturday's dinner. Also start rice for tonight and tomorrow.",
           "recipeRef": "spaghetti-meatballs",
           "ingredients": [
             [
@@ -654,9 +654,17 @@
             [
               "Aceite de oliva",
               "1 tbsp"
+            ],
+            [
+              "Arroz basmati",
+              "150 g (for Thu dinner + Fri lunch)"
             ]
           ],
           "steps": [
+            {
+              "at": "0–1 min",
+              "text": "Rinse 150 g rice. Rice cooker, 300 ml water, pinch of salt. Start."
+            },
             {
               "at": "0–4 min",
               "text": "Mix mince, half the garlic, breadcrumbs, egg, parsley, salt. Roll 16 small balls."
@@ -675,6 +683,7 @@
             }
           ],
           "equipment": [
+            "Rice cooker",
             "Frying pan with lid",
             "Large pot"
           ]
@@ -692,8 +701,8 @@
               "1 fillet"
             ],
             [
-              "Vasito de arroz basmati",
-              "1"
+              "Rice (from today's rice cooker)",
+              "1 portion"
             ],
             [
               "Pepino",
@@ -715,7 +724,7 @@
           "steps": [
             {
               "at": "0–2 min",
-              "text": "Microwave rice 1 min."
+              "text": "Microwave rice 1½ min, covered, splash of water."
             },
             {
               "at": "2–5 min",
@@ -776,11 +785,11 @@
           "steps": [
             {
               "at": "0–5 min",
-              "text": "Blend everything except almonds. Eat almonds on the side."
+              "text": "Put everything except almonds in a tall jug. Blitz with the hand blender. Eat almonds on the side."
             }
           ],
           "equipment": [
-            "Blender"
+            "Hand blender + tall jug"
           ]
         },
         {
@@ -788,7 +797,7 @@
           "light": false,
           "minutes": 22,
           "dish": "Crispy honey-soy tofu rice bowl",
-          "note": "Tofu = magnesium + iron.",
+          "note": "Tofu = magnesium + iron. Uses Thursday's rice.",
           "recipeRef": "crispy-tofu-bowl",
           "swaps": [
             "No chilli — honey-soy glaze."
@@ -815,8 +824,8 @@
               "1 tsp"
             ],
             [
-              "Vasito de arroz basmati",
-              "1"
+              "Leftover rice (Thursday)",
+              "1 portion"
             ],
             [
               "Pepino",
@@ -846,7 +855,7 @@
             },
             {
               "at": "18–20 min",
-              "text": "Toss hot tofu in the sauce. Microwave rice 1 min."
+              "text": "Toss hot tofu in the sauce. Microwave leftover rice 1½ min, covered."
             },
             {
               "at": "20–22 min",
@@ -1126,7 +1135,7 @@
           "steps": [
             {
               "at": "0–3 min",
-              "text": "Blend banana, eggs, oats and a pinch of salt."
+              "text": "Banana, eggs, oats, pinch of salt in a tall jug. Blitz with the hand blender."
             },
             {
               "at": "3–15 min",
@@ -1138,7 +1147,7 @@
             }
           ],
           "equipment": [
-            "Blender",
+            "Hand blender + tall jug",
             "Non-stick frying pan"
           ]
         },
@@ -1457,8 +1466,8 @@
       "category": "Despensa",
       "items": [
         [
-          "Vasitos de arroz basmati (microondas)",
-          "4 vasitos (2 packs)"
+          "Arroz basmati",
+          "1 paquete (300 g used)"
         ],
         [
           "Arroz redondo",

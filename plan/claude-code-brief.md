@@ -29,6 +29,7 @@ Week files live in the project docs: `claude/plan-2026-W43.json` (W44–W46 foll
 - Never: soup (except bleed-week days), lots of raw tomato (≤ 5 cherry tomatoes OK), cilantro, chilli/spicy, heavy Indian-style spice blends, canned tuna, lentils, tropical fruit. Peanut butter only if essential.
 - No turkey and chicken in the same week.
 - Tiny oven — no gratins/bakes. Main appliance: Ninja air fryer, ONE drawer (bake, crisp, air fry, roast, reheat, dehydrate). Never plan two air-fryer items at the same time unless they share the drawer.
+- Also owned: rice cooker (use for rice, cook 2 portions at a time), hand blender (soups, sauces, smoothies, batters — no jug blender), microwave.
 - No toaster: toast = "Air fryer, 200°C, 3 min" or a dry frying pan.
 - Soups: bleed week only, and only smooth blended (crema/puré) or clear broth with noodles. No chunky soups.
 - Lunch is the biggest meal; dinner is light.
