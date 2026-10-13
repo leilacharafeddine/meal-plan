@@ -55,6 +55,9 @@
               "at": "0–5 min",
               "text": "Spoon yoghurt into a bowl. Top with sliced kiwi, berries, oats and chopped almonds."
             }
+          ],
+          "equipment": [
+            "Bowl"
           ]
         },
         {
@@ -130,6 +133,10 @@
               "at": "17–20 min",
               "text": "Plate rice, half the chicken, pepper, cucumber, tzatziki, salad. Box the other half of the chicken for Tuesday."
             }
+          ],
+          "equipment": [
+            "Air fryer",
+            "Microwave"
           ]
         },
         {
@@ -177,6 +184,9 @@
               "at": "8–10 min",
               "text": "Plate falafel, hummus, veg sticks and salad."
             }
+          ],
+          "equipment": [
+            "Air fryer"
           ]
         }
       ]
@@ -225,7 +235,7 @@
           "steps": [
             {
               "at": "0–2 min",
-              "text": "Toast the bread. Melt butter in a pan on medium-low."
+              "text": "Air fryer, 200°C, 3 min for the bread. Melt butter in a pan on medium-low."
             },
             {
               "at": "2–4 min",
@@ -235,6 +245,10 @@
               "at": "4–8 min",
               "text": "Add beaten eggs. Stir slowly until just set. Season. Serve on toast with kiwi."
             }
+          ],
+          "equipment": [
+            "Air fryer (toast)",
+            "Frying pan"
           ]
         },
         {
@@ -311,6 +325,10 @@
               "at": "18–20 min",
               "text": "Slice steak thin. Plate rice, veg, steak. Squeeze lime, add parsley."
             }
+          ],
+          "equipment": [
+            "Frying pan",
+            "Microwave"
           ]
         },
         {
@@ -350,6 +368,10 @@
               "at": "2–5 min",
               "text": "Spread tzatziki, add leaves, cucumber, chicken. Roll."
             }
+          ],
+          "equipment": [
+            "Frying pan",
+            "Microwave"
           ]
         }
       ]
@@ -408,6 +430,9 @@
               "at": "0–3 min",
               "text": "Top with sliced banana and chopped almonds."
             }
+          ],
+          "equipment": [
+            "Jar (fridge overnight)"
           ]
         },
         {
@@ -463,6 +488,9 @@
               "at": "21–22 min",
               "text": "Plate 1 salmon, potatoes, beans. Big spoon of alioli, lemon, parsley. Fridge the 2nd fillet."
             }
+          ],
+          "equipment": [
+            "Air fryer"
           ]
         },
         {
@@ -523,6 +551,11 @@
               "at": "16–18 min",
               "text": "Drain. Stir in kale sauce and parmesan."
             }
+          ],
+          "equipment": [
+            "Large pot",
+            "Small pan",
+            "Blender"
           ]
         }
       ]
@@ -571,8 +604,11 @@
           "steps": [
             {
               "at": "0–5 min",
-              "text": "Toast bread. Mash avocado with lemon and salt. Spread, top with cottage cheese and pumpkin seeds."
+              "text": "Air fryer, 200°C, 3 min for the bread. Mash avocado with lemon and salt. Spread, top with cottage cheese and pumpkin seeds."
             }
+          ],
+          "equipment": [
+            "Air fryer (toast)"
           ]
         },
         {
@@ -637,6 +673,10 @@
               "at": "21–23 min",
               "text": "Serve half over spaghetti with parmesan. Box the other half."
             }
+          ],
+          "equipment": [
+            "Frying pan with lid",
+            "Large pot"
           ]
         },
         {
@@ -681,6 +721,9 @@
               "at": "2–5 min",
               "text": "Flake salmon. Add cucumber, halved tomatoes, feta. Dress with lemon and oil."
             }
+          ],
+          "equipment": [
+            "Microwave"
           ]
         }
       ]
@@ -735,6 +778,9 @@
               "at": "0–5 min",
               "text": "Blend everything except almonds. Eat almonds on the side."
             }
+          ],
+          "equipment": [
+            "Blender"
           ]
         },
         {
@@ -806,6 +852,10 @@
               "at": "20–22 min",
               "text": "Plate rice, tofu, cucumber. Top with sesame and spring onion."
             }
+          ],
+          "equipment": [
+            "Air fryer",
+            "Microwave"
           ]
         },
         {
@@ -849,6 +899,9 @@
               "at": "7–9 min",
               "text": "Serve with dressed salad."
             }
+          ],
+          "equipment": [
+            "Frying pan"
           ]
         }
       ]
@@ -897,12 +950,16 @@
             },
             {
               "at": "0–5 min",
-              "text": "Toast bread. Slice avocado. Dress salad."
+              "text": "Air fryer, 200°C, 3 min for the bread. Slice avocado. Dress salad."
             },
             {
               "at": "7–9 min",
               "text": "Peel eggs. Plate together."
             }
+          ],
+          "equipment": [
+            "Small pot",
+            "Air fryer (toast)"
           ]
         },
         {
@@ -983,6 +1040,10 @@
               "at": "27–30 min",
               "text": "Warm pitta. Hummus in bowl, add sweet potato, slaw, halloumi, parsley, sesame."
             }
+          ],
+          "equipment": [
+            "Air fryer",
+            "Frying pan"
           ]
         },
         {
@@ -1010,6 +1071,9 @@
               "at": "0–4 min",
               "text": "Microwave meatballs 3 min, stir halfway. Serve with dressed salad and parmesan."
             }
+          ],
+          "equipment": [
+            "Microwave"
           ]
         }
       ]
@@ -1072,6 +1136,10 @@
               "at": "15–17 min",
               "text": "Top with yoghurt, kiwi, honey."
             }
+          ],
+          "equipment": [
+            "Blender",
+            "Non-stick frying pan"
           ]
         },
         {
@@ -1140,6 +1208,11 @@
               "at": "25–27 min",
               "text": "Off heat: stir in parmesan. Top with egg."
             }
+          ],
+          "equipment": [
+            "Wide pan",
+            "Small pot (hot stock)",
+            "Frying pan"
           ]
         },
         {
@@ -1203,6 +1276,9 @@
               "at": "8–10 min",
               "text": "Warm pitta 1 min. Fill with tzatziki, lettuce, cucumber, pepper, halloumi."
             }
+          ],
+          "equipment": [
+            "Frying pan"
           ]
         }
       ]
@@ -1475,5 +1551,6 @@
         ]
       ]
     }
-  ]
+  ],
+  "soupRule": "Soups only in the bleed week, and only smooth blended ones (cremas/purés) or a clear broth with noodles. No chunky soups."
 }

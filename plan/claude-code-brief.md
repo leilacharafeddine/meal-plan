@@ -11,6 +11,7 @@ Week files live in the project docs: `claude/plan-2026-W43.json` (W44–W46 foll
    - `meal.minutes`: show as "20 min" next to the dish name.
    - `meal.steps` → `[{ at, text }]`: the cooking instructions. Show on "See recipe" (design is in Claude Design — follow that).
    - `meal.swaps` → strings: "Swapped for you" note.
+   - `meal.equipment` → strings (e.g. "Air fryer", "Frying pan", "Microwave"): show in the recipe bottom sheet as "What you need". No cutlery.
    - `meal.recipeRef`: id in `recipes.json` (full recipe library, 29 recipes). Optional link only.
    - `week.cycle`, `week.snack`: show once at the top / bottom of the week.
 4. Shopping categories are now Mercadona sections in Spanish: `Fruta y verdura`, `Carne y pescado`, `Huevos, lácteos y refrigerados`, `Despensa`, `Congelados`. Add them to the `catColor` map (reuse Produce / Protein / Dairy / Pantry colours; Congelados = `#1f8fb8`).
@@ -27,5 +28,7 @@ Week files live in the project docs: `claude/plan-2026-W43.json` (W44–W46 foll
 - Weekday dishes ≤ 25 min. Weekend ≤ 35 min.
 - Never: soup (except bleed-week days), lots of raw tomato (≤ 5 cherry tomatoes OK), cilantro, chilli/spicy, heavy Indian-style spice blends, canned tuna, lentils, tropical fruit. Peanut butter only if essential.
 - No turkey and chicken in the same week.
-- Tiny oven — no gratins/bakes; use the Ninja air fryer.
+- Tiny oven — no gratins/bakes. Main appliance: Ninja air fryer, ONE drawer (bake, crisp, air fry, roast, reheat, dehydrate). Never plan two air-fryer items at the same time unless they share the drawer.
+- No toaster: toast = "Air fryer, 200°C, 3 min" or a dry frying pan.
+- Soups: bleed week only, and only smooth blended (crema/puré) or clear broth with noodles. No chunky soups.
 - Lunch is the biggest meal; dinner is light.
