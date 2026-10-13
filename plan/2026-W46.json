@@ -246,7 +246,8 @@
             }
           ],
           "minutes": 5,
-          "recipeRef": "chicken-souvlaki-rice"
+          "recipeRef": "chicken-souvlaki-rice",
+          "leftoverOf": "Turkey souvlaki rice, peppers, cucumber & tzatziki"
         },
         {
           "slot": "Dinner",
@@ -555,7 +556,8 @@
               "text": "Plate with a handful of salad leaves."
             }
           ],
-          "minutes": 5
+          "minutes": 5,
+          "leftoverOf": "Honey-soy steak & mushroom stir-fry with rice"
         },
         {
           "slot": "Snack",
@@ -879,7 +881,8 @@
               "text": "Plate with a handful of salad leaves."
             }
           ],
-          "minutes": 5
+          "minutes": 5,
+          "leftoverOf": "Pork tenderloin, roasted veg & couscous"
         },
         {
           "slot": "Dinner",

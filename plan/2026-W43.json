@@ -262,7 +262,8 @@
             }
           ],
           "minutes": 5,
-          "recipeRef": "chicken-souvlaki-rice"
+          "recipeRef": "chicken-souvlaki-rice",
+          "leftoverOf": "Chicken souvlaki rice, peppers, cucumber & tzatziki"
         },
         {
           "slot": "Dinner",
@@ -565,7 +566,8 @@
             }
           ],
           "minutes": 5,
-          "recipeRef": "spaghetti-meatballs"
+          "recipeRef": "spaghetti-meatballs",
+          "leftoverOf": "Beef meatballs in tomato-mushroom sauce, spaghetti"
         },
         {
           "slot": "Snack",
@@ -885,7 +887,8 @@
               "text": "Plate with a handful of salad leaves."
             }
           ],
-          "minutes": 5
+          "minutes": 5,
+          "leftoverOf": "Creamy chicken, mushroom & spinach pasta"
         },
         {
           "slot": "Dinner",

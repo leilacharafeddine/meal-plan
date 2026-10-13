@@ -299,7 +299,8 @@
               "text": "Plate with a handful of salad leaves."
             }
           ],
-          "minutes": 5
+          "minutes": 5,
+          "leftoverOf": "Beef & mushroom ragù rigatoni"
         },
         {
           "slot": "Dinner",
@@ -615,7 +616,8 @@
             }
           ],
           "minutes": 5,
-          "recipeRef": "chicken-bean-rice-bowl"
+          "recipeRef": "chicken-bean-rice-bowl",
+          "leftoverOf": "Mild chicken & red bean rice bowl"
         },
         {
           "slot": "Snack",
@@ -938,7 +940,8 @@
             }
           ],
           "minutes": 5,
-          "recipeRef": "steak-fajita-rice"
+          "recipeRef": "steak-fajita-rice",
+          "leftoverOf": "Steak fajita rice with peppers & onion"
         },
         {
           "slot": "Dinner",

@@ -339,6 +339,7 @@ def mealobj(slot, d):
     m["minutes"] = max(ends) if ends else 5
     if d.get("swaps"): m["swaps"] = d["swaps"]
     if d.get("recipeRef"): m["recipeRef"] = d["recipeRef"]
+    if d.get("leftoverOf"): m["leftoverOf"] = d["leftoverOf"]
     return m
 
 CATS = OrderedDict([("F", "Fruta y verdura"), ("C", "Carne y pescado"), ("L", "Huevos, lácteos y refrigerados"), ("D", "Despensa"), ("Z", "Congelados"), ("X", "Tienda libanesa (you buy)"), ("P", "Check pantry")])

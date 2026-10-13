@@ -262,7 +262,8 @@
               "text": "Plate with a handful of salad leaves."
             }
           ],
-          "minutes": 5
+          "minutes": 5,
+          "leftoverOf": "Turkey & mushroom stroganoff with rice"
         },
         {
           "slot": "Dinner",
@@ -575,7 +576,8 @@
               "text": "Plate with a handful of salad leaves."
             }
           ],
-          "minutes": 5
+          "minutes": 5,
+          "leftoverOf": "Honey-soy pork, rice & green beans"
         },
         {
           "slot": "Snack",
@@ -911,7 +913,8 @@
             }
           ],
           "minutes": 5,
-          "recipeRef": "farfalle-feta-broad-beans"
+          "recipeRef": "farfalle-feta-broad-beans",
+          "leftoverOf": "Farfalle with feta, broad beans & jamón"
         },
         {
           "slot": "Dinner",
