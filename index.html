@@ -514,10 +514,21 @@
         <span>Food I don't like</span>
         <span style="display: inline-flex; transform: rotate({{ standingChevron }}); transition: transform 0.3s ease;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
       </button>
+      <sc-if value="{{ showInstall }}" hint-placeholder-val="{{ true }}">
+        <button onClick="{{ installApp }}" style="display: inline-flex; align-items: center; gap: 7px; background: none; border: none; padding: 4px 2px; cursor: pointer; font-family: 'Roboto Mono', monospace; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #ffffff;">
+          <span>Install app</span>
+        </button>
+      </sc-if>
       <button onClick="{{ lockApp }}" style="display: inline-flex; align-items: center; gap: 7px; background: none; border: none; padding: 4px 2px; cursor: pointer; font-family: 'Roboto Mono', monospace; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #ffffff;">
         <span>Lock</span>
       </button>
     </div>
+    <sc-if value="{{ installHelpOpen }}" hint-placeholder-val="{{ false }}">
+      <div style="flex-basis: 100%; font-family: 'Roboto Mono', monospace; font-size: 11px; line-height: 1.7; letter-spacing: 0.03em; color: #ffffff; background: rgba(18,54,66,0.35); border-radius: 12px; padding: 12px 14px;">
+        <div><strong>Android (Chrome):</strong> tap the ⋮ menu, then "Install app" or "Add to Home screen".</div>
+        <div><strong>iPhone (Safari):</strong> tap the Share button, then "Add to Home Screen".</div>
+      </div>
+    </sc-if>
   </footer>
 
   </div>
@@ -654,7 +665,7 @@ function naturalPhase(cd) {
 function isBleedDay(date) { return naturalCycleDay(date) <= 5; }
 
 class Component extends DCLogic {
-  state = { data: null, recipes: {}, week: 0, standingOpen: false, timingOpen: false, checked: {}, sheet: null, sheetOpen: false, cycleOpen: true, calOffset: 0, pantryOpen: false };
+  state = { data: null, recipes: {}, week: 0, standingOpen: false, timingOpen: false, checked: {}, sheet: null, sheetOpen: false, cycleOpen: true, calOffset: 0, pantryOpen: false, installHelpOpen: false };
 
   componentDidMount() {
     let localChecked = {};
@@ -1044,11 +1055,26 @@ class Component extends DCLogic {
         try { localStorage.removeItem('twb-unlocked'); } catch (e) {}
         location.reload();
       },
+      showInstall: !(window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone),
+      installHelpOpen: this.state.installHelpOpen,
+      installApp: () => {
+        const ev = window.__twbInstallPrompt;
+        if (ev) {
+          window.__twbInstallPrompt = null;
+          ev.prompt();
+        } else {
+          this.setState((st) => ({ installHelpOpen: !st.installHelpOpen }));
+        }
+      },
     };
   }
 }
 </script>
 <script>
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    window.__twbInstallPrompt = e;
+  });
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('sw.js').catch(() => {});
