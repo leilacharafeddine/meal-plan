@@ -42,11 +42,11 @@
 <script>
 (function () {
   var STORAGE_KEY = 'twb-unlocked';
-  var PW_HASH = 'b493d48364afe44d11c0165cf470a4164d1e2609911ef998be868d46ade3de4e';
+  var PW_HASH = '04d6b395e79f6d3783a6cd17c62292fcd630f5939e7b8197f11f4fc0041c9733';
   var gate = document.getElementById('twb-gate');
 
   try {
-    if (localStorage.getItem(STORAGE_KEY) === '1') {
+    if (localStorage.getItem(STORAGE_KEY) === PW_HASH) {
       gate.style.display = 'none';
     }
   } catch (e) {}
@@ -69,7 +69,7 @@
     var guess = (input.value || '').trim().toLowerCase();
     sha256Hex(guess).then(function (hex) {
       if (hex === PW_HASH) {
-        try { localStorage.setItem(STORAGE_KEY, '1'); } catch (e) {}
+        try { localStorage.setItem(STORAGE_KEY, PW_HASH); } catch (e) {}
         error.style.display = 'none';
         gate.style.display = 'none';
       } else {
